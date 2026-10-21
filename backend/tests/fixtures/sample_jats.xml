@@ -1,0 +1,29 @@
+<?xml version="1.0"?>
+<article xmlns:ali="http://www.niso.org/schemas/ali/1.0/" xmlns:xlink="http://www.w3.org/1999/xlink">
+<front><article-meta>
+ <title-group><article-title>Drug X in heart failure</article-title></title-group>
+ <fpage>101</fpage><lpage>109</lpage>
+ <permissions><license><ali:license_ref>https://creativecommons.org/licenses/by/4.0/</ali:license_ref></license></permissions>
+ <funding-group><award-group><funding-source>National Heart Institute<institution-id>https://doi.org/10.13039/1</institution-id></funding-source></award-group></funding-group>
+</article-meta></front>
+<body>
+ <sec sec-type="intro"><title>Introduction</title>
+  <p>Heart failure is common<sup><xref ref-type="bibr" rid="CR1">1</xref></sup> and costly in older adults worldwide.</p></sec>
+ <sec sec-type="methods"><title>Methods</title>
+  <p>This was a randomized, double-blind, placebo-controlled trial (NCT01234567) of drug X in adults.</p></sec>
+ <sec sec-type="results"><title>Results</title>
+  <sec><title>Study population</title>
+   <p>We randomized 200 participants; 5 were lost to follow-up before the primary analysis.</p>
+   <table-wrap id="T1"><label>Table 1</label><caption><p>Baseline</p></caption>
+    <table><thead><tr><th>Characteristic</th><th>Drug X<break/><italic>n</italic> = 100</th></tr></thead>
+    <tbody><tr><td>Age</td><td>61 (55&#8211;70)</td></tr></tbody></table></table-wrap>
+  </sec>
+  <sec><title>Primary outcome</title>
+   <p>The primary outcome occurred less often with drug X (hazard ratio 0.74, 95% CI 0.63-0.88; P&lt;0.001).</p>
+   <fig id="F1"><label>Fig. 1</label><caption><title>Survival.</title><p>Kaplan-Meier curves for the primary outcome.</p></caption></fig>
+  </sec></sec>
+ <sec sec-type="discussion"><title>Discussion</title><p>Limitations include the short follow-up and single-country enrolment.</p></sec>
+</body>
+<back><ack><p>The authors thank the trial participants and coordinators for their time.</p></ack>
+<ref-list><ref id="CR1"><mixed-citation>Ref text that must never become a passage.</mixed-citation></ref></ref-list></back>
+</article>

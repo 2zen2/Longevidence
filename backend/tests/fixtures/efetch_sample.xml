@@ -1,0 +1,29 @@
+<?xml version="1.0"?>
+<PubmedArticleSet>
+<PubmedArticle><MedlineCitation><PMID Version="1">111</PMID>
+<Article><Journal><JournalIssue><PubDate><Year>2024</Year><Month>Mar</Month><Day>05</Day></PubDate></JournalIssue><Title>J Test Cardiol</Title></Journal>
+<ArticleTitle>Drug <i>X</i> in heart failure: a randomized trial.</ArticleTitle>
+<ELocationID EIdType="doi">10.1000/ABC.1</ELocationID>
+<Abstract>
+<AbstractText Label="BACKGROUND" NlmCategory="BACKGROUND">HF is common.</AbstractText>
+<AbstractText Label="RESULTS" NlmCategory="RESULTS">We randomized 200 patients. HR 0.80 (95% CI 0.65-0.98; P = 0.03).</AbstractText>
+</Abstract>
+<PublicationTypeList><PublicationType UI="D016449">Randomized Controlled Trial</PublicationType><PublicationType UI="D016428">Journal Article</PublicationType></PublicationTypeList>
+</Article>
+<MeshHeadingList><MeshHeading><DescriptorName UI="D006333">Heart Failure</DescriptorName></MeshHeading></MeshHeadingList>
+</MedlineCitation>
+<PubmedData><ArticleIdList><ArticleId IdType="pubmed">111</ArticleId><ArticleId IdType="doi">10.1000/abc.1</ArticleId><ArticleId IdType="pmc">PMC999</ArticleId></ArticleIdList></PubmedData></PubmedArticle>
+
+<PubmedArticle><MedlineCitation><PMID Version="1">222</PMID>
+<Article><Journal><JournalIssue><PubDate><MedlineDate>2023 Jul-Aug</MedlineDate></PubDate></JournalIssue><Title>Other J</Title></Journal>
+<ArticleTitle>No abstract paper.</ArticleTitle>
+<PublicationTypeList><PublicationType>Journal Article</PublicationType></PublicationTypeList></Article>
+<CommentsCorrectionsList><CommentsCorrections RefType="RetractionIn"><PMID>333</PMID></CommentsCorrections></CommentsCorrectionsList>
+</MedlineCitation><PubmedData><ArticleIdList><ArticleId IdType="pubmed">222</ArticleId></ArticleIdList></PubmedData></PubmedArticle>
+
+<PubmedArticle><MedlineCitation><PMID Version="1">333</PMID>
+<Article><Journal><JournalIssue><PubDate><Year>2022</Year></PubDate></JournalIssue><Title>Y J</Title></Journal>
+<ArticleTitle>Unstructured abstract.</ArticleTitle>
+<Abstract><AbstractText>Plain abstract with n = 50 patients.</AbstractText></Abstract></Article></MedlineCitation>
+<PubmedData><ArticleIdList><ArticleId IdType="pubmed">333</ArticleId></ArticleIdList></PubmedData></PubmedArticle>
+</PubmedArticleSet>
