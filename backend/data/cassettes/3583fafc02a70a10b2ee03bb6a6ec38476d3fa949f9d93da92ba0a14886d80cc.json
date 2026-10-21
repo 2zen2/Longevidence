@@ -1,0 +1,52 @@
+{
+ "provider": "cloudflare",
+ "model": "@cf/openai/gpt-oss-20b",
+ "usage": {
+  "input_tokens": 937,
+  "output_tokens": 1243
+ },
+ "output": {
+  "study": {
+   "title": "Ultra-processed food consumption and thyroid hormone profiles: a cross-sectional analysis of NHANES 2007-2012",
+   "design": "cross-sectional",
+   "sample_size": 5961,
+   "population": "U.S. adults aged \u2265 18 years",
+   "setting": "NHANES 2007-2012",
+   "intervention": "Ultra-processed food intake expressed as a percentage of total daily energy consumption",
+   "comparator": "lower tertiles of UPF intake",
+   "outcomes": [
+    "serum TSH",
+    "free and total triiodothyronine (FT3, TT3)",
+    "thyroxine (FT4, TT4)"
+   ]
+  },
+  "primary_findings": [
+   {
+    "variable": "FT4",
+    "effect_estimate": "\u03b2 = -0.01 ng/dL",
+    "ci": "95% CI - 0.015 to - 0.007",
+    "direction": "decrease",
+    "quote": "\u03b2 = -0.01 ng/dL, 95% CI - 0.015 to - 0.007"
+   },
+   {
+    "variable": "TT4",
+    "effect_estimate": "\u03b2 = -0.12 \u00b5g/dL",
+    "ci": "95% CI - 0.16 to - 0.09",
+    "direction": "decrease",
+    "quote": "\u03b2 = -0.12 \u00b5g/dL, 95% CI - 0.16 to - 0.09"
+   },
+   {
+    "variable": "TSH",
+    "effect_estimate": "\u03b2 = 0.02",
+    "ci": "P = 0.012",
+    "direction": "increase",
+    "quote": "\u03b2 = 0.02, P = 0.012"
+   }
+  ],
+  "limitations_stated": [
+   {
+    "quote": "Given the modest effect sizes and cross-sectional design, these findings should be interpreted cautiously."
+   }
+  ]
+ }
+}

@@ -1,0 +1,81 @@
+{
+ "provider": "cloudflare",
+ "model": "@cf/openai/gpt-oss-20b",
+ "usage": {
+  "input_tokens": 1562,
+  "output_tokens": 4327
+ },
+ "output": {
+  "study": {
+   "design": {
+    "quote": "Systematic review and network meta-analysis following Cochrane and PRISMA guidelines were conducted",
+    "section": "METHODS",
+    "confidence": "high",
+    "status": "reported",
+    "value": "meta_analysis"
+   },
+   "population": {
+    "quote": "adults aged \u226560 years",
+    "section": "METHODS",
+    "confidence": "high",
+    "status": "reported",
+    "value": "adults aged \u226560 years"
+   },
+   "sample_size": {
+    "quote": null,
+    "section": null,
+    "confidence": null,
+    "status": "not_reported",
+    "value": null
+   },
+   "intervention": {
+    "quote": "Network meta-analysis compared time-restricted eating (TRE), IF 5:2 method, Islamic Sunnah fasting (ISF), Healthy Living Diet and usual diet",
+    "section": "METHODS",
+    "confidence": "high",
+    "status": "reported",
+    "value": "time-restricted eating (TRE), IF 5:2 method, Islamic Sunnah fasting (ISF), Healthy Living Diet and usual diet"
+   },
+   "comparator": {
+    "quote": "Network meta-analysis compared time-restricted eating (TRE), IF 5:2 method, Islamic Sunnah fasting (ISF), Healthy Living Diet and usual diet",
+    "section": "METHODS",
+    "confidence": "high",
+    "status": "reported",
+    "value": "usual diet"
+   },
+   "follow_up": {
+    "quote": null,
+    "section": null,
+    "confidence": null,
+    "status": "not_reported",
+    "value": null
+   }
+  },
+  "primary_findings": [
+   {
+    "quote": "(ISF: -2.36 kg; TRE 16:8: -1.92 kg)",
+    "section": "RESULTS",
+    "confidence": "high",
+    "outcome": "weight change (ISF)",
+    "direction": "favors_intervention",
+    "effect_measure": "MD",
+    "effect_value": -2.36,
+    "ci_low": null,
+    "ci_high": null,
+    "p_value": null
+   },
+   {
+    "quote": "(ISF: -2.36 kg; TRE 16:8: -1.92 kg)",
+    "section": "RESULTS",
+    "confidence": "high",
+    "outcome": "weight change (TRE 16:8)",
+    "direction": "favors_intervention",
+    "effect_measure": "MD",
+    "effect_value": -1.92,
+    "ci_low": null,
+    "ci_high": null,
+    "p_value": null
+   }
+  ],
+  "limitations_stated": []
+ }
+}

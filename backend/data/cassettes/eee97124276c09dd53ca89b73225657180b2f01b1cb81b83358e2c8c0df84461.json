@@ -1,0 +1,50 @@
+{
+ "provider": "cloudflare",
+ "model": "@cf/openai/gpt-oss-20b",
+ "usage": {
+  "input_tokens": 1558,
+  "output_tokens": 1154
+ },
+ "output": {
+  "study": {
+   "design": {
+    "quote": "randomized controlled trial (Study 2)",
+    "section": "ABSTRACT",
+    "status": "reported",
+    "value": "rct"
+   },
+   "population": {
+    "quote": "male British Army recruits",
+    "section": "ABSTRACT",
+    "status": "reported",
+    "value": "male British Army recruits"
+   },
+   "sample_size": {
+    "quote": "194 (Study 2) male British Army recruits participated",
+    "section": "ABSTRACT",
+    "status": "reported",
+    "value": 194
+   },
+   "intervention": {
+    "quote": "vitamin D (oral pill or simulated sunlight)",
+    "section": "ABSTRACT",
+    "status": "reported",
+    "value": "vitamin D (oral pill or simulated sunlight)"
+   },
+   "comparator": {
+    "quote": "placebo (placebo pill or placebo simulated sunlight)",
+    "section": "ABSTRACT",
+    "status": "reported",
+    "value": "placebo (placebo pill or placebo simulated sunlight)"
+   },
+   "follow_up": {
+    "quote": "12 wk",
+    "section": "ABSTRACT",
+    "status": "reported",
+    "value": "12 wk"
+   }
+  },
+  "primary_findings": [],
+  "limitations_stated": []
+ }
+}

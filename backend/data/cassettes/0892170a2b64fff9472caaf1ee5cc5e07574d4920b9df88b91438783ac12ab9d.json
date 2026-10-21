@@ -1,0 +1,87 @@
+{
+ "provider": "openrouter",
+ "model": "deepseek/deepseek-v4.1-flash",
+ "usage": {
+  "input_tokens": 3372,
+  "output_tokens": 1127
+ },
+ "output": {
+  "study": {
+   "design": {
+    "status": "reported",
+    "value": "meta_analysis"
+   },
+   "population": {
+    "status": "reported",
+    "value": "Patients undergoing spinal fusion (perioperative bone health optimization)"
+   },
+   "sample_size": {
+    "status": "not_reported"
+   },
+   "intervention": {
+    "status": "reported",
+    "value": "Perioperative vitamin D supplementation and bisphosphonate therapy"
+   },
+   "comparator": {
+    "status": "reported",
+    "value": "Placebo/no supplement (for vitamin D) and vitamin D (for bisphosphonates)"
+   },
+   "follow_up": {
+    "status": "not_reported"
+   }
+  },
+  "primary_findings": [
+   {
+    "quote": "increased fusion at one year (RR: \u223c1.25)",
+    "outcome": "Fusion at one year (vitamin D vs placebo)",
+    "direction": "favors_intervention",
+    "effect_measure": "RR",
+    "effect_value": 1.25,
+    "ci_low": null,
+    "ci_high": null,
+    "p_value": null
+   },
+   {
+    "quote": "improved ODI at six months and one year (MD: \u223c6.90, 8.56)",
+    "outcome": "ODI at six months and one year (vitamin D vs placebo)",
+    "direction": "favors_intervention",
+    "effect_measure": "MD",
+    "effect_value": 6.9,
+    "ci_low": null,
+    "ci_high": null,
+    "p_value": null
+   },
+   {
+    "quote": "provided a small early VAS benefit (MD: 1.14)",
+    "outcome": "Early VAS (vitamin D vs placebo)",
+    "direction": "favors_intervention",
+    "effect_measure": "MD",
+    "effect_value": 1.14,
+    "ci_low": null,
+    "ci_high": null,
+    "p_value": null
+   },
+   {
+    "quote": "OSI improved significantly (SMD: 0.93)",
+    "outcome": "OSI (postural stability)",
+    "direction": "favors_intervention",
+    "effect_measure": "other",
+    "effect_value": 0.93,
+    "ci_low": null,
+    "ci_high": null,
+    "p_value": null
+   },
+   {
+    "quote": "Bisphosphonates suppressed P1NP and reduced fracture risk (RR: 0.10)",
+    "outcome": "Fracture risk (bisphosphonates vs vitamin D)",
+    "direction": "favors_intervention",
+    "effect_measure": "RR",
+    "effect_value": 0.1,
+    "ci_low": null,
+    "ci_high": null,
+    "p_value": null
+   }
+  ],
+  "limitations_stated": []
+ }
+}

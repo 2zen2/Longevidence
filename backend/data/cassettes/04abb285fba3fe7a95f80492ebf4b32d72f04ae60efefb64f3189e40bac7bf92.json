@@ -1,0 +1,50 @@
+{
+ "provider": "cloudflare",
+ "model": "@cf/openai/gpt-oss-20b",
+ "usage": {
+  "input_tokens": 1611,
+  "output_tokens": 1963
+ },
+ "output": {
+  "study": {
+   "design": {
+    "quote": "This was a secondary analysis of the IMPACT BCN (Improving Mothers for a better PrenAtal Care Trial BarCeloNa) randomized clinical trial",
+    "section": "STUDY DESIGN",
+    "status": "reported",
+    "value": "rct_secondary_analysis"
+   },
+   "population": {
+    "quote": "high risk of delivering small-for-gestational-age newborns",
+    "section": "STUDY DESIGN",
+    "status": "reported",
+    "value": "pregnant women with high risk of delivering small-for-gestational-age newborns"
+   },
+   "sample_size": {
+    "quote": "A total of 1221 singleton pregnancies (19-23 weeks' gestation) with high risk of delivering small-for-gestational-age newborns were randomly allocated into 3 groups",
+    "section": "STUDY DESIGN",
+    "status": "reported",
+    "value": 1221
+   },
+   "intervention": {
+    "quote": "a Mediterranean diet intervention",
+    "section": "STUDY DESIGN",
+    "status": "reported",
+    "value": "Mediterranean diet intervention"
+   },
+   "comparator": {
+    "quote": "usual care group",
+    "section": "STUDY DESIGN",
+    "status": "reported",
+    "value": "usual care"
+   },
+   "follow_up": {
+    "quote": null,
+    "section": null,
+    "status": "not_reported",
+    "value": null
+   }
+  },
+  "primary_findings": [],
+  "limitations_stated": []
+ }
+}

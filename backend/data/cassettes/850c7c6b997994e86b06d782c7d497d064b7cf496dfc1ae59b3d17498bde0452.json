@@ -1,0 +1,99 @@
+{
+ "provider": "openrouter",
+ "model": "nvidia/nemotron-3.5-lightning:free",
+ "usage": {
+  "input_tokens": 2723,
+  "output_tokens": 3221
+ },
+ "output": {
+  "study": {
+   "design": {
+    "status": "reported",
+    "value": "meta_analysis"
+   },
+   "population": {
+    "status": "reported",
+    "value": "community-dwelling adults"
+   },
+   "sample_size": {
+    "status": "not_reported",
+    "value": null
+   },
+   "intervention": {
+    "status": "reported",
+    "value": "time-restricted eating (\u226412 h daily eating window)"
+   },
+   "comparator": {
+    "status": "not_reported",
+    "value": null
+   },
+   "follow_up": {
+    "status": "not_reported",
+    "value": null
+   }
+  },
+  "primary_findings": [
+   {
+    "quote": "OR = 0.96; 95% CI: 0.86-1.07; I\u00b2 = 59%",
+    "section": "RESULTS",
+    "confidence": "high",
+    "outcome": "abdominal obesity",
+    "direction": "no_difference",
+    "effect_measure": "OR",
+    "effect_value": 0.96,
+    "ci_low": null,
+    "ci_high": null,
+    "p_value": null
+   },
+   {
+    "quote": "OR = 1.04; 95% CI: 0.90-1.19; I\u00b2 = 32%",
+    "section": "RESULTS",
+    "confidence": "high",
+    "outcome": "metabolic syndrome",
+    "direction": "no_difference",
+    "effect_measure": "OR",
+    "effect_value": 1.04,
+    "ci_low": null,
+    "ci_high": null,
+    "p_value": null
+   },
+   {
+    "quote": "OR = 1.04; 95% CI: 0.971.12; I\u00b2 = 0%",
+    "section": "RESULTS",
+    "confidence": "high",
+    "outcome": "elevated blood pressure/hypertension",
+    "direction": "no_difference",
+    "effect_measure": "OR",
+    "effect_value": 1.04,
+    "ci_low": null,
+    "ci_high": null,
+    "p_value": null
+   },
+   {
+    "quote": "OR = 0.94; 95% CI: 0.83-1.06; I\u00b2 = 78%",
+    "section": "RESULTS",
+    "confidence": "high",
+    "outcome": "reduced high-density lipoprotein cholesterol",
+    "direction": "no_difference",
+    "effect_measure": "OR",
+    "effect_value": 0.94,
+    "ci_low": null,
+    "ci_high": null,
+    "p_value": null
+   },
+   {
+    "quote": "OR = 1.06; 95% CI: 0.99-1.14; I\u00b2 = 0%",
+    "section": "RESULTS",
+    "confidence": "high",
+    "outcome": "elevated triglycerides",
+    "direction": "no_difference",
+    "effect_measure": "OR",
+    "effect_value": 1.06,
+    "ci_low": null,
+    "ci_high": null,
+    "p_value": null
+   }
+  ],
+  "limitations_stated": []
+ }
+}

@@ -1,0 +1,86 @@
+{
+ "provider": "cloudflare",
+ "model": "@cf/openai/gpt-oss-20b",
+ "usage": {
+  "input_tokens": 1504,
+  "output_tokens": 2298
+ },
+ "output": {
+  "study": {
+   "design": {
+    "quote": "Participants who were 60 years of age at the Swedish VIPVIZA (VisualiZation of asymptomatic Atherosclerotic disease) trial baseline (2013-16) with retrospective VIP (V\u00e4sterbotten Intervention Programme) dietary data at Ages 40, 50, and 60 (n = 1034) were included.",
+    "section": "METHODS AND RESULTS",
+    "status": "reported",
+    "value": "cohort"
+   },
+   "population": {
+    "quote": "Participants who were 60 years of age at the Swedish VIPVIZA (VisualiZation of asymptomatic Atherosclerotic disease) trial baseline (2013-16) with retrospective VIP (V\u00e4sterbotten Intervention Programme) dietary data at Ages 40, 50, and 60 (n = 1034) were included.",
+    "section": "METHODS AND RESULTS",
+    "status": "reported",
+    "value": "60-year-old Swedish VIPVIZA participants with retrospective dietary data at ages 40, 50, and 60"
+   },
+   "sample_size": {
+    "quote": "n = 1034",
+    "section": "METHODS AND RESULTS",
+    "status": "reported",
+    "value": 1034
+   },
+   "intervention": {
+    "quote": "Mediterranean diet score (MDS)",
+    "section": "METHODS AND RESULTS",
+    "status": "reported",
+    "value": "Mediterranean diet score (MDS)"
+   },
+   "comparator": {
+    "quote": "low",
+    "section": "METHODS AND RESULTS",
+    "status": "reported",
+    "value": "low MDS"
+   },
+   "follow_up": {
+    "quote": null,
+    "section": null,
+    "status": "not_reported",
+    "value": null
+   }
+  },
+  "primary_findings": [
+   {
+    "quote": "High [odds ratio (OR): 0.72, 95% confidence interval (CI): 0.52-0.98] ... was associated with lower CP presence at Age 60.",
+    "section": "METHODS AND RESULTS",
+    "confidence": "high",
+    "outcome": "Carotid plaque presence at Age 60",
+    "direction": "favors_intervention",
+    "effect_measure": "OR",
+    "effect_value": 0.72,
+    "ci_low": 0.52,
+    "ci_high": 0.98,
+    "p_value": null
+   },
+   {
+    "quote": "midrange (OR: 0.74, 95% CI: 0.55-0.99) ... was associated with lower CP presence at Age 60.",
+    "section": "METHODS AND RESULTS",
+    "confidence": "high",
+    "outcome": "Carotid plaque presence at Age 60",
+    "direction": "favors_intervention",
+    "effect_measure": "OR",
+    "effect_value": 0.74,
+    "ci_low": 0.55,
+    "ci_high": 0.99,
+    "p_value": null
+   },
+   {
+    "quote": "OR: 041, 95% CI: 0.237-0.703",
+    "section": "METHODS AND RESULTS",
+    "confidence": "high",
+    "outcome": "Carotid plaque presence at Age 60 in women",
+    "direction": "favors_intervention",
+    "effect_measure": "OR",
+    "effect_value": 0.41,
+    "ci_low": 0.237,
+    "ci_high": 0.703,
+    "p_value": null
+   }
+  ]
+ }
+}

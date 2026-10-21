@@ -1,0 +1,48 @@
+{
+ "provider": "cloudflare",
+ "model": "@cf/openai/gpt-oss-20b",
+ "usage": {
+  "input_tokens": 1425,
+  "output_tokens": 1586
+ },
+ "output": {
+  "study": {
+   "design": {
+    "quote": "randomized, parallel-arm controlled trial",
+    "section": "METHODS",
+    "status": "reported",
+    "value": "rct"
+   },
+   "population": {
+    "quote": "Twenty-two women with FM",
+    "section": "METHODS",
+    "status": "reported",
+    "value": "women with FM"
+   },
+   "sample_size": {
+    "quote": "Twenty-two women with FM were assigned to follow either a VegMedDiet (n = 11) or a MedDiet (n = 11)",
+    "section": "METHODS",
+    "status": "reported",
+    "value": 22
+   },
+   "intervention": {
+    "quote": "VegMedDiet",
+    "section": "METHODS",
+    "status": "reported",
+    "value": "VegMedDiet"
+   },
+   "comparator": {
+    "quote": "MedDiet",
+    "section": "METHODS",
+    "status": "reported",
+    "value": "MedDiet"
+   },
+   "follow_up": {
+    "quote": "for 6 weeks",
+    "section": "METHODS",
+    "status": "reported",
+    "value": "}}, "
+   }
+  }
+ }
+}

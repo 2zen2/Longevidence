@@ -1,0 +1,81 @@
+{
+ "provider": "openrouter",
+ "model": "nvidia/nemotron-3-ultra-550b-a55b",
+ "usage": {
+  "input_tokens": 3472,
+  "output_tokens": 798
+ },
+ "output": {
+  "study": {
+   "design": {
+    "status": "reported",
+    "value": "rct",
+    "quote": "An investigator-initiated, double-blinded, randomized, placebo-controlled, multicenter superiority trial [NCT05084235]",
+    "section": "METHOD",
+    "confidence": "high"
+   },
+   "population": {
+    "status": "reported",
+    "value": "191 older adult (60-84 years), overweight (body mass index [BMI] >28 kg/m2) individuals with at least 1 known risk factor for HF (hypertension, ischemic heart disease, stroke, chronic kidney disease)",
+    "quote": "191 older adult (60-84 years), overweight (body mass index [BMI] >28 kg/m2) individuals with at least 1 known risk factor for HF (hypertension, ischemic heart disease, stroke, chronic kidney disease)",
+    "section": "METHOD",
+    "confidence": "high"
+   },
+   "sample_size": {
+    "status": "reported",
+    "value": 191,
+    "quote": "Of the 191 randomized, 165 individuals (median age, 68 years; median BMI, 31.8 kg/m2; 67% were male; and median LVEF, 65%) completed MRI (empagliflozin: 83; placebo: 82).",
+    "section": "RESULTS",
+    "confidence": "high"
+   },
+   "intervention": {
+    "status": "reported",
+    "value": "empagliflozin 10 mg daily",
+    "quote": "Study participants were randomized 1:1 to empagliflozin 10 mg or matching placebo for 180 days.",
+    "section": "METHOD",
+    "confidence": "high"
+   },
+   "comparator": {
+    "status": "reported",
+    "value": "matching placebo",
+    "quote": "Study participants were randomized 1:1 to empagliflozin 10 mg or matching placebo for 180 days.",
+    "section": "METHOD",
+    "confidence": "high"
+   },
+   "follow_up": {
+    "status": "reported",
+    "value": "180 days",
+    "quote": "Study participants were randomized 1:1 to empagliflozin 10 mg or matching placebo for 180 days.",
+    "section": "METHOD",
+    "confidence": "high"
+   }
+  },
+  "primary_findings": [
+   {
+    "quote": "Empagliflozin reduced LVMI with an estimated treatment difference of -1.9 g/m2 (97.5% confidence interval [CI]: -3.5 to -0.2; P = .01).",
+    "section": "RESULTS",
+    "confidence": "high",
+    "outcome": "change in LV mass index (LVMI)",
+    "direction": "favors_intervention",
+    "effect_measure": "MD",
+    "effect_value": -1.9,
+    "ci_low": -3.5,
+    "ci_high": -0.2,
+    "p_value": 0.01
+   },
+   {
+    "quote": "No significant differences were observed for LV volumes or ejection fraction.",
+    "section": "RESULTS",
+    "confidence": "high",
+    "outcome": "LV end-diastolic volume index (LVEDVI), LV end-systolic volume index (LVESVI), and LV ejection fraction (LVEF)",
+    "direction": "no_difference",
+    "effect_measure": "MD",
+    "effect_value": null,
+    "ci_low": null,
+    "ci_high": null,
+    "p_value": null
+   }
+  ],
+  "limitations_stated": []
+ }
+}

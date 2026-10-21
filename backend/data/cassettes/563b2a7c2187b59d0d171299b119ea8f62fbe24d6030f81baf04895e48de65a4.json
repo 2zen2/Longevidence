@@ -1,0 +1,99 @@
+{
+ "provider": "cloudflare",
+ "model": "@cf/openai/gpt-oss-20b",
+ "usage": {
+  "input_tokens": 1589,
+  "output_tokens": 3328
+ },
+ "output": {
+  "study": {
+   "design": {
+    "quote": "Meta-analysis was performed using RevMan 5.3 and Stata 17.0.",
+    "section": "METHODS",
+    "status": "reported",
+    "value": "meta_analysis"
+   },
+   "population": {
+    "quote": "patients with type 2 diabetes mellitus (T2DM) and prediabetes.",
+    "section": "ABSTRACT",
+    "status": "reported",
+    "value": "patients with type 2 diabetes mellitus (T2DM) and prediabetes."
+   },
+   "sample_size": {
+    "quote": "Fourteen studies (sixteen arms), involving 899 patients, were included.",
+    "section": "RESULTS",
+    "status": "reported",
+    "value": 899
+   },
+   "intervention": {
+    "quote": "intermittent fasting (IF)",
+    "section": "ABSTRACT",
+    "status": "reported",
+    "value": "intermittent fasting (IF)"
+   },
+   "comparator": {
+    "quote": "Four studies (five arms) compared IF with ad libitum diet (316 patients), and ten studies (eleven arms) compared IF with continuous energy restriction diets (CERD) (583 patients).",
+    "section": "RESULTS",
+    "status": "reported",
+    "value": "ad libitum diet and continuous energy restriction diets (CERD)"
+   },
+   "follow_up": {
+    "quote": null,
+    "section": null,
+    "status": "not_reported",
+    "value": null
+   }
+  },
+  "primary_findings": [
+   {
+    "quote": "Standard-ized Mean Difference (SMD) (Hedges's g) -0.64, 95% Confidence Interval (CI) -1.04, -0.24; p <0.05",
+    "section": "RESULTS",
+    "confidence": "high",
+    "outcome": "HbA1c",
+    "direction": "favors_intervention",
+    "effect_measure": "other",
+    "effect_value": -1.04,
+    "ci_low": -1.04,
+    "ci_high": -1.04,
+    "p_value": null
+   },
+   {
+    "quote": "SMD (Hedges's g) -0.30, 95% CI -0.55, -0.05; p <0.05",
+    "section": "RESULTS",
+    "confidence": "high",
+    "outcome": "body weight (BW)",
+    "direction": "favors_intervention",
+    "effect_measure": "other",
+    "effect_value": -1.04,
+    "ci_low": -1.04,
+    "ci_high": -1.04,
+    "p_value": null
+   },
+   {
+    "quote": "SMD (Hedges's g) -0.26, 95% CI -0.51, 0.00; p = 0.05",
+    "section": "RESULTS",
+    "confidence": "high",
+    "outcome": "body mass index (BMI)",
+    "direction": "no_difference",
+    "effect_measure": "other",
+    "effect_value": -1.04,
+    "ci_low": -1.04,
+    "ci_high": -1.04,
+    "p_value": null
+   },
+   {
+    "quote": "SMD (Hedges's g) -0.39, 95% CI -0.64 to -0.15; p <0.05",
+    "section": "RESULTS",
+    "confidence": "high",
+    "outcome": "fasting blood glucose (FBG)",
+    "direction": "favors_intervention",
+    "effect_measure": "other",
+    "effect_value": -1.04,
+    "ci_low": -1.04,
+    "ci_high": -1.04,
+    "p_value": null
+   }
+  ],
+  "limitations_stated": []
+ }
+}

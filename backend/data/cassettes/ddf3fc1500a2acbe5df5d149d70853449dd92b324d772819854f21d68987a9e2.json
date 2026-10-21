@@ -1,0 +1,36 @@
+{
+ "provider": "openrouter",
+ "model": "deepseek/deepseek-v4.1-flash",
+ "usage": {
+  "input_tokens": 2567,
+  "output_tokens": 471
+ },
+ "output": {
+  "study": {
+   "comparator": {
+    "status": "reported",
+    "value": "placebo treatment (randomized to dapagliflozin or placebo treatment)"
+   },
+   "design": {
+    "status": "reported",
+    "value": "rct_secondary_analysis"
+   },
+   "follow_up": {
+    "status": "reported",
+    "value": "median follow-up of 4.2 years"
+   },
+   "intervention": {
+    "status": "reported",
+    "value": "dapagliflozin"
+   },
+   "population": {
+    "status": "reported",
+    "value": "adults with type 2 diabetes and increased cardiovascular risk"
+   },
+   "sample_size": {
+    "status": "reported",
+    "value": 12685
+   }
+  }
+ }
+}

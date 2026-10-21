@@ -1,0 +1,62 @@
+{
+ "provider": "cloudflare",
+ "model": "@cf/openai/gpt-oss-20b",
+ "usage": {
+  "input_tokens": 1528,
+  "output_tokens": 981
+ },
+ "output": {
+  "study": {
+   "design": {
+    "quote": "systematic review and dose-response meta-analysis",
+    "section": "METHODS",
+    "status": "reported",
+    "value": "meta_analysis"
+   },
+   "population": {
+    "quote": null,
+    "section": null,
+    "status": "not_reported",
+    "value": null
+   },
+   "sample_size": {
+    "quote": null,
+    "section": null,
+    "status": "not_reported",
+    "value": null
+   },
+   "intervention": {
+    "quote": "adherence to the Mediterranean diet",
+    "section": "METHODS",
+    "status": "reported",
+    "value": "Mediterranean diet"
+   },
+   "comparator": {
+    "quote": null,
+    "section": null,
+    "status": "not_reported",
+    "value": null
+   },
+   "follow_up": {
+    "quote": null,
+    "section": null,
+    "status": "not_reported",
+    "value": null
+   }
+  },
+  "primary_findings": [
+   {
+    "quote": "pooled HR: 0.90; CI: 0.82-0.98; I2 = 46.72%, p-value = 0.05",
+    "section": "RESULTS",
+    "outcome": "risk of pancreatic cancer",
+    "direction": "favors_intervention",
+    "effect_measure": "HR",
+    "effect_value": 0.9,
+    "ci_low": 0.82,
+    "ci_high": 0.98,
+    "p_value": 0.05
+   }
+  ],
+  "limitations_stated": []
+ }
+}

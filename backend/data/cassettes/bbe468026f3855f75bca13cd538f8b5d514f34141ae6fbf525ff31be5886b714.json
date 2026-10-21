@@ -1,0 +1,17 @@
+{
+ "provider": "cloudflare",
+ "model": "@cf/openai/gpt-oss-20b",
+ "usage": {
+  "input_tokens": 986,
+  "output_tokens": 977
+ },
+ "output": {
+  "study": {
+   "title": "Association Between Changes in Salt Intake and Blood Pressure: A Systematic Review and Meta-Analysis of Randomized Controlled Trials",
+   "design": "systematic_review",
+   "sample_size": null
+  },
+  "primary_findings": [],
+  "limitations_stated": []
+ }
+}

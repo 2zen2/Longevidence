@@ -1,0 +1,63 @@
+{
+ "provider": "cloudflare",
+ "model": "@cf/openai/gpt-oss-20b",
+ "usage": {
+  "input_tokens": 1469,
+  "output_tokens": 1699
+ },
+ "output": {
+  "study": {
+   "design": {
+    "quote": "single-center 12-week RCT",
+    "section": "METHODS",
+    "status": "reported",
+    "value": "rct"
+   },
+   "population": {
+    "quote": "adults with obesity (BMI 30-50 kg/m2) without diabetes and baseline eating window \u2265 14 h/day",
+    "section": "METHODS",
+    "status": "reported",
+    "value": "adults with obesity (BMI 30-50 kg/m2) without diabetes and baseline eating window \u2265 14 h/day"
+   },
+   "sample_size": {
+    "quote": "A total of 61 participants were randomized",
+    "section": "RESULTS",
+    "status": "reported",
+    "value": 61
+   },
+   "intervention": {
+    "quote": "10-h TRE",
+    "section": "METHODS",
+    "status": "reported",
+    "value": "10-h TRE"
+   },
+   "comparator": {
+    "quote": "standard of care (SOC)",
+    "section": "METHODS",
+    "status": "reported",
+    "value": "standard of care (SOC)"
+   },
+   "follow_up": {
+    "quote": "12-week",
+    "section": "METHODS",
+    "status": "reported",
+    "value": "12-week"
+   }
+  },
+  "primary_findings": [
+   {
+    "quote": "between-group difference -2.91 kg [-4.21, -1.60]) (p < 0.001)",
+    "section": "RESULTS",
+    "confidence": "high",
+    "outcome": "change in weight",
+    "direction": "favors_intervention",
+    "effect_measure": "MD",
+    "effect_value": -2.91,
+    "ci_low": -4.21,
+    "ci_high": -1.6,
+    "p_value": null
+   }
+  ],
+  "limitations_stated": []
+ }
+}

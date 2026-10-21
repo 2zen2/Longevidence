@@ -1,0 +1,75 @@
+{
+ "provider": "cloudflare",
+ "model": "@cf/openai/gpt-oss-20b",
+ "usage": {
+  "input_tokens": 1547,
+  "output_tokens": 1636
+ },
+ "output": {
+  "study": {
+   "design": {
+    "quote": "prospective cohort analysis",
+    "section": "TITLE",
+    "status": "reported",
+    "value": "cohort"
+   },
+   "population": {
+    "quote": "participants with no cancer history at baseline",
+    "section": "ABSTRACT",
+    "status": "reported",
+    "value": "US prospective cohort of adults with no cancer history at baseline"
+   },
+   "sample_size": {
+    "quote": "480,347 participants",
+    "section": "ABSTRACT",
+    "status": "reported",
+    "value": 480347
+   },
+   "intervention": {
+    "quote": "Ultra-processed foods (UPF)",
+    "section": "ABSTRACT",
+    "status": "reported",
+    "value": "Ultra-processed food intake"
+   },
+   "comparator": {
+    "quote": "Q4 vs Q1",
+    "section": "ABSTRACT",
+    "status": "reported",
+    "value": "lower UPF intake (Q1)"
+   },
+   "follow_up": {
+    "quote": "December 31, 2018",
+    "section": "METHODS",
+    "status": "reported",
+    "value": "until December 31, 2018"
+   }
+  },
+  "primary_findings": [
+   {
+    "quote": "HR (95% CI)Q4 vs Q1 = 1.16 (1.05-1.29), p-trend = 0.0006",
+    "section": "ABSTRACT",
+    "confidence": "high",
+    "outcome": "RCC risk",
+    "direction": "favors_comparator",
+    "effect_measure": "HR",
+    "effect_value": 1.16,
+    "ci_low": 1.05,
+    "ci_high": 1.29,
+    "p_value": 0.0006
+   },
+   {
+    "quote": "1.38 (1.17-1.62), p-trend <0.0001",
+    "section": "ABSTRACT",
+    "confidence": "high",
+    "outcome": "cc-RCC risk",
+    "direction": "favors_comparator",
+    "effect_measure": "HR",
+    "effect_value": 1.38,
+    "ci_low": 1.17,
+    "ci_high": 1.62,
+    "p_value": 0.0001
+   }
+  ],
+  "limitations_stated": []
+ }
+}

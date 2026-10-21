@@ -1,0 +1,50 @@
+{
+ "provider": "cloudflare",
+ "model": "@cf/openai/gpt-oss-20b",
+ "usage": {
+  "input_tokens": 1430,
+  "output_tokens": 742
+ },
+ "output": {
+  "study": {
+   "design": {
+    "quote": "randomized isocaloric and eucaloric feeding trial",
+    "section": "METHODS",
+    "status": "reported",
+    "value": "rct"
+   },
+   "population": {
+    "quote": "adults with obesity and either prediabetes or diet-controlled type 2 diabetes",
+    "section": "METHODS",
+    "status": "reported",
+    "value": "adults with obesity and either prediabetes or diet-controlled type 2 diabetes"
+   },
+   "sample_size": {
+    "quote": "Thirty-nine participants (19 TRE; 20 UEP) were analyzed",
+    "section": "RESULTS",
+    "status": "reported",
+    "value": 39
+   },
+   "intervention": {
+    "quote": "10-h TRE",
+    "section": "METHODS",
+    "status": "reported",
+    "value": "10-h TRE"
+   },
+   "comparator": {
+    "quote": "16-h usual eating pattern (UEP)",
+    "section": "METHODS",
+    "status": "reported",
+    "value": "16-h UEP"
+   },
+   "follow_up": {
+    "quote": "12-week randomized isocaloric and eucaloric feeding trial",
+    "section": "METHODS",
+    "status": "reported",
+    "value": "12 weeks"
+   }
+  },
+  "primary_findings": [],
+  "limitations_stated": []
+ }
+}

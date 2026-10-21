@@ -1,0 +1,112 @@
+{
+ "provider": "openrouter",
+ "model": "deepseek/deepseek-v4.1-flash",
+ "usage": {
+  "input_tokens": 2596,
+  "output_tokens": 1080
+ },
+ "output": {
+  "study": {
+   "design": {
+    "status": "reported",
+    "value": "meta_analysis",
+    "quote": "A systematic review and meta-analysis of randomized controlled trials (RCTs) was conducted in accordance with PRISMA guidelines.",
+    "section": "METHODS",
+    "confidence": "high"
+   },
+   "population": {
+    "status": "reported",
+    "value": "pediatric populations",
+    "quote": "Eligible RCTs enrolled pediatric populations",
+    "section": "METHODS",
+    "confidence": "high"
+   },
+   "sample_size": {
+    "status": "reported",
+    "value": 18372,
+    "quote": "Seventeen RCTs including 18,372 participants were analyzed.",
+    "section": "RESULTS",
+    "confidence": "high"
+   },
+   "intervention": {
+    "status": "reported",
+    "value": "oral vitamin D supplementation",
+    "quote": "comparing oral vitamin D supplementation with placebo or no treatment",
+    "section": "METHODS",
+    "confidence": "high"
+   },
+   "comparator": {
+    "status": "reported",
+    "value": "placebo or no treatment",
+    "quote": "comparing oral vitamin D supplementation with placebo or no treatment",
+    "section": "METHODS",
+    "confidence": "high"
+   },
+   "follow_up": {
+    "status": "not_reported",
+    "value": null,
+    "quote": null,
+    "section": null,
+    "confidence": null
+   }
+  },
+  "primary_findings": [
+   {
+    "quote": "vitamin D supplementation did not significantly reduce ARI incidence (RR = 0.82, 95% CI: 0.64 to 1.06)",
+    "outcome": "ARI incidence",
+    "direction": "no_difference",
+    "effect_measure": "RR",
+    "effect_value": 0.82,
+    "ci_low": 0.64,
+    "ci_high": 1.06,
+    "section": "RESULTS",
+    "confidence": "high"
+   },
+   {
+    "quote": "Subgroup analysis showed preventive benefit with daily low-dose regimens (\u2264 1000 IU/day; RR = 0.42, 95% CI: 0.27 to 0.66)",
+    "outcome": "ARI incidence (daily low-dose subgroup)",
+    "direction": "favors_intervention",
+    "effect_measure": "RR",
+    "effect_value": 0.42,
+    "ci_low": 0.27,
+    "ci_high": 0.66,
+    "section": "RESULTS",
+    "confidence": "high"
+   },
+   {
+    "quote": "Supplementation was associated with fewer serious adverse events (RR = 0.83, 95% CI: 0.71 to 0.96)",
+    "outcome": "Serious adverse events",
+    "direction": "favors_intervention",
+    "effect_measure": "RR",
+    "effect_value": 0.83,
+    "ci_low": 0.71,
+    "ci_high": 0.96,
+    "section": "RESULTS",
+    "confidence": "high"
+   },
+   {
+    "quote": "or all-cause mortality (RR = 0.88, 95% CI: 0.60 to 1.28)",
+    "outcome": "All-cause mortality",
+    "direction": "no_difference",
+    "effect_measure": "RR",
+    "effect_value": 0.88,
+    "ci_low": 0.6,
+    "ci_high": 1.28,
+    "section": "RESULTS",
+    "confidence": "high"
+   },
+   {
+    "quote": "hospitalization duration (MD = 0.03 days, 95% CI: -0.72 to 0.78)",
+    "outcome": "Hospitalization duration",
+    "direction": "no_difference",
+    "effect_measure": "MD",
+    "effect_value": 0.03,
+    "ci_low": -0.72,
+    "ci_high": 0.78,
+    "section": "RESULTS",
+    "confidence": "high"
+   }
+  ],
+  "limitations_stated": []
+ }
+}

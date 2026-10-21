@@ -1,0 +1,84 @@
+{
+ "provider": "cloudflare",
+ "model": "@cf/openai/gpt-oss-20b",
+ "usage": {
+  "input_tokens": 1310,
+  "output_tokens": 2095
+ },
+ "output": {
+  "study": {
+   "design": {
+    "type": "cross-sectional"
+   },
+   "population": {
+    "value": "U.S. adults aged \u2265 18 years"
+   },
+   "sample_size": {
+    "value": 5961
+   },
+   "intervention": {
+    "value": "Ultra-processed food intake expressed as a percentage of total daily energy consumption"
+   },
+   "comparator": {
+    "value": "lower tertiles of UPF intake"
+   },
+   "follow_up": {
+    "value": "cross-sectional analysis"
+   }
+  },
+  "primary_findings": [
+   {
+    "outcome": {
+     "value": "free thyroxine (FT4)"
+    },
+    "estimate": {
+     "value": "-0.01 ng/dL"
+    },
+    "ci": {
+     "value": "- 0.015 to - 0.007"
+    },
+    "direction": "decrease",
+    "quote": "lower FT4 (\u03b2 = -0.01 ng/dL, 95% CI - 0.015 to - 0.007)",
+    "section": "RESULTS",
+    "confidence": "high"
+   },
+   {
+    "outcome": {
+     "value": "total thyroxine (TT4)"
+    },
+    "estimate": {
+     "value": "-0.12 \u00b5g/dL"
+    },
+    "ci": {
+     "value": "- 0.16 to - 0.09"
+    },
+    "direction": "decrease",
+    "quote": "lower TT4 (\u03b2 = -0.12 \u00b5g/dL, 95% CI - 0.16 to - 0.09)",
+    "section": "RESULTS",
+    "confidence": "high"
+   },
+   {
+    "outcome": {
+     "value": "thyroid-stimulating hormone (TSH)"
+    },
+    "estimate": {
+     "value": "0.02"
+    },
+    "ci": {
+     "value": null
+    },
+    "direction": "increase",
+    "quote": "modest increase in TSH (\u03b2 = 0.02, P = 0.012)",
+    "section": "RESULTS",
+    "confidence": "high"
+   }
+  ],
+  "limitations_stated": [
+   {
+    "quote": "Given the modest effect sizes and cross-sectional design, these findings should be interpreted cautiously.",
+    "section": "CONCLUSION",
+    "confidence": "high"
+   }
+  ]
+ }
+}

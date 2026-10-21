@@ -1,0 +1,85 @@
+{
+ "provider": "cloudflare",
+ "model": "@cf/openai/gpt-oss-20b",
+ "usage": {
+  "input_tokens": 1417,
+  "output_tokens": 3167
+ },
+ "output": {
+  "study": {
+   "design": {
+    "status": "reported",
+    "value": "rct_secondary_analysis",
+    "quote": "Meta-analysis was performed using RevMan 5.3 and Stata 17.0."
+   },
+   "population": {
+    "status": "reported",
+    "value": "patients with type 2 diabetes mellitus (T2DM) and prediabetes",
+    "quote": "pa-tients with type 2 diabetes mellitus (T2DM) and prediabetes."
+   },
+   "sample_size": {
+    "status": "reported",
+    "value": 899,
+    "quote": "899 patients"
+   },
+   "intervention": {
+    "status": "reported",
+    "value": "intermittent fasting",
+    "quote": "intermittent fasting"
+   },
+   "comparator": {
+    "status": "reported",
+    "value": "ad libitum diet",
+    "quote": "ad libitum diet"
+   },
+   "follow_up": {
+    "status": "not_reported",
+    "value": null,
+    "quote": null
+   }
+  },
+  "primary_findings": [
+   {
+    "outcome": "HbA1c",
+    "estimate": -0.64,
+    "ci_lower": -1.04,
+    "ci_upper": -0.24,
+    "p_value": "<0.05",
+    "direction": "favors_intervention",
+    "quote": "Standard-ized Mean Difference (Hedges's g) -0.64, 95% Confidence Interval (CI) -1.04, -0.24; p <0.05",
+    "section": "ABSTRACT"
+   },
+   {
+    "outcome": "Body weight (BW)",
+    "estimate": -0.3,
+    "ci_lower": -0.55,
+    "ci_upper": -0.05,
+    "p_value": "<0.05",
+    "direction": "favors_intervention",
+    "quote": "Standard-ized Mean Difference (Hedges's g) -0.30, 95% CI -0.55, -0.05; p <0.05",
+    "section": "ABSTRACT"
+   },
+   {
+    "outcome": "Body mass index (BMI)",
+    "estimate": -0.26,
+    "ci_lower": -0.51,
+    "ci_upper": 0.0,
+    "p_value": "0.05",
+    "direction": "favors_intervention",
+    "quote": "Standard-ized Mean Difference (Hedges's g) -0.26, 95% CI -0.51, 0.00; p = 0.05",
+    "section": "ABSTRACT"
+   },
+   {
+    "outcome": "Fasting blood glucose (FBG)",
+    "estimate": -0.39,
+    "ci_lower": -0.64,
+    "ci_upper": -0.15,
+    "p_value": "<0.05",
+    "direction": "favors_intervention",
+    "quote": "Standard-ized Mean Difference (Hedges's g) -0.39, 95% CI -0.64 to -0.15; p <0.05",
+    "section": "ABSTRACT"
+   }
+  ],
+  "limitations_stated": []
+ }
+}

@@ -1,0 +1,69 @@
+{
+ "provider": "openrouter",
+ "model": "nvidia/nemotron-3.5-lightning:free",
+ "usage": {
+  "input_tokens": 2602,
+  "output_tokens": 2963
+ },
+ "output": {
+  "study": {
+   "design": {
+    "quote": "We conducted a randomized, double-blind, controlled pilot trial including adults with RAH.",
+    "section": "BACKGROUND",
+    "confidence": "high",
+    "status": "reported",
+    "value": "rct"
+   },
+   "population": {
+    "quote": "including adults with RAH.",
+    "section": "BACKGROUND",
+    "confidence": "high",
+    "status": "reported",
+    "value": "adults with RAH"
+   },
+   "sample_size": {
+    "quote": "Among 60 randomized participants, 49 completed valid baseline and follow-up ABPM assessments",
+    "section": "RESULTS",
+    "confidence": "high",
+    "status": "reported",
+    "value": 60
+   },
+   "intervention": {
+    "quote": "a potassium-enriched salt substitute (approximately 50% sodium chloride and 50% potassium chloride)",
+    "section": "METHODS",
+    "confidence": "high",
+    "status": "reported",
+    "value": null
+   },
+   "comparator": {
+    "quote": "regular salt",
+    "section": "METHODS",
+    "confidence": "high",
+    "status": "reported",
+    "value": null
+   },
+   "follow_up": {
+    "quote": "for 24 weeks.",
+    "section": "METHODS",
+    "confidence": "high",
+    "status": "reported",
+    "value": null
+   }
+  },
+  "primary_findings": [
+   {
+    "quote": "resulting in a between-group difference of -2.47 mmHg (95% CI -4.93 to 0.00; P = 0.05).",
+    "section": "RESULTS",
+    "confidence": "high",
+    "outcome": "24-h systolic blood pressure",
+    "direction": "no_difference",
+    "effect_measure": "MD",
+    "effect_value": -2.47,
+    "ci_low": -4.93,
+    "ci_high": 0.0,
+    "p_value": 0.05
+   }
+  ],
+  "limitations_stated": []
+ }
+}

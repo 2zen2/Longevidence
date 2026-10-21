@@ -1,0 +1,77 @@
+{
+ "provider": "openrouter",
+ "model": "nvidia/nemotron-3.5-lightning:free",
+ "usage": {
+  "input_tokens": 2642,
+  "output_tokens": 2994
+ },
+ "output": {
+  "study": {
+   "design": {
+    "quote": "three-year prospective observational study",
+    "section": "ABSTRACT",
+    "confidence": "high",
+    "status": "reported",
+    "value": "cohort"
+   },
+   "population": {
+    "quote": "Adults with type 2 diabetes mellitus and arterial hypertension",
+    "section": "ABSTRACT",
+    "confidence": "high",
+    "status": "reported",
+    "value": "Adults with type 2 diabetes mellitus and arterial hypertension"
+   },
+   "sample_size": {
+    "quote": "158 adults",
+    "section": "ABSTRACT",
+    "confidence": "high",
+    "status": "reported",
+    "value": 158
+   },
+   "intervention": {
+    "quote": "Mediterranean diet (MeDi)",
+    "section": "ABSTRACT",
+    "confidence": "high",
+    "status": "reported",
+    "value": "Mediterranean diet (MeDi)"
+   },
+   "comparator": {
+    "quote": "without regular dietitian-led follow-up",
+    "section": "ABSTRACT",
+    "confidence": "high",
+    "status": "reported",
+    "value": "without regular dietitian-led follow-up"
+   },
+   "follow_up": {
+    "quote": "3-year",
+    "section": "ABSTRACT",
+    "confidence": "high",
+    "status": "reported",
+    "value": "3-year"
+   }
+  },
+  "primary_findings": [
+   {
+    "quote": "only 17.8% of participants achieved high adherence",
+    "section": "ABSTRACT",
+    "confidence": "high",
+    "outcome": "high adherence to Mediterranean diet",
+    "direction": "unclear",
+    "effect_measure": "other",
+    "effect_value": 17.8,
+    "ci_low": null,
+    "ci_high": null,
+    "p_value": null
+   }
+  ],
+  "limitations_stated": [
+   {
+    "quote": null,
+    "section": null,
+    "confidence": null,
+    "status": "not_reported",
+    "value": null
+   }
+  ]
+ }
+}

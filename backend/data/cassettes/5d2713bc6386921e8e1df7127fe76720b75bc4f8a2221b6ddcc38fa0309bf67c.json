@@ -1,0 +1,43 @@
+{
+ "provider": "openrouter",
+ "model": "deepseek/deepseek-v4.1-flash",
+ "usage": {
+  "input_tokens": 2580,
+  "output_tokens": 3496
+ },
+ "output": {
+  "study": "{\"design\": {\"status\": \"reported\", \"value\": \"rct\", \"quote\": \"a double-blind, placebo-controlled randomized trial\", \"section\": \"BACKGROUND\", \"confidence\": \"high\"}, \"population\": {\"status\": \"reported\", \"value\": \"Generally healthy, community-dwelling men and women in Finland (men aged \u226560, women aged \u226565)\", \"quote\": \"generally healthy, community-dwelling men and women in Finland\", \"section\": \"BACKGROUND\", \"confidence\": \"high\"}, \"sample_size\": {\"status\": \"reported\", \"value\": 2495, \"quote\": \"The study included 2495 participants\", \"section\": \"METHODS\", \"confidence\": \"high\"}, \"intervention\": {\"status\": \"reported\", \"value\": \"1600 IU/day or 3200 IU/day of vitamin D3\", \"quote\": \"1600 IU/day or 3200 IU/day of vitamin D3\", \"section\": \"METHODS\", \"confidence\": \"high\"}, \"comparator\": {\"status\": \"reported\", \"value\": \"Placebo\", \"quote\": \"1600 IU/day or 3200 IU/day of vitamin D3 or placebo\", \"section\": \"METHODS\", \"confidence\": \"high\"}, \"follow_up\": {\"status\": \"reported\", \"value\": \"5 years\", \"quote\": \"Over the 5-year follow-up\", \"section\": \"RESULTS\", \"confidence\": \"high\"}}",
+  "primary_findings": [
+   {
+    "outcome": "Fall risk and fall-injury risk (all arms)",
+    "direction": "no_difference",
+    "quote": "Over the 5-year follow-up, a similar fall risk of 55% and fall-injury risk of 11% were observed in the placebo, 1600 IU/day, and 3200 IU/day arms",
+    "section": "RESULTS",
+    "confidence": "medium"
+   },
+   {
+    "outcome": "Mean number of falls per person-year",
+    "direction": "unclear",
+    "effect_measure": "other",
+    "effect_value": 1.26,
+    "ci_low": 1.14,
+    "ci_high": 1.38,
+    "quote": "the mean number of falls and fall-injuries per person-year of 1.26 (95% CI 1.14-1.38) and 0.07 (95% CI 0.06-0.08), respectively",
+    "section": "RESULTS",
+    "confidence": "high"
+   },
+   {
+    "outcome": "Mean number of fall-injuries per person-year",
+    "direction": "unclear",
+    "effect_measure": "other",
+    "effect_value": 0.07,
+    "ci_low": 0.06,
+    "ci_high": 0.08,
+    "quote": "the mean number of falls and fall-injuries per person-year of 1.26 (95% CI 1.14-1.38) and 0.07 (95% CI 0.06-0.08), respectively",
+    "section": "RESULTS",
+    "confidence": "high"
+   }
+  ],
+  "limitations_stated": []
+ }
+}

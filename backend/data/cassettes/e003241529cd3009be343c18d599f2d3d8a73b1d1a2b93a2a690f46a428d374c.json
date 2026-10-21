@@ -1,0 +1,50 @@
+{
+ "provider": "cloudflare",
+ "model": "@cf/openai/gpt-oss-20b",
+ "usage": {
+  "input_tokens": 1616,
+  "output_tokens": 1214
+ },
+ "output": {
+  "study": {
+   "design": {
+    "quote": "parallel-group, randomized controlled trial",
+    "section": "METHODS",
+    "status": "reported",
+    "value": "rct"
+   },
+   "population": {
+    "quote": "adults with overweight or obesity",
+    "section": "METHODS",
+    "status": "reported",
+    "value": "adults with overweight or obesity"
+   },
+   "sample_size": {
+    "quote": "This parallel-group, randomized controlled trial recruited 99 adults with overweight or obesity",
+    "section": "METHODS",
+    "status": "reported",
+    "value": 99
+   },
+   "intervention": {
+    "quote": "early TRE (n = 25), 8-h eating window starting before 10:00, iii) late TRE (n = 27), 8-h eating window starting after 13:00, and iv) self-selected TRE (n = 22), participant chosen 8-h eating window.",
+    "section": "METHODS",
+    "status": "reported",
+    "value": "time-restricted eating (TRE) with 8-h windows in early day, late day, or self-selected"
+   },
+   "comparator": {
+    "quote": "usual care (UC; n = 25), that maintained their habitual \u226512-h eating window",
+    "section": "METHODS",
+    "status": "reported",
+    "value": "usual care (UC)"
+   },
+   "follow_up": {
+    "quote": "12 months post-intervention",
+    "section": "METHODS",
+    "status": "reported",
+    "value": "12 months"
+   }
+  },
+  "primary_findings": [],
+  "limitations_stated": []
+ }
+}

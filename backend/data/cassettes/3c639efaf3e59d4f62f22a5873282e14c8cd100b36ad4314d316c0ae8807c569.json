@@ -1,0 +1,108 @@
+{
+ "provider": "openrouter",
+ "model": "deepseek/deepseek-v4.1-flash",
+ "usage": {
+  "input_tokens": 2561,
+  "output_tokens": 1136
+ },
+ "output": {
+  "study": {
+   "design": {
+    "status": "reported",
+    "value": "meta_analysis",
+    "quote": "This systematic review and meta-analysis evaluated the impact of vitamin D supplementation on sepsis outcomes",
+    "section": "OBJECTIVE",
+    "confidence": "high"
+   },
+   "population": {
+    "status": "reported",
+    "value": "patients with sepsis",
+    "quote": "Eligible studies enrolled patients with sepsis who received vitamin D supplementation and reported mortality outcomes",
+    "section": "METHODS",
+    "confidence": "high"
+   },
+   "sample_size": {
+    "status": "reported",
+    "value": 42915,
+    "quote": "Five studies encompassing 42,915 patients met the inclusion criteria",
+    "section": "RESULTS",
+    "confidence": "high"
+   },
+   "intervention": {
+    "status": "reported",
+    "value": "vitamin D supplementation",
+    "quote": "patients with sepsis who received vitamin D supplementation",
+    "section": "METHODS",
+    "confidence": "high"
+   },
+   "comparator": {
+    "status": "not_reported",
+    "value": null,
+    "quote": null,
+    "section": null,
+    "confidence": null
+   },
+   "follow_up": {
+    "status": "not_reported",
+    "value": null,
+    "quote": null,
+    "section": null,
+    "confidence": null
+   }
+  },
+  "primary_findings": [
+   {
+    "quote": "vitamin D supplementation was may associated with reduction in 28-day mortality (OR: 0.59, 95 % CI: 0.51-0.69, P < 0.0001)",
+    "outcome": "28-day mortality",
+    "direction": "favors_intervention",
+    "effect_measure": "OR",
+    "effect_value": 0.59,
+    "ci_low": 0.51,
+    "ci_high": 0.69,
+    "p_value": 0.0001,
+    "section": "RESULTS",
+    "confidence": "high"
+   },
+   {
+    "quote": "90-day mortality (OR: 0.56, 95 % CI: 0.46-0.68, P < 0.00001)",
+    "outcome": "90-day mortality",
+    "direction": "favors_intervention",
+    "effect_measure": "OR",
+    "effect_value": 0.56,
+    "ci_low": 0.46,
+    "ci_high": 0.68,
+    "p_value": 1e-05,
+    "section": "RESULTS",
+    "confidence": "high"
+   },
+   {
+    "quote": "in-hospital mortality (OR: 0.61, 95 % CI: 0.50-0.73, P < 0.00001)",
+    "outcome": "in-hospital mortality",
+    "direction": "favors_intervention",
+    "effect_measure": "OR",
+    "effect_value": 0.61,
+    "ci_low": 0.5,
+    "ci_high": 0.73,
+    "p_value": 1e-05,
+    "section": "RESULTS",
+    "confidence": "high"
+   }
+  ],
+  "limitations_stated": [
+   {
+    "status": "reported",
+    "value": "the overall quality of evidence was rated low due to inconsistency and imprecision",
+    "quote": "the overall quality of evidence was rated low due to inconsistency and imprecision",
+    "section": "RESULTS",
+    "confidence": "high"
+   },
+   {
+    "status": "reported",
+    "value": "the low certainty of evidence highlights the need for well-designed, large-scale randomized controlled trials to confirm these findings",
+    "quote": "the low certainty of evidence highlights the need for well-designed, large-scale randomized controlled trials to confirm these findings and guide clinical practice",
+    "section": "CONCLUSION",
+    "confidence": "high"
+   }
+  ]
+ }
+}

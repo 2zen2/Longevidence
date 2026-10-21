@@ -1,0 +1,78 @@
+{
+ "provider": "openrouter",
+ "model": "deepseek/deepseek-v4.1-flash",
+ "usage": {
+  "input_tokens": 3307,
+  "output_tokens": 662
+ },
+ "output": {
+  "study": {
+   "design": {
+    "status": "reported",
+    "value": "meta_analysis"
+   },
+   "population": {
+    "status": "reported",
+    "value": "adults"
+   },
+   "sample_size": {
+    "status": "reported",
+    "value": 114379
+   },
+   "intervention": {
+    "status": "reported",
+    "value": "vitamin D supplementation"
+   },
+   "comparator": {
+    "status": "reported",
+    "value": "placebo"
+   },
+   "follow_up": {
+    "status": "not_reported"
+   }
+  },
+  "primary_findings": [
+   {
+    "quote": "compared with placebo, vitamin D did not reduce any CVD events (RR = 0.95, 95%CI: 0.88-1.04)",
+    "outcome": "CVD events",
+    "direction": "no_difference",
+    "effect_measure": "RR",
+    "effect_value": 0.95,
+    "ci_low": 0.88,
+    "ci_high": 1.04,
+    "p_value": null
+   },
+   {
+    "quote": "CVD mortality (RR = 1.04, 95%CI: 0.871-1.242)",
+    "outcome": "CVD mortality",
+    "direction": "no_difference",
+    "effect_measure": "RR",
+    "effect_value": 1.04,
+    "ci_low": 0.871,
+    "ci_high": 1.242,
+    "p_value": null
+   },
+   {
+    "quote": "myocardial infarction event (RR = 0.96, 95%CI: 0.83-1.11)",
+    "outcome": "myocardial infarction event",
+    "direction": "no_difference",
+    "effect_measure": "RR",
+    "effect_value": 0.96,
+    "ci_low": 0.83,
+    "ci_high": 1.11,
+    "p_value": null
+   },
+   {
+    "quote": "myocardial infarction mortality (RR = 1.527, 95%CI: 0.828-2.816)",
+    "outcome": "myocardial infarction mortality",
+    "direction": "no_difference",
+    "effect_measure": "RR",
+    "effect_value": 1.527,
+    "ci_low": 0.828,
+    "ci_high": 2.816,
+    "p_value": null
+   }
+  ],
+  "limitations_stated": []
+ }
+}

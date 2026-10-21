@@ -1,0 +1,48 @@
+{
+ "provider": "cloudflare",
+ "model": "@cf/openai/gpt-oss-20b",
+ "usage": {
+  "input_tokens": 1589,
+  "output_tokens": 3438
+ },
+ "output": {
+  "study": {
+   "design": {
+    "status": "reported",
+    "value": "meta_analysis"
+   },
+   "population": {
+    "status": "reported",
+    "value": "patients with type 2 diabetes mellitus (T2DM) and prediabetes"
+   },
+   "sample_size": {
+    "status": "reported",
+    "value": 899
+   },
+   "intervention": {
+    "status": "reported",
+    "value": "intermittent fasting (IF)"
+   },
+   "comparator": {
+    "status": "reported",
+    "value": "ad libitum diet and continuous energy restriction diets (CERD)"
+   },
+   "follow_up": {
+    "status": "not_reported"
+   }
+  },
+  "primary_findings": [
+   {
+    "quote": "Standard-ized Mean Difference (SMD) (Hedges's g) -0.64, 95% Confidence Interval (CI) -1.04, -0.24; p <0.05",
+    "outcome": "HbA1c",
+    "direction": "favors_intervention",
+    "effect_measure": "other",
+    "effect_value": -1.04,
+    "ci_low": -1.04,
+    "ci_high": -1.04,
+    "p_value": 0.05
+   }
+  ],
+  "limitations_stated": []
+ }
+}

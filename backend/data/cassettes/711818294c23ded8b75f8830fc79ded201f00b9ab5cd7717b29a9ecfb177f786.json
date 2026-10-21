@@ -1,0 +1,51 @@
+{
+ "provider": "cloudflare",
+ "model": "@cf/openai/gpt-oss-20b",
+ "usage": {
+  "input_tokens": 995,
+  "output_tokens": 1282
+ },
+ "output": {
+  "study": {
+   "title": "The effects of sodium reduction and the DASH diet on ambulatory blood pressure: overall and race-stratified results from the DASH-Sodium trial",
+   "trial_number": "NCT00000608",
+   "design": "rct",
+   "sample_size": 335
+  },
+  "primary_findings": [
+   {
+    "effect_estimate": "9.0 mmHg",
+    "ci": "(6.4, 11.7)",
+    "direction": "lower",
+    "quote": "the DASH diet with low sodium reduced mean (95%CI) awake SBP by 9.0 mmHg (6.4, 11.7) in Black participants",
+    "section": "RESULTS",
+    "confidence": "high"
+   },
+   {
+    "effect_estimate": "7.5 mmHg",
+    "ci": "(4.5, 10.6)",
+    "direction": "lower",
+    "quote": "the DASH diet with low sodium reduced mean (95%CI) awake SBP by 7.5 mmHg (4.5, 10.6) in Non-Black participants",
+    "section": "RESULTS",
+    "confidence": "high"
+   },
+   {
+    "effect_estimate": "8.0 mmHg",
+    "ci": "(4.8, 11.2)",
+    "direction": "lower",
+    "quote": "mean asleep SBP by 8.0 mmHg (4.8, 11.2) in Black participants",
+    "section": "RESULTS",
+    "confidence": "high"
+   },
+   {
+    "effect_estimate": "7.4 mmHg",
+    "ci": "(3.9, 11.0)",
+    "direction": "lower",
+    "quote": "mean asleep SBP by 7.4 mmHg (3.9,11.0) in Non-Black participants",
+    "section": "RESULTS",
+    "confidence": "high"
+   }
+  ],
+  "limitations_stated": []
+ }
+}

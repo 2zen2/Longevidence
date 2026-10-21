@@ -1,0 +1,62 @@
+{
+ "provider": "openrouter",
+ "model": "deepseek/deepseek-v4.1-flash",
+ "usage": {
+  "input_tokens": 2575,
+  "output_tokens": 1421
+ },
+ "output": {
+  "study": "{\"design\": {\"status\": \"reported\", \"value\": \"rct_secondary_analysis\", \"quote\": \"We conducted a secondary analysis of a randomised, triple-blind, placebo-controlled trial of maternal vitamin D supplementation from June 2015 to October 2019.\", \"section\": \"DESIGN\", \"confidence\": \"high\"}, \"population\": {\"status\": \"reported\", \"value\": \"Pregnant WLHIV and their offspring\", \"quote\": \"Pregnant WLHIV and their offspring.\", \"section\": \"PARTICIPANTS\", \"confidence\": \"high\"}, \"sample_size\": {\"status\": \"reported\", \"value\": 1312, \"quote\": \"A total of 2167 infants were eligible, and 1312 of them completed CREDI assessments at 1 year of age.\", \"section\": \"RESULTS\", \"confidence\": \"medium\"}, \"intervention\": {\"status\": \"reported\", \"value\": \"Daily 3000 IU vitamin D3 taken during pregnancy and lactation\", \"quote\": \"Daily 3000 IU vitamin D3 or placebo supplements taken during pregnancy and lactation.\", \"section\": \"INTERVENTIONS\", \"confidence\": \"high\"}, \"comparator\": {\"status\": \"reported\", \"value\": \"Placebo\", \"quote\": \"Daily 3000 IU vitamin D3 or placebo supplements taken during pregnancy and lactation.\", \"section\": \"INTERVENTIONS\", \"confidence\": \"high\"}, \"follow_up\": {\"status\": \"reported\", \"value\": \"1 year of age\", \"quote\": \"Infants were assessed for cognitive, language and motor development at 1 year of age with the Caregiver Reported Early Development Instruments (CREDI).\", \"section\": \"OUTCOME MEASURES\", \"confidence\": \"high\"}}",
+  "primary_findings": [
+   {
+    "quote": "Vitamin D supplementation had no effect on overall CREDI z-scores (standardised mean difference (SMD) 0.03, 95% CI -0.09, 0.15, p value 0.66).",
+    "outcome": "Overall CREDI z-scores",
+    "direction": "no_difference",
+    "effect_measure": "other",
+    "effect_value": 0.03,
+    "ci_low": -0.09,
+    "ci_high": 0.15,
+    "p_value": 0.66,
+    "section": "RESULTS",
+    "confidence": "high"
+   },
+   {
+    "quote": "There was also no evidence of a difference between vitamin D and placebo groups in language (SMD 0.06, 95% CI -0.08, 0.21, p value 0.40)",
+    "outcome": "Language domain z-scores",
+    "direction": "no_difference",
+    "effect_measure": "other",
+    "effect_value": 0.06,
+    "ci_low": -0.08,
+    "ci_high": 0.21,
+    "p_value": 0.4,
+    "section": "RESULTS",
+    "confidence": "high"
+   },
+   {
+    "quote": "motor (SMD 0.02, 95% CI -0.09, 0.14, p value 0.69)",
+    "outcome": "Motor domain z-scores",
+    "direction": "no_difference",
+    "effect_measure": "other",
+    "effect_value": 0.02,
+    "ci_low": -0.09,
+    "ci_high": 0.14,
+    "p_value": 0.69,
+    "section": "RESULTS",
+    "confidence": "high"
+   },
+   {
+    "quote": "cognitive domain z-scores (SMD 0.05, 95% CI -0.08, 0.17, p 0.48)",
+    "outcome": "Cognitive domain z-scores",
+    "direction": "no_difference",
+    "effect_measure": "other",
+    "effect_value": 0.05,
+    "ci_low": -0.08,
+    "ci_high": 0.17,
+    "p_value": 0.48,
+    "section": "RESULTS",
+    "confidence": "high"
+   }
+  ],
+  "limitations_stated": []
+ }
+}

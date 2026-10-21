@@ -1,0 +1,80 @@
+{
+ "provider": "cloudflare",
+ "model": "@cf/openai/gpt-oss-20b",
+ "usage": {
+  "input_tokens": 1536,
+  "output_tokens": 1898
+ },
+ "output": {
+  "study": {
+   "design": {
+    "quote": "case-cohort nested study within the PREDIMED trial",
+    "section": "METHODS",
+    "confidence": "high",
+    "status": "reported",
+    "value": "rct_secondary_analysis"
+   },
+   "population": {
+    "quote": null,
+    "section": null,
+    "confidence": null,
+    "status": "not_reported",
+    "value": null
+   },
+   "sample_size": {
+    "quote": "1180 individuals: 653 incident CVD cases (stroke, myocardial infarction, CVD death, or heart failure) and a random subcohort of 603 participants (76 overlapping cases)",
+    "section": "METHODS",
+    "confidence": "high",
+    "status": "reported",
+    "value": 1180
+   },
+   "intervention": {
+    "quote": "MedDiet interventions",
+    "section": "RESULTS",
+    "confidence": "high",
+    "status": "reported",
+    "value": "Mediterranean diet"
+   },
+   "comparator": {
+    "quote": "control group",
+    "section": "RESULTS",
+    "confidence": "high",
+    "status": "reported",
+    "value": "control group"
+   },
+   "follow_up": {
+    "quote": "After 1 year",
+    "section": "RESULTS",
+    "confidence": "high",
+    "status": "reported",
+    "value": "1 year"
+   }
+  },
+  "primary_findings": [
+   {
+    "quote": "HR per SD = 0.80 (0.68-0.94)",
+    "section": "RESULTS",
+    "confidence": "high",
+    "outcome": "CVD risk",
+    "direction": "favors_intervention",
+    "effect_measure": "HR",
+    "effect_value": 0.8,
+    "ci_low": 0.68,
+    "ci_high": 0.94,
+    "p_value": null
+   },
+   {
+    "quote": "HR Q4 vs Q1 = 0.48 (0.30-0.78)",
+    "section": "RESULTS",
+    "confidence": "high",
+    "outcome": "CVD risk",
+    "direction": "favors_intervention",
+    "effect_measure": "HR",
+    "effect_value": 0.48,
+    "ci_low": 0.3,
+    "ci_high": 0.78,
+    "p_value": null
+   }
+  ]
+ }
+}

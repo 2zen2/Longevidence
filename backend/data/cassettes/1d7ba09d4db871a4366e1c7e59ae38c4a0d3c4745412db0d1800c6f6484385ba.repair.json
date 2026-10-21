@@ -1,0 +1,39 @@
+{
+ "provider": "cloudflare",
+ "model": "@cf/openai/gpt-oss-20b",
+ "usage": {
+  "input_tokens": 1322,
+  "output_tokens": 1069
+ },
+ "output": {
+  "study": {
+   "design": {
+    "status": "not_reported"
+   },
+   "population": {
+    "status": "not_reported"
+   },
+   "sample_size": {
+    "status": "not_reported"
+   },
+   "intervention": {
+    "status": "not_reported"
+   },
+   "comparator": {
+    "status": "not_reported"
+   },
+   "follow_up": {
+    "status": "not_reported"
+   }
+  },
+  "primary_findings": [],
+  "limitations_stated": [
+   {
+    "quote": "Major conceptual pitfalls, including the heterogeneity of ultra-processed foods and the scarcity of longitudinal or interventional studies addressing neuroimmune outcomes, continue to limit interpretation.",
+    "section": "ABSTRACT",
+    "confidence": "high",
+    "status": "reported"
+   }
+  ]
+ }
+}

@@ -1,0 +1,106 @@
+{
+ "provider": "cloudflare",
+ "model": "@cf/openai/gpt-oss-20b",
+ "usage": {
+  "input_tokens": 1519,
+  "output_tokens": 2140
+ },
+ "output": {
+  "study": {
+   "design": {
+    "quote": "In this systematic review and meta-analysis we investigate the impact of adherence to the Mediterranean diet (MD) on overall and disease-free survival in cancer patients across various cancer types.",
+    "section": "ABSTRACT",
+    "status": "reported",
+    "value": "meta_analysis"
+   },
+   "population": {
+    "quote": "cancer patients across various cancer types.",
+    "section": "ABSTRACT",
+    "status": "reported",
+    "value": "cancer patients across various cancer types."
+   },
+   "sample_size": {
+    "quote": null,
+    "section": null,
+    "status": "not_reported",
+    "value": null
+   },
+   "intervention": {
+    "quote": "adherence to the Mediterranean diet (MD)",
+    "section": "ABSTRACT",
+    "status": "reported",
+    "value": "adherence to the Mediterranean diet (MD)"
+   },
+   "comparator": {
+    "quote": null,
+    "section": null,
+    "status": "not_reported",
+    "value": null
+   },
+   "follow_up": {
+    "quote": null,
+    "section": null,
+    "status": "not_reported",
+    "value": null
+   }
+  },
+  "primary_findings": [
+   {
+    "quote": "risk ratio: 0.96; 95% CI: 0.94-0.98",
+    "section": "RESULTS",
+    "confidence": "high",
+    "outcome": "overall mortality",
+    "direction": "favors_intervention",
+    "effect_measure": "RR",
+    "effect_value": 0.96,
+    "ci_low": 0.94,
+    "ci_high": 0.98
+   },
+   {
+    "quote": "HR: 0.50; 95% CI: 0.45-0.55",
+    "section": "RESULTS",
+    "confidence": "high",
+    "outcome": "overall mortality in gastric cancer",
+    "direction": "favors_intervention",
+    "effect_measure": "HR",
+    "effect_value": 0.5,
+    "ci_low": 0.45,
+    "ci_high": 0.55
+   },
+   {
+    "quote": "HR: 0.39; 95% CI: 0.15-0.72",
+    "section": "RESULTS",
+    "confidence": "high",
+    "outcome": "disease-free survival in breast cancer",
+    "direction": "favors_intervention",
+    "effect_measure": "HR",
+    "effect_value": 0.39,
+    "ci_low": 0.15,
+    "ci_high": 0.72
+   },
+   {
+    "quote": "HR: 0.68; 95% CI: 0.56-0.87",
+    "section": "RESULTS",
+    "confidence": "high",
+    "outcome": "overall mortality in ovarian cancer",
+    "direction": "favors_intervention",
+    "effect_measure": "HR",
+    "effect_value": 0.68,
+    "ci_low": 0.56,
+    "ci_high": 0.87
+   },
+   {
+    "quote": "HR: 0.97; 95% CI: 0.95-0.99",
+    "section": "RESULTS",
+    "confidence": "high",
+    "outcome": "overall mortality in prostate cancer",
+    "direction": "favors_intervention",
+    "effect_measure": "HR",
+    "effect_value": 0.97,
+    "ci_low": 0.95,
+    "ci_high": 0.99
+   }
+  ],
+  "limitations_stated": []
+ }
+}

@@ -1,0 +1,81 @@
+{
+ "provider": "openrouter",
+ "model": "deepseek/deepseek-v4.1-flash",
+ "usage": {
+  "input_tokens": 2603,
+  "output_tokens": 1547
+ },
+ "output": {
+  "study": {
+   "design": {
+    "status": "reported",
+    "value": "rct",
+    "quote": "we conducted an open-label randomized trial (POLY-HF) at two centers",
+    "section": "ABSTRACT",
+    "confidence": "high"
+   },
+   "population": {
+    "status": "reported",
+    "value": "Adults with heart failure and left ventricular ejection fraction \u226440%",
+    "quote": "Adults with heart failure and left ventricular ejection fraction \u226440% were randomized",
+    "section": "ABSTRACT",
+    "confidence": "high"
+   },
+   "sample_size": {
+    "status": "reported",
+    "value": 187,
+    "quote": "Follow-up magnetic resonance imaging data were available for 187 (88%) participants who were included in the modified intention-to-treat analysis.",
+    "section": "ABSTRACT",
+    "confidence": "medium"
+   },
+   "intervention": {
+    "status": "reported",
+    "value": "Once-daily polypill containing metoprolol succinate (25/50/100/150 mg), spironolactone 12.5 mg and empagliflozin 10 mg",
+    "quote": "randomized to a once-daily polypill containing metoprolol succinate (25/50/100/150 mg), spironolactone 12.5 mg and empagliflozin 10 mg",
+    "section": "ABSTRACT",
+    "confidence": "high"
+   },
+   "comparator": {
+    "status": "reported",
+    "value": "Rapid uptitration of individual guideline-directed medical therapy medications ('enhanced usual care')",
+    "quote": "or rapid uptitration of individual guideline-directed medical therapy medications ('enhanced usual care')",
+    "section": "ABSTRACT",
+    "confidence": "high"
+   },
+   "follow_up": {
+    "status": "reported",
+    "value": "6 months",
+    "quote": "The primary endpoint was ejection fraction as assessed by cardiac magnetic resonance imaging at 6 months.",
+    "section": "ABSTRACT",
+    "confidence": "high"
+   }
+  },
+  "primary_findings": [
+   {
+    "quote": "Polypill treatment was associated with greater improvement in ejection fraction compared to enhanced usual care (between-group difference, 3.3 percentage points, 95% confidence interval, 0.2-6.4; P = 0.039)",
+    "outcome": "Ejection fraction by cardiac MRI at 6 months",
+    "direction": "favors_intervention",
+    "effect_measure": "other",
+    "effect_value": 3.3,
+    "ci_low": 0.2,
+    "ci_high": 6.4,
+    "p_value": 0.039,
+    "section": "ABSTRACT",
+    "confidence": "high"
+   },
+   {
+    "quote": "Individuals randomized to the polypill also had a 60% lower rate of heart failure hospitalizations or emergency department visits (adjusted rate ratio, 0.40; 95% confidence interval, 0.18-0.88; P = 0.024)",
+    "outcome": "Heart failure hospitalizations or emergency department visits",
+    "direction": "favors_intervention",
+    "effect_measure": "RR",
+    "effect_value": 0.4,
+    "ci_low": 0.18,
+    "ci_high": 0.88,
+    "p_value": 0.024,
+    "section": "ABSTRACT",
+    "confidence": "high"
+   }
+  ],
+  "limitations_stated": []
+ }
+}

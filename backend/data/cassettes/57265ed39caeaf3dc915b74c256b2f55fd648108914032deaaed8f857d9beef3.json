@@ -1,0 +1,117 @@
+{
+ "provider": "cloudflare",
+ "model": "@cf/openai/gpt-oss-20b",
+ "usage": {
+  "input_tokens": 1583,
+  "output_tokens": 3538
+ },
+ "output": {
+  "study": {
+   "design": {
+    "quote": "secondary analysis of a randomized controlled trial.",
+    "section": "ABSTRACT",
+    "confidence": "high",
+    "status": "reported",
+    "value": "rct_secondary_analysis"
+   },
+   "population": {
+    "quote": "Adults aged 25-75 y with obesity (BMI: 30-60 kg/m2) undergoing weight-loss treatment were randomized to eat in an 8-h period from 07:00 to 15:00 (eTRE) or over a \u226512-h period (control) for 14 wk.",
+    "section": "ABSTRACT",
+    "confidence": "high",
+    "status": "reported",
+    "value": "Adults aged 25-75 y with obesity (BMI: 30-60 kg/m2) undergoing weight-loss treatment"
+   },
+   "sample_size": {
+    "quote": null,
+    "section": null,
+    "confidence": null,
+    "status": "not_reported",
+    "value": null
+   },
+   "intervention": {
+    "quote": "eat in an 8-h period from 07:00 to 15:00 (eTRE)",
+    "section": "ABSTRACT",
+    "confidence": "high",
+    "status": "reported",
+    "value": "early TRE (eTRE) 8-h period from 07:00 to 15:00"
+   },
+   "comparator": {
+    "quote": "or over a \u226512-h period (control)",
+    "section": "ABSTRACT",
+    "confidence": "high",
+    "status": "reported",
+    "value": "control over a \u226512-h period"
+   },
+   "follow_up": {
+    "quote": "for 14 wk.",
+    "section": "ABSTRACT",
+    "confidence": "high",
+    "status": "reported",
+    "value": "14 weeks"
+   }
+  },
+  "primary_findings": [
+   {
+    "quote": "eTRE lowered diastolic blood pressure by 9 \u00b1 4 mm Hg (P = 0.047) in adults with systolic blood pressure \u2265130 mm Hg relative to the control group.",
+    "section": "ABSTRACT",
+    "confidence": "high",
+    "outcome": "diastolic blood pressure change in adults with systolic blood pressure \u2265130 mm Hg",
+    "direction": "favors_intervention",
+    "effect_measure": "MD",
+    "effect_value": -9,
+    "ci_low": null,
+    "ci_high": null,
+    "p_value": 0.047
+   },
+   {
+    "quote": "eTRE lowered diastolic blood pressure by 4 \u00b1 2 mm Hg (P = 0.04) in adults with hypertension relative to the control group.",
+    "section": "ABSTRACT",
+    "confidence": "high",
+    "outcome": "diastolic blood pressure change in adults with hypertension",
+    "direction": "favors_intervention",
+    "effect_measure": "MD",
+    "effect_value": -4,
+    "ci_low": null,
+    "ci_high": null,
+    "p_value": 0.04
+   },
+   {
+    "quote": "eTRE lowered hemoglobin A1c by 0.3% \u00b1 0.1% (P = 0.04) in prediabetic adults.",
+    "section": "ABSTRACT",
+    "confidence": "high",
+    "outcome": "hemoglobin A1c change in prediabetic adults",
+    "direction": "favors_intervention",
+    "effect_measure": "MD",
+    "effect_value": -3,
+    "ci_low": null,
+    "ci_high": null,
+    "p_value": 0.04
+   },
+   {
+    "quote": "eTRE reduced HOMA-IR by 2.96 \u00b1 1.46 (P = 0.04) in adults with hypercholesterolemia.",
+    "section": "ABSTRACT",
+    "confidence": "high",
+    "outcome": "HOMA-IR change in adults with hypercholesterolemia",
+    "direction": "favors_intervention",
+    "effect_measure": "MD",
+    "effect_value": -2.96,
+    "ci_low": null,
+    "ci_high": null,
+    "p_value": 0.04
+   },
+   {
+    "quote": "eTRE increased total and low-density lipoprotein cholesterol by 21 \u00b1 9 and 17 \u00b1 7 mg/dL, respectively (P = 0.03).",
+    "section": "ABSTRACT",
+    "confidence": "high",
+    "outcome": "total cholesterol change in adults with severe obesity",
+    "direction": "favors_comparator",
+    "effect_measure": "MD",
+    "effect_value": 21,
+    "ci_low": null,
+    "ci_high": null,
+    "p_value": 0.03
+   }
+  ],
+  "limitations_stated": []
+ }
+}

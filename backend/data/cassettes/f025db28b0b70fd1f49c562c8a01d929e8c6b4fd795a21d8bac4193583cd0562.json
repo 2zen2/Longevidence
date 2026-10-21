@@ -1,0 +1,57 @@
+{
+ "provider": "cloudflare",
+ "model": "@cf/openai/gpt-oss-20b",
+ "usage": {
+  "input_tokens": 1033,
+  "output_tokens": 5393
+ },
+ "output": {
+  "study": {
+   "title": "The cross-sectional and prospective associations between time-restricted eating and cardiometabolic health in community-dwelling adults: A systematic review and meta-analysis of observational studies.",
+   "abstract": "BACKGROUND/OBJECTIVES: Well-established cardiometabolic disease (CMD) prevention strategies emphasize maintaining a balanced diet, regular physical activity, and a normal weight. The role of time-restricted eating (TRE; \u226412 h daily eating window) in improving cardiometabolic health remains elusive. This systematic review and meta-analysis of observational studies investigated the associations between TRE and cardiometabolic health in adults.\nSUBJECTS/METHODS: We systematically searched PubMed, the Cochrane Library, Web of Science, and CINAHL for observational studies examining the association between TRE and cardiometabolic markers in adults for all articles published up to January 13, 2025. Risk of bias was assessed using the NIH Quality Assessment Tool. Qualitative and random-effects meta-analyses were performed if \u22653 studies reported the same outcome; otherwise, results were summarized narratively.\nRESULTS: 12 cross-sectional and 6 cohort studies were included. Meta-analysis of cross-sectional studies showed no significant association between TRE and abdominal obesity (OR = 0.96; 95% CI: 0.86-1.07; I\u00b2 = 59%), metabolic syndrome (OR = 1.04; 95% CI: 0.90-1.19; I\u00b2 = 32%), elevated blood pressure/hypertension (OR = 1.04; 95% CI: 0.971.12; I\u00b2 = 0%), reduced high-density lipoprotein cholesterol (OR = 0.94; 95% CI: 0.83-1.06; I\u00b2 = 78%), elevated triglycerides (OR = 1.06; 95% CI: 0.99-1.14; I\u00b2 = 0%), and prediabetes/type 2 diabetes mellitus (OR = 1.04; 95% CI: 0.96-1.12; I\u00b2 = 50%). Due to insufficient data, no conclusions could be drawn about prospective associations.\nCONCLUSIONS: To date, cross-sectional data have not consistently demonstrated associations between TRE and cardiometabolic health in community-dwelling adults. Until stronger real-world evidence emerges, the priority should remain on established CMD prevention strategies. REGISTRY AND REGISTRY NUMBER FOR SYSTEMATIC REVIEWS OR META-ANALYSES: PROSPERO registration number: CRD42023390410."
+  },
+  "primary_findings": [
+   {
+    "effect_estimate": 0.96,
+    "CI": "0.86-1.07",
+    "direction": "no_difference",
+    "quote": "Meta-analysis of cross-sectional studies showed no significant association between TRE and abdominal obesity (OR = 0.96; 95% CI: 0.86-1.07; I\u00b2 = 59%)",
+    "confidence": "high"
+   },
+   {
+    "effect_estimate": 1.04,
+    "CI": "0.90-1.19",
+    "direction": "no_difference",
+    "quote": "Meta-analysis of cross-sectional studies showed no significant association between TRE and metabolic syndrome (OR = 1.04; 95% CI: 0.90-1.19; I\u00b2 = 32%)",
+    "confidence": "high"
+   },
+   {
+    "effect_estimate": 1.04,
+    "CI": "0.971.12",
+    "direction": "no_difference",
+    "quote": "Meta-analysis of cross-sectional studies showed no significant association between TRE and elevated blood pressure/hypertension (OR = 1.04; 95% CI: 0.971.12; I\u00b2 = 0%)",
+    "confidence": "high"
+   },
+   {
+    "effect_estimate": 0.94,
+    "CI": "0.83-1.06",
+    "direction": "no_difference",
+    "quote": "Meta-analysis of cross-sectional studies showed no significant association between TRE and reduced high-density lipoprotein cholesterol (OR = 0.94; 95% CI: 0.83-1.06; I\u00b2 = 78%)",
+    "confidence": "high"
+   },
+   {
+    "effect_estimate": 1.06,
+    "CI": "0.99-1.14",
+    "direction": "no_difference",
+    "quote": "Meta-analysis of cross-sectional studies showed no significant association between TRE and elevated triglycerides (OR = 1.06; 95% CI: 0.99-1.14; I\u00b2 = 0%)",
+    "confidence": "high"
+   }
+  ],
+  "limitations_stated": [
+   {
+    "quote": "Due to insufficient data, no conclusions could be drawn about prospective associations.",
+    "confidence": "high"
+   }
+  ]
+ }
+}

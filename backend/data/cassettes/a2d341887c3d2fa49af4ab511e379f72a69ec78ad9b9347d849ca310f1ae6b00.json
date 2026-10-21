@@ -1,0 +1,56 @@
+{
+ "provider": "openrouter",
+ "model": "nvidia/nemotron-3.5-lightning:free",
+ "usage": {
+  "input_tokens": 2702,
+  "output_tokens": 3233
+ },
+ "output": {
+  "study": {
+   "design": {
+    "quote": "parallel, two-arm randomised controlled trial",
+    "section": "METHODS AND ANALYSIS",
+    "confidence": "high",
+    "status": "reported",
+    "value": "rct"
+   },
+   "population": {
+    "quote": "aged 20-39 years with UPF intake \u226525% of daily energy",
+    "section": "METHODS AND ANALYSIS",
+    "confidence": "high",
+    "status": "reported",
+    "value": "Korean young adults aged 20-39 years with UPF intake \u226525% of daily energy"
+   },
+   "sample_size": {
+    "quote": "enrolling 50 participants",
+    "section": "METHODS AND ANALYSIS",
+    "confidence": "high",
+    "status": "reported",
+    "value": 50
+   },
+   "intervention": {
+    "quote": "40-minute one-on-one UPF-reducing dietary intervention",
+    "section": "METHODS AND ANALYSIS",
+    "confidence": "high",
+    "status": "reported",
+    "value": "40-minute one-on-one UPF-reducing dietary intervention"
+   },
+   "comparator": {
+    "quote": "40-minute one-on-one standard dietary counselling based on national dietary guidelines (control)",
+    "section": "METHODS AND ANALYSIS",
+    "confidence": "high",
+    "status": "reported",
+    "value": "40-minute one-on-one standard dietary counselling based on national dietary guidelines (control)"
+   },
+   "follow_up": {
+    "quote": "After the intervention, participants undergo a 10-day CGM monitoring period",
+    "section": "METHODS AND ANALYSIS",
+    "confidence": "high",
+    "status": "reported",
+    "value": "10-day CGM monitoring period after intervention"
+   }
+  },
+  "primary_findings": [],
+  "limitations_stated": []
+ }
+}

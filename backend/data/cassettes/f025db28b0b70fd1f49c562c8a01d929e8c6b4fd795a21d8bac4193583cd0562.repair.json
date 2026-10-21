@@ -1,0 +1,56 @@
+{
+ "provider": "cloudflare",
+ "model": "@cf/openai/gpt-oss-20b",
+ "usage": {
+  "input_tokens": 1448,
+  "output_tokens": 1790
+ },
+ "output": {
+  "study": {
+   "design": "systematic_review",
+   "population": "community-dwelling adults",
+   "sample_size": "not_reported",
+   "intervention": "time-restricted eating (TRE; \u226412 h daily eating window)",
+   "comparator": "not_reported",
+   "follow_up": "not_reported"
+  },
+  "primary_findings": [
+   {
+    "outcome": "abdominal obesity",
+    "effect_estimate": 0.96,
+    "confidence": "high",
+    "quote": "OR = 0.96; 95% CI: 0.86-1.07",
+    "section": "ABSTRACT"
+   },
+   {
+    "outcome": "metabolic syndrome",
+    "effect_estimate": 1.04,
+    "confidence": "high",
+    "quote": "OR = 1.04; 95% CI: 0.90-1.19",
+    "section": "ABSTRACT"
+   },
+   {
+    "outcome": "elevated blood pressure/hypertension",
+    "effect_estimate": 1.04,
+    "confidence": "high",
+    "quote": "OR = 1.04; 95% CI: 0.971.12",
+    "section": "ABSTRACT"
+   },
+   {
+    "outcome": "reduced high-density lipoprotein cholesterol",
+    "effect_estimate": 0.94,
+    "confidence": "high",
+    "quote": "OR = 0.94; 95% CI: 0.83-1.06",
+    "section": "ABSTRACT"
+   },
+   {
+    "outcome": "elevated triglycerides",
+    "effect_estimate": 1.06,
+    "confidence": "high",
+    "quote": "OR = 1.06; 95% CI: 0.99-1.14",
+    "section": "ABSTRACT"
+   }
+  ],
+  "limitations_stated": []
+ }
+}

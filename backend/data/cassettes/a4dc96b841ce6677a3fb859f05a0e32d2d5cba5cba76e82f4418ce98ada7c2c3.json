@@ -1,0 +1,56 @@
+{
+ "provider": "cloudflare",
+ "model": "@cf/openai/gpt-oss-20b",
+ "usage": {
+  "input_tokens": 1493,
+  "output_tokens": 1003
+ },
+ "output": {
+  "study": {
+   "design": {
+    "quote": "Patients were randomized by block of two, into three groups",
+    "section": "METHODS",
+    "confidence": "high",
+    "status": "reported",
+    "value": "rct"
+   },
+   "population": {
+    "quote": "patients with severe SARS-CoV-2 pneumonia admitted to the ICU",
+    "section": "METHODS",
+    "confidence": "high",
+    "status": "reported",
+    "value": "patients with severe SARS-CoV-2 pneumonia admitted to the ICU"
+   },
+   "sample_size": {
+    "quote": "207 patients were included",
+    "section": "RESULTS",
+    "confidence": "high",
+    "status": "reported",
+    "value": 207
+   },
+   "intervention": {
+    "quote": "cholecalciferol supplementation",
+    "section": "METHODS",
+    "confidence": "high",
+    "status": "reported",
+    "value": "cholecalciferol supplementation"
+   },
+   "comparator": {
+    "quote": "no cholecalciferol",
+    "section": "METHODS",
+    "confidence": "high",
+    "status": "reported",
+    "value": "no cholecalciferol"
+   },
+   "follow_up": {
+    "quote": null,
+    "section": null,
+    "confidence": null,
+    "status": "not_reported",
+    "value": null
+   }
+  },
+  "primary_findings": [],
+  "limitations_stated": []
+ }
+}

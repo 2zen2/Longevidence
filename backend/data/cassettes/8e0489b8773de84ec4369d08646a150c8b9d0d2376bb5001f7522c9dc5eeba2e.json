@@ -1,0 +1,58 @@
+{
+ "provider": "openrouter",
+ "model": "deepseek/deepseek-v4.1-flash",
+ "usage": {
+  "input_tokens": 2668,
+  "output_tokens": 1487
+ },
+ "output": {
+  "study": "{\"design\": {\"status\": \"reported\", \"value\": \"rct\", \"quote\": \"who were randomized for 5 years into three groups\", \"section\": \"METHODS\", \"confidence\": \"high\"}, \"population\": {\"status\": \"reported\", \"value\": \"An aging population in Finland; men \u226560 years and women \u226565 years\", \"quote\": \"men \u226560 years and women \u226565 years\", \"section\": \"METHODS\", \"confidence\": \"high\"}, \"sample_size\": {\"status\": \"reported\", \"value\": 2495, \"quote\": \"The study included 2495 participants\", \"section\": \"METHODS\", \"confidence\": \"high\"}, \"intervention\": {\"status\": \"reported\", \"value\": \"1600 IU/day or 3200 IU/day of vitamin D\u2083\", \"quote\": \"1600 IU/day or 3200 IU/day of vitamin D\u2083\", \"section\": \"METHODS\", \"confidence\": \"high\"}, \"comparator\": {\"status\": \"reported\", \"value\": \"placebo\", \"quote\": \"1600 IU/day or 3200 IU/day of vitamin D\u2083, or placebo\", \"section\": \"METHODS\", \"confidence\": \"high\"}, \"follow_up\": {\"status\": \"reported\", \"value\": \"Mean 4.1-year supplementation period; extended 7.3-year follow-up\", \"quote\": \"During the mean 4.1-year supplementation period\", \"section\": \"RESULTS\", \"confidence\": \"high\"}}",
+  "primary_findings": [
+   {
+    "quote": "there were 49, 73 and 52 fractures in the placebo, 1600 IU/day (compared to placebo: HR = 1.52, 95% CI = 1.06-2.18) and 3200 IU/day (HR = 1.07, 95% CI = 0.72-1.58) arms, respectively",
+    "outcome": "Fractures (1600 IU/day vs placebo) during 4.1-year supplementation period",
+    "direction": "favors_comparator",
+    "effect_measure": "HR",
+    "effect_value": 1.52,
+    "ci_low": 1.06,
+    "ci_high": 2.18,
+    "section": "RESULTS",
+    "confidence": "high"
+   },
+   {
+    "quote": "3200 IU/day (HR = 1.07, 95% CI = 0.72-1.58) arms, respectively",
+    "outcome": "Fractures (3200 IU/day vs placebo) during 4.1-year supplementation period",
+    "direction": "no_difference",
+    "effect_measure": "HR",
+    "effect_value": 1.07,
+    "ci_low": 0.72,
+    "ci_high": 1.58,
+    "section": "RESULTS",
+    "confidence": "high"
+   },
+   {
+    "quote": "104, 139 and 111 fractures occurred in the placebo, 1600 IU/day (HR = 1.40, 95% CI = 1.08-1.80) and 3200 IU/day (HR = 1.08, 95% CI = 0.83-1.41) arms, respectively",
+    "outcome": "Fractures (1600 IU/day vs placebo) during extended 7.3-year follow-up",
+    "direction": "favors_comparator",
+    "effect_measure": "HR",
+    "effect_value": 1.4,
+    "ci_low": 1.08,
+    "ci_high": 1.8,
+    "section": "RESULTS",
+    "confidence": "high"
+   },
+   {
+    "quote": "3200 IU/day (HR = 1.08, 95% CI = 0.83-1.41) arms, respectively",
+    "outcome": "Fractures (3200 IU/day vs placebo) during extended 7.3-year follow-up",
+    "direction": "no_difference",
+    "effect_measure": "HR",
+    "effect_value": 1.08,
+    "ci_low": 0.83,
+    "ci_high": 1.41,
+    "section": "RESULTS",
+    "confidence": "high"
+   }
+  ],
+  "limitations_stated": []
+ }
+}

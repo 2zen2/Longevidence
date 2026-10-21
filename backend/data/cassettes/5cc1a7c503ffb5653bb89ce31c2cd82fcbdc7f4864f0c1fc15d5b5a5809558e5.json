@@ -1,0 +1,60 @@
+{
+ "provider": "openrouter",
+ "model": "deepseek/deepseek-v4.1-flash",
+ "usage": {
+  "input_tokens": 3371,
+  "output_tokens": 692
+ },
+ "output": {
+  "study": {
+   "design": {
+    "status": "reported",
+    "value": "rct_secondary_analysis"
+   },
+   "population": {
+    "status": "reported",
+    "value": "Adults with type 2 diabetes and stage B or C heart failure"
+   },
+   "sample_size": {
+    "status": "reported",
+    "value": 122
+   },
+   "intervention": {
+    "status": "reported",
+    "value": "Dapagliflozin 10 mg once daily"
+   },
+   "comparator": {
+    "status": "reported",
+    "value": "Placebo"
+   },
+   "follow_up": {
+    "status": "reported",
+    "value": "12 months"
+   }
+  },
+  "primary_findings": [
+   {
+    "quote": "After 12 months, dapagliflozin significantly reduced EAT independently of changes in BMI (-1.16 \u00b1 0.18 vs. +0.36 \u00b1 0.19 cm2, p < 0.001)",
+    "outcome": "Epicardial adipose tissue (EAT)",
+    "direction": "favors_intervention",
+    "effect_measure": "other",
+    "p_value": 0.001
+   },
+   {
+    "quote": "BMI (-1.17 \u00b1 0.16 vs. -0.18 \u00b1 0.17 kg/m2, p < 0.001)",
+    "outcome": "BMI",
+    "direction": "favors_intervention",
+    "effect_measure": "other",
+    "p_value": 0.001
+   },
+   {
+    "quote": "left ventricular mass (-3.53 \u00b1 1.77 vs. +1.57 \u00b1 1.83 g, p = 0.048)",
+    "outcome": "Left ventricular mass",
+    "direction": "favors_intervention",
+    "effect_measure": "other",
+    "p_value": 0.048
+   }
+  ],
+  "limitations_stated": []
+ }
+}

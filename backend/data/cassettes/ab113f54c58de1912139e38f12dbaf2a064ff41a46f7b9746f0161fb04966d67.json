@@ -1,0 +1,85 @@
+{
+ "provider": "cloudflare",
+ "model": "@cf/openai/gpt-oss-20b",
+ "usage": {
+  "input_tokens": 1606,
+  "output_tokens": 4609
+ },
+ "output": {
+  "study": {
+   "design": {
+    "status": "reported",
+    "value": "other"
+   },
+   "population": {
+    "status": "reported",
+    "value": "high-risk participants"
+   },
+   "sample_size": {
+    "status": "reported",
+    "value": 7447
+   },
+   "intervention": {
+    "status": "reported",
+    "value": "Mediterranean diet (MedDiet)"
+   },
+   "comparator": {
+    "status": "not_reported"
+   },
+   "follow_up": {
+    "status": "reported",
+    "value": "4.8 years"
+   }
+  },
+  "primary_findings": [
+   {
+    "quote": "In PREDIMED, compared with poor compliers with MedDiet (excluding wine), good compliers (excluding wine), had a multivariable-adjusted hazard ratio (HR) of 0.84 [95% confidence interval (CI) 0.61-1.15] for CVD.",
+    "outcome": "CVD risk",
+    "direction": "favors_intervention",
+    "effect_measure": "HR",
+    "effect_value": 0.84,
+    "ci_low": 0.61,
+    "ci_high": 1.15,
+    "p_value": null
+   },
+   {
+    "quote": "For good compliers with MedDiet (including wine), the HR for CVD was 0.55 (95% CI 0.36-0.83).",
+    "outcome": "CVD risk",
+    "direction": "favors_intervention",
+    "effect_measure": "HR",
+    "effect_value": 0.55,
+    "ci_low": 0.36,
+    "ci_high": 0.83,
+    "p_value": null
+   },
+   {
+    "quote": "For all-cause mortality, MedDiet compliers (excluding wine) had HR of 0.77 (95% CI 0.68-0.87), which was 0.67 (95% CI 0.57-0.78) for MedDiet compliers (including wine).",
+    "outcome": "All-cause mortality",
+    "direction": "favors_intervention",
+    "effect_measure": "HR",
+    "effect_value": 0.77,
+    "ci_low": 0.68,
+    "ci_high": 0.87,
+    "p_value": null
+   },
+   {
+    "quote": "For all-cause mortality, MedDiet compliers (excluding wine) had HR of 0.77 (95% CI 0.68-0.87), which was 0.67 (95% CI 0.57-0.78) for MedDiet compliers (including wine).",
+    "outcome": "All-cause mortality",
+    "direction": "favors_intervention",
+    "effect_measure": "HR",
+    "effect_value": 0.67,
+    "ci_low": 0.57,
+    "ci_high": 0.78,
+    "p_value": null
+   }
+  ],
+  "limitations_stated": [
+   {
+    "quote": "Some non-significant associations and interactions advise caution in interpretation of these findings.",
+    "section": "CONCLUSIONS",
+    "confidence": "high",
+    "status": "reported"
+   }
+  ]
+ }
+}

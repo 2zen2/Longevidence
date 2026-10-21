@@ -1,0 +1,106 @@
+{
+ "provider": "cloudflare",
+ "model": "@cf/openai/gpt-oss-20b",
+ "usage": {
+  "input_tokens": 1580,
+  "output_tokens": 2098
+ },
+ "output": {
+  "study": {
+   "design": {
+    "quote": "systematic review and meta-analysis of observational studies",
+    "section": "ABSTRACT",
+    "status": "reported",
+    "value": "meta_analysis"
+   },
+   "population": {
+    "quote": "community-dwelling adults",
+    "section": "ABSTRACT",
+    "status": "reported",
+    "value": "community-dwelling adults"
+   },
+   "sample_size": {
+    "quote": null,
+    "section": null,
+    "status": "not_reported",
+    "value": null
+   },
+   "intervention": {
+    "quote": "time-restricted eating (TRE; \u226412 h daily eating window)",
+    "section": "ABSTRACT",
+    "status": "reported",
+    "value": "time-restricted eating (TRE; \u226412 h daily eating window)"
+   },
+   "comparator": {
+    "quote": null,
+    "section": null,
+    "status": "not_reported",
+    "value": null
+   },
+   "follow_up": {
+    "quote": null,
+    "section": null,
+    "status": "not_reported",
+    "value": null
+   }
+  },
+  "primary_findings": [
+   {
+    "quote": "OR = 0.96; 95% CI: 0.86-1.07; I\u00b2 = 59%",
+    "section": "RESULTS",
+    "outcome": "abdominal obesity",
+    "direction": "no_difference",
+    "effect_measure": "OR",
+    "effect_value": 0.96,
+    "ci_low": 0.86,
+    "ci_high": 1.07,
+    "p_value": null
+   },
+   {
+    "quote": "OR = 1.04; 95% CI: 0.90-1.19; I\u00b2 = 32%",
+    "section": "RESULTS",
+    "outcome": "metabolic syndrome",
+    "direction": "no_difference",
+    "effect_measure": "OR",
+    "effect_value": 1.04,
+    "ci_low": 0.9,
+    "ci_high": 1.19,
+    "p_value": null
+   },
+   {
+    "quote": "OR = 1.04; 95% CI: 0.971.12; I\u00b2 = 0%",
+    "section": "RESULTS",
+    "outcome": "elevated blood pressure/hypertension",
+    "direction": "no_difference",
+    "effect_measure": "OR",
+    "effect_value": 1.04,
+    "ci_low": 0.97,
+    "ci_high": 1.12,
+    "p_value": null
+   },
+   {
+    "quote": "OR = 0.94; 95% CI: 0.83-1.06; I\u00b2 = 78%",
+    "section": "RESULTS",
+    "outcome": "reduced high-density lipoprotein cholesterol",
+    "direction": "no_difference",
+    "effect_measure": "OR",
+    "effect_value": 0.94,
+    "ci_low": 0.83,
+    "ci_high": 1.06,
+    "p_value": null
+   },
+   {
+    "quote": "OR = 1.06; 95% CI: 0.99-1.14; I\u00b2 = 0%",
+    "section": "RESULTS",
+    "outcome": "elevated triglycerides",
+    "direction": "no_difference",
+    "effect_measure": "OR",
+    "effect_value": 1.06,
+    "ci_low": 0.99,
+    "ci_high": 1.14,
+    "p_value": null
+   }
+  ],
+  "limitations_stated": []
+ }
+}

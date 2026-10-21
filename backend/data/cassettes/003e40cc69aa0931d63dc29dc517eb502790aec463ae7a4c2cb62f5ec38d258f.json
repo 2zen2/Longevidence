@@ -1,0 +1,56 @@
+{
+ "provider": "cloudflare",
+ "model": "@cf/openai/gpt-oss-20b",
+ "usage": {
+  "input_tokens": 1342,
+  "output_tokens": 867
+ },
+ "output": {
+  "study": {
+   "design": {
+    "quote": "Our aim was to describe the perspectives and experiences of older adults in a MedDiet RCT",
+    "section": "METHODS",
+    "confidence": "high",
+    "status": "reported",
+    "value": "other"
+   },
+   "population": {
+    "quote": "aged from 63 to 76 years old",
+    "section": "METHODS",
+    "confidence": "high",
+    "status": "reported",
+    "value": "older adults aged 63 to 76 years old"
+   },
+   "sample_size": {
+    "quote": "Three focus groups on 25 participants from a MedDiet RCT",
+    "section": "METHODS",
+    "confidence": "high",
+    "status": "reported",
+    "value": 25
+   },
+   "intervention": {
+    "quote": "Mediterranean Diet (MedDiet)",
+    "section": "METHODS",
+    "confidence": "high",
+    "status": "reported",
+    "value": "Mediterranean Diet"
+   },
+   "comparator": {
+    "quote": null,
+    "section": null,
+    "confidence": null,
+    "status": "not_reported",
+    "value": null
+   },
+   "follow_up": {
+    "quote": null,
+    "section": null,
+    "confidence": null,
+    "status": "not_reported",
+    "value": null
+   }
+  },
+  "primary_findings": [],
+  "limitations_stated": []
+ }
+}

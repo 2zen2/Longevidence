@@ -1,0 +1,75 @@
+{
+ "provider": "cloudflare",
+ "model": "@cf/openai/gpt-oss-20b",
+ "usage": {
+  "input_tokens": 1459,
+  "output_tokens": 1927
+ },
+ "output": {
+  "study": {
+   "design": {
+    "quote": "This population-based cohort study included 2539 adults",
+    "section": "ABSTRACT",
+    "status": "reported",
+    "value": "cohort"
+   },
+   "population": {
+    "quote": "adult population",
+    "section": "ABSTRACT",
+    "status": "reported",
+    "value": "adult population"
+   },
+   "sample_size": {
+    "quote": "2539 adults",
+    "section": "ABSTRACT",
+    "status": "reported",
+    "value": 2539
+   },
+   "intervention": {
+    "quote": "ultra-processed food consumption",
+    "section": "ABSTRACT",
+    "status": "reported",
+    "value": "ultra-processed food consumption"
+   },
+   "comparator": {
+    "quote": "lowest quartile",
+    "section": "ABSTRACT",
+    "status": "reported",
+    "value": "lowest quartile of UPF consumption"
+   },
+   "follow_up": {
+    "quote": "median follow-up of 11.6 years",
+    "section": "ABSTRACT",
+    "status": "reported",
+    "value": "11.6 years"
+   }
+  },
+  "primary_findings": [
+   {
+    "quote": "(HR: 1.79; 95% CI: 1.12-2.86; P for trend < 0.001)",
+    "section": "ABSTRACT",
+    "confidence": "high",
+    "outcome": "risk of cardio-renal-metabolic multimorbidity (CRMM) with UPF grams per day",
+    "direction": "favors_comparator",
+    "effect_measure": "HR",
+    "effect_value": 1.79,
+    "ci_low": 1.12,
+    "ci_high": 2.86,
+    "p_value": null
+   },
+   {
+    "quote": "(HR: 1.27; 95% CI: 0.87-1.86; P for trend = 0.007)",
+    "section": "ABSTRACT",
+    "confidence": "high",
+    "outcome": "risk of cardio-renal-metabolic multimorbidity (CRMM) with UPF percentage of total daily energy intake",
+    "direction": "favors_comparator",
+    "effect_measure": "HR",
+    "effect_value": 1.27,
+    "ci_low": 0.87,
+    "ci_high": 1.86,
+    "p_value": null
+   }
+  ],
+  "limitations_stated": []
+ }
+}

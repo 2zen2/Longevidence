@@ -1,0 +1,78 @@
+{
+ "provider": "cloudflare",
+ "model": "@cf/openai/gpt-oss-20b",
+ "usage": {
+  "input_tokens": 1542,
+  "output_tokens": 1318
+ },
+ "output": {
+  "study": {
+   "design": {
+    "status": "reported",
+    "value": "rct"
+   },
+   "population": {
+    "status": "reported",
+    "value": "Black and Non-Black participants"
+   },
+   "sample_size": {
+    "status": "reported",
+    "value": 335
+   },
+   "intervention": {
+    "status": "reported",
+    "value": "DASH diet with low sodium"
+   },
+   "comparator": {
+    "status": "reported",
+    "value": "control diet with high sodium"
+   },
+   "follow_up": {
+    "status": "not_reported"
+   }
+  },
+  "primary_findings": [
+   {
+    "quote": "reduced mean (95%CI) awake SBP by 9.0 mmHg (6.4, 11.7) in Black participants",
+    "section": "RESULTS",
+    "outcome": "awake SBP reduction in Black participants",
+    "direction": "favors_intervention",
+    "effect_measure": "MD",
+    "effect_value": -9.0,
+    "ci_low": -11.7,
+    "ci_high": -6.4
+   },
+   {
+    "quote": "reduced mean (95%CI) awake SBP by 7.5 mmHg (4.5, 10.6) in Non-Black participants",
+    "section": "RESULTS",
+    "outcome": "awake SBP reduction in Non-Black participants",
+    "direction": "favors_intervention",
+    "effect_measure": "MD",
+    "effect_value": -7.5,
+    "ci_low": -10.6,
+    "ci_high": -4.5
+   },
+   {
+    "quote": "reduced mean (95%CI) asleep SBP by 8.0 mmHg (4.8, 11.2) in Black participants",
+    "section": "RESULTS",
+    "outcome": "asleep SBP reduction in Black participants",
+    "direction": "favors_intervention",
+    "effect_measure": "MD",
+    "effect_value": -8.0,
+    "ci_low": -11.2,
+    "ci_high": -4.8
+   },
+   {
+    "quote": "reduced mean (95%CI) asleep SBP by 7.4 mmHg (3.9, 11.0) in Non-Black participants",
+    "section": "RESULTS",
+    "outcome": "asleep SBP reduction in Non-Black participants",
+    "direction": "favors_intervention",
+    "effect_measure": "MD",
+    "effect_value": -7.4,
+    "ci_low": -11.0,
+    "ci_high": -3.9
+   }
+  ],
+  "limitations_stated": []
+ }
+}

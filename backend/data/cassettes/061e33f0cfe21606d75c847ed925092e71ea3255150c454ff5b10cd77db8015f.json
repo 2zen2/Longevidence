@@ -1,0 +1,56 @@
+{
+ "provider": "cloudflare",
+ "model": "@cf/openai/gpt-oss-20b",
+ "usage": {
+  "input_tokens": 1409,
+  "output_tokens": 1506
+ },
+ "output": {
+  "study": {
+   "design": {
+    "quote": "In an 8-week randomized controlled trial",
+    "section": "METHODS",
+    "confidence": "high",
+    "status": "reported",
+    "value": "rct"
+   },
+   "population": {
+    "quote": "young adults with overweight or obesity",
+    "section": "METHODS",
+    "confidence": "high",
+    "status": "reported",
+    "value": "young adults with overweight or obesity"
+   },
+   "sample_size": {
+    "quote": "60 young adults with overweight or obesity were randomized",
+    "section": "METHODS",
+    "confidence": "high",
+    "status": "reported",
+    "value": 60
+   },
+   "intervention": {
+    "quote": "6-h eTRE (7 a.m.-1 p.m.), 6-h lTRE (12 p.m.-6 p.m.)",
+    "section": "METHODS",
+    "confidence": "high",
+    "status": "reported",
+    "value": "6-h eTRE (7 a.m.-1 p.m.) and 6-h lTRE (12 p.m.-6 p.m.)"
+   },
+   "comparator": {
+    "quote": "control group (ad libitum)",
+    "section": "METHODS",
+    "confidence": "high",
+    "status": "reported",
+    "value": "control group (ad libitum)"
+   },
+   "follow_up": {
+    "quote": "8-week randomized controlled trial",
+    "section": "METHODS",
+    "confidence": "high",
+    "status": "reported",
+    "value": "8 weeks"
+   }
+  },
+  "primary_findings": [],
+  "limitations_stated": []
+ }
+}

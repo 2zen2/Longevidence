@@ -1,0 +1,61 @@
+{
+ "provider": "openrouter",
+ "model": "nvidia/nemotron-3-ultra-550b-a55b",
+ "usage": {
+  "input_tokens": 3693,
+  "output_tokens": 872
+ },
+ "output": {
+  "study": "",
+  "design": "",
+  "status": "reported",
+  "value": "12 weeks",
+  "quote": "for 12 weeks",
+  "section": "METHODS",
+  "confidence": "high",
+  "population": "",
+  "sample_size": "",
+  "intervention": "",
+  "comparator": "",
+  "follow_up": "",
+  "primary_findings": [
+   {
+    "quote": "No differences were observed in RVFWS between the groups.",
+    "section": "RESULTS",
+    "confidence": "high",
+    "outcome": "RV free wall strain (RVFWS) overall",
+    "direction": "no_difference",
+    "effect_measure": "other",
+    "effect_value": null,
+    "ci_low": null,
+    "ci_high": null,
+    "p_value": null
+   },
+   {
+    "quote": "patients in the lowest tertile demonstrated a significant improvement with empagliflozin (treatment effect: -2.9% [95% CI: -5.0 to -0.3]; P = .027)",
+    "section": "RESULTS",
+    "confidence": "high",
+    "outcome": "RV free wall strain (RVFWS) in lowest baseline tertile",
+    "direction": "favors_intervention",
+    "effect_measure": "other",
+    "effect_value": -2.9,
+    "ci_low": -5.0,
+    "ci_high": -0.3,
+    "p_value": 0.027
+   },
+   {
+    "quote": "No significant treatment effect was observed in the middle or highest tertiles of RVFWS, nor in the overall or lowest tertiles of TAPSE or RV S'.",
+    "section": "RESULTS",
+    "confidence": "high",
+    "outcome": "TAPSE and RV S' velocity",
+    "direction": "no_difference",
+    "effect_measure": "other",
+    "effect_value": null,
+    "ci_low": null,
+    "ci_high": null,
+    "p_value": null
+   }
+  ],
+  "limitations_stated": []
+ }
+}

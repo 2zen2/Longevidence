@@ -1,0 +1,63 @@
+{
+ "provider": "cloudflare",
+ "model": "@cf/openai/gpt-oss-20b",
+ "usage": {
+  "input_tokens": 1025,
+  "output_tokens": 1386
+ },
+ "output": {
+  "study": {
+   "title": "Ultra-processed food consumption and risk of multiple chronic diseases among 8,819,894 adults from 51 prospective cohorts: a dose-response meta-analysis.",
+   "design": {
+    "status": "not_reported",
+    "value": null,
+    "quote": null
+   },
+   "sample_size": {
+    "status": "reported",
+    "value": 8819894,
+    "quote": "8 819 894 participants",
+    "confidence": "high"
+   }
+  },
+  "primary_findings": [
+   {
+    "effect_estimate": "HR 1.24",
+    "CI": "1.14 to 1.36",
+    "direction": "higher_risk",
+    "quote": "Hazard Ratio (HR) 1.24, 95% Confidence Interval (CI) 1.14 to 1.36",
+    "section": "RESULTS"
+   },
+   {
+    "effect_estimate": "HR 1.12",
+    "CI": "1.04 to 1.21",
+    "direction": "higher_risk",
+    "quote": "HR 1.12, 95% CI 1.04 to 1.21",
+    "section": "RESULTS"
+   },
+   {
+    "effect_estimate": "HR 1.23",
+    "CI": "1.17 to 1.30",
+    "direction": "higher_risk",
+    "quote": "HR 1.23, 95% CI 1.17 to 1.30",
+    "section": "RESULTS"
+   },
+   {
+    "effect_estimate": "HR 1.24",
+    "CI": "1.08 to 1.42",
+    "direction": "higher_risk",
+    "quote": "HR 1.24, 95% CI 1.08 to 1.42",
+    "section": "RESULTS"
+   },
+   {
+    "effect_estimate": "HR 1.27",
+    "CI": "1.15 to 1.40",
+    "direction": "higher_risk",
+    "quote": "HR 1.27, 95% CI 1.15 to 1.40",
+    "section": "RESULTS"
+   }
+  ],
+  "limitations_stated": [],
+  "confidence": "high"
+ }
+}

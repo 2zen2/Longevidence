@@ -1,0 +1,49 @@
+{
+ "provider": "cloudflare",
+ "model": "@cf/openai/gpt-oss-20b",
+ "usage": {
+  "input_tokens": 1504,
+  "output_tokens": 2794
+ },
+ "output": {
+  "study": {
+   "design": {
+    "status": "reported",
+    "value": "rct"
+   },
+   "population": {
+    "status": "reported",
+    "value": "patients with recurrent weight gain who had undergone metabolic bariatric surgery"
+   },
+   "sample_size": {
+    "status": "reported",
+    "value": 20
+   },
+   "intervention": {
+    "status": "reported",
+    "value": "5:2 intermittent fasting (IF) (75% caloric restriction on two days per week)"
+   },
+   "comparator": {
+    "status": "reported",
+    "value": "continuous caloric restriction (CCR) (25% divided into three meals)"
+   },
+   "follow_up": {
+    "status": "reported",
+    "value": "12 weeks"
+   }
+  },
+  "primary_findings": [
+   {
+    "quote": "difference between the two groups remained within the predefined non-inferiority margin of 4 kg (-0.13; 95% CI: -2.90 to 2.62)",
+    "outcome": "difference in weight change between 5:2 IF and CCR",
+    "direction": "no_difference",
+    "effect_measure": "MD",
+    "effect_value": -0.13,
+    "ci_low": -2.9,
+    "ci_high": 2.62,
+    "p_value": null
+   }
+  ],
+  "limitations_stated": []
+ }
+}

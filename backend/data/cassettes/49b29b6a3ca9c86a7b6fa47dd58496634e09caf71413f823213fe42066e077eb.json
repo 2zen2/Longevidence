@@ -1,0 +1,21 @@
+{
+ "provider": "openrouter",
+ "model": "deepseek/deepseek-v4.1-flash",
+ "usage": {
+  "input_tokens": 2503,
+  "output_tokens": 934
+ },
+ "output": {
+  "study": "{\"design\": {\"status\": \"reported\", \"value\": \"meta_analysis\", \"quote\": \"An umbrella review of systematic reviews and meta-analyses published between 2014 and 2025 was conducted using PubMed, PubMed Central, and journal archives.\", \"section\": \"METHODS\", \"confidence\": \"medium\"}, \"population\": {\"status\": \"reported\", \"value\": \"Adult, pediatric, and neonatal populations\", \"quote\": \"Eligible studies included adult, pediatric, and neonatal populations and evaluated sepsis incidence, mortality, disease severity, secondary outcomes, and genetic associations.\", \"section\": \"METHODS\", \"confidence\": \"high\"}, \"sample_size\": {\"status\": \"not_reported\", \"quote\": null, \"section\": null, \"confidence\": null}, \"intervention\": {\"status\": \"reported\", \"value\": \"Vitamin D supplementation (and vitamin D status / VDR gene polymorphisms)\", \"quote\": \"vitamin D supplementation did not demonstrate a consistent reduction in sepsis risk or mortality\", \"section\": \"RESULTS\", \"confidence\": \"medium\"}, \"comparator\": {\"status\": \"not_reported\", \"quote\": null, \"section\": null, \"confidence\": null}, \"follow_up\": {\"status\": \"not_reported\", \"quote\": null, \"section\": null, \"confidence\": null}}",
+  "primary_findings": [],
+  "limitations_stated": [
+   {
+    "status": "reported",
+    "value": "Data were synthesized qualitatively due to overlap of primary studies and heterogeneity.",
+    "quote": "Data were synthesized qualitatively due to overlap of primary studies and heterogeneity.",
+    "section": "METHODS",
+    "confidence": "medium"
+   }
+  ]
+ }
+}

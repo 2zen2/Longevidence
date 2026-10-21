@@ -1,0 +1,56 @@
+{
+ "provider": "openrouter",
+ "model": "nvidia/nemotron-3-ultra-550b-a55b",
+ "usage": {
+  "input_tokens": 3530,
+  "output_tokens": 527
+ },
+ "output": {
+  "study": {
+   "design": {
+    "status": "reported",
+    "value": "rct",
+    "quote": "The Polypill for Heart Failure (POLY-HF) trial was a 2-center, open-label randomized clinical trial",
+    "section": "METHODS",
+    "confidence": "high"
+   },
+   "population": {
+    "status": "reported",
+    "value": "Adults with HFrEF (LVEF \u226440%) not receiving target dose GDMT",
+    "quote": "Eligible participants were adults with HFrEF (left ventricular ejection fraction [LVEF] \u226440%) not receiving target dose GDMT.",
+    "section": "METHODS",
+    "confidence": "high"
+   },
+   "sample_size": {
+    "status": "reported",
+    "value": 212,
+    "quote": "The study enrolled 212 participants (108 polypill, 104 usual care).",
+    "section": "RESULTS",
+    "confidence": "high"
+   },
+   "intervention": {
+    "status": "reported",
+    "value": "Once-daily overencapsulated polypill with multiple dose formulations (metoprolol succinate 25/50/100/150 mg, spironolactone 12.5 mg, empagliflozin 10 mg)",
+    "quote": "Participants were randomized 1:1 to once-daily overencapsulated polypill with multiple dose formulations (metoprolol succinate 25/50/100/150 mg, spironolactone 12.5 mg, empagliflozin 10 mg)",
+    "section": "METHODS",
+    "confidence": "high"
+   },
+   "comparator": {
+    "status": "reported",
+    "value": "Enhanced usual care with individual GDMTs coordinated with outpatient cardiology/primary care",
+    "quote": "vs enhanced usual care with individual GDMTs coordinated with outpatient cardiology/primary care.",
+    "section": "METHODS",
+    "confidence": "high"
+   },
+   "follow_up": {
+    "status": "reported",
+    "value": "6 months",
+    "quote": "The primary endpoint was LVEF at 6 months adjusted for baseline",
+    "section": "METHODS",
+    "confidence": "high"
+   }
+  },
+  "primary_findings": [],
+  "limitations_stated": []
+ }
+}

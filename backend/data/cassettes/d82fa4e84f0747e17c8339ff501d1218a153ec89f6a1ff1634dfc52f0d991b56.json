@@ -1,0 +1,56 @@
+{
+ "provider": "cloudflare",
+ "model": "@cf/openai/gpt-oss-20b",
+ "usage": {
+  "input_tokens": 1710,
+  "output_tokens": 1432
+ },
+ "output": {
+  "study": {
+   "design": {
+    "quote": "A randomized controlled trial was conducted to evaluate the impact of this eating pattern.",
+    "section": "METHODS",
+    "confidence": "high",
+    "status": "reported",
+    "value": "rct"
+   },
+   "population": {
+    "quote": "Forty active male participants were divided into two age groups (a young group from 23 to 28 years and a middle-aged group from 46 to 59 years)",
+    "section": "METHODS",
+    "confidence": "high",
+    "status": "reported",
+    "value": "young and middle-aged men"
+   },
+   "sample_size": {
+    "quote": "Forty active male participants were divided into two age groups (a young group from 23 to 28 years and a middle-aged group from 46 to 59 years)",
+    "section": "METHODS",
+    "confidence": "high",
+    "status": "reported",
+    "value": 40
+   },
+   "intervention": {
+    "quote": "the five-month (IF) intervention (4 days per week)",
+    "section": "METHODS",
+    "confidence": "high",
+    "status": "reported",
+    "value": "intermittent fasting (IF) for five months, 4 days per week"
+   },
+   "comparator": {
+    "quote": "control groups",
+    "section": "METHODS",
+    "confidence": "high",
+    "status": "reported",
+    "value": "control groups"
+   },
+   "follow_up": {
+    "quote": "Before and after the five-month (IF) intervention",
+    "section": "METHODS",
+    "confidence": "high",
+    "status": "reported",
+    "value": "five months"
+   }
+  },
+  "primary_findings": [],
+  "limitations_stated": []
+ }
+}

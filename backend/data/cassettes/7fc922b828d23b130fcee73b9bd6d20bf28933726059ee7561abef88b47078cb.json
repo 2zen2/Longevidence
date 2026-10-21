@@ -1,0 +1,93 @@
+{
+ "provider": "openrouter",
+ "model": "nvidia/nemotron-3.5-lightning:free",
+ "usage": {
+  "input_tokens": 2631,
+  "output_tokens": 3497
+ },
+ "output": {
+  "study": {
+   "design": {
+    "quote": "A randomized non-inferiority, short-term, pilot feasibility trial was conducted to evaluate the effectiveness of 5:2 intermittent fasting (IF) (75% caloric restriction on two days per week) compared with continuous caloric restriction (CCR) (25% divided into three meals) over 12 weeks, in patients with RWG who had undergone MBS.",
+    "section": "METHODS",
+    "confidence": "high",
+    "status": "reported",
+    "value": "rct"
+   },
+   "population": {
+    "quote": "patients with RWG who had undergone MBS",
+    "section": "METHODS",
+    "confidence": "high",
+    "status": "reported",
+    "value": "patients with recurrent weight gain after metabolic bariatric surgery"
+   },
+   "sample_size": {
+    "quote": "Twenty patients were included",
+    "section": "RESULTS",
+    "confidence": "high",
+    "status": "reported",
+    "value": 20
+   },
+   "intervention": {
+    "quote": "5:2 intermittent fasting (IF) (75% caloric restriction on two days per week)",
+    "section": "METHODS",
+    "confidence": "high",
+    "status": "reported",
+    "value": "5:2 intermittent fasting (IF) (75% caloric restriction on two days per week)"
+   },
+   "comparator": {
+    "quote": "continuous caloric restriction (CCR) (25% divided into three meals)",
+    "section": "METHODS",
+    "confidence": "high",
+    "status": "reported",
+    "value": "continuous caloric restriction (CCR) (25% divided into three meals)"
+   },
+   "follow_up": {
+    "quote": "over 12 weeks",
+    "section": "METHODS",
+    "confidence": "high",
+    "status": "reported",
+    "value": "12 weeks"
+   }
+  },
+  "primary_findings": [
+   {
+    "quote": "The CCR group showed no change in weight at 12 weeks (mean difference -0.88 kg; 95% CI: -2.2 to 3.9 kg; p = 0.51)",
+    "section": "RESULTS",
+    "confidence": "high",
+    "outcome": "weight",
+    "direction": "no_difference",
+    "effect_measure": "MD",
+    "effect_value": -0.88,
+    "ci_low": -2.2,
+    "ci_high": 3.9,
+    "p_value": 0.51
+   },
+   {
+    "quote": "the 5:2 IF group experienced an average weight loss of -1.025 kg (95% CI: -0.09 to -1.96 kg; p = 0.03)",
+    "section": "RESULTS",
+    "confidence": "high",
+    "outcome": "weight",
+    "direction": "favors_intervention",
+    "effect_measure": "MD",
+    "effect_value": -1.025,
+    "ci_low": -0.09,
+    "ci_high": -1.96,
+    "p_value": 0.03
+   },
+   {
+    "quote": "The difference between the two groups remained within the predefined non-inferiority margin of 4 kg (-0.13; 95% CI: -2.90 to 2.62).",
+    "section": "RESULTS",
+    "confidence": "high",
+    "outcome": "weight difference",
+    "direction": "no_difference",
+    "effect_measure": "MD",
+    "effect_value": -0.13,
+    "ci_low": -2.9,
+    "ci_high": 2.62,
+    "p_value": null
+   }
+  ],
+  "limitations_stated": []
+ }
+}

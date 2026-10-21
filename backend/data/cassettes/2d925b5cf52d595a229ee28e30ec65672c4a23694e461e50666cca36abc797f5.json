@@ -1,0 +1,50 @@
+{
+ "provider": "cloudflare",
+ "model": "@cf/openai/gpt-oss-20b",
+ "usage": {
+  "input_tokens": 1613,
+  "output_tokens": 786
+ },
+ "output": {
+  "study": {
+   "design": {
+    "quote": "Cross-sectional analysis from the OPERAM study",
+    "section": "METHODS",
+    "status": "reported",
+    "value": "cross_sectional"
+   },
+   "population": {
+    "quote": "multimorbid (\u2265 3 chronic conditions) older patients, with polypharmacy (\u2265 5 chronic medications)",
+    "section": "METHODS",
+    "status": "reported",
+    "value": "multimorbid older patients with polypharmacy"
+   },
+   "sample_size": {
+    "quote": "2008 patients",
+    "section": "RESULTS",
+    "status": "reported",
+    "value": 2008
+   },
+   "intervention": {
+    "quote": "were supplemented with vitamin D",
+    "section": "RESULTS",
+    "status": "reported",
+    "value": "vitamin D supplementation"
+   },
+   "comparator": {
+    "quote": null,
+    "section": null,
+    "status": "not_reported",
+    "value": null
+   },
+   "follow_up": {
+    "quote": null,
+    "section": null,
+    "status": "not_reported",
+    "value": null
+   }
+  },
+  "primary_findings": [],
+  "limitations_stated": []
+ }
+}

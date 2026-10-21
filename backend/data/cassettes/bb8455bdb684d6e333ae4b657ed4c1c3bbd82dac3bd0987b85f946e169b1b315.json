@@ -1,0 +1,81 @@
+{
+ "provider": "openrouter",
+ "model": "nvidia/nemotron-3-ultra-550b-a55b",
+ "usage": {
+  "input_tokens": 3644,
+  "output_tokens": 870
+ },
+ "output": {
+  "study": {
+   "design": {
+    "status": "reported",
+    "value": "rct",
+    "quote": "A total of 40 patients with septic HF admitted to the Intensive Care Unit (ICU) of Qingdao Jiaozhou Central Hospital from July 2019 to June 2022 were selected and randomly divided into the observation group and the control group, with 20 patients in each group.",
+    "section": "METHODS",
+    "confidence": "high"
+   },
+   "population": {
+    "status": "reported",
+    "value": "patients with septic HF admitted to the ICU",
+    "quote": "A total of 40 patients with septic HF admitted to the Intensive Care Unit (ICU) of Qingdao Jiaozhou Central Hospital from July 2019 to June 2022 were selected",
+    "section": "METHODS",
+    "confidence": "high"
+   },
+   "sample_size": {
+    "status": "reported",
+    "value": 40,
+    "quote": "A total of 40 patients with septic HF admitted to the Intensive Care Unit (ICU) of Qingdao Jiaozhou Central Hospital from July 2019 to June 2022 were selected and randomly divided into the observation group and the control group, with 20 patients in each group.",
+    "section": "METHODS",
+    "confidence": "high"
+   },
+   "intervention": {
+    "status": "reported",
+    "value": "Shenfu Injection combined with Dapagliflozin tablets and basic anti-heart failure drugs for 7 consecutive days",
+    "quote": "the observation group was additionally given Shenfu Injection on the basis of the control group's treatment, with a course of 7 consecutive days.",
+    "section": "METHODS",
+    "confidence": "high"
+   },
+   "comparator": {
+    "status": "reported",
+    "value": "Dapagliflozin tablets and basic anti-heart failure drugs",
+    "quote": "The control group was treated with Dapagliflozin tablets and basic anti-heart failure drugs",
+    "section": "METHODS",
+    "confidence": "high"
+   },
+   "follow_up": {
+    "status": "reported",
+    "value": "7 days",
+    "quote": "with a course of 7 consecutive days.",
+    "section": "METHODS",
+    "confidence": "high"
+   }
+  },
+  "primary_findings": [
+   {
+    "quote": "After treatment, the total effective rate of the observation group (95.00%) was significantly higher than that of the control group (70.00%), and the difference was statistically significant (P<0.05).",
+    "section": "RESULTS",
+    "confidence": "high",
+    "outcome": "total effective rate",
+    "direction": "favors_intervention",
+    "effect_measure": "other",
+    "effect_value": 95.0,
+    "ci_low": null,
+    "ci_high": null,
+    "p_value": 0.05
+   },
+   {
+    "quote": "Compared with before treatment, the levels of NT-proBNP, cTnI, CRP, PCT, interleukin-6 and APACHE \u2161 score in both groups decreased significantly, while LVEF and SV increased significantly, and LVEDD and LVEDV decreased significantly (P<0.05). Moreover, the improvement of the above indicators in the observation group was more significant than that in the control group, and the differences were statistically significant (P<0.05 after Bonferroni correction).",
+    "section": "RESULTS",
+    "confidence": "high",
+    "outcome": "NT-proBNP, cTnI, CRP, PCT, interleukin-6, APACHE II score, LVEF, SV, LVEDD, LVEDV",
+    "direction": "favors_intervention",
+    "effect_measure": "other",
+    "effect_value": null,
+    "ci_low": null,
+    "ci_high": null,
+    "p_value": 0.05
+   }
+  ],
+  "limitations_stated": []
+ }
+}

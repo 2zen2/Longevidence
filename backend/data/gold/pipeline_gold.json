@@ -1,0 +1,855 @@
+{
+ "_readme": [
+  "Hand-labelled regression set for the evidence pipeline (engine v4).",
+  "NOT EXPERT-LABELLED. One labeller (the engineer fixing the pipeline), reading each study's stored PICO, outcome string and verbatim quote; no second reviewer, no adjudication, no clinical expertise.",
+  "It is a regression net for known failure modes (wrong population, wrong exposure, mis-signed direction, off-outcome matches, mixed outcome tiers), not a benchmark of correctness.",
+  "Fields: in_scope = the study legitimately answers the topic question (right exposure, right population, an asked outcome). tier = 1 clinical event/primary outcome, 2 validated surrogate or anthropometric, 3 other biomarker. stance = relative to what the question asks (favorable supports it, unfavorable contradicts it, null no significant effect, unclear no direction). confidence 'uncertain' labels are recorded but not asserted by the test. known_miss = a place where the pipeline is still wrong; the test expects it to fail (xfail, non-strict).",
+  "The set was chosen from the studies behind the contested verdicts (sat-fat, sglt2-hf, vitd, fasting, ssb, red-meat, fiber, plant-based, fruit-veg, low-carb, sweeteners, coffee), so it over-represents suspicious studies and says nothing about the false-negative rate."
+ ],
+ "labels": [
+  {
+   "topic": "sat-fat",
+   "paper_id": 363,
+   "in_scope": true,
+   "tier": 1,
+   "stance": "null",
+   "confidence": "clear",
+   "why": "Meta-analysis of SFA-reduction trials; all-cause mortality RR 0.96 (0.88-1.06): no significant effect."
+  },
+  {
+   "topic": "sat-fat",
+   "paper_id": 369,
+   "in_scope": true,
+   "tier": 2,
+   "stance": "favorable",
+   "confidence": "clear",
+   "why": "LDL falls with a HIGHER P:S ratio, i.e. with LESS saturated fat: supports 'SFA raises LDL'. (Was mis-signed as contradicting.)"
+  },
+  {
+   "topic": "sat-fat",
+   "paper_id": 367,
+   "in_scope": false,
+   "tier": null,
+   "stance": null,
+   "confidence": "clear",
+   "why": "Outcome is inflammatory bowel disease onset; 'cholesterol' is only the exposure descriptor."
+  },
+  {
+   "topic": "sat-fat",
+   "paper_id": 378,
+   "in_scope": false,
+   "tier": null,
+   "stance": null,
+   "confidence": "clear",
+   "why": "Outcome is gestational diabetes in pregnancy."
+  },
+  {
+   "topic": "sat-fat",
+   "paper_id": 372,
+   "in_scope": true,
+   "tier": 2,
+   "stance": "unclear",
+   "confidence": "clear",
+   "why": "LDL cholesterol; the extracted result is a correlation across all diets with no arm direction."
+  },
+  {
+   "topic": "sat-fat",
+   "paper_id": 374,
+   "in_scope": true,
+   "tier": 1,
+   "stance": "null",
+   "confidence": "clear",
+   "why": "Cerebrovascular mortality, dietary cholesterol quintiles: HR 0.48 (0.18-1.23), not significant."
+  },
+  {
+   "topic": "sat-fat",
+   "paper_id": 358,
+   "in_scope": false,
+   "tier": null,
+   "stance": null,
+   "confidence": "clear",
+   "why": "Men with non-metastatic prostate cancer; mortality is post-diagnosis prognosis, not the effect in general adults."
+  },
+  {
+   "topic": "sat-fat",
+   "paper_id": 375,
+   "in_scope": true,
+   "tier": 1,
+   "stance": "favorable",
+   "confidence": "uncertain",
+   "why": "Butter (an SFA source) highest vs lowest: total mortality HR 1.15 (1.08-1.22)."
+  },
+  {
+   "topic": "sat-fat",
+   "paper_id": 366,
+   "in_scope": true,
+   "tier": 1,
+   "stance": "favorable",
+   "confidence": "clear",
+   "why": "CAD mortality per 300 mg/d dietary cholesterol HR 1.42 (1.09-1.86)."
+  },
+  {
+   "topic": "sat-fat",
+   "paper_id": 368,
+   "in_scope": false,
+   "tier": null,
+   "stance": null,
+   "confidence": "clear",
+   "why": "Stroke survivors: mortality after the index event, not a general adult population."
+  },
+  {
+   "topic": "sat-fat",
+   "paper_id": 377,
+   "in_scope": true,
+   "tier": 1,
+   "stance": "favorable",
+   "confidence": "clear",
+   "why": "Myocardial infarction per 100 mg/d dietary cholesterol RR 1.05 (1.02-1.08). A valid CV outcome even though the word 'cardiovascular' is absent."
+  },
+  {
+   "topic": "sat-fat",
+   "paper_id": 380,
+   "in_scope": false,
+   "tier": null,
+   "stance": null,
+   "confidence": "clear",
+   "why": "Waist circumference / metabolic syndrome: not one of the outcomes asked about (CV risk, LDL, mortality)."
+  },
+  {
+   "topic": "sat-fat",
+   "paper_id": 373,
+   "in_scope": true,
+   "tier": 2,
+   "stance": "favorable",
+   "confidence": "clear",
+   "why": "Olive oil vs BUTTER: the exposure (butter) is the COMPARATOR arm; total cholesterol rose with butter -> supports. (Was mis-signed as contradicting.)"
+  },
+  {
+   "topic": "sat-fat",
+   "paper_id": 376,
+   "in_scope": false,
+   "tier": null,
+   "stance": null,
+   "confidence": "clear",
+   "why": "Ovarian cancer patients, survival after diagnosis."
+  },
+  {
+   "topic": "sat-fat",
+   "paper_id": 74,
+   "in_scope": false,
+   "tier": null,
+   "stance": null,
+   "confidence": "clear",
+   "why": "Mediterranean diet adherence and lung-cancer-specific mortality: neither the exposure (fat) nor the outcome (CV) of the question."
+  },
+  {
+   "topic": "sat-fat",
+   "paper_id": 379,
+   "in_scope": true,
+   "tier": 1,
+   "stance": "favorable",
+   "confidence": "uncertain",
+   "why": "Replacing SFA with unsaturated fat; CVD incidence lower with a better lipidome score. Indirect (lipid score) exposure."
+  },
+  {
+   "topic": "sglt2-hf",
+   "paper_id": 25,
+   "in_scope": true,
+   "tier": 1,
+   "stance": "null",
+   "confidence": "clear",
+   "why": "Primary composite (CV death or worsening HF) HR 0.86 (0.68-1.08), P=0.20: null in the trial itself."
+  },
+  {
+   "topic": "sglt2-hf",
+   "paper_id": 9,
+   "in_scope": true,
+   "tier": 1,
+   "stance": "favorable",
+   "confidence": "uncertain",
+   "why": "HHF HR 0.68 with dapagliflozin vs placebo; population is T2D with CV risk (not established HF)."
+  },
+  {
+   "topic": "sglt2-hf",
+   "paper_id": 14,
+   "in_scope": false,
+   "tier": null,
+   "stance": null,
+   "confidence": "clear",
+   "why": "Only result is how HF stage predicts events in the PLACEBO group: prognostic, not a treatment effect."
+  },
+  {
+   "topic": "sglt2-hf",
+   "paper_id": 187,
+   "in_scope": true,
+   "tier": 1,
+   "stance": "favorable",
+   "confidence": "uncertain",
+   "why": "Canagliflozin vs placebo reduced HF/CV death in the low-normal-sodium stratum; overall effect not separately extracted.",
+   "known_miss": "The counted finding is a sodium-intake stratum, not the overall effect."
+  },
+  {
+   "topic": "sglt2-hf",
+   "paper_id": 29,
+   "in_scope": false,
+   "tier": null,
+   "stance": null,
+   "confidence": "clear",
+   "why": "Only atrial-fibrillation and sinus-rhythm strata are extracted; no overall effect.",
+   "known_miss": "The AF stratum is counted as the headline (no sibling-stratum detection)."
+  },
+  {
+   "topic": "vitd",
+   "paper_id": 31,
+   "in_scope": true,
+   "tier": 1,
+   "stance": "unfavorable",
+   "confidence": "uncertain",
+   "why": "Fractures, 1600 IU/day arm vs placebo HR 1.52 (1.06-2.18); the 3200 IU arm was null. A single dose arm is what is extracted.",
+   "known_miss": "Arm selection: only the 1600 IU arm is extracted."
+  },
+  {
+   "topic": "vitd",
+   "paper_id": 32,
+   "in_scope": true,
+   "tier": 1,
+   "stance": "null",
+   "confidence": "uncertain",
+   "why": "All-cause mortality RR 0.96 (0.92-1.00): the interval touches 1."
+  },
+  {
+   "topic": "vitd",
+   "paper_id": 38,
+   "in_scope": true,
+   "tier": 1,
+   "stance": "null",
+   "confidence": "uncertain",
+   "why": "Fracture result extracted is for calcium supplements, not vitamin D."
+  },
+  {
+   "topic": "vitd",
+   "paper_id": 40,
+   "in_scope": false,
+   "tier": null,
+   "stance": null,
+   "confidence": "clear",
+   "why": "Pregnancy and neonatal mortality."
+  },
+  {
+   "topic": "vitd",
+   "paper_id": 42,
+   "in_scope": false,
+   "tier": null,
+   "stance": null,
+   "confidence": "clear",
+   "why": "Preterm infants."
+  },
+  {
+   "topic": "vitd",
+   "paper_id": 46,
+   "in_scope": false,
+   "tier": null,
+   "stance": null,
+   "confidence": "clear",
+   "why": "Pediatric acute respiratory infections."
+  },
+  {
+   "topic": "vitd",
+   "paper_id": 48,
+   "in_scope": false,
+   "tier": null,
+   "stance": null,
+   "confidence": "clear",
+   "why": "Sepsis patients (28-day mortality)."
+  },
+  {
+   "topic": "vitd",
+   "paper_id": 50,
+   "in_scope": true,
+   "tier": 1,
+   "stance": "null",
+   "confidence": "uncertain",
+   "why": "Calcium + vitamin D combination in postmenopausal osteoporosis; overall fracture RR 0.98 (0.89-1.07)."
+  },
+  {
+   "topic": "vitd",
+   "paper_id": 60,
+   "in_scope": false,
+   "tier": null,
+   "stance": null,
+   "confidence": "clear",
+   "why": "COVID-19 inpatients."
+  },
+  {
+   "topic": "vitd",
+   "paper_id": 37,
+   "in_scope": true,
+   "tier": 1,
+   "stance": "null",
+   "confidence": "clear",
+   "why": "Healthy community-dwelling adults; fall risk similar in all arms."
+  },
+  {
+   "topic": "vitd",
+   "paper_id": 43,
+   "in_scope": false,
+   "tier": null,
+   "stance": null,
+   "confidence": "clear",
+   "why": "Mechanically ventilated ICU patients."
+  },
+  {
+   "topic": "vitd",
+   "paper_id": 44,
+   "in_scope": false,
+   "tier": null,
+   "stance": null,
+   "confidence": "clear",
+   "why": "Outcome is cardiovascular mortality / CVD events, not fractures, falls or all-cause mortality."
+  },
+  {
+   "topic": "vitd",
+   "paper_id": 51,
+   "in_scope": false,
+   "tier": null,
+   "stance": null,
+   "confidence": "clear",
+   "why": "Critically ill ICU patients (vitamin C + D)."
+  },
+  {
+   "topic": "vitd",
+   "paper_id": 56,
+   "in_scope": false,
+   "tier": null,
+   "stance": null,
+   "confidence": "clear",
+   "why": "Severe COVID-19 pneumonia in the ICU."
+  },
+  {
+   "topic": "vitd",
+   "paper_id": 36,
+   "in_scope": false,
+   "tier": null,
+   "stance": null,
+   "confidence": "clear",
+   "why": "Spinal-fusion patients; the fracture-risk result is for bisphosphonates, not vitamin D."
+  },
+  {
+   "topic": "vitd",
+   "paper_id": 53,
+   "in_scope": false,
+   "tier": null,
+   "stance": null,
+   "confidence": "clear",
+   "why": "Multicomponent program (exercise + cognitive training + vitamin D); vitamin D is not the tested exposure."
+  },
+  {
+   "topic": "fasting",
+   "paper_id": 92,
+   "in_scope": true,
+   "tier": 2,
+   "stance": "favorable",
+   "confidence": "uncertain",
+   "why": "TRE lowered body weight by 1.6 kg in the pooled analysis (control is a non-TRE diet, not strictly continuous restriction)."
+  },
+  {
+   "topic": "fasting",
+   "paper_id": 96,
+   "in_scope": false,
+   "tier": null,
+   "stance": null,
+   "confidence": "clear",
+   "why": "Resistance-trained people in a deliberate bulking phase; the result is less weight GAIN, not weight loss.",
+   "known_miss": "The extractor direction (favors_comparator) and population are not caught."
+  },
+  {
+   "topic": "fasting",
+   "paper_id": 86,
+   "in_scope": false,
+   "tier": null,
+   "stance": null,
+   "confidence": "clear",
+   "why": "A multi-component remission program; the intermittent-fasting add-on appears only in the negated comparator."
+  },
+  {
+   "topic": "fasting",
+   "paper_id": 103,
+   "in_scope": true,
+   "tier": 2,
+   "stance": "null",
+   "confidence": "clear",
+   "why": "5:2 IF vs continuous restriction: weight change difference -0.13 kg (-2.9 to 2.62), non-inferior."
+  },
+  {
+   "topic": "fasting",
+   "paper_id": 118,
+   "in_scope": true,
+   "tier": 2,
+   "stance": "favorable",
+   "confidence": "uncertain",
+   "why": "Older adults, Islamic Sunnah fasting weight change -2.36 kg."
+  },
+  {
+   "topic": "ssb",
+   "paper_id": 229,
+   "in_scope": false,
+   "tier": null,
+   "stance": null,
+   "confidence": "clear",
+   "why": "Non-sugar-sweetened beverages: the opposite of the exposure."
+  },
+  {
+   "topic": "ssb",
+   "paper_id": 226,
+   "in_scope": true,
+   "tier": 1,
+   "stance": "favorable",
+   "confidence": "clear",
+   "why": "Higher soda intake -> higher all-cause mortality, HR 1.125 (1.003-2.263)."
+  },
+  {
+   "topic": "ssb",
+   "paper_id": 223,
+   "in_scope": false,
+   "tier": null,
+   "stance": null,
+   "confidence": "clear",
+   "why": "Pools unsweetened and sugar-sweetened tea; sugar-sweetened tea alone is not isolated.",
+   "known_miss": "Pooled exposure that includes the opposite of the exposure is not detected."
+  },
+  {
+   "topic": "ssb",
+   "paper_id": 230,
+   "in_scope": false,
+   "tier": null,
+   "stance": null,
+   "confidence": "clear",
+   "why": "City-level beverage TAX policy evaluation."
+  },
+  {
+   "topic": "ssb",
+   "paper_id": 212,
+   "in_scope": false,
+   "tier": null,
+   "stance": null,
+   "confidence": "clear",
+   "why": "Global SSB tax implementation analysis."
+  },
+  {
+   "topic": "ssb",
+   "paper_id": 220,
+   "in_scope": false,
+   "tier": null,
+   "stance": null,
+   "confidence": "clear",
+   "why": "Global burden / age-period-cohort analysis."
+  },
+  {
+   "topic": "ssb",
+   "paper_id": 221,
+   "in_scope": false,
+   "tier": null,
+   "stance": null,
+   "confidence": "clear",
+   "why": "Global burden of CKD attributable to diet."
+  },
+  {
+   "topic": "ssb",
+   "paper_id": 216,
+   "in_scope": true,
+   "tier": 1,
+   "stance": "favorable",
+   "confidence": "uncertain",
+   "why": "Narrative review quoting a 27% higher T2D risk with daily SSB; not primary data."
+  },
+  {
+   "topic": "ssb",
+   "paper_id": 224,
+   "in_scope": false,
+   "tier": null,
+   "stance": null,
+   "confidence": "clear",
+   "why": "Modelled effect of a tax policy."
+  },
+  {
+   "topic": "red-meat",
+   "paper_id": 243,
+   "in_scope": true,
+   "tier": 1,
+   "stance": "favorable",
+   "confidence": "uncertain",
+   "why": "Replacing red meat with white meat lowers diabetes risk (HR 0.66). Stratum-specific results are mixed in the extraction."
+  },
+  {
+   "topic": "red-meat",
+   "paper_id": 244,
+   "in_scope": false,
+   "tier": null,
+   "stance": null,
+   "confidence": "clear",
+   "why": "Exposure is unprocessed POULTRY, in people already diagnosed with colorectal cancer."
+  },
+  {
+   "topic": "red-meat",
+   "paper_id": 239,
+   "in_scope": false,
+   "tier": null,
+   "stance": null,
+   "confidence": "clear",
+   "why": "Children: type 1 diabetes and maternal/childhood red meat."
+  },
+  {
+   "topic": "fiber",
+   "paper_id": 265,
+   "in_scope": false,
+   "tier": null,
+   "stance": null,
+   "confidence": "clear",
+   "why": "Fiber is an add-on to a weight-loss drug combination (EMP16 plus psyllium vs orlistat).",
+   "known_miss": "Combination add-on arm: the exposure is not isolated."
+  },
+  {
+   "topic": "fiber",
+   "paper_id": 262,
+   "in_scope": true,
+   "tier": 2,
+   "stance": "null",
+   "confidence": "clear",
+   "why": "LDL cholesterol with oats/barley vs control: P=0.064, not significant."
+  },
+  {
+   "topic": "fiber",
+   "paper_id": 274,
+   "in_scope": false,
+   "tier": null,
+   "stance": null,
+   "confidence": "clear",
+   "why": "Pregnant women, gestational outcomes."
+  },
+  {
+   "topic": "fiber",
+   "paper_id": 263,
+   "in_scope": true,
+   "tier": 2,
+   "stance": "favorable",
+   "confidence": "clear",
+   "why": "Whole-grain staple REPLACEMENT is MORE whole grain: triglycerides lower. (Was mis-signed as 'less'.)"
+  },
+  {
+   "topic": "fiber",
+   "paper_id": 337,
+   "in_scope": false,
+   "tier": null,
+   "stance": null,
+   "confidence": "clear",
+   "why": "Avocado and mango (fruit) vs a low-fiber control diet; fiber is not the intervention."
+  },
+  {
+   "topic": "fiber",
+   "paper_id": 273,
+   "in_scope": true,
+   "tier": 1,
+   "stance": "favorable",
+   "confidence": "uncertain",
+   "why": "Hemodialysis patients: high potassium AND high fiber intake and lower mortality (combined exposure)."
+  },
+  {
+   "topic": "fiber",
+   "paper_id": 264,
+   "in_scope": true,
+   "tier": 1,
+   "stance": "favorable",
+   "confidence": "uncertain",
+   "why": "Adults with diabetes: fiber quartile 3 vs lowest, all-cause mortality HR 0.47."
+  },
+  {
+   "topic": "plant-based",
+   "paper_id": 302,
+   "in_scope": false,
+   "tier": null,
+   "stance": null,
+   "confidence": "clear",
+   "why": "Pregnancy: gestational diabetes."
+  },
+  {
+   "topic": "plant-based",
+   "paper_id": 296,
+   "in_scope": false,
+   "tier": null,
+   "stance": null,
+   "confidence": "clear",
+   "why": "Pescatarian diet, not a vegetarian or plant-based diet."
+  },
+  {
+   "topic": "plant-based",
+   "paper_id": 307,
+   "in_scope": true,
+   "tier": 2,
+   "stance": "favorable",
+   "confidence": "clear",
+   "why": "Whole-food plant-based diet lowered LDL by 17.9% vs standard diet in familial hypercholesterolemia."
+  },
+  {
+   "topic": "plant-based",
+   "paper_id": 286,
+   "in_scope": true,
+   "tier": 2,
+   "stance": "favorable",
+   "confidence": "clear",
+   "why": "Low-fat vegan diet: body weight -6.0 kg. ('Low-fat' is not a reduction of the exposure.)"
+  },
+  {
+   "topic": "plant-based",
+   "paper_id": 299,
+   "in_scope": true,
+   "tier": 2,
+   "stance": "favorable",
+   "confidence": "clear",
+   "why": "Plant-based vs omnivorous diets: LDL MD -7.29 mg/dL."
+  },
+  {
+   "topic": "plant-based",
+   "paper_id": 241,
+   "in_scope": true,
+   "tier": 2,
+   "stance": "favorable",
+   "confidence": "uncertain",
+   "why": "Plant-based MEAT products vs red meat: LDL -6 mg/dL. A product swap rather than a plant-based diet."
+  },
+  {
+   "topic": "plant-based",
+   "paper_id": 375,
+   "in_scope": false,
+   "tier": null,
+   "stance": null,
+   "confidence": "clear",
+   "why": "Butter and plant-based OILS: not a plant-based diet."
+  },
+  {
+   "topic": "fruit-veg",
+   "paper_id": 356,
+   "in_scope": false,
+   "tier": null,
+   "stance": null,
+   "confidence": "clear",
+   "why": "The counted result is the low-metabolic-quality stratum (neutral/low quality FV, Q4); the overall fruit-and-vegetable results are for 'major chronic disease'.",
+   "known_miss": "A quality stratum is counted as the overall effect."
+  },
+  {
+   "topic": "fruit-veg",
+   "paper_id": 349,
+   "in_scope": false,
+   "tier": null,
+   "stance": null,
+   "confidence": "clear",
+   "why": "Preserved (salted/pickled) vegetables: not fruit and vegetables as eaten fresh."
+  },
+  {
+   "topic": "fruit-veg",
+   "paper_id": 355,
+   "in_scope": true,
+   "tier": 2,
+   "stance": "favorable",
+   "confidence": "clear",
+   "why": "High vs low fruit intake: diastolic blood pressure 1 mmHg lower."
+  },
+  {
+   "topic": "low-carb",
+   "paper_id": 403,
+   "in_scope": true,
+   "tier": 2,
+   "stance": "favorable",
+   "confidence": "clear",
+   "why": "Very-low-calorie KETOGENIC diet gave a greater BMI/weight reduction than a low-calorie diet. ('Low-calorie' is not a reduction of carbohydrate.)"
+  },
+  {
+   "topic": "low-carb",
+   "paper_id": 396,
+   "in_scope": true,
+   "tier": 2,
+   "stance": "favorable",
+   "confidence": "clear",
+   "why": "Ketogenic diets: pooled weight reduction -8.5 kg."
+  },
+  {
+   "topic": "low-carb",
+   "paper_id": 385,
+   "in_scope": true,
+   "tier": 2,
+   "stance": "unfavorable",
+   "confidence": "clear",
+   "why": "Low-carb adherence only at follow-up: BMI modestly higher (+0.16), while insulin fell. Insulin is a biomarker, not weight."
+  },
+  {
+   "topic": "low-carb",
+   "paper_id": 386,
+   "in_scope": true,
+   "tier": 2,
+   "stance": "favorable",
+   "confidence": "uncertain",
+   "why": "Grocery delivery plus low-carb education: HbA1c -0.4%."
+  },
+  {
+   "topic": "low-carb",
+   "paper_id": 404,
+   "in_scope": true,
+   "tier": 2,
+   "stance": "favorable",
+   "confidence": "clear",
+   "why": "LCHF vs HCLF: HbA1c change -6.05 mmol/mol."
+  },
+  {
+   "topic": "sweeteners",
+   "paper_id": 428,
+   "in_scope": true,
+   "tier": 2,
+   "stance": "unfavorable",
+   "confidence": "clear",
+   "why": "Body weight fell with sweeteners (-1.02 kg): contradicts 'linked to weight gain'."
+  },
+  {
+   "topic": "sweeteners",
+   "paper_id": 411,
+   "in_scope": true,
+   "tier": 2,
+   "stance": "unfavorable",
+   "confidence": "uncertain",
+   "why": "Weight loss in the mixed-consumption subgroup (-0.89 kg); a subgroup of the meta-analysis."
+  },
+  {
+   "topic": "sweeteners",
+   "paper_id": 415,
+   "in_scope": true,
+   "tier": 2,
+   "stance": "unfavorable",
+   "confidence": "clear",
+   "why": "Replacing caloric sugars with NNS lowered weight (-0.79 kg): contradicts weight gain. (Was counted as supporting.)"
+  },
+  {
+   "topic": "sweeteners",
+   "paper_id": 419,
+   "in_scope": true,
+   "tier": 3,
+   "stance": "unclear",
+   "confidence": "clear",
+   "why": "Blood glucose after aspartame, overall SMD with no direction extracted."
+  },
+  {
+   "topic": "sweeteners",
+   "paper_id": 421,
+   "in_scope": false,
+   "tier": null,
+   "stance": null,
+   "confidence": "clear",
+   "why": "Pregnancy: birth weight."
+  },
+  {
+   "topic": "sweeteners",
+   "paper_id": 424,
+   "in_scope": false,
+   "tier": null,
+   "stance": null,
+   "confidence": "clear",
+   "why": "Pregnancy: gestational diabetes."
+  },
+  {
+   "topic": "sweeteners",
+   "paper_id": 420,
+   "in_scope": false,
+   "tier": null,
+   "stance": null,
+   "confidence": "clear",
+   "why": "Offspring exposed during pregnancy."
+  },
+  {
+   "topic": "sweeteners",
+   "paper_id": 423,
+   "in_scope": false,
+   "tier": null,
+   "stance": null,
+   "confidence": "clear",
+   "why": "Pregnancy: gestational diabetes."
+  },
+  {
+   "topic": "sweeteners",
+   "paper_id": 406,
+   "in_scope": true,
+   "tier": 3,
+   "stance": "null",
+   "confidence": "clear",
+   "why": "Fasting blood glucose after sucralose: SMD -0.04, not significant."
+  },
+  {
+   "topic": "sweeteners",
+   "paper_id": 409,
+   "in_scope": false,
+   "tier": null,
+   "stance": null,
+   "confidence": "clear",
+   "why": "Outcome is cancer; the question asks about weight, diabetes and CVD."
+  },
+  {
+   "topic": "coffee",
+   "paper_id": 454,
+   "in_scope": false,
+   "tier": null,
+   "stance": null,
+   "confidence": "clear",
+   "why": "Cancer patients: progression after diagnosis."
+  },
+  {
+   "topic": "coffee",
+   "paper_id": 434,
+   "in_scope": false,
+   "tier": null,
+   "stance": null,
+   "confidence": "clear",
+   "why": "People diagnosed with colorectal cancer."
+  },
+  {
+   "topic": "coffee",
+   "paper_id": 445,
+   "in_scope": true,
+   "tier": 2,
+   "stance": "unfavorable",
+   "confidence": "clear",
+   "why": "Healthy young women, 4 weeks of Turkish coffee: systolic BP +3 mmHg (worse)."
+  },
+  {
+   "topic": "coffee",
+   "paper_id": 432,
+   "in_scope": false,
+   "tier": null,
+   "stance": null,
+   "confidence": "clear",
+   "why": "Preterm infants (caffeine for apnoea)."
+  },
+  {
+   "topic": "coffee",
+   "paper_id": 448,
+   "in_scope": true,
+   "tier": 2,
+   "stance": "favorable",
+   "confidence": "uncertain",
+   "why": "Mendelian randomization: coffee lowered SBP by 1.9 mmHg."
+  },
+  {
+   "topic": "coffee",
+   "paper_id": 438,
+   "in_scope": true,
+   "tier": 1,
+   "stance": "favorable",
+   "confidence": "uncertain",
+   "why": "CKM-syndrome patients; morning-type coffee pattern and lower all-cause mortality."
+  },
+  {
+   "topic": "coffee",
+   "paper_id": 452,
+   "in_scope": true,
+   "tier": 1,
+   "stance": "favorable",
+   "confidence": "clear",
+   "why": "Older Japanese adults, >=3 cups/day, mortality HR 0.62."
+  }
+ ]
+}

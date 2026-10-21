@@ -1,0 +1,69 @@
+{
+ "provider": "openrouter",
+ "model": "deepseek/deepseek-v4.1-flash",
+ "usage": {
+  "input_tokens": 2687,
+  "output_tokens": 989
+ },
+ "output": {
+  "study": {
+   "design": {
+    "status": "reported",
+    "value": "rct_secondary_analysis"
+   },
+   "population": {
+    "status": "reported",
+    "value": "Patients with heart failure with reduced ejection fraction (HFrEF) in sinus rhythm (SR) or atrial fibrillation (AF), with available rhythm analyses and after exclusion of patients with missing or paced rhythms"
+   },
+   "sample_size": {
+    "status": "reported",
+    "value": 2785
+   },
+   "intervention": {
+    "status": "reported",
+    "value": "Empagliflozin"
+   },
+   "comparator": {
+    "status": "reported",
+    "value": "Placebo"
+   },
+   "follow_up": {
+    "status": "reported",
+    "value": "Median 20 months"
+   }
+  },
+  "primary_findings": [
+   {
+    "quote": "empagliflozin reduced CVD or HHF compared to placebo in AF and SR (hazard ratio [HR] 0.82, 95% confidence interval [CI] 0.63-1.08",
+    "outcome": "Cardiovascular death (CVD) or hospitalization for heart failure (HHF) in patients with atrial fibrillation (AF)",
+    "direction": "no_difference",
+    "effect_measure": "HR",
+    "effect_value": 0.82,
+    "ci_low": 0.63,
+    "ci_high": 1.08,
+    "p_value": null
+   },
+   {
+    "quote": "and HR 0.69, 95% CI 0.56-0.84; interaction p = 0.29)",
+    "outcome": "Cardiovascular death (CVD) or hospitalization for heart failure (HHF) in patients with sinus rhythm (SR)",
+    "direction": "favors_intervention",
+    "effect_measure": "HR",
+    "effect_value": 0.69,
+    "ci_low": 0.56,
+    "ci_high": 0.84,
+    "p_value": null
+   },
+   {
+    "quote": "Incident AF was numerically lower but formally not significantly different (HR 0.66, 95% CI 0.40-1.09, p = 0.11, empagliflozin vs. placebo).",
+    "outcome": "Incident atrial fibrillation (AF)",
+    "direction": "no_difference",
+    "effect_measure": "HR",
+    "effect_value": 0.66,
+    "ci_low": 0.4,
+    "ci_high": 1.09,
+    "p_value": 0.11
+   }
+  ],
+  "limitations_stated": []
+ }
+}

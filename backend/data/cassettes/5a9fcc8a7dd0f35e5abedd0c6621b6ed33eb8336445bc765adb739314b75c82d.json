@@ -1,0 +1,64 @@
+{
+ "provider": "openrouter",
+ "model": "deepseek/deepseek-v4.1-flash",
+ "usage": {
+  "input_tokens": 2616,
+  "output_tokens": 817
+ },
+ "output": {
+  "study": {
+   "design": {
+    "status": "reported",
+    "value": "rct",
+    "quote": "This randomized trial was conducted over 180 days in 58 patients with T2DM and HF, assigned in a 1:1 ratio to standard therapy or standard therapy plus dapagliflozin 10 mg daily.",
+    "section": "METHODS",
+    "confidence": "high"
+   },
+   "population": {
+    "status": "reported",
+    "value": "South Indian patients with T2DM and Heart Failure (HF)",
+    "quote": "This study evaluated its effects on lipid profile and IR pattern in South Indian patients with T2DM and Heart Failure (HF).",
+    "section": "INTRODUCTION",
+    "confidence": "high"
+   },
+   "sample_size": {
+    "status": "reported",
+    "value": 58,
+    "quote": "This randomized trial was conducted over 180 days in 58 patients with T2DM and HF",
+    "section": "METHODS",
+    "confidence": "high"
+   },
+   "intervention": {
+    "status": "reported",
+    "value": "standard therapy plus dapagliflozin 10 mg daily",
+    "quote": "assigned in a 1:1 ratio to standard therapy or standard therapy plus dapagliflozin 10 mg daily",
+    "section": "METHODS",
+    "confidence": "high"
+   },
+   "comparator": {
+    "status": "reported",
+    "value": "standard therapy",
+    "quote": "assigned in a 1:1 ratio to standard therapy or standard therapy plus dapagliflozin 10 mg daily",
+    "section": "METHODS",
+    "confidence": "high"
+   },
+   "follow_up": {
+    "status": "reported",
+    "value": "180 days (24 weeks)",
+    "quote": "This randomized trial was conducted over 180 days",
+    "section": "METHODS",
+    "confidence": "high"
+   }
+  },
+  "primary_findings": [],
+  "limitations_stated": [
+   {
+    "status": "reported",
+    "value": "small sample size, single-center setting, and an open-label design",
+    "quote": "Study limitations included the small sample size, single-center setting, and an open-label design.",
+    "section": "DISCUSSION",
+    "confidence": "high"
+   }
+  ]
+ }
+}

@@ -1,0 +1,76 @@
+{
+ "provider": "cloudflare",
+ "model": "@cf/openai/gpt-oss-20b",
+ "usage": {
+  "input_tokens": 1446,
+  "output_tokens": 1701
+ },
+ "output": {
+  "study": {
+   "design": {
+    "quote": "A systematic review and meta-analysis were conducted following Preferred Reporting Items for Systematic Reviews and Meta-Analyses 2020 2020 and Meta-analysis of Observational Studies in Epidemiology guidelines.",
+    "section": "ABSTRACT",
+    "confidence": "high",
+    "status": "reported",
+    "value": "meta_analysis"
+   },
+   "population": {
+    "quote": "in individuals with type 2 diabetes or metabolic syndrome",
+    "section": "ABSTRACT",
+    "confidence": "high",
+    "status": "reported",
+    "value": "individuals with type 2 diabetes or metabolic syndrome"
+   },
+   "sample_size": {
+    "quote": null,
+    "section": null,
+    "confidence": null,
+    "status": "not_reported",
+    "value": null
+   },
+   "intervention": {
+    "quote": "Mediterranean diet (MD)",
+    "section": "ABSTRACT",
+    "confidence": "high",
+    "status": "reported",
+    "value": "Mediterranean diet (MD)"
+   },
+   "comparator": {
+    "quote": null,
+    "section": null,
+    "confidence": null,
+    "status": "not_reported",
+    "value": null
+   },
+   "follow_up": {
+    "quote": null,
+    "section": null,
+    "confidence": null,
+    "status": "not_reported",
+    "value": null
+   }
+  },
+  "primary_findings": [
+   {
+    "quote": "Higher adherence to the MD was associated with reduced all-cause mortality in individuals with type 2 diabetes or metabolic syndrome (risk ratios: 0.93; 95% CI: 0.90-0.97).",
+    "section": "ABSTRACT",
+    "confidence": "high",
+    "outcome": "all-cause mortality",
+    "direction": "favors_intervention",
+    "effect_measure": "RR",
+    "effect_value": 0.93,
+    "ci_low": 0.9,
+    "ci_high": 0.97
+   }
+  ],
+  "limitations_stated": [
+   {
+    "quote": "further high-quality, long-term trials are needed to inform clinical guidelines.",
+    "section": "ABSTRACT",
+    "confidence": "high",
+    "status": "reported",
+    "value": "further high-quality, long-term trials are needed to inform clinical guidelines."
+   }
+  ]
+ }
+}

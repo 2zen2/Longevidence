@@ -1,0 +1,93 @@
+{
+ "provider": "cloudflare",
+ "model": "@cf/openai/gpt-oss-20b",
+ "usage": {
+  "input_tokens": 1601,
+  "output_tokens": 1631
+ },
+ "output": {
+  "study": {
+   "design": {
+    "quote": "Systematic review and meta-analysis",
+    "section": "ABSTRACT",
+    "confidence": "high",
+    "status": "reported",
+    "value": "meta_analysis"
+   },
+   "population": {
+    "quote": "patients with COVID-19 and vitamin D deficiency",
+    "section": "ABSTRACT",
+    "confidence": "high",
+    "status": "reported",
+    "value": "patients with COVID-19 and vitamin D deficiency"
+   },
+   "sample_size": {
+    "quote": "870 participants",
+    "section": "RESULTS",
+    "confidence": "high",
+    "status": "reported",
+    "value": 870
+   },
+   "intervention": {
+    "quote": "vitamin D supplementation",
+    "section": "ABSTRACT",
+    "confidence": "high",
+    "status": "reported",
+    "value": "vitamin D supplementation"
+   },
+   "comparator": {
+    "quote": "no supplementation",
+    "section": "ABSTRACT",
+    "confidence": "high",
+    "status": "reported",
+    "value": "no supplementation"
+   },
+   "follow_up": {
+    "quote": null,
+    "section": null,
+    "confidence": null,
+    "status": "not_reported",
+    "value": null
+   }
+  },
+  "primary_findings": [
+   {
+    "quote": "lower risk of mortality (risk ratio 0.76; 95% CI 0.60 to 0.97)",
+    "section": "RESULTS",
+    "confidence": "high",
+    "outcome": "mortality during follow-up",
+    "direction": "favors_intervention",
+    "effect_measure": "RR",
+    "effect_value": 0.76,
+    "ci_low": 0.6,
+    "ci_high": 0.97,
+    "p_value": null
+   },
+   {
+    "quote": "0.41 day shorter length of stay in the ICU (mean difference -0.41; 95% CI -1.09 to 0.28)",
+    "section": "RESULTS",
+    "confidence": "high",
+    "outcome": "length of stay in ICU",
+    "direction": "no_difference",
+    "effect_measure": "MD",
+    "effect_value": -1.09,
+    "ci_low": -1.09,
+    "ci_high": 0.28,
+    "p_value": null
+   },
+   {
+    "quote": "0.07 day shorter length of stay in the hospital (mean difference -0.07; 95% CI -0.61 to 0.46)",
+    "section": "RESULTS",
+    "confidence": "high",
+    "outcome": "length of stay in hospital",
+    "direction": "no_difference",
+    "effect_measure": "MD",
+    "effect_value": -1.09,
+    "ci_low": -1.09,
+    "ci_high": 0.28,
+    "p_value": null
+   }
+  ],
+  "limitations_stated": []
+ }
+}

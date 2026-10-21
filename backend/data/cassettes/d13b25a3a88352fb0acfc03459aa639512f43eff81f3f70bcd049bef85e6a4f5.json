@@ -1,0 +1,36 @@
+{
+ "provider": "openrouter",
+ "model": "deepseek/deepseek-v4.1-flash",
+ "usage": {
+  "input_tokens": 2549,
+  "output_tokens": 1158
+ },
+ "output": {
+  "study": {
+   "comparator": {
+    "status": "reported",
+    "value": "placebo (double-blinded, placebo-controlled trial; 97 placebo participants randomized to placebo for 180 days treatment duration as per trial design and objective comparison of empagliflozin vs placebo on VO2 max, physical activity, and QoL outcomes over 180 days treatment period in the randomized trial population of 191 individuals with overweight or obesity and risk of HF, excluding those with HF or type 2 diabetes mellitus, with primary endpoint mean difference in change of VO2 max and secondary outcome objectively measured physical activity level and QoL as explorative outcome, with results showing empagliflozin did not change VO2 max with estimated treatment difference of -0.2 mL/min/kg (97.5% CI -1.2 to 0.8), adjusted P = 1.00, and no significant treatment differences for daily physical activity or QoL, concluding empagliflozin did not affect VO2 max, physical activity level, or QoL in elderly individuals with overweight or obesity and risk of HF, with baseline characteristics including 69% male, median age 68 years, median BMI 31.9 kg/m\u00b2, mean LVEF 65 \u00b1 9%, mean VO\u2082 max 18.1 \u00b1 4.3 mL/min/kg, 89% hypertension, 66% ischemic heart disease, among 191 randomized individuals (94 empagliflozin, 97 placebo), investigator-initiated, double-blinded, randomized, placebo-controlled, multicenter trial including elderly individuals with BMI >28 kg/m2 and at least one additional risk factor for HF including hypertension, ischemic heart disease, stroke, or chronic kidney disease, excluding individuals with HF or type 2 diabetes mellitus, primary endpoint mean difference in change of VO2 max, secondary outcome objectively measured physical activity level, QoL explorative outcome, results showing empagliflozin did not change VO2 max with estimated treatment difference of -0.2 mL/min/kg (97.5% confidence interval -1.2 to 0.8), adjusted P = 1.00, no significant treatment differences for daily physical activity nor QoL, conclusions empagliflozin did not affect VO2 max, physical activity level, or QoL in elderly individuals with overweight or obesity and risk of HF, background higher maximal oxygen consumption (VO\u2082 max) associated with lower risk of developing heart failure (HF), empagliflozin improves VO2 max in HF with reduced ejection fraction but effect on VO2 max in individuals at risk of HF remain unknown, objective evaluate effect of 180 days treatment with empagliflozin compared to placebo on VO2 max, daily physical activity level, and quality of life (QoL) in individuals with overweight or obesity and risk of HF, method investigator-initiated, double-blinded, randomized, placebo-controlled, multicenter trial included elderly individuals with body mass index >28 kg/m2 and at least one additional risk factor for HF including hypertension, ischemic heart disease, stroke, or chronic kidney disease, individuals with HF or type 2 diabetes mellitus excluded, primary endpoint mean difference in change of VO2 max, secondary outcome objectively measured physical activity level, QoL explorative outcome, results among 191 randomized individuals (94 empagliflozin, 97 placebo), 89% had hypertension and 66% ischemic heart disease, at baseline 69% were male, median age 68 years, median body mass index 31.9 kg/m\u00b2, mean left ventricular ejection fraction 65 \u00b1 9%, mean VO\u2082 max 18.1 \u00b1 4.3 mL/min/kg, empagliflozin did not change VO2 max with an estimated treatment difference of -0.2 mL/min/kg (97.5% confidence interval -1.2 to 0.8), adjusted P = 1.00, no significant treatment differences observed for neither daily physical activity nor QoL, conclusions empagliflozin did not affect VO2 max, physical activity level, or QoL in elderly individuals with overweight or obesity and risk of HF"
+   },
+   "design": {
+    "status": "reported",
+    "value": "rct"
+   },
+   "follow_up": {
+    "status": "reported",
+    "value": "180 days"
+   },
+   "intervention": {
+    "status": "reported",
+    "value": "empagliflozin"
+   },
+   "population": {
+    "status": "reported",
+    "value": "elderly individuals with body mass index >28 kg/m2 and at least one additional risk factor for HF, including hypertension, ischemic heart disease, stroke, or chronic kidney disease"
+   },
+   "sample_size": {
+    "status": "reported",
+    "value": 191
+   }
+  }
+ }
+}

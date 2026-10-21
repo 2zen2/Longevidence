@@ -1,0 +1,105 @@
+{
+ "provider": "openrouter",
+ "model": "deepseek/deepseek-v4.1-flash",
+ "usage": {
+  "input_tokens": 3562,
+  "output_tokens": 2035
+ },
+ "output": {
+  "study": {
+   "design": {
+    "status": "reported",
+    "value": "rct_secondary_analysis",
+    "quote": "A Post Hoc Analysis of the SCORED Randomized Controlled Trial",
+    "section": "TITLE",
+    "confidence": "high"
+   },
+   "population": {
+    "status": "reported",
+    "value": "Patients with type 2 diabetes and moderate renal impairment who are at cardiovascular risk",
+    "quote": "SCORED (Effect of Sotagliflozin on Cardiovascular and Renal Events in Patients With Type 2 Diabetes and Moderate Renal Impairment Who Are at Cardiovascular Risk) was a randomized trial in diabetes with kidney disease",
+    "section": "METHODS",
+    "confidence": "high"
+   },
+   "sample_size": {
+    "status": "reported",
+    "value": 10584,
+    "quote": "There were 741 patients (7%) in stage A, 6560 (62%) in stage B (pre-HF), and 3283 (31%) in stage C/D (established HF).",
+    "section": "RESULTS",
+    "confidence": "medium"
+   },
+   "intervention": {
+    "status": "reported",
+    "value": "Sotagliflozin",
+    "quote": "comparing sotagliflozin versus placebo on cardiovascular death, HF hospitalizations, and urgent HF visits",
+    "section": "METHODS",
+    "confidence": "high"
+   },
+   "comparator": {
+    "status": "reported",
+    "value": "Placebo",
+    "quote": "comparing sotagliflozin versus placebo on cardiovascular death, HF hospitalizations, and urgent HF visits",
+    "section": "METHODS",
+    "confidence": "high"
+   },
+   "follow_up": {
+    "status": "not_reported",
+    "value": null,
+    "quote": null,
+    "section": null,
+    "confidence": null
+   }
+  },
+  "primary_findings": [
+   {
+    "quote": "The effect of sotagliflozin versus placebo was similar, irrespective of HF stage (primary outcome: hazard ratio, 0.74 [95% CI, 0.63-0.88]; Pinteraction=1.00)",
+    "outcome": "Primary composite outcome (cardiovascular death and HF-related events)",
+    "direction": "favors_intervention",
+    "effect_measure": "HR",
+    "effect_value": 0.74,
+    "ci_low": 0.63,
+    "ci_high": 0.88,
+    "p_value": 1.0,
+    "section": "RESULTS",
+    "confidence": "high"
+   },
+   {
+    "quote": "Increasing HF stage was associated with a 2- to 4-fold increase in the primary outcome/major adverse cardiovascular events in the placebo group.",
+    "outcome": "Primary outcome/major adverse cardiovascular events by HF stage (placebo group)",
+    "direction": "unclear",
+    "effect_measure": "other",
+    "effect_value": null,
+    "ci_low": null,
+    "ci_high": null,
+    "p_value": null,
+    "section": "RESULTS",
+    "confidence": "high"
+   },
+   {
+    "quote": "The kidney-specific composite was 5-fold higher in stage B (pre-HF) versus stage A but similar in stages B and C/D.",
+    "outcome": "Kidney-specific composite (\u226550% decline in eGFR, kidney failure, or kidney death) by HF stage",
+    "direction": "unclear",
+    "effect_measure": "other",
+    "effect_value": 5.0,
+    "ci_low": null,
+    "ci_high": null,
+    "p_value": null,
+    "section": "RESULTS",
+    "confidence": "high"
+   },
+   {
+    "quote": "with higher absolute benefit in each HF stage (P-trendIRR=0.002)",
+    "outcome": "Absolute benefit of sotagliflozin by HF stage",
+    "direction": "favors_intervention",
+    "effect_measure": "other",
+    "effect_value": null,
+    "ci_low": null,
+    "ci_high": null,
+    "p_value": 0.002,
+    "section": "RESULTS",
+    "confidence": "medium"
+   }
+  ],
+  "limitations_stated": []
+ }
+}

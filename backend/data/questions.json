@@ -1,0 +1,955 @@
+[
+ {
+  "slug": "sglt2-hf",
+  "label": "SGLT2 \u00b7 heart failure",
+  "question": "Do SGLT2 inhibitors reduce heart-failure hospitalization or cardiovascular death in adults with heart failure?",
+  "query": "(SGLT2 inhibitor*[Title/Abstract] OR dapagliflozin[Title/Abstract] OR empagliflozin[Title/Abstract] OR canagliflozin[Title/Abstract] OR sotagliflozin[Title/Abstract]) AND \"heart failure\"[Title] AND randomized controlled trial[Publication Type] AND hasabstract[text] AND 2019:2026[dp]",
+  "retmax": 30,
+  "polarity": "benefit",
+  "concepts": [
+   [
+    "SGLT2",
+    "sodium-glucose cotransporter",
+    "gliflozin",
+    "dapagliflozin",
+    "empagliflozin",
+    "canagliflozin",
+    "sotagliflozin"
+   ],
+   [
+    "heart failure"
+   ]
+  ],
+  "outcome_terms": [
+   "heart failure hospitali",
+   "hospitalization for heart failure",
+   "hospitalisation for heart failure",
+   "hf hospitali",
+   "hospitalization for hf",
+   "worsening heart failure",
+   "worsening hf",
+   "heart failure event",
+   "hf event",
+   "cardiovascular death",
+   "cv death",
+   "cardiovascular mortality",
+   "all-cause mortality",
+   "all-cause death"
+  ],
+  "tags": [
+   "Medication",
+   "Cardiovascular",
+   "Heart failure",
+   "Disease"
+  ],
+  "aliases": [
+   "sglt2",
+   "sglt-2",
+   "gliflozin",
+   "dapagliflozin",
+   "empagliflozin",
+   "jardiance",
+   "farxiga",
+   "forxiga",
+   "canagliflozin"
+  ]
+ },
+ {
+  "slug": "vitd",
+  "label": "Vitamin D",
+  "question": "Does vitamin D supplementation reduce fractures, falls or mortality in adults?",
+  "query": "(vitamin D[Title] OR cholecalciferol[Title]) AND (supplementation[Title/Abstract] OR supplement*[Title]) AND (fracture*[Title/Abstract] OR mortality[Title/Abstract] OR falls[Title/Abstract]) AND (randomized controlled trial[Publication Type] OR meta-analysis[Publication Type]) AND hasabstract[text] AND 2019:2026[dp]",
+  "retmax": 30,
+  "polarity": "benefit",
+  "concepts": [
+   [
+    "vitamin D",
+    "cholecalciferol"
+   ]
+  ],
+  "outcome_terms": [
+   "fracture",
+   "fall",
+   "mortality",
+   "death"
+  ],
+  "tags": [
+   "Supplement",
+   "Musculoskeletal",
+   "Bone health",
+   "Mortality"
+  ],
+  "aliases": [
+   "vitamin d",
+   "vit d",
+   "vitamin d3",
+   "sunshine vitamin",
+   "cholecalciferol"
+  ]
+ },
+ {
+  "slug": "med-diet",
+  "label": "Mediterranean diet",
+  "question": "Is a Mediterranean diet associated with fewer cardiovascular events and lower mortality?",
+  "query": "(Mediterranean diet[Title]) AND (cardiovascular[Title/Abstract] OR \"heart disease\"[Title/Abstract] OR mortality[Title/Abstract]) AND (randomized controlled trial[Publication Type] OR cohort studies[MeSH Terms] OR meta-analysis[Publication Type]) AND hasabstract[text] AND 2019:2026[dp]",
+  "retmax": 30,
+  "polarity": "benefit",
+  "concepts": [
+   [
+    "Mediterranean"
+   ]
+  ],
+  "outcome_terms": [
+   "cardiovascular",
+   "mortality",
+   "death",
+   "coronary",
+   "stroke",
+   "myocardial",
+   "heart",
+   "events",
+   "cvd"
+  ],
+  "tags": [
+   "Nutrition",
+   "Cardiovascular",
+   "Disease risk",
+   "Diet pattern"
+  ],
+  "aliases": [
+   "mediterranean",
+   "med diet",
+   "olive oil diet"
+  ]
+ },
+ {
+  "slug": "fasting",
+  "label": "Intermittent fasting",
+  "question": "Does intermittent fasting or time-restricted eating lead to greater weight loss than continuous energy restriction?",
+  "query": "(intermittent fasting[Title] OR time-restricted eating[Title] OR time-restricted feeding[Title]) AND (weight[Title/Abstract] OR body mass[Title/Abstract]) AND (randomized controlled trial[Publication Type] OR meta-analysis[Publication Type]) AND hasabstract[text] AND 2019:2026[dp]",
+  "retmax": 30,
+  "polarity": "benefit",
+  "concepts": [
+   [
+    "intermittent fasting",
+    "time-restricted",
+    "time restricted",
+    "alternate-day",
+    "alternate day",
+    "fasting"
+   ]
+  ],
+  "outcome_terms": [
+   "weight",
+   "body mass",
+   "bmi",
+   "fat mass",
+   "adiposity"
+  ],
+  "tags": [
+   "Nutrition",
+   "Metabolic",
+   "Weight",
+   "Diet pattern"
+  ],
+  "aliases": [
+   "fasting",
+   "intermittent fasting",
+   "time restricted eating",
+   "time-restricted eating",
+   "16:8",
+   "5:2",
+   "omad",
+   "alternate day fasting"
+  ],
+  "exposure_extra_terms": [
+   "TRE",
+   "5:2"
+  ]
+ },
+ {
+  "slug": "upf",
+  "label": "Ultra-processed food",
+  "question": "Is higher ultra-processed food intake associated with mortality, cardiovascular disease, obesity or diabetes?",
+  "query": "(ultra-processed[Title] OR ultraprocessed[Title]) AND (mortality[Title/Abstract] OR cardiovascular[Title/Abstract] OR obesity[Title/Abstract] OR diabetes[Title/Abstract]) AND hasabstract[text] AND 2019:2026[dp]",
+  "retmax": 30,
+  "polarity": "harm",
+  "concepts": [
+   [
+    "ultra-processed",
+    "ultraprocessed",
+    "ultra processed"
+   ]
+  ],
+  "outcome_terms": [
+   "mortality",
+   "death",
+   "cardiovascular",
+   "obesity",
+   "diabetes",
+   "overweight",
+   "adiposity"
+  ],
+  "tags": [
+   "Nutrition",
+   "Metabolic",
+   "Harm",
+   "Disease risk"
+  ],
+  "aliases": [
+   "ultra processed",
+   "ultra-processed",
+   "ultraprocessed",
+   "processed food",
+   "processed foods",
+   "junk food",
+   "fast food",
+   "upf"
+  ],
+  "exposure_extra_terms": [
+   "UPF"
+  ]
+ },
+ {
+  "slug": "sodium",
+  "label": "Sodium & blood pressure",
+  "question": "Does reducing dietary sodium intake or using salt substitutes lower blood pressure and cardiovascular or kidney risk?",
+  "query": "(\"sodium intake\"[Title] OR \"salt intake\"[Title] OR \"sodium reduction\"[Title] OR \"salt reduction\"[Title] OR \"dietary sodium\"[Title] OR \"salt substitute*\"[Title] OR \"sodium restriction\"[Title] OR \"salt restriction\"[Title] OR \"reducing sodium\"[Title]) AND (blood pressure[Title/Abstract] OR hypertension[Title/Abstract] OR cardiovascular[Title/Abstract] OR kidney[Title/Abstract]) AND (randomized controlled trial[Publication Type] OR meta-analysis[Publication Type] OR cohort studies[MeSH Terms] OR observational study[Publication Type]) AND hasabstract[text] AND 2019:2026[dp]",
+  "retmax": 30,
+  "polarity": "benefit",
+  "concepts": [
+   [
+    "sodium intake",
+    "dietary sodium",
+    "salt intake",
+    "dietary salt",
+    "salt substitute",
+    "sodium reduction",
+    "salt reduction",
+    "sodium restriction",
+    "salt restriction",
+    "low-sodium",
+    "low sodium",
+    "reduced sodium",
+    "reduced-sodium",
+    "urinary sodium excretion",
+    "sodium excretion"
+   ]
+  ],
+  "outcome_terms": [
+   "blood pressure",
+   "hypertension",
+   "cardiovascular",
+   "kidney",
+   "renal",
+   "systolic",
+   "diastolic",
+   "stroke"
+  ],
+  "exposure_less": true,
+  "tags": [
+   "Nutrition",
+   "Cardiovascular",
+   "Renal",
+   "Blood pressure"
+  ],
+  "aliases": [
+   "salt",
+   "sodium",
+   "low salt",
+   "low-salt",
+   "salt substitute",
+   "salty food",
+   "table salt"
+  ]
+ },
+ {
+  "slug": "ssb",
+  "label": "Sugary drinks",
+  "question": "Are sugar-sweetened beverages linked to obesity, type 2 diabetes or cardiovascular disease?",
+  "query": "(\"sugar-sweetened beverage*\"[Title] OR \"sugary drink*\"[Title] OR \"sugar-sweetened\"[Title] OR \"soft drink*\"[Title]) AND (obesity[Title/Abstract] OR diabetes[Title/Abstract] OR cardiovascular[Title/Abstract] OR weight[Title/Abstract] OR mortality[Title/Abstract]) AND (randomized controlled trial[Publication Type] OR meta-analysis[Publication Type] OR cohort studies[MeSH Terms] OR systematic review[Publication Type]) AND hasabstract[text] AND 2019:2026[dp]",
+  "retmax": 25,
+  "polarity": "harm",
+  "concepts": [
+   [
+    "sugar-sweetened",
+    "sugary drink",
+    "soft drink",
+    "sugar sweetened"
+   ]
+  ],
+  "outcome_terms": [
+   "obesity",
+   "weight",
+   "diabetes",
+   "cardiovascular",
+   "mortality",
+   "adiposity"
+  ],
+  "tags": [
+   "Nutrition",
+   "Metabolic",
+   "Harm",
+   "Beverage"
+  ],
+  "aliases": [
+   "soda",
+   "sodas",
+   "soft drink",
+   "soft drinks",
+   "sugary drink",
+   "sugary drinks",
+   "sugar sweetened",
+   "sugar-sweetened",
+   "cola",
+   "energy drink",
+   "fizzy drink"
+  ],
+  "exposure_not_terms": [
+   "non-sugar-sweetened",
+   "non sugar sweetened",
+   "unsweetened",
+   "non-sugar",
+   "artificially sweetened",
+   "diet soda",
+   "diet drink",
+   "diet beverage",
+   "sugar-free"
+  ],
+  "exposure_extra_terms": [
+   "SSB",
+   "sweetened beverage",
+   "sugary beverage",
+   "sugar-sweetened soda"
+  ]
+ },
+ {
+  "slug": "red-meat",
+  "label": "Red & processed meat",
+  "question": "Is red or processed meat consumption associated with cancer, cardiovascular disease or mortality?",
+  "query": "(\"red meat\"[Title] OR \"processed meat\"[Title] OR \"meat consumption\"[Title] OR \"meat intake\"[Title]) AND (cancer[Title/Abstract] OR cardiovascular[Title/Abstract] OR mortality[Title/Abstract] OR diabetes[Title/Abstract]) AND (randomized controlled trial[Publication Type] OR meta-analysis[Publication Type] OR cohort studies[MeSH Terms] OR systematic review[Publication Type]) AND hasabstract[text] AND 2019:2026[dp]",
+  "retmax": 25,
+  "polarity": "harm",
+  "concepts": [
+   [
+    "red meat",
+    "processed meat",
+    "meat consumption",
+    "meat intake"
+   ]
+  ],
+  "outcome_terms": [
+   "cancer",
+   "cardiovascular",
+   "mortality",
+   "diabetes",
+   "colorectal"
+  ],
+  "tags": [
+   "Nutrition",
+   "Oncology",
+   "Harm",
+   "Disease risk"
+  ],
+  "aliases": [
+   "red meat",
+   "processed meat",
+   "bacon",
+   "ham",
+   "sausage",
+   "sausages",
+   "hot dog",
+   "hot dogs",
+   "beef",
+   "steak",
+   "pork",
+   "salami",
+   "deli meat",
+   "cured meat"
+  ],
+  "exposure_not_terms": [
+   "poultry",
+   "white meat",
+   "chicken",
+   "fish",
+   "seafood",
+   "plant-based meat"
+  ],
+  "exposure_extra_terms": [
+   "red and processed meat",
+   "unprocessed red meat"
+  ]
+ },
+ {
+  "slug": "fiber",
+  "label": "Fiber & whole grains",
+  "question": "Does higher dietary fiber or whole grain intake lower the risk of cardiovascular disease, diabetes or mortality?",
+  "query": "(\"dietary fiber\"[Title] OR \"dietary fibre\"[Title] OR \"whole grain*\"[Title] OR \"fiber intake\"[Title] OR \"fibre intake\"[Title]) AND (cardiovascular[Title/Abstract] OR diabetes[Title/Abstract] OR mortality[Title/Abstract] OR cholesterol[Title/Abstract]) AND (randomized controlled trial[Publication Type] OR meta-analysis[Publication Type] OR cohort studies[MeSH Terms] OR systematic review[Publication Type]) AND hasabstract[text] AND 2019:2026[dp]",
+  "retmax": 25,
+  "polarity": "benefit",
+  "concepts": [
+   [
+    "fiber",
+    "fibre",
+    "whole grain"
+   ]
+  ],
+  "outcome_terms": [
+   "cardiovascular",
+   "diabetes",
+   "mortality",
+   "cholesterol",
+   "weight"
+  ],
+  "tags": [
+   "Nutrition",
+   "Digestive",
+   "Cardiovascular",
+   "Disease risk"
+  ],
+  "aliases": [
+   "fiber",
+   "fibre",
+   "whole grain",
+   "whole grains",
+   "wholegrain",
+   "oats",
+   "oatmeal",
+   "bran"
+  ]
+ },
+ {
+  "slug": "plant-based",
+  "label": "Plant-based diets",
+  "question": "Are vegetarian or plant-based diets associated with lower cardiovascular risk, diabetes or mortality?",
+  "query": "(vegetarian[Title] OR vegan[Title] OR \"plant-based\"[Title] OR \"plant based\"[Title]) AND (cardiovascular[Title/Abstract] OR diabetes[Title/Abstract] OR mortality[Title/Abstract] OR weight[Title/Abstract] OR cholesterol[Title/Abstract]) AND (randomized controlled trial[Publication Type] OR meta-analysis[Publication Type] OR cohort studies[MeSH Terms] OR systematic review[Publication Type]) AND hasabstract[text] AND 2019:2026[dp]",
+  "retmax": 25,
+  "polarity": "benefit",
+  "concepts": [
+   [
+    "vegetarian",
+    "vegan",
+    "plant-based",
+    "plant based"
+   ]
+  ],
+  "outcome_terms": [
+   "cardiovascular",
+   "diabetes",
+   "mortality",
+   "weight",
+   "cholesterol",
+   "blood pressure"
+  ],
+  "tags": [
+   "Nutrition",
+   "Cardiovascular",
+   "Metabolic",
+   "Diet pattern"
+  ],
+  "aliases": [
+   "vegan",
+   "vegetarian",
+   "plant based",
+   "plant-based",
+   "meat free",
+   "meat-free",
+   "going vegan"
+  ],
+  "exposure_not_terms": [
+   "plant-based oil",
+   "plant-based meat",
+   "plant-based protein",
+   "butter",
+   "pescatarian"
+  ],
+  "exposure_extra_terms": [
+   "PBD",
+   "plant-based diet",
+   "plant-based dietary"
+  ]
+ },
+ {
+  "slug": "nuts",
+  "label": "Nuts",
+  "question": "Does eating nuts reduce cardiovascular disease, diabetes or mortality?",
+  "query": "(nut[Title] OR nuts[Title] OR almond*[Title] OR walnut*[Title] OR peanut*[Title] OR pistachio*[Title]) AND (cardiovascular[Title/Abstract] OR diabetes[Title/Abstract] OR mortality[Title/Abstract] OR cholesterol[Title/Abstract] OR weight[Title/Abstract]) AND (randomized controlled trial[Publication Type] OR meta-analysis[Publication Type] OR cohort studies[MeSH Terms] OR systematic review[Publication Type]) AND hasabstract[text] AND 2019:2026[dp]",
+  "retmax": 25,
+  "polarity": "benefit",
+  "concepts": [
+   [
+    "nut",
+    "nuts",
+    "almond",
+    "walnut",
+    "peanut",
+    "pistachio"
+   ]
+  ],
+  "outcome_terms": [
+   "cardiovascular",
+   "diabetes",
+   "mortality",
+   "cholesterol",
+   "weight"
+  ],
+  "tags": [
+   "Nutrition",
+   "Cardiovascular",
+   "Longevity",
+   "Disease risk"
+  ],
+  "aliases": [
+   "nuts",
+   "nut",
+   "almond",
+   "almonds",
+   "walnut",
+   "walnuts",
+   "peanut",
+   "peanuts",
+   "pistachio",
+   "pistachios",
+   "cashew",
+   "cashews"
+  ]
+ },
+ {
+  "slug": "fruit-veg",
+  "label": "Fruit & vegetables",
+  "question": "Does eating more fruit and vegetables lower cardiovascular risk or mortality?",
+  "query": "(\"fruit and vegetable*\"[Title] OR \"fruit intake\"[Title] OR \"vegetable intake\"[Title] OR \"fruit consumption\"[Title] OR \"vegetable consumption\"[Title] OR \"fruits and vegetables\"[Title]) AND (cardiovascular[Title/Abstract] OR mortality[Title/Abstract] OR cancer[Title/Abstract] OR blood pressure[Title/Abstract]) AND (randomized controlled trial[Publication Type] OR meta-analysis[Publication Type] OR cohort studies[MeSH Terms] OR systematic review[Publication Type]) AND hasabstract[text] AND 2019:2026[dp]",
+  "retmax": 25,
+  "polarity": "benefit",
+  "concepts": [
+   [
+    "fruit",
+    "vegetable"
+   ]
+  ],
+  "outcome_terms": [
+   "cardiovascular",
+   "mortality",
+   "cancer",
+   "blood pressure",
+   "diabetes"
+  ],
+  "tags": [
+   "Nutrition",
+   "Cardiovascular",
+   "Longevity",
+   "Disease risk"
+  ],
+  "aliases": [
+   "fruit",
+   "fruits",
+   "vegetable",
+   "vegetables",
+   "veggies",
+   "greens",
+   "five a day",
+   "5 a day"
+  ],
+  "exposure_not_terms": [
+   "preserved vegetable",
+   "pickled vegetable",
+   "salted vegetable",
+   "preserved fruit",
+   "pickled",
+   "preserved",
+   "salted"
+  ]
+ },
+ {
+  "slug": "sat-fat",
+  "label": "Saturated fat",
+  "question": "Does saturated fat or dietary cholesterol intake increase cardiovascular risk?",
+  "query": "(\"saturated fat*\"[Title] OR \"saturated fatty acid*\"[Title] OR \"dietary cholesterol\"[Title] OR \"dietary fat\"[Title] OR \"butter\"[Title] OR \"trans fat*\"[Title]) AND (cardiovascular[Title/Abstract] OR cholesterol[Title/Abstract] OR LDL[Title/Abstract] OR mortality[Title/Abstract]) AND (randomized controlled trial[Publication Type] OR meta-analysis[Publication Type] OR cohort studies[MeSH Terms] OR systematic review[Publication Type]) AND hasabstract[text] AND 2019:2026[dp]",
+  "retmax": 25,
+  "polarity": "harm",
+  "concepts": [
+   [
+    "saturated fat",
+    "saturated fatty acid",
+    "dietary cholesterol",
+    "dietary fat",
+    "butter",
+    "trans fat"
+   ]
+  ],
+  "outcome_terms": [
+   "cardiovascular",
+   "cholesterol",
+   "ldl",
+   "mortality",
+   "coronary"
+  ],
+  "tags": [
+   "Nutrition",
+   "Cardiovascular",
+   "Lipids",
+   "Harm"
+  ],
+  "aliases": [
+   "saturated fat",
+   "saturated fats",
+   "butter",
+   "cholesterol in food",
+   "dietary cholesterol",
+   "lard",
+   "trans fat",
+   "eggs",
+   "egg"
+  ],
+  "exposure_extra_terms": [
+   "SFA",
+   "saturated fats",
+   "cholesterol intake"
+  ]
+ },
+ {
+  "slug": "low-carb",
+  "label": "Low-carb & keto",
+  "question": "Do low-carbohydrate or ketogenic diets lead to more weight loss or better glycaemic control than other diets?",
+  "query": "(\"low-carbohydrate\"[Title] OR \"low carbohydrate\"[Title] OR ketogenic[Title] OR \"very low carbohydrate\"[Title] OR \"low-carb\"[Title]) AND (weight[Title/Abstract] OR glycemic[Title/Abstract] OR glycaemic[Title/Abstract] OR HbA1c[Title/Abstract] OR diabetes[Title/Abstract]) AND (randomized controlled trial[Publication Type] OR meta-analysis[Publication Type] OR cohort studies[MeSH Terms] OR systematic review[Publication Type]) AND hasabstract[text] AND 2019:2026[dp]",
+  "retmax": 25,
+  "polarity": "benefit",
+  "concepts": [
+   [
+    "low-carbohydrate",
+    "low carbohydrate",
+    "ketogenic",
+    "low-carb"
+   ]
+  ],
+  "outcome_terms": [
+   "weight",
+   "glycemic",
+   "glycaemic",
+   "hba1c",
+   "diabetes"
+  ],
+  "tags": [
+   "Nutrition",
+   "Metabolic",
+   "Weight",
+   "Diet pattern"
+  ],
+  "aliases": [
+   "keto",
+   "ketogenic",
+   "low carb",
+   "low-carb",
+   "atkins",
+   "carnivore",
+   "very low carbohydrate"
+  ]
+ },
+ {
+  "slug": "sweeteners",
+  "label": "Artificial sweeteners",
+  "question": "Are artificial or non-nutritive sweeteners linked to weight gain, diabetes or cardiovascular disease?",
+  "query": "(\"artificial sweetener*\"[Title] OR \"non-nutritive sweetener*\"[Title] OR \"nonnutritive sweetener*\"[Title] OR aspartame[Title] OR sucralose[Title] OR \"low-calorie sweetener*\"[Title]) AND (weight[Title/Abstract] OR diabetes[Title/Abstract] OR cardiovascular[Title/Abstract] OR obesity[Title/Abstract] OR glucose[Title/Abstract]) AND (randomized controlled trial[Publication Type] OR meta-analysis[Publication Type] OR cohort studies[MeSH Terms] OR systematic review[Publication Type]) AND hasabstract[text] AND 2019:2026[dp]",
+  "retmax": 25,
+  "polarity": "harm",
+  "concepts": [
+   [
+    "artificial sweetener",
+    "non-nutritive sweetener",
+    "nonnutritive sweetener",
+    "aspartame",
+    "sucralose",
+    "low-calorie sweetener"
+   ]
+  ],
+  "outcome_terms": [
+   "weight",
+   "diabetes",
+   "cardiovascular",
+   "obesity",
+   "glucose"
+  ],
+  "tags": [
+   "Nutrition",
+   "Metabolic",
+   "Harm",
+   "Beverage"
+  ],
+  "aliases": [
+   "artificial sweetener",
+   "artificial sweeteners",
+   "sweetener",
+   "sweeteners",
+   "aspartame",
+   "sucralose",
+   "stevia",
+   "diet soda",
+   "diet coke",
+   "diet drink",
+   "diet drinks",
+   "splenda",
+   "saccharin",
+   "zero sugar"
+  ],
+  "exposure_extra_terms": [
+   "NNS",
+   "LCS",
+   "artificially sweetened beverage",
+   "ASB",
+   "sweetener"
+  ]
+ },
+ {
+  "slug": "coffee",
+  "label": "Coffee",
+  "question": "Is coffee consumption associated with lower mortality, cardiovascular disease or type 2 diabetes?",
+  "query": "(coffee[Title] OR caffeine[Title]) AND (mortality[Title/Abstract] OR cardiovascular[Title/Abstract] OR diabetes[Title/Abstract] OR cancer[Title/Abstract] OR blood pressure[Title/Abstract]) AND (randomized controlled trial[Publication Type] OR meta-analysis[Publication Type] OR cohort studies[MeSH Terms] OR systematic review[Publication Type]) AND hasabstract[text] AND 2019:2026[dp]",
+  "retmax": 25,
+  "polarity": "benefit",
+  "concepts": [
+   [
+    "coffee",
+    "caffeine"
+   ]
+  ],
+  "outcome_terms": [
+   "mortality",
+   "cardiovascular",
+   "diabetes",
+   "cancer",
+   "blood pressure"
+  ],
+  "tags": [
+   "Nutrition",
+   "Cardiovascular",
+   "Longevity",
+   "Beverage"
+  ],
+  "aliases": [
+   "coffee",
+   "espresso",
+   "caffeine",
+   "caffeinated"
+  ]
+ },
+ {
+  "slug": "dash",
+  "label": "DASH diet",
+  "question": "Does the DASH diet lower blood pressure?",
+  "query": "(DASH[Title] OR \"Dietary Approaches to Stop Hypertension\"[Title]) AND (\"blood pressure\"[Title/Abstract] OR hypertension[Title/Abstract] OR cardiovascular[Title/Abstract]) AND (randomized controlled trial[Publication Type] OR meta-analysis[Publication Type] OR cohort studies[MeSH Terms] OR systematic review[Publication Type]) AND hasabstract[text] AND 2019:2026[dp]",
+  "retmax": 25,
+  "polarity": "benefit",
+  "concepts": [
+   [
+    "dash",
+    "dietary approaches to stop hypertension"
+   ]
+  ],
+  "outcome_terms": [
+   "blood pressure",
+   "hypertension",
+   "systolic",
+   "diastolic",
+   "cardiovascular"
+  ],
+  "tags": [
+   "Nutrition",
+   "Cardiovascular",
+   "Blood pressure",
+   "Diet pattern"
+  ],
+  "aliases": [
+   "dash diet",
+   "dash",
+   "dietary approaches to stop hypertension"
+  ]
+ },
+ {
+  "slug": "omega3",
+  "label": "Omega-3",
+  "question": "Do omega-3 fatty acid or fish oil supplements reduce cardiovascular events?",
+  "query": "(\"omega-3\"[Title] OR \"fish oil\"[Title] OR \"n-3 polyunsaturated\"[Title] OR \"eicosapentaenoic\"[Title] OR \"docosahexaenoic\"[Title]) AND (cardiovascular[Title/Abstract] OR \"heart disease\"[Title/Abstract] OR mortality[Title/Abstract] OR triglyceride*[Title/Abstract]) AND (randomized controlled trial[Publication Type] OR meta-analysis[Publication Type] OR cohort studies[MeSH Terms] OR systematic review[Publication Type]) AND hasabstract[text] AND 2019:2026[dp]",
+  "retmax": 25,
+  "polarity": "benefit",
+  "concepts": [
+   [
+    "omega-3",
+    "fish oil",
+    "n-3",
+    "eicosapentaenoic",
+    "docosahexaenoic"
+   ]
+  ],
+  "outcome_terms": [
+   "cardiovascular",
+   "heart",
+   "mortality",
+   "triglyceride",
+   "coronary"
+  ],
+  "tags": [
+   "Supplement",
+   "Cardiovascular",
+   "Lipids",
+   "Disease risk"
+  ],
+  "aliases": [
+   "omega 3",
+   "omega-3",
+   "fish oil",
+   "fish oils",
+   "krill oil",
+   "epa",
+   "dha",
+   "cod liver oil",
+   "fish oil pills"
+  ]
+ },
+ {
+  "slug": "nmn",
+  "label": "NMN \u00b7 NAD+",
+  "question": "Does nicotinamide mononucleotide (NMN) or nicotinamide riboside supplementation raise NAD+ levels or improve health outcomes in adults?",
+  "query": "(\"nicotinamide mononucleotide\"[Title/Abstract] OR NMN[Title] OR \"nicotinamide riboside\"[Title/Abstract]) AND (NAD[Title/Abstract] OR NAD+[Title/Abstract]) AND (randomized controlled trial[Publication Type] OR meta-analysis[Publication Type] OR systematic review[Publication Type] OR clinical trial[Publication Type]) AND hasabstract[text]",
+  "retmax": 30,
+  "polarity": "benefit",
+  "concepts": [
+   [
+    "nicotinamide mononucleotide",
+    "NMN",
+    "nicotinamide riboside",
+    "NR",
+    "NAD+",
+    "NAD"
+   ]
+  ],
+  "outcome_terms": [
+   "NAD+",
+   "NAD",
+   "blood NAD",
+   "insulin sensitivity",
+   "muscle",
+   "walking",
+   "physical performance",
+   "blood pressure",
+   "safety"
+  ],
+  "tags": [
+   "Supplement",
+   "Longevity",
+   "Biomarker",
+   "Anti-ageing"
+  ],
+  "aliases": [
+   "nmn",
+   "nad",
+   "nad+",
+   "nicotinamide mononucleotide",
+   "nicotinamide riboside",
+   "niagen",
+   "tru niagen",
+   "anti aging pill",
+   "anti-aging pill"
+  ]
+ },
+ {
+  "slug": "cold-lifting",
+  "label": "Cold water \u00b7 muscle growth",
+  "question": "Does cold-water immersion after resistance training impair muscle growth or strength gains?",
+  "query": "(\"cold water immersion\"[Title/Abstract] OR cryotherapy[Title/Abstract] OR \"cold exposure\"[Title/Abstract] OR \"cold-water\"[Title/Abstract] OR icing[Title/Abstract]) AND (\"resistance training\"[Title/Abstract] OR \"strength training\"[Title/Abstract] OR hypertrophy[Title/Abstract] OR \"muscle growth\"[Title/Abstract]) AND (randomized controlled trial[Publication Type] OR meta-analysis[Publication Type] OR systematic review[Publication Type] OR clinical trial[Publication Type]) AND hasabstract[text]",
+  "retmax": 30,
+  "polarity": "harm",
+  "concepts": [
+   [
+    "cold water immersion",
+    "cold-water immersion",
+    "cryotherapy",
+    "cold exposure",
+    "cooling",
+    "icing"
+   ],
+   [
+    "resistance training",
+    "strength training",
+    "hypertrophy",
+    "muscle growth",
+    "muscle"
+   ]
+  ],
+  "outcome_terms": [
+   "hypertrophy",
+   "muscle mass",
+   "muscle growth",
+   "muscle thickness",
+   "cross-sectional area",
+   "lean mass",
+   "strength",
+   "one repetition maximum",
+   "1RM"
+  ],
+  "tags": [
+   "Recovery",
+   "Musculoskeletal",
+   "Exercise",
+   "Muscle growth"
+  ],
+  "aliases": [
+   "cold plunge",
+   "ice bath",
+   "ice baths",
+   "cold water immersion",
+   "cold-water immersion",
+   "cold shower after",
+   "cryotherapy",
+   "cold tub",
+   "cold exposure"
+  ]
+ },
+ {
+  "slug": "wb-mri",
+  "label": "Whole-body MRI",
+  "question": "Does whole-body MRI screening in healthy adults detect disease early or improve health outcomes?",
+  "query": "(\"whole-body MRI\"[Title/Abstract] OR \"whole body MRI\"[Title/Abstract] OR \"whole-body magnetic resonance\"[Title/Abstract] OR \"whole body magnetic resonance\"[Title/Abstract]) AND (screening[Title/Abstract] OR asymptomatic[Title/Abstract] OR \"incidental findings\"[Title/Abstract] OR \"cancer detection\"[Title/Abstract]) AND hasabstract[text]",
+  "retmax": 30,
+  "polarity": "benefit",
+  "concepts": [
+   [
+    "whole-body MRI",
+    "whole body MRI",
+    "whole-body magnetic resonance",
+    "whole body magnetic resonance"
+   ],
+   [
+    "screening",
+    "asymptomatic",
+    "incidental",
+    "cancer detection"
+   ]
+  ],
+  "outcome_terms": [
+   "cancer detection",
+   "detection rate",
+   "incidental findings",
+   "false positive",
+   "mortality",
+   "overdiagnosis",
+   "clinically significant"
+  ],
+  "tags": [
+   "Screening",
+   "Diagnostics",
+   "Oncology",
+   "Imaging"
+  ],
+  "aliases": [
+   "whole body mri",
+   "whole-body mri",
+   "full body mri",
+   "full-body mri",
+   "body scan",
+   "prenuvo",
+   "mri scan",
+   "mri screening",
+   "full body scan"
+  ]
+ }
+]

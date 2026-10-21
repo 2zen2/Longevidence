@@ -1,0 +1,51 @@
+{
+ "provider": "cloudflare",
+ "model": "@cf/openai/gpt-oss-20b",
+ "usage": {
+  "input_tokens": 957,
+  "output_tokens": 3049
+ },
+ "output": {
+  "study": {
+   "design": "rct",
+   "sample_size": 20,
+   "title": "The effectiveness of 5:2 intermittent fasting compared with continuous caloric restriction in the treatment of recurrent weight gain after metabolic bariatric surgery: A non-inferiority, short-term, pilot feasibility study."
+  },
+  "primary_findings": [
+   {
+    "effect_estimate": "-0.13 kg",
+    "ci": "-2.90 to 2.62",
+    "p": null,
+    "direction": "no_difference",
+    "quote": "The difference between the two groups remained within the predefined non-inferiority margin of 4 kg (-0.13; 95% CI: -2.90 to 2.62).",
+    "section": "RESULTS",
+    "confidence": "high"
+   },
+   {
+    "effect_estimate": "-1.025 kg",
+    "ci": "-0.09 to -1.96",
+    "p": "0.03",
+    "direction": "weight_loss",
+    "quote": "the 5:2 IF group experienced an average weight loss of -1.025 kg (95% CI: -0.09 to -1.96 kg; p = 0.03).",
+    "section": "RESULTS",
+    "confidence": "high"
+   },
+   {
+    "effect_estimate": "-0.88 kg",
+    "ci": "-2.2 to 3.9",
+    "p": "0.51",
+    "direction": "no_difference",
+    "quote": "The CCR group showed no change in weight at 12 weeks (mean difference -0.88 kg; 95% CI: -2.2 to 3.9 kg; p = 0.51).",
+    "section": "RESULTS",
+    "confidence": "high"
+   }
+  ],
+  "limitations_stated": [
+   {
+    "quote": "Further research with extended follow-up is essential to assess long-term feasibility, safety, and adherence.",
+    "section": "CONCLUSION",
+    "confidence": "high"
+   }
+  ]
+ }
+}

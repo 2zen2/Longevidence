@@ -1,0 +1,49 @@
+{
+ "provider": "openrouter",
+ "model": "nvidia/nemotron-3.5-lightning:free",
+ "usage": {
+  "input_tokens": 2653,
+  "output_tokens": 2728
+ },
+ "output": {
+  "study": {
+   "design": {
+    "quote": "Systematic Review and Meta-Analysis of Randomized Controlled Trials.",
+    "section": "TITLE",
+    "confidence": "high",
+    "status": "reported",
+    "value": "meta_analysis"
+   },
+   "population": {
+    "status": "not_reported",
+    "value": null
+   },
+   "sample_size": {
+    "status": "not_reported",
+    "value": null
+   },
+   "intervention": {
+    "status": "not_reported",
+    "value": null
+   },
+   "comparator": {
+    "status": "not_reported",
+    "value": null
+   },
+   "follow_up": {
+    "status": "not_reported",
+    "value": null
+   }
+  },
+  "primary_findings": [],
+  "limitations_stated": [
+   {
+    "quote": "Exploratory study-level continuous trends were not statistically significant, consistent with residual heterogeneity, exposure measurement error, and adherence variation.",
+    "section": "CONCLUSIONS",
+    "confidence": "high",
+    "status": "reported",
+    "value": "residual heterogeneity, exposure measurement error, adherence variation"
+   }
+  ]
+ }
+}

@@ -1,0 +1,57 @@
+{
+ "provider": "cloudflare",
+ "model": "@cf/openai/gpt-oss-20b",
+ "usage": {
+  "input_tokens": 1459,
+  "output_tokens": 1175
+ },
+ "output": {
+  "study": {
+   "design": {
+    "status": "reported",
+    "value": "cohort"
+   },
+   "population": {
+    "status": "reported",
+    "value": "adult population"
+   },
+   "sample_size": {
+    "status": "reported",
+    "value": 2539
+   },
+   "intervention": {
+    "status": "reported",
+    "value": "ultra-processed food (UPF) consumption"
+   },
+   "comparator": {
+    "status": "reported",
+    "value": "lowest quartile of UPF consumption"
+   },
+   "follow_up": {
+    "status": "reported",
+    "value": "median 11.6 years"
+   }
+  },
+  "primary_findings": [
+   {
+    "quote": "HR: 1.79; 95% CI: 1.12-2.86; P for trend < 0.001",
+    "outcome": "risk of cardio-renal-metabolic multimorbidity",
+    "direction": "favors_comparator",
+    "effect_measure": "HR",
+    "effect_value": 1.79,
+    "ci_low": 1.12,
+    "ci_high": 2.86
+   },
+   {
+    "quote": "HR: 1.27; 95% CI: 0.87-1.86; P for trend = 0.007",
+    "outcome": "risk of cardio-renal-metabolic multimorbidity",
+    "direction": "favors_comparator",
+    "effect_measure": "HR",
+    "effect_value": 1.27,
+    "ci_low": 0.87,
+    "ci_high": 1.86
+   }
+  ],
+  "limitations_stated": []
+ }
+}

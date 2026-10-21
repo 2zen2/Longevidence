@@ -1,0 +1,51 @@
+{
+ "provider": "openrouter",
+ "model": "nvidia/nemotron-3.5-lightning:free",
+ "usage": {
+  "input_tokens": 2544,
+  "output_tokens": 2799
+ },
+ "output": {
+  "study": {
+   "design": {
+    "status": "reported",
+    "value": "cohort"
+   },
+   "population": {
+    "status": "reported",
+    "value": "patients aged \u2265 75 years with CKD (eGFR < 60 mL/min/1.73 m2)"
+   },
+   "sample_size": {
+    "status": "reported",
+    "value": 462
+   },
+   "intervention": {
+    "status": "reported",
+    "value": "Salt intake (quartiles)"
+   },
+   "comparator": {
+    "status": "reported",
+    "value": "lowest quartile"
+   },
+   "follow_up": {
+    "status": "reported",
+    "value": "2.79 years"
+   }
+  },
+  "primary_findings": [
+   {
+    "quote": "In Stage 3 CKD, higher salt intake was significantly associated with increased risk (adjusted HR 2.70; 95% CI 1.02-7.12; highest vs. lowest quartile), and findings were consistent across sensitivity analyses.",
+    "section": "RESULTS",
+    "confidence": "high",
+    "outcome": "composite kidney endpoint of \u226530% eGFR decline or initiation of kidney replacement therapy",
+    "direction": "favors_comparator",
+    "effect_measure": "HR",
+    "effect_value": 2.7,
+    "ci_low": 1.02,
+    "ci_high": 7.12,
+    "p_value": null
+   }
+  ],
+  "limitations_stated": []
+ }
+}

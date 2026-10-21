@@ -1,0 +1,53 @@
+{
+ "provider": "openrouter",
+ "model": "nvidia/nemotron-3.5-lightning:free",
+ "usage": {
+  "input_tokens": 2372,
+  "output_tokens": 2300
+ },
+ "output": {
+  "study": {
+   "design": {
+    "status": "reported",
+    "value": "other"
+   },
+   "population": {
+    "status": "reported",
+    "value": "multiple sclerosis"
+   },
+   "sample_size": {
+    "status": "not_reported",
+    "value": null
+   },
+   "intervention": {
+    "status": "reported",
+    "value": "ultra-processed foods"
+   },
+   "comparator": {
+    "status": "not_reported",
+    "value": null
+   },
+   "follow_up": {
+    "status": "not_reported",
+    "value": null
+   }
+  },
+  "primary_findings": [],
+  "limitations_stated": [
+   {
+    "quote": "the heterogeneity of ultra-processed foods",
+    "section": "ABSTRACT",
+    "confidence": "high",
+    "status": "reported",
+    "value": "the heterogeneity of ultra-processed foods"
+   },
+   {
+    "quote": "the scarcity of longitudinal or interventional studies addressing neuroimmune outcomes",
+    "section": "ABSTRACT",
+    "confidence": "high",
+    "status": "reported",
+    "value": "the scarcity of longitudinal or interventional studies addressing neuroimmune outcomes"
+   }
+  ]
+ }
+}

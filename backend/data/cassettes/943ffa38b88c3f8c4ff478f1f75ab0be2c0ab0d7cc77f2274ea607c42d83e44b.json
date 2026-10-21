@@ -1,0 +1,92 @@
+{
+ "provider": "cloudflare",
+ "model": "@cf/openai/gpt-oss-20b",
+ "usage": {
+  "input_tokens": 1688,
+  "output_tokens": 1528
+ },
+ "output": {
+  "study": {
+   "design": {
+    "quote": "cross-sectional study",
+    "section": "ABSTRACT",
+    "confidence": "high",
+    "status": "reported",
+    "value": "cross_sectional"
+   },
+   "population": {
+    "quote": "adults aged 35 to 69 years without cardiovascular disease",
+    "section": "ABSTRACT",
+    "confidence": "high",
+    "status": "reported",
+    "value": "adults aged 35 to 69 years without cardiovascular disease"
+   },
+   "sample_size": {
+    "quote": "8783 participants",
+    "section": "ABSTRACT",
+    "confidence": "high",
+    "status": "reported",
+    "value": 8783
+   },
+   "intervention": {
+    "quote": "highest quartile of UPF intake",
+    "section": "ABSTRACT",
+    "confidence": "high",
+    "status": "reported",
+    "value": "highest quartile of UPF intake"
+   },
+   "comparator": {
+    "quote": "lowest quartile of UPF intake",
+    "section": "ABSTRACT",
+    "confidence": "high",
+    "status": "reported",
+    "value": "lowest quartile of UPF intake"
+   },
+   "follow_up": {
+    "quote": null,
+    "section": null,
+    "confidence": null,
+    "status": "not_reported",
+    "value": null
+   }
+  },
+  "primary_findings": [
+   {
+    "quote": "BF percentage that was 1.7 (95% CI, 1.2-2.2) percentage points higher",
+    "section": "ABSTRACT",
+    "confidence": "high",
+    "outcome": "Body fat percentage difference",
+    "direction": "favors_intervention",
+    "effect_measure": "MD",
+    "effect_value": 1.7,
+    "ci_low": 1.2,
+    "ci_high": 2.2,
+    "p_value": null
+   },
+   {
+    "quote": "5.7 (95% CI, 3.2-8.3) mL greater VAT volume",
+    "section": "ABSTRACT",
+    "confidence": "high",
+    "outcome": "Visceral adipose tissue volume difference",
+    "direction": "favors_intervention",
+    "effect_measure": "MD",
+    "effect_value": 5.7,
+    "ci_low": 3.2,
+    "ci_high": 8.3,
+    "p_value": null
+   },
+   {
+    "quote": "higher odds of VBI (adjusted OR, 1.40; 95% CI, 1.10-1.77; P for trend = .009)",
+    "section": "ABSTRACT",
+    "confidence": "high",
+    "outcome": "Odds of vascular brain injury",
+    "direction": "favors_intervention",
+    "effect_measure": "OR",
+    "effect_value": 1.4,
+    "ci_low": 1.1,
+    "ci_high": 1.77,
+    "p_value": 0.009
+   }
+  ]
+ }
+}

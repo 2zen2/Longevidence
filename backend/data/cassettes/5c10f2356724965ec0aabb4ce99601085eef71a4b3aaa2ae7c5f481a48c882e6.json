@@ -1,0 +1,50 @@
+{
+ "provider": "cloudflare",
+ "model": "@cf/openai/gpt-oss-20b",
+ "usage": {
+  "input_tokens": 1434,
+  "output_tokens": 1517
+ },
+ "output": {
+  "study": {
+   "design": {
+    "quote": "In this 12-week randomized controlled trial",
+    "section": "METHODS",
+    "status": "reported",
+    "value": "rct"
+   },
+   "population": {
+    "quote": "62 patients with \u2265 10% weight regain two years after sleeve gastrectomy",
+    "section": "METHODS",
+    "status": "reported",
+    "value": "patients with \u2265 10% weight regain two years after sleeve gastrectomy"
+   },
+   "sample_size": {
+    "quote": "A total of 48 participants (25 in TRE + CR; 23 in CR) completed the trial.",
+    "section": "RESULTS",
+    "status": "reported",
+    "value": 48
+   },
+   "intervention": {
+    "quote": "TRE + CR diet (8-hour eating window)",
+    "section": "METHODS",
+    "status": "reported",
+    "value": "TRE + CR diet (8-hour eating window)"
+   },
+   "comparator": {
+    "quote": "CR-only diet",
+    "section": "METHODS",
+    "status": "reported",
+    "value": "CR-only diet"
+   },
+   "follow_up": {
+    "quote": "12-week randomized controlled trial",
+    "section": "METHODS",
+    "status": "reported",
+    "value": "12 weeks"
+   }
+  },
+  "primary_findings": [],
+  "limitations_stated": []
+ }
+}

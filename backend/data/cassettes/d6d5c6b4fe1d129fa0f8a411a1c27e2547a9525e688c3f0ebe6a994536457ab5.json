@@ -1,0 +1,95 @@
+{
+ "provider": "cloudflare",
+ "model": "@cf/openai/gpt-oss-20b",
+ "usage": {
+  "input_tokens": 1465,
+  "output_tokens": 2009
+ },
+ "output": {
+  "study": {
+   "design": {
+    "quote": "The 40 reports represented 34 data sources and at least 260,354 unique patients, comprising six randomized trials, 30 observational reports, and four comparative nonrandomized studies.",
+    "section": "RESULTS",
+    "status": "reported",
+    "value": "meta_analysis"
+   },
+   "population": {
+    "quote": "after coronary heart disease (CHD) diagnosis",
+    "section": "INTRODUCTION",
+    "status": "reported",
+    "value": "patients with coronary heart disease"
+   },
+   "sample_size": {
+    "quote": "at least 260,354 unique patients",
+    "section": "RESULTS",
+    "status": "reported",
+    "value": 260354
+   },
+   "intervention": {
+    "quote": "Mediterranean dietary patterns and physical activity",
+    "section": "INTRODUCTION",
+    "status": "reported",
+    "value": "Mediterranean diet adherence and physical activity"
+   },
+   "comparator": {
+    "quote": "Mediterranean and low-fat diets",
+    "section": "RESULTS",
+    "status": "reported",
+    "value": "low-fat diet and inactivity"
+   },
+   "follow_up": {
+    "quote": null,
+    "section": null,
+    "status": "not_reported",
+    "value": null
+   }
+  },
+  "primary_findings": [
+   {
+    "quote": "In one randomized comparison of Mediterranean and low-fat diets, the HR for MACE was 0.72 (95% CI 0.54 to 0.96; moderate certainty).",
+    "section": "RESULTS",
+    "outcome": "MACE",
+    "direction": "favors_intervention",
+    "effect_measure": "HR",
+    "effect_value": 0.72,
+    "ci_low": 0.54,
+    "ci_high": 0.96,
+    "p_value": null
+   },
+   {
+    "quote": "Observational findings supported inverse associations of closer dietary adherence with all-cause mortality (HR 0.74, 95% CI 0.60 to 0.90; I2 = 44%).",
+    "section": "RESULTS",
+    "outcome": "all-cause mortality (diet adherence)",
+    "direction": "favors_intervention",
+    "effect_measure": "HR",
+    "effect_value": 0.74,
+    "ci_low": 0.6,
+    "ci_high": 0.9,
+    "p_value": null
+   },
+   {
+    "quote": "HRs for maintained or continued physical activity relative to persistent inactivity were 0.64 for all-cause mortality (95% CI 0.55 to 0.74; I2 = 29%).",
+    "section": "RESULTS",
+    "outcome": "all-cause mortality (physical activity)",
+    "direction": "favors_intervention",
+    "effect_measure": "HR",
+    "effect_value": 0.64,
+    "ci_low": 0.55,
+    "ci_high": 0.74,
+    "p_value": null
+   },
+   {
+    "quote": "and 0.42 for cardiovascular mortality (95% CI 0.28 to 0.64; I2 = 72%).",
+    "section": "RESULTS",
+    "outcome": "cardiovascular mortality (physical activity)",
+    "direction": "favors_intervention",
+    "effect_measure": "HR",
+    "effect_value": 0.42,
+    "ci_low": 0.28,
+    "ci_high": 0.64,
+    "p_value": null
+   }
+  ],
+  "limitations_stated": []
+ }
+}

@@ -1,0 +1,54 @@
+{
+ "provider": "cloudflare",
+ "model": "@cf/openai/gpt-oss-20b",
+ "usage": {
+  "input_tokens": 1035,
+  "output_tokens": 1453
+ },
+ "output": {
+  "study": {
+   "design": {
+    "value": "rct",
+    "quote": "randomised controlled trial",
+    "section": "ABSTRACT"
+   },
+   "sample_size": {
+    "value": 50,
+    "quote": "50 participants",
+    "section": "METHODS AND ANALYSIS"
+   },
+   "age_range": {
+    "value": "20-39 years",
+    "quote": "aged 20-39 years",
+    "section": "METHODS AND ANALYSIS"
+   },
+   "intervention": {
+    "value": "40-minute one-on-one UPF-reducing dietary intervention",
+    "quote": "40-minute one-on-one UPF-reducing dietary intervention",
+    "section": "METHODS AND ANALYSIS"
+   },
+   "control": {
+    "value": "40-minute one-on-one standard dietary counselling based on national dietary guidelines (control)",
+    "quote": "40-minute one-on-one standard dietary counselling based on national dietary guidelines (control)",
+    "section": "METHODS AND ANALYSIS"
+   },
+   "primary_outcome": {
+    "value": "change in postprandial glucose responses, quantified as 2-hour incremental area under the curve following meals, from baseline to postintervention",
+    "quote": "primary outcome is the change in postprandial glucose responses, quantified as 2-hour incremental area under the curve following meals, from baseline to postintervention",
+    "section": "METHODS AND ANALYSIS"
+   },
+   "secondary_outcomes": {
+    "value": "changes in glycaemic variability metrics (coefficient of variation, SD, mean amplitude of glycaemic excursions, glucose spike frequency), time-in-range metrics, body weight, waist circumference, body composition, blood pressure and handgrip strength",
+    "quote": "Secondary outcomes include changes in glycaemic variability metrics (coefficient of variation, SD, mean amplitude of glycaemic excursions, glucose spike frequency), time-in-range metrics, body weight, waist circumference, body composition, blood pressure and handgrip strength",
+    "section": "METHODS AND ANALYSIS"
+   },
+   "analysis_method": {
+    "value": "analysis of covariance adjusting for baseline values, with daily CGM data analysed using linear mixed-effects models",
+    "quote": "between-group differences will be evaluated using analysis of covariance adjusting for baseline values, with daily CGM data analysed using linear mixed-effects models",
+    "section": "METHODS AND ANALYSIS"
+   }
+  },
+  "primary_findings": [],
+  "limitations_stated": []
+ }
+}

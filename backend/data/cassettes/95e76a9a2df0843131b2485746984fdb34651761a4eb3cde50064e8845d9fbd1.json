@@ -1,0 +1,47 @@
+{
+ "provider": "cloudflare",
+ "model": "@cf/openai/gpt-oss-20b",
+ "usage": {
+  "input_tokens": 889,
+  "output_tokens": 2100
+ },
+ "output": {
+  "study": {
+   "design": "observational",
+   "quote": "single-center retrospective cohort study",
+   "section": "METHODS",
+   "sample_size": 462,
+   "sample_size_quote": "A total of 462 patients",
+   "sample_size_section": "RESULTS",
+   "median_age": 79,
+   "median_age_quote": "median age, 79 years",
+   "median_age_section": "RESULTS",
+   "age_group": "\u2265 75 years",
+   "age_group_quote": "patients aged \u2265 75 years",
+   "age_group_section": "METHODS",
+   "ckd_stage_distribution": {
+    "stage_3": 305,
+    "stage_4_5": 157
+   },
+   "ckd_stage_distribution_quote": "305 had CKD Stage 3 and 157 had Stages 4-5",
+   "ckd_stage_distribution_section": "RESULTS",
+   "follow_up": "median 2.79 years",
+   "follow_up_quote": "median follow-up of 2.79 years",
+   "follow_up_section": "RESULTS",
+   "primary_outcome": "composite kidney endpoint of \u2265 30% eGFR decline or initiation of kidney replacement therapy",
+   "primary_outcome_quote": "primary outcome was a composite kidney endpoint of \u2265 30% eGFR decline or initiation of kidney replacement therapy",
+   "primary_outcome_section": "METHODS"
+  },
+  "primary_findings": [
+   {
+    "effect_estimate": 2.7,
+    "ci_lower": 1.02,
+    "ci_upper": 7.12,
+    "direction": "increased risk",
+    "quote": "adjusted HR 2.70; 95% CI 1.02-7.12; highest vs. lowest quartile",
+    "section": "RESULTS"
+   }
+  ],
+  "limitations_stated": []
+ }
+}

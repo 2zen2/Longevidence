@@ -1,0 +1,111 @@
+{
+ "provider": "cloudflare",
+ "model": "@cf/openai/gpt-oss-20b",
+ "usage": {
+  "input_tokens": 1542,
+  "output_tokens": 2725
+ },
+ "output": {
+  "study": {
+   "design": {
+    "quote": "This prospective cohort study included 12,044 night shift workers from the UK Biobank.",
+    "section": "METHODS",
+    "status": "reported",
+    "value": "cohort"
+   },
+   "population": {
+    "quote": "night shift workers from the UK Biobank",
+    "section": "METHODS",
+    "status": "reported",
+    "value": "night shift workers from the UK Biobank"
+   },
+   "sample_size": {
+    "quote": "12,044 night shift workers",
+    "section": "METHODS",
+    "status": "reported",
+    "value": 12044
+   },
+   "intervention": {
+    "quote": "accelerometer-measured moderate-to-vigorous PA (MVPA) and adherence to the alternate MED (AMED) score",
+    "section": "METHODS",
+    "status": "reported",
+    "value": "accelerometer-measured moderate-to-vigorous PA (MVPA) and adherence to the alternate MED (AMED) score"
+   },
+   "comparator": {
+    "quote": null,
+    "section": null,
+    "status": "not_reported",
+    "value": null
+   },
+   "follow_up": {
+    "quote": "median 12.72-y follow-up",
+    "section": "RESULTS",
+    "status": "reported",
+    "value": "median 12.72-y follow-up"
+   }
+  },
+  "primary_findings": [
+   {
+    "quote": "Higher MVPA [HR: 0.677; 95% confidence intervals (CIs): 0.473, 0.970]",
+    "section": "RESULTS",
+    "confidence": "high",
+    "outcome": "premature mortality risk",
+    "direction": "favors_intervention",
+    "effect_measure": "HR",
+    "effect_value": 0.677,
+    "ci_low": 0.473,
+    "ci_high": 0.97,
+    "p_value": null
+   },
+   {
+    "quote": "higher AMED score (HR: 0.617; 95% CI: 0.384, 0.991)",
+    "section": "RESULTS",
+    "confidence": "high",
+    "outcome": "premature mortality risk",
+    "direction": "favors_intervention",
+    "effect_measure": "HR",
+    "effect_value": 0.617,
+    "ci_low": 0.384,
+    "ci_high": 0.991,
+    "p_value": null
+   },
+   {
+    "quote": "The combination of medium MVPA and high AMED score showed the strongest protective effect (HR: 0.385; 95% CI: 0.161, 0.919)",
+    "section": "RESULTS",
+    "confidence": "high",
+    "outcome": "premature mortality risk",
+    "direction": "favors_intervention",
+    "effect_measure": "HR",
+    "effect_value": 0.385,
+    "ci_low": 0.161,
+    "ci_high": 0.919,
+    "p_value": null
+   },
+   {
+    "quote": "gain of 4.90 y; 95% CI: 0.77, 9.02",
+    "section": "RESULTS",
+    "confidence": "high",
+    "outcome": "life expectancy gain (males)",
+    "direction": "favors_intervention",
+    "effect_measure": "other",
+    "effect_value": 4.9,
+    "ci_low": 0.77,
+    "ci_high": 9.02,
+    "p_value": null
+   },
+   {
+    "quote": "gain of 7.64 y; 95% CI: 0.61, 13.56",
+    "section": "RESULTS",
+    "confidence": "high",
+    "outcome": "life expectancy gain (females)",
+    "direction": "favors_intervention",
+    "effect_measure": "other",
+    "effect_value": 7.64,
+    "ci_low": 0.61,
+    "ci_high": 13.56,
+    "p_value": null
+   }
+  ],
+  "limitations_stated": []
+ }
+}

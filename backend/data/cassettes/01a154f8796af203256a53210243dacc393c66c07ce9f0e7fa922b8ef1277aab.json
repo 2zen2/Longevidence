@@ -1,0 +1,81 @@
+{
+ "provider": "openrouter",
+ "model": "nvidia/nemotron-3-ultra-550b-a55b",
+ "usage": {
+  "input_tokens": 3279,
+  "output_tokens": 616
+ },
+ "output": {
+  "study": {
+   "design": {
+    "status": "reported",
+    "value": "rct",
+    "quote": "A multicenter, randomized, single-blind, parallel-controlled study was conducted",
+    "section": "METHODS AND RESULTS",
+    "confidence": "high"
+   },
+   "population": {
+    "status": "reported",
+    "value": "male heart failure patients on dapagliflozin therapy",
+    "quote": "1337 male heart failure patients on dapagliflozin therapy",
+    "section": "METHODS AND RESULTS",
+    "confidence": "high"
+   },
+   "sample_size": {
+    "status": "reported",
+    "value": 1337,
+    "quote": "1337 male heart failure patients on dapagliflozin therapy",
+    "section": "METHODS AND RESULTS",
+    "confidence": "high"
+   },
+   "intervention": {
+    "status": "reported",
+    "value": "simple external genital cleaning post-urination",
+    "quote": "The test group performed simple external genital cleaning post-urination",
+    "section": "METHODS AND RESULTS",
+    "confidence": "high"
+   },
+   "comparator": {
+    "status": "reported",
+    "value": "routine care",
+    "quote": "the control group maintained routine care",
+    "section": "METHODS AND RESULTS",
+    "confidence": "high"
+   },
+   "follow_up": {
+    "status": "reported",
+    "value": "1-year period",
+    "quote": "assessed over a 1-year period",
+    "section": "METHODS AND RESULTS",
+    "confidence": "high"
+   }
+  },
+  "primary_findings": [
+   {
+    "quote": "The test group demonstrated significantly lower rates of genital fungal infections compared to controls (0.75% vs. 3.14%, P = 0.002).",
+    "section": "METHODS AND RESULTS",
+    "confidence": "high",
+    "outcome": "genital fungal infection incidence",
+    "direction": "favors_intervention",
+    "effect_measure": "other",
+    "effect_value": 0.75,
+    "ci_low": null,
+    "ci_high": null,
+    "p_value": 0.002
+   },
+   {
+    "quote": "Additionally, the test group showed higher dapagliflozin adherence rates (72.75% vs. 63.23%, P < 0.001).",
+    "section": "METHODS AND RESULTS",
+    "confidence": "high",
+    "outcome": "dapagliflozin medication adherence",
+    "direction": "favors_intervention",
+    "effect_measure": "other",
+    "effect_value": 72.75,
+    "ci_low": null,
+    "ci_high": null,
+    "p_value": 0.001
+   }
+  ],
+  "limitations_stated": []
+ }
+}

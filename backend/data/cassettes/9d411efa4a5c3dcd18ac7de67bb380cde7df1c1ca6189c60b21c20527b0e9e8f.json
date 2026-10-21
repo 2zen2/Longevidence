@@ -1,0 +1,34 @@
+{
+ "provider": "cloudflare",
+ "model": "@cf/openai/gpt-oss-20b",
+ "usage": {
+  "input_tokens": 915,
+  "output_tokens": 795
+ },
+ "output": {
+  "study": {
+   "title": "The effect of vitamin D supplementation on cancer incidence in the randomised controlled D-Health Trial: Implications for policy and practice",
+   "design": "rct",
+   "sample_size": 21308,
+   "intervention": "60,000 IU vitamin D3 per month",
+   "comparator": "matching placebo"
+  },
+  "primary_findings": [
+   {
+    "effect_estimate": "HR 1.02; 95 % CI 0.95-1.10",
+    "direction": "no_difference",
+    "quote": "HR 1.02; 95 % CI 0.95-1.10",
+    "section": "ABSTRACT",
+    "confidence": "high"
+   },
+   {
+    "effect_estimate": "HR 1.04; 95 % CI 0.95-1.14",
+    "direction": "no_difference",
+    "quote": "HR 1.04; 95 % CI 0.95-1.14",
+    "section": "ABSTRACT",
+    "confidence": "high"
+   }
+  ],
+  "limitations_stated": []
+ }
+}

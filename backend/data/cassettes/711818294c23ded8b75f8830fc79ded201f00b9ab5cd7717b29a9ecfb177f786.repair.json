@@ -1,0 +1,61 @@
+{
+ "provider": "cloudflare",
+ "model": "@cf/openai/gpt-oss-20b",
+ "usage": {
+  "input_tokens": 1385,
+  "output_tokens": 2673
+ },
+ "output": {
+  "study": {
+   "design": "rct",
+   "population": {
+    "description": "Adults in the DASH-Sodium trial with ambulatory blood pressure monitoring, 58% self-reported Black."
+   },
+   "sample_size": 335,
+   "intervention": {
+    "description": "DASH diet with low sodium."
+   },
+   "comparator": {
+    "description": "Control diet with high sodium."
+   },
+   "follow_up": {
+    "description": "End of each 30-day feeding period."
+   }
+  },
+  "primary_findings": [
+   {
+    "outcome": "awake systolic ambulatory blood pressure (SBP) in Black participants",
+    "effect_estimate": "9.0 mmHg (95% CI 6.4, 11.7)",
+    "confidence": "high",
+    "direction": "reduction",
+    "quote": "The DASH diet with low sodium reduced mean (95%CI) awake SBP by 9.0 mmHg (6.4, 11.7) in Black participants",
+    "section": "RESULTS"
+   },
+   {
+    "outcome": "awake systolic ambulatory blood pressure (SBP) in Non-Black participants",
+    "effect_estimate": "7.5 mmHg (95% CI 4.5, 10.6)",
+    "confidence": "high",
+    "direction": "reduction",
+    "quote": "The DASH diet with low sodium reduced mean (95%CI) awake SBP by 7.5 mmHg (4.5, 10.6) in Non-Black participants",
+    "section": "RESULTS"
+   },
+   {
+    "outcome": "asleep systolic ambulatory blood pressure (SBP) in Black participants",
+    "effect_estimate": "8.0 mmHg (95% CI 4.8, 11.2)",
+    "confidence": "high",
+    "direction": "reduction",
+    "quote": "mean asleep SBP by 8.0 mmHg (4.8, 11.2) in Black participants",
+    "section": "RESULTS"
+   },
+   {
+    "outcome": "asleep systolic ambulatory blood pressure (SBP) in Non-Black participants",
+    "effect_estimate": "7.4 mmHg (95% CI 3.9, 11.0)",
+    "confidence": "high",
+    "direction": "reduction",
+    "quote": "mean asleep SBP by 7.4 mmHg (3.9,11.0) in Non-Black participants",
+    "section": "RESULTS"
+   }
+  ],
+  "limitations_stated": []
+ }
+}

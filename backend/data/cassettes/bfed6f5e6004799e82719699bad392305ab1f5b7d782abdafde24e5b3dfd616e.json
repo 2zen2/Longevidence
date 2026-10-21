@@ -1,0 +1,50 @@
+{
+ "provider": "cloudflare",
+ "model": "@cf/openai/gpt-oss-20b",
+ "usage": {
+  "input_tokens": 1507,
+  "output_tokens": 940
+ },
+ "output": {
+  "study": {
+   "design": {
+    "quote": "systematic review and meta-analysis of randomized controlled trials",
+    "section": "ABSTRACT",
+    "status": "reported",
+    "value": "meta_analysis"
+   },
+   "population": {
+    "quote": null,
+    "section": null,
+    "status": "not_reported",
+    "value": null
+   },
+   "sample_size": {
+    "quote": "33 RCTs involving 3476 participants were included.",
+    "section": "ABSTRACT",
+    "status": "reported",
+    "value": 3476
+   },
+   "intervention": {
+    "quote": "Mediterranean diet (MD)",
+    "section": "ABSTRACT",
+    "status": "reported",
+    "value": "Mediterranean diet (MD)"
+   },
+   "comparator": {
+    "quote": "control diet",
+    "section": "ABSTRACT",
+    "status": "reported",
+    "value": "control diet"
+   },
+   "follow_up": {
+    "quote": null,
+    "section": null,
+    "status": "not_reported",
+    "value": null
+   }
+  },
+  "primary_findings": [],
+  "limitations_stated": []
+ }
+}

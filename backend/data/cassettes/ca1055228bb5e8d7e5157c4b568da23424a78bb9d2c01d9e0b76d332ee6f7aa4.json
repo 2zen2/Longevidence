@@ -1,0 +1,81 @@
+{
+ "provider": "cloudflare",
+ "model": "@cf/openai/gpt-oss-20b",
+ "usage": {
+  "input_tokens": 1537,
+  "output_tokens": 1868
+ },
+ "output": {
+  "study": {
+   "design": {
+    "quote": "systematic review and meta-analysis",
+    "section": "ABSTRACT",
+    "confidence": "high",
+    "status": "reported",
+    "value": "meta_analysis"
+   },
+   "population": {
+    "quote": "postmenopausal women with osteoporosis",
+    "section": "ABSTRACT",
+    "confidence": "high",
+    "status": "reported",
+    "value": "postmenopausal women with osteoporosis"
+   },
+   "sample_size": {
+    "quote": "Eleven RCTs with 43,869 participants were included.",
+    "section": "RESULTS",
+    "confidence": "high",
+    "status": "reported",
+    "value": 43869
+   },
+   "intervention": {
+    "quote": "combined calcium and vitamin D supplementation",
+    "section": "ABSTRACT",
+    "confidence": "high",
+    "status": "reported",
+    "value": "combined calcium and vitamin D supplementation"
+   },
+   "comparator": {
+    "quote": null,
+    "section": null,
+    "confidence": null,
+    "status": "not_reported",
+    "value": null
+   },
+   "follow_up": {
+    "quote": null,
+    "section": null,
+    "confidence": null,
+    "status": "not_reported",
+    "value": null
+   }
+  },
+  "primary_findings": [
+   {
+    "quote": "SMD = 0.20, 95% CI: 0.05\u20130.35, p = 0.01",
+    "section": "RESULTS",
+    "confidence": "high",
+    "outcome": "BMD at the pelvis",
+    "direction": "favors_intervention",
+    "effect_measure": "other",
+    "effect_value": 0.2,
+    "ci_low": 0.05,
+    "ci_high": 0.35,
+    "p_value": 0.01
+   },
+   {
+    "quote": "RR = 0.98, 95% CI: 0.89\u20131.07, p = 0.68",
+    "section": "RESULTS",
+    "confidence": "high",
+    "outcome": "overall fracture risk",
+    "direction": "no_difference",
+    "effect_measure": "RR",
+    "effect_value": 0.98,
+    "ci_low": 0.89,
+    "ci_high": 1.07,
+    "p_value": 0.68
+   }
+  ],
+  "limitations_stated": []
+ }
+}

@@ -1,0 +1,50 @@
+{
+ "provider": "cloudflare",
+ "model": "@cf/openai/gpt-oss-20b",
+ "usage": {
+  "input_tokens": 1442,
+  "output_tokens": 1237
+ },
+ "output": {
+  "study": {
+   "design": {
+    "quote": "This randomized, controlled, monocentric parallel-group trial",
+    "section": "METHODS",
+    "status": "reported",
+    "value": "rct"
+   },
+   "population": {
+    "quote": "participants living with T2D, body mass index >27 kg/m2, HbA1c \u226553 mmol/mol (\u22657.0%) and \u226486 mmol/mol (\u226410.0%) and without insulin therapy",
+    "section": "METHODS",
+    "status": "reported",
+    "value": "adults with type 2 diabetes, overweight/obesity, HbA1c 7.0-10.0%, BMI >27 kg/m2, not on insulin"
+   },
+   "sample_size": {
+    "quote": null,
+    "section": null,
+    "status": "not_reported",
+    "value": null
+   },
+   "intervention": {
+    "quote": "Participants are equally and randomly allocated to one of four study groups: (1) intermittent energy restriction group, (2) exercise group, (3) combined intermittent energy restriction and exercise group and (4) control group",
+    "section": "METHODS",
+    "status": "reported",
+    "value": "intermittent energy restriction, exercise, combined intermittent energy restriction and exercise, control group"
+   },
+   "comparator": {
+    "quote": "control group",
+    "section": "METHODS",
+    "status": "reported",
+    "value": "control group"
+   },
+   "follow_up": {
+    "quote": "followed by a two-year follow-up phase",
+    "section": "METHODS",
+    "status": "reported",
+    "value": "two-year follow-up phase"
+   }
+  },
+  "primary_findings": [],
+  "limitations_stated": []
+ }
+}

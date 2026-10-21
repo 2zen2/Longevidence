@@ -1,0 +1,80 @@
+{
+ "provider": "openrouter",
+ "model": "deepseek/deepseek-v4.1-flash",
+ "usage": {
+  "input_tokens": 2593,
+  "output_tokens": 1329
+ },
+ "output": {
+  "study": {
+   "design": {
+    "status": "reported",
+    "value": "meta_analysis",
+    "quote": "The results of BEST-D were combined in a meta-analysis of all trials of vitamin D v. placebo on levels of P1NP (12 trials, 2654 participants) or CTX (16 trials, 2695 participants).",
+    "section": "ABSTRACT",
+    "confidence": "high"
+   },
+   "population": {
+    "status": "not_reported",
+    "quote": null,
+    "section": null,
+    "confidence": null
+   },
+   "sample_size": {
+    "status": "reported",
+    "value": 2654,
+    "quote": "12 trials, 2654 participants",
+    "section": "ABSTRACT",
+    "confidence": "high"
+   },
+   "intervention": {
+    "status": "reported",
+    "value": "vitamin D3 (2000 IU/d or 4000 IU/d) / vitamin D supplements",
+    "quote": "after treatment with 2000 IU/d or 4000 IU/d vitamin D3 or placebo",
+    "section": "ABSTRACT",
+    "confidence": "high"
+   },
+   "comparator": {
+    "status": "reported",
+    "value": "placebo",
+    "quote": "2000 IU/d or 4000 IU/d vitamin D3 or placebo",
+    "section": "ABSTRACT",
+    "confidence": "high"
+   },
+   "follow_up": {
+    "status": "reported",
+    "value": "12 months",
+    "quote": "Geometric mean (se) levels at 12 months were similar for P1NP",
+    "section": "ABSTRACT",
+    "confidence": "high"
+   }
+  },
+  "primary_findings": [
+   {
+    "quote": "the average difference between the within-trial change in P1NP for allocated vitamin D and control was -3\u00b73 % (95 % CI -5\u00b76, -1\u00b70, P < 0\u00b7005)",
+    "outcome": "Change in P1NP (bone turnover marker)",
+    "direction": "favors_intervention",
+    "effect_measure": "other",
+    "effect_value": -3.3,
+    "ci_low": -5.6,
+    "ci_high": -1.0,
+    "p_value": 0.005,
+    "section": "ABSTRACT",
+    "confidence": "high"
+   },
+   {
+    "quote": "For CTX, this difference was slightly greater (-3\u00b78 % (-6\u00b78, -0\u00b78); P = 0\u00b701)",
+    "outcome": "Change in CTX (bone turnover marker)",
+    "direction": "favors_intervention",
+    "effect_measure": "other",
+    "effect_value": -3.8,
+    "ci_low": -6.8,
+    "ci_high": -0.8,
+    "p_value": 0.01,
+    "section": "ABSTRACT",
+    "confidence": "high"
+   }
+  ],
+  "limitations_stated": []
+ }
+}

@@ -1,0 +1,80 @@
+{
+ "provider": "openrouter",
+ "model": "deepseek/deepseek-v4.1-flash",
+ "usage": {
+  "input_tokens": 2809,
+  "output_tokens": 835
+ },
+ "output": {
+  "study": {
+   "design": {
+    "status": "reported",
+    "value": "meta_analysis"
+   },
+   "population": {
+    "status": "reported",
+    "value": "high-risk pregnant women"
+   },
+   "sample_size": {
+    "status": "reported",
+    "value": 4078
+   },
+   "intervention": {
+    "status": "reported",
+    "value": "statins, metformin, or vitamin D at different doses"
+   },
+   "comparator": {
+    "status": "reported",
+    "value": "placebo"
+   },
+   "follow_up": {
+    "status": "not_reported"
+   }
+  },
+  "primary_findings": [
+   {
+    "quote": "higher-dose vitamin D supplementation showed associations with lower estimated risks of preeclampsia, particularly vitamin D 4,000 IU/day (risk ratio 0.21, 95% confidence interval 0.06-0.72)",
+    "outcome": "Preeclampsia (vitamin D 4,000 IU/day vs placebo)",
+    "direction": "favors_intervention",
+    "effect_measure": "RR",
+    "effect_value": 0.21,
+    "ci_low": 0.06,
+    "ci_high": 0.72,
+    "p_value": null
+   },
+   {
+    "quote": "60,000 IU monthly (risk ratio 0.36, 95% confidence interval 0.19-0.70)",
+    "outcome": "Preeclampsia (vitamin D 60,000 IU monthly vs placebo)",
+    "direction": "favors_intervention",
+    "effect_measure": "RR",
+    "effect_value": 0.36,
+    "ci_low": 0.19,
+    "ci_high": 0.7,
+    "p_value": null
+   }
+  ],
+  "limitations_stated": [
+   {
+    "quote": "these findings are based on limited, heterogeneous, and partly indirect evidence from sparse networks",
+    "section": "CONCLUSION",
+    "confidence": "high",
+    "status": "reported",
+    "value": "Limited, heterogeneous, and partly indirect evidence from sparse networks"
+   },
+   {
+    "quote": "The certainty of evidence is low, and the observed effect sizes should not be interpreted as evidence of clinical effectiveness.",
+    "section": "CONCLUSION",
+    "confidence": "high",
+    "status": "reported",
+    "value": "Low certainty of evidence; effect sizes should not be interpreted as evidence of clinical effectiveness"
+   },
+   {
+    "quote": "Estimates were derived from limited direct evidence within sparse networks.",
+    "section": "RESULTS",
+    "confidence": "high",
+    "status": "reported",
+    "value": "Estimates derived from limited direct evidence within sparse networks"
+   }
+  ]
+ }
+}

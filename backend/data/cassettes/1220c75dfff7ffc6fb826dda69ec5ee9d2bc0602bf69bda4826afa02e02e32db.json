@@ -1,0 +1,86 @@
+{
+ "provider": "cloudflare",
+ "model": "@cf/openai/gpt-oss-20b",
+ "usage": {
+  "input_tokens": 1484,
+  "output_tokens": 1879
+ },
+ "output": {
+  "study": {
+   "design": {
+    "quote": "A cross-sectional analysis was conducted",
+    "section": "METHODS",
+    "status": "reported",
+    "value": "cross_sectional"
+   },
+   "population": {
+    "quote": "5,961 adults aged \u2265 18 years",
+    "section": "METHODS",
+    "status": "reported",
+    "value": "U.S. adults aged \u2265 18 years"
+   },
+   "sample_size": {
+    "quote": "5,961 adults",
+    "section": "METHODS",
+    "status": "reported",
+    "value": 5961
+   },
+   "intervention": {
+    "quote": "UPF intake was expressed as a percentage of total daily energy consumption",
+    "section": "METHODS",
+    "status": "reported",
+    "value": "Ultra-processed food consumption"
+   },
+   "comparator": {
+    "quote": null,
+    "section": null,
+    "status": "not_reported",
+    "value": null
+   },
+   "follow_up": {
+    "quote": null,
+    "section": null,
+    "status": "not_reported",
+    "value": null
+   }
+  },
+  "primary_findings": [
+   {
+    "quote": "\u03b2 = -0.01 ng/dL, 95% CI - 0.015 to - 0.007",
+    "section": "RESULTS",
+    "confidence": "high",
+    "outcome": "FT4 change per tertile increase in UPF intake",
+    "direction": "favors_comparator",
+    "effect_measure": "MD",
+    "effect_value": -0.01,
+    "ci_low": -0.015,
+    "ci_high": -0.007,
+    "p_value": null
+   },
+   {
+    "quote": "\u03b2 = -0.12 \u00b5g/dL, 95% CI - 0.16 to - 0.09",
+    "section": "RESULTS",
+    "confidence": "high",
+    "outcome": "TT4 change per tertile increase in UPF intake",
+    "direction": "favors_comparator",
+    "effect_measure": "MD",
+    "effect_value": -0.12,
+    "ci_low": -0.16,
+    "ci_high": -0.09,
+    "p_value": null
+   },
+   {
+    "quote": "\u03b2 = 0.02, P = 0.012",
+    "section": "RESULTS",
+    "confidence": "high",
+    "outcome": "TSH change per tertile increase in UPF intake",
+    "direction": "favors_intervention",
+    "effect_measure": "MD",
+    "effect_value": 0.02,
+    "ci_low": null,
+    "ci_high": null,
+    "p_value": 0.012
+   }
+  ]
+ }
+}

@@ -1,0 +1,48 @@
+{
+ "provider": "cloudflare",
+ "model": "@cf/openai/gpt-oss-20b",
+ "usage": {
+  "input_tokens": 1317,
+  "output_tokens": 1568
+ },
+ "output": {
+  "study": {
+   "design": {
+    "type": "systematic_review",
+    "status": "reported",
+    "quote": "systematic review and meta-analysis of randomized controlled trials",
+    "section": "ABSTRACT"
+   },
+   "population": {
+    "description": "participants in 43 randomized controlled trials",
+    "status": "reported",
+    "quote": "Across 43 randomized controlled trials (1983-2024)",
+    "section": "ABSTRACT"
+   },
+   "sample_size": {
+    "status": "not_reported",
+    "quote": null,
+    "section": "ABSTRACT"
+   },
+   "intervention": {
+    "description": "salt intake",
+    "status": "reported",
+    "quote": "Salt was used as the primary exposure metric",
+    "section": "ABSTRACT"
+   },
+   "comparator": {
+    "description": "lower salt intake",
+    "status": "reported",
+    "quote": "lower intake",
+    "section": "ABSTRACT"
+   },
+   "follow_up": {
+    "status": "not_reported",
+    "quote": null,
+    "section": "ABSTRACT"
+   }
+  },
+  "primary_findings": [],
+  "limitations_stated": []
+ }
+}

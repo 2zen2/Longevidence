@@ -1,0 +1,56 @@
+{
+ "provider": "cloudflare",
+ "model": "@cf/openai/gpt-oss-20b",
+ "usage": {
+  "input_tokens": 1541,
+  "output_tokens": 1251
+ },
+ "output": {
+  "study": {
+   "design": {
+    "quote": "four-arm pretest-posttest experimental randomized controlled design.",
+    "section": "ABSTRACT",
+    "confidence": "high",
+    "status": "reported",
+    "value": "rct"
+   },
+   "population": {
+    "quote": "One hundred twenty sedentary women aged (30-50 years), diagnosed with osteoporosis were recruited in this study.",
+    "section": "ABSTRACT",
+    "confidence": "high",
+    "status": "reported",
+    "value": "sedentary women aged (30-50 years), diagnosed with osteoporosis"
+   },
+   "sample_size": {
+    "quote": "One hundred twenty sedentary women aged (30-50 years), diagnosed with osteoporosis were recruited in this study.",
+    "section": "ABSTRACT",
+    "confidence": "high",
+    "status": "reported",
+    "value": 120
+   },
+   "intervention": {
+    "quote": "HIIT exercise plus vitamin D for 16 weeks",
+    "section": "ABSTRACT",
+    "confidence": "high",
+    "status": "reported",
+    "value": "HIIT exercise plus vitamin D for 16 weeks"
+   },
+   "comparator": {
+    "quote": null,
+    "section": null,
+    "confidence": null,
+    "status": "not_reported",
+    "value": null
+   },
+   "follow_up": {
+    "quote": "16 weeks",
+    "section": "ABSTRACT",
+    "confidence": "high",
+    "status": "reported",
+    "value": "16 weeks"
+   }
+  },
+  "primary_findings": [],
+  "limitations_stated": []
+ }
+}

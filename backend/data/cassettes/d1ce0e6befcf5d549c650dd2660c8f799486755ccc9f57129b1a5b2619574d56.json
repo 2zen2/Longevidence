@@ -1,0 +1,56 @@
+{
+ "provider": "cloudflare",
+ "model": "@cf/openai/gpt-oss-20b",
+ "usage": {
+  "input_tokens": 1319,
+  "output_tokens": 678
+ },
+ "output": {
+  "study": {
+   "design": {
+    "quote": "This randomized-controlled pilot study examined the potential",
+    "section": "ABSTRACT",
+    "confidence": "high",
+    "status": "reported",
+    "value": "rct"
+   },
+   "population": {
+    "quote": "among healthy women",
+    "section": "ABSTRACT",
+    "confidence": "medium",
+    "status": "reported",
+    "value": "healthy women"
+   },
+   "sample_size": {
+    "quote": "Participants were assigned to either a Fasting group (N = 23) or a Control group (N = 20)",
+    "section": "ABSTRACT",
+    "confidence": "high",
+    "status": "reported",
+    "value": 43
+   },
+   "intervention": {
+    "quote": "4-week 16:8 TRE regimen (16 h fasting, 8 h eating)",
+    "section": "ABSTRACT",
+    "confidence": "high",
+    "status": "reported",
+    "value": "4-week 16:8 TRE regimen (16 h fasting, 8 h eating)"
+   },
+   "comparator": {
+    "quote": "Control group (N = 20) maintaining their usual diet",
+    "section": "ABSTRACT",
+    "confidence": "high",
+    "status": "reported",
+    "value": "Control group maintaining usual diet"
+   },
+   "follow_up": {
+    "quote": null,
+    "section": null,
+    "confidence": null,
+    "status": "not_reported",
+    "value": null
+   }
+  },
+  "primary_findings": [],
+  "limitations_stated": []
+ }
+}

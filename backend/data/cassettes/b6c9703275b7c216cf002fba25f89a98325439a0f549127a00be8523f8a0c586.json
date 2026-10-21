@@ -1,0 +1,95 @@
+{
+ "provider": "cloudflare",
+ "model": "@cf/openai/gpt-oss-20b",
+ "usage": {
+  "input_tokens": 1616,
+  "output_tokens": 1371
+ },
+ "output": {
+  "study": {
+   "design": {
+    "quote": "A Systematic Review and Meta-Analysis",
+    "section": "TITLE",
+    "status": "reported",
+    "value": "meta_analysis"
+   },
+   "population": {
+    "quote": "overweight and obesity in adults",
+    "section": "OBJECTIVE",
+    "status": "reported",
+    "value": "adults with overweight and obesity"
+   },
+   "sample_size": {
+    "quote": "28 randomized controlled trials (RCTs) with 1648 participants",
+    "section": "DATA EXTRACTION",
+    "status": "reported",
+    "value": 1648
+   },
+   "intervention": {
+    "quote": "Time-restricted eating (TRE)",
+    "section": "CONTEXT",
+    "status": "reported",
+    "value": "time-restricted eating (TRE)"
+   },
+   "comparator": {
+    "quote": null,
+    "section": null,
+    "status": "not_reported",
+    "value": null
+   },
+   "follow_up": {
+    "quote": null,
+    "section": null,
+    "status": "not_reported",
+    "value": null
+   }
+  },
+  "primary_findings": [
+   {
+    "quote": "ES: -1.40, 95% CI: -2.33 to -0.48",
+    "section": "DATA ANALYSIS",
+    "outcome": "weight",
+    "direction": "favors_intervention",
+    "effect_measure": "other",
+    "effect_value": -1.4,
+    "ci_low": -2.33,
+    "ci_high": -1.48,
+    "p_value": null
+   },
+   {
+    "quote": "ES: -0.75, 95% CI: -0.93 to -0.56",
+    "section": "DATA ANALYSIS",
+    "outcome": "waist circumference",
+    "direction": "favors_intervention",
+    "effect_measure": "other",
+    "effect_value": -1.4,
+    "ci_low": -1.4,
+    "ci_high": -1.4,
+    "p_value": null
+   },
+   {
+    "quote": "ES: -0.61, 95% CI: -0.98 to -0.24",
+    "section": "DATA ANALYSIS",
+    "outcome": "fat mass",
+    "direction": "favors_intervention",
+    "effect_measure": "other",
+    "effect_value": -1.4,
+    "ci_low": -1.4,
+    "ci_high": -1.4,
+    "p_value": null
+   },
+   {
+    "quote": "ES: -0.29, 95% CI: -0.48 to -0.10",
+    "section": "DATA ANALYSIS",
+    "outcome": "HOMA-IR",
+    "direction": "favors_intervention",
+    "effect_measure": "other",
+    "effect_value": -1.4,
+    "ci_low": -1.4,
+    "ci_high": -1.4,
+    "p_value": null
+   }
+  ],
+  "limitations_stated": []
+ }
+}

@@ -1,0 +1,84 @@
+{
+ "provider": "cloudflare",
+ "model": "@cf/openai/gpt-oss-20b",
+ "usage": {
+  "input_tokens": 1506,
+  "output_tokens": 2417
+ },
+ "output": {
+  "study": {
+   "design": {
+    "quote": "systematic review and meta-analysis",
+    "section": "ABSTRACT",
+    "status": "reported",
+    "value": "meta_analysis"
+   },
+   "population": {
+    "quote": "adults",
+    "section": "ABSTRACT",
+    "status": "reported",
+    "value": "adults"
+   },
+   "sample_size": {
+    "quote": "n = 1337 participants",
+    "section": "ABSTRACT",
+    "status": "reported",
+    "value": 1337
+   },
+   "intervention": {
+    "quote": "MedD-based diets",
+    "section": "ABSTRACT",
+    "status": "reported",
+    "value": "MedD-based diets"
+   },
+   "comparator": {
+    "quote": "control diets",
+    "section": "ABSTRACT",
+    "status": "reported",
+    "value": "control diets"
+   },
+   "follow_up": {
+    "quote": null,
+    "section": null,
+    "status": "not_reported",
+    "value": null
+   }
+  },
+  "primary_findings": [
+   {
+    "quote": "MedD interventions significantly reduced glycated hemoglobin (HbA1c) (mean difference -0.18, 95 % CI = -0.35, -001)",
+    "section": "ABSTRACT",
+    "outcome": "HbA1c",
+    "direction": "favors_intervention",
+    "effect_measure": "MD",
+    "effect_value": -0.18,
+    "ci_low": -0.35,
+    "ci_high": -0.01,
+    "p_value": null
+   },
+   {
+    "quote": "LDL cholesterol (-0.10, 95 % CI = -0.19, -0.00)",
+    "section": "ABSTRACT",
+    "outcome": "LDL cholesterol",
+    "direction": "favors_intervention",
+    "effect_measure": "MD",
+    "effect_value": -0.1,
+    "ci_low": -0.19,
+    "ci_high": -0.01,
+    "p_value": null
+   },
+   {
+    "quote": "triglycerides -0.20, 95 % CI = -0.28, -0.12",
+    "section": "ABSTRACT",
+    "outcome": "triglycerides",
+    "direction": "favors_intervention",
+    "effect_measure": "MD",
+    "effect_value": -0.2,
+    "ci_low": -0.28,
+    "ci_high": -0.12,
+    "p_value": null
+   }
+  ],
+  "limitations_stated": []
+ }
+}

@@ -1,0 +1,62 @@
+{
+ "provider": "cloudflare",
+ "model": "@cf/openai/gpt-oss-20b",
+ "usage": {
+  "input_tokens": 1352,
+  "output_tokens": 1017
+ },
+ "output": {
+  "study": {
+   "design": {
+    "quote": "a systematic review and meta-analysis.",
+    "section": "TITLE",
+    "status": "reported",
+    "value": "meta_analysis"
+   },
+   "population": {
+    "quote": "healthy adults undergoing resistance training.",
+    "section": "ABSTRACT",
+    "status": "reported",
+    "value": "healthy adults undergoing resistance training"
+   },
+   "sample_size": {
+    "quote": "final sample of 120 individuals.",
+    "section": "ABSTRACT",
+    "status": "reported",
+    "value": 120
+   },
+   "intervention": {
+    "quote": "time-restricted feeding",
+    "section": "ABSTRACT",
+    "status": "reported",
+    "value": "time-restricted feeding"
+   },
+   "comparator": {
+    "quote": "conventional diets",
+    "section": "ABSTRACT",
+    "status": "reported",
+    "value": "conventional diets"
+   },
+   "follow_up": {
+    "quote": null,
+    "section": null,
+    "status": "not_reported",
+    "value": null
+   }
+  },
+  "primary_findings": [
+   {
+    "quote": "The meta-analysis suggested an estimate of -0.48kg (95% CI: -2.52 to 1.56).",
+    "section": "ABSTRACT",
+    "outcome": "fat-free mass",
+    "direction": "no_difference",
+    "effect_measure": "MD",
+    "effect_value": -1.48,
+    "ci_low": -2.52,
+    "ci_high": 1.56,
+    "p_value": null
+   }
+  ],
+  "limitations_stated": []
+ }
+}

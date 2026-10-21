@@ -1,0 +1,80 @@
+{
+ "provider": "cloudflare",
+ "model": "@cf/openai/gpt-oss-20b",
+ "usage": {
+  "input_tokens": 1407,
+  "output_tokens": 1271
+ },
+ "output": {
+  "study": {
+   "design": {
+    "quote": "meta-analysis",
+    "section": "ABSTRACT",
+    "confidence": "high",
+    "status": "reported",
+    "value": "meta_analysis"
+   },
+   "population": {
+    "quote": "patients with MASLD",
+    "section": "ABSTRACT",
+    "confidence": "high",
+    "status": "reported",
+    "value": "patients with MASLD"
+   },
+   "sample_size": {
+    "quote": "389 subjects",
+    "section": "ABSTRACT",
+    "confidence": "high",
+    "status": "reported",
+    "value": 389
+   },
+   "intervention": {
+    "quote": "intermittent fasting (IF)",
+    "section": "ABSTRACT",
+    "confidence": "high",
+    "status": "reported",
+    "value": "intermittent fasting (IF)"
+   },
+   "comparator": {
+    "quote": null,
+    "section": null,
+    "confidence": null,
+    "status": "not_reported",
+    "value": null
+   },
+   "follow_up": {
+    "quote": null,
+    "section": null,
+    "confidence": null,
+    "status": "not_reported",
+    "value": null
+   }
+  },
+  "primary_findings": [
+   {
+    "quote": "IF significantly improved liver fat content (MD = -3.01, 95% CI [-5.84, -0.18]; P = 0.04)",
+    "section": "ABSTRACT",
+    "confidence": "high",
+    "outcome": "liver fat content",
+    "direction": "favors_intervention",
+    "effect_measure": "MD",
+    "effect_value": -3.01,
+    "ci_low": -5.84,
+    "ci_high": -0.18,
+    "p_value": 0.04
+   },
+   {
+    "quote": "IF significantly improved ... CAP in patients with MASLD (MD = -18.64, 95% CI [-30.29, -6.99]; P = 0.002)",
+    "section": "ABSTRACT",
+    "confidence": "high",
+    "outcome": "controlled attenuation parameter (CAP)",
+    "direction": "favors_intervention",
+    "effect_measure": "MD",
+    "effect_value": -18.64,
+    "ci_low": -30.29,
+    "ci_high": -6.99,
+    "p_value": 0.002
+   }
+  ]
+ }
+}

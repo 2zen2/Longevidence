@@ -1,0 +1,62 @@
+{
+ "provider": "cloudflare",
+ "model": "@cf/openai/gpt-oss-20b",
+ "usage": {
+  "input_tokens": 1042,
+  "output_tokens": 1156
+ },
+ "output": {
+  "study": {
+   "title": "Efficacy of intermittent fasting on blood glucose and weight in type 2 diabetes and prediabetes: A comparison with ad libitum and continuous energy restriction diets",
+   "design": "rct_secondary_analysis",
+   "sample_size": 899,
+   "intervention": "intermittent fasting",
+   "comparator": "ad libitum diet",
+   "outcomes": [
+    "HbA1c",
+    "body weight",
+    "body mass index",
+    "fasting blood glucose"
+   ]
+  },
+  "primary_findings": [
+   {
+    "outcome": "HbA1c",
+    "estimate": "-0.64",
+    "ci": "-1.04, -0.24",
+    "p": "p <0.05",
+    "direction": "benefit",
+    "quote": "Standard-ized Mean Difference (SMD) (Hedges's g) -0.64, 95% Confidence Interval (CI) -1.04, -0.24; p <0.05",
+    "section": "RESULTS"
+   },
+   {
+    "outcome": "body weight",
+    "estimate": "-0.30",
+    "ci": "-0.55, -0.05",
+    "p": "p <0.05",
+    "direction": "benefit",
+    "quote": "SMD (Hedges's g) -0.30, 95% CI -0.55, -0.05; p <0.05",
+    "section": "RESULTS"
+   },
+   {
+    "outcome": "body mass index",
+    "estimate": "-0.26",
+    "ci": "-0.51, 0.00",
+    "p": "p = 0.05",
+    "direction": "benefit",
+    "quote": "SMD (Hedges's g) -0.26, 95% CI -0.51, 0.00; p = 0.05",
+    "section": "RESULTS"
+   },
+   {
+    "outcome": "fasting blood glucose",
+    "estimate": "-0.39",
+    "ci": "-0.64 to -0.15",
+    "p": "p <0.05",
+    "direction": "benefit",
+    "quote": "SMD (Hedges's g) -0.39, 95% CI -0.64 to -0.15; p <0.05",
+    "section": "RESULTS"
+   }
+  ],
+  "limitations_stated": []
+ }
+}

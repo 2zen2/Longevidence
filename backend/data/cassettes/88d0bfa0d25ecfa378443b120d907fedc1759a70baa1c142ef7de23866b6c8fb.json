@@ -1,0 +1,56 @@
+{
+ "provider": "cloudflare",
+ "model": "@cf/openai/gpt-oss-20b",
+ "usage": {
+  "input_tokens": 1393,
+  "output_tokens": 1060
+ },
+ "output": {
+  "study": {
+   "design": {
+    "quote": "A randomized crossover clinical trial was conducted.",
+    "section": "METHODS",
+    "confidence": "high",
+    "status": "reported",
+    "value": "rct"
+   },
+   "population": {
+    "quote": "Participants aged 30-65 years with a Body Mass Index (BMI) \u226530 kg/m2, diagnosed with OSA, of both sexes, with eating windows from 11 to 14 h were included.",
+    "section": "METHODS",
+    "confidence": "medium",
+    "status": "reported",
+    "value": "adults with obstructive sleep apnea"
+   },
+   "sample_size": {
+    "quote": "Twelve participants completed the intervention.",
+    "section": "METHODS",
+    "confidence": "high",
+    "status": "reported",
+    "value": 12
+   },
+   "intervention": {
+    "quote": "8-h TRE intervention (meals between 11 AM and 7 p.m.)",
+    "section": "METHODS",
+    "confidence": "high",
+    "status": "reported",
+    "value": "8-h TRE intervention (meals between 11 AM and 7 p.m.)"
+   },
+   "comparator": {
+    "quote": "control group (eating window >10 h and nutritional guidance)",
+    "section": "METHODS",
+    "confidence": "high",
+    "status": "reported",
+    "value": "control group (eating window >10 h and nutritional guidance)"
+   },
+   "follow_up": {
+    "quote": "over 12 weeks",
+    "section": "METHODS",
+    "confidence": "high",
+    "status": "reported",
+    "value": "12 weeks"
+   }
+  },
+  "primary_findings": [],
+  "limitations_stated": []
+ }
+}

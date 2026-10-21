@@ -1,0 +1,63 @@
+{
+ "provider": "cloudflare",
+ "model": "@cf/openai/gpt-oss-20b",
+ "usage": {
+  "input_tokens": 1532,
+  "output_tokens": 1969
+ },
+ "output": {
+  "study": {
+   "design": {
+    "quote": "A systematic review and network meta-analysis of randomized controlled trials",
+    "section": "ABSTRACT",
+    "status": "reported",
+    "value": "meta_analysis"
+   },
+   "population": {
+    "quote": "in adults with MASLD",
+    "section": "METHODS",
+    "status": "reported",
+    "value": "adults with MASLD"
+   },
+   "sample_size": {
+    "quote": "Nineteen RCTs involving 1149 participants were included in the analysis.",
+    "section": "RESULTS",
+    "status": "reported",
+    "value": 1149
+   },
+   "intervention": {
+    "quote": "different IF regimens-including time-restricted feeding (TRF), alternate-day fasting (ADF), and the 5:2 Diet",
+    "section": "METHODS",
+    "status": "reported",
+    "value": "intermittent fasting regimens (TRF, ADF, 5:2 Diet)"
+   },
+   "comparator": {
+    "quote": "or with non-IF controls",
+    "section": "METHODS",
+    "status": "reported",
+    "value": "non-IF controls"
+   },
+   "follow_up": {
+    "quote": null,
+    "section": null,
+    "status": "not_reported",
+    "value": null
+   }
+  },
+  "primary_findings": [
+   {
+    "quote": "TRF was the most effective regimen for reducing hepatic steatosis (MD: -23.32 dB/m)",
+    "section": "RESULTS",
+    "confidence": "high",
+    "outcome": "hepatic steatosis",
+    "direction": "favors_intervention",
+    "effect_measure": "MD",
+    "effect_value": -23.32,
+    "ci_low": null,
+    "ci_high": null,
+    "p_value": null
+   }
+  ],
+  "limitations_stated": []
+ }
+}

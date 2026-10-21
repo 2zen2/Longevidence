@@ -1,0 +1,38 @@
+{
+ "provider": "cloudflare",
+ "model": "@cf/openai/gpt-oss-20b",
+ "usage": {
+  "input_tokens": 1539,
+  "output_tokens": 1115
+ },
+ "output": {
+  "study": {
+   "design": {
+    "status": "reported",
+    "value": "cohort"
+   },
+   "population": {
+    "status": "reported",
+    "value": "adults with type 2 diabetes and arterial hypertension"
+   },
+   "sample_size": {
+    "status": "reported",
+    "value": 158
+   },
+   "intervention": {
+    "status": "reported",
+    "value": "attendance at scheduled dietitian\u2011led follow\u2011up visits"
+   },
+   "comparator": {
+    "status": "reported",
+    "value": "participants without regular follow\u2011up"
+   },
+   "follow_up": {
+    "status": "reported",
+    "value": "3 years"
+   }
+  },
+  "primary_findings": [],
+  "limitations_stated": []
+ }
+}

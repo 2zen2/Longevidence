@@ -1,0 +1,112 @@
+{
+ "provider": "openrouter",
+ "model": "deepseek/deepseek-v4.1-flash",
+ "usage": {
+  "input_tokens": 2643,
+  "output_tokens": 1480
+ },
+ "output": {
+  "study": {
+   "design": {
+    "status": "reported",
+    "value": "meta_analysis",
+    "quote": "This umbrella meta-analysis aimed to examine the effect of prenatal vitamin D supplementation on maternal and neonatal outcomes.",
+    "section": "BACKGROUND",
+    "confidence": "high"
+   },
+   "population": {
+    "status": "reported",
+    "value": "Pregnant women and their neonates",
+    "quote": "the effect of prenatal vitamin D supplementation on maternal and neonatal outcomes",
+    "section": "BACKGROUND",
+    "confidence": "high"
+   },
+   "sample_size": {
+    "status": "reported",
+    "value": 188370,
+    "quote": "Thirty-five studies with 188,370 participants were included.",
+    "section": "RESULTS",
+    "confidence": "high"
+   },
+   "intervention": {
+    "status": "reported",
+    "value": "Vitamin D supplementation during pregnancy",
+    "quote": "Vitamin D supplementation lowered the risk of GDM",
+    "section": "RESULTS",
+    "confidence": "high"
+   },
+   "comparator": {
+    "status": "not_reported",
+    "value": null,
+    "quote": null,
+    "section": null,
+    "confidence": null
+   },
+   "follow_up": {
+    "status": "not_reported",
+    "value": null,
+    "quote": null,
+    "section": null,
+    "confidence": null
+   }
+  },
+  "primary_findings": [
+   {
+    "quote": "Vitamin D supplementation lowered the risk of GDM (RR = 0.68, 95%CI: 0.53 to 0.88)",
+    "outcome": "Gestational diabetes mellitus (GDM)",
+    "direction": "favors_intervention",
+    "effect_measure": "RR",
+    "effect_value": 0.68,
+    "ci_low": 0.53,
+    "ci_high": 0.88,
+    "section": "RESULTS",
+    "confidence": "high"
+   },
+   {
+    "quote": "preeclampsia (RR = 0.62, 95%CI: 0.56 to 0.69)",
+    "outcome": "Preeclampsia",
+    "direction": "favors_intervention",
+    "effect_measure": "RR",
+    "effect_value": 0.62,
+    "ci_low": 0.56,
+    "ci_high": 0.69,
+    "section": "RESULTS",
+    "confidence": "high"
+   },
+   {
+    "quote": "PTD (RR = 0.77, 95%CI: 0.65 to 0.90)",
+    "outcome": "Preterm delivery (PTD)",
+    "direction": "favors_intervention",
+    "effect_measure": "RR",
+    "effect_value": 0.77,
+    "ci_low": 0.65,
+    "ci_high": 0.9,
+    "section": "RESULTS",
+    "confidence": "high"
+   },
+   {
+    "quote": "LBW (RR = 0.67, 95%CI: 0.54 to 0.84)",
+    "outcome": "Low birth weight (LBW)",
+    "direction": "favors_intervention",
+    "effect_measure": "RR",
+    "effect_value": 0.67,
+    "ci_low": 0.54,
+    "ci_high": 0.84,
+    "section": "RESULTS",
+    "confidence": "high"
+   },
+   {
+    "quote": "SGA (RR = 0.73, 95%CI: 0.63 to 0.85)",
+    "outcome": "Small for gestational age (SGA)",
+    "direction": "favors_intervention",
+    "effect_measure": "RR",
+    "effect_value": 0.73,
+    "ci_low": 0.63,
+    "ci_high": 0.85,
+    "section": "RESULTS",
+    "confidence": "high"
+   }
+  ],
+  "limitations_stated": []
+ }
+}

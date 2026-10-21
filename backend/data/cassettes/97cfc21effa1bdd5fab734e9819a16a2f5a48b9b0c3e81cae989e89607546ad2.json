@@ -1,0 +1,99 @@
+{
+ "provider": "cloudflare",
+ "model": "@cf/openai/gpt-oss-20b",
+ "usage": {
+  "input_tokens": 1600,
+  "output_tokens": 4284
+ },
+ "output": {
+  "study": {
+   "design": {
+    "quote": "who were randomized for 5 years into three groups",
+    "section": "METHODS",
+    "status": "reported",
+    "value": "rct"
+   },
+   "population": {
+    "quote": "men \u226560 years and women \u226565 years",
+    "section": "METHODS",
+    "status": "reported",
+    "value": "men \u226560 years and women \u226565 years"
+   },
+   "sample_size": {
+    "quote": "The study included 2495 participants",
+    "section": "METHODS",
+    "status": "reported",
+    "value": 2495
+   },
+   "intervention": {
+    "quote": "1600 IU/day or 3200 IU/day of vitamin D\u2083",
+    "section": "METHODS",
+    "status": "reported",
+    "value": "1600 IU/day or 3200 IU/day of vitamin D\u2083"
+   },
+   "comparator": {
+    "quote": "placebo",
+    "section": "METHODS",
+    "status": "reported",
+    "value": "placebo"
+   },
+   "follow_up": {
+    "quote": "mean 4.1-year supplementation period",
+    "section": "RESULTS",
+    "status": "reported",
+    "value": "mean 4.1-year supplementation period"
+   }
+  },
+  "primary_findings": [
+   {
+    "quote": "compared to placebo: HR = 1.52, 95% CI = 1.06-2.18",
+    "section": "RESULTS",
+    "confidence": "high",
+    "outcome": "fracture incidence",
+    "direction": "favors_comparator",
+    "effect_measure": "HR",
+    "effect_value": 1.52,
+    "ci_low": 1.06,
+    "ci_high": 2.18,
+    "p_value": null
+   },
+   {
+    "quote": "HR = 1.07, 95% CI = 0.72-1.58",
+    "section": "RESULTS",
+    "confidence": "high",
+    "outcome": "fracture incidence",
+    "direction": "no_difference",
+    "effect_measure": "HR",
+    "effect_value": 1.07,
+    "ci_low": 0.72,
+    "ci_high": 1.58,
+    "p_value": null
+   },
+   {
+    "quote": "HR = 1.40, 95% CI = 1.08-1.80",
+    "section": "RESULTS",
+    "confidence": "high",
+    "outcome": "fracture incidence",
+    "direction": "favors_comparator",
+    "effect_measure": "HR",
+    "effect_value": 1.4,
+    "ci_low": 1.08,
+    "ci_high": 1.8,
+    "p_value": null
+   },
+   {
+    "quote": "HR = 1.08, 95% CI = 0.83-1.41",
+    "section": "RESULTS",
+    "confidence": "high",
+    "outcome": "fracture incidence",
+    "direction": "no_difference",
+    "effect_measure": "HR",
+    "effect_value": 1.08,
+    "ci_low": 0.83,
+    "ci_high": 1.41,
+    "p_value": null
+   }
+  ],
+  "limitations_stated": []
+ }
+}

@@ -1,0 +1,105 @@
+{
+ "provider": "cloudflare",
+ "model": "@cf/openai/gpt-oss-20b",
+ "usage": {
+  "input_tokens": 1429,
+  "output_tokens": 2587
+ },
+ "output": {
+  "study": {
+   "design": {
+    "quote": "meta-analysis",
+    "section": "METHODS",
+    "confidence": "high",
+    "status": "reported",
+    "value": "meta_analysis"
+   },
+   "population": {
+    "quote": "over 730 000 participants",
+    "section": "RESULTS",
+    "confidence": "high",
+    "status": "reported",
+    "value": "participants in studies of neurological diseases"
+   },
+   "sample_size": {
+    "quote": "over 730 000 participants",
+    "section": "RESULTS",
+    "confidence": "high",
+    "status": "reported",
+    "value": 730000
+   },
+   "intervention": {
+    "quote": "Mediterranean diet (MD)",
+    "section": "METHODS",
+    "confidence": "high",
+    "status": "reported",
+    "value": "Mediterranean diet adherence"
+   },
+   "comparator": {
+    "quote": null,
+    "section": null,
+    "confidence": null,
+    "status": "not_reported",
+    "value": null
+   },
+   "follow_up": {
+    "quote": null,
+    "section": null,
+    "confidence": null,
+    "status": "not_reported",
+    "value": null
+   }
+  },
+  "primary_findings": [
+   {
+    "quote": "Higher MD adherence was associated with reduced risk or prevalence of Alzheimer's disease (odds ratios = 0.92), mild cognitive impairment (RR = 0.93), depression (RR = 0.96), and Parkinson's disease (RR = 0.90), with moderate certainty of evidence.",
+    "section": "RESULTS",
+    "confidence": "high",
+    "outcome": "Alzheimer's disease risk",
+    "direction": "favors_intervention",
+    "effect_measure": "OR",
+    "effect_value": 0.92,
+    "ci_low": null,
+    "ci_high": null,
+    "p_value": null
+   },
+   {
+    "quote": "Higher MD adherence was associated with reduced risk or prevalence of Alzheimer's disease (odds ratios = 0.92), mild cognitive impairment (RR = 0.93), depression (RR = 0.96), and Parkinson's disease (RR = 0.90), with moderate certainty of evidence.",
+    "section": "RESULTS",
+    "confidence": "high",
+    "outcome": "mild cognitive impairment risk",
+    "direction": "favors_intervention",
+    "effect_measure": "RR",
+    "effect_value": 0.93,
+    "ci_low": null,
+    "ci_high": null,
+    "p_value": null
+   },
+   {
+    "quote": "Higher MD adherence was associated with reduced risk or prevalence of Alzheimer's disease (odds ratios = 0.92), mild cognitive impairment (RR = 0.93), depression (RR = 0.96), and Parkinson's disease (RR = 0.90), with moderate certainty of evidence.",
+    "section": "RESULTS",
+    "confidence": "high",
+    "outcome": "depression risk",
+    "direction": "favors_intervention",
+    "effect_measure": "RR",
+    "effect_value": 0.96,
+    "ci_low": null,
+    "ci_high": null,
+    "p_value": null
+   },
+   {
+    "quote": "Higher MD adherence was associated with reduced risk or prevalence of Alzheimer's disease (odds ratios = 0.92), mild cognitive impairment (RR = 0.93), depression (RR = 0.96), and Parkinson's disease (RR = 0.90), with moderate certainty of evidence.",
+    "section": "RESULTS",
+    "confidence": "high",
+    "outcome": "Parkinson's disease risk",
+    "direction": "favors_intervention",
+    "effect_measure": "RR",
+    "effect_value": 0.9,
+    "ci_low": null,
+    "ci_high": null,
+    "p_value": null
+   }
+  ],
+  "limitations_stated": []
+ }
+}

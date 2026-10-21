@@ -1,0 +1,38 @@
+{
+ "provider": "openrouter",
+ "model": "deepseek/deepseek-v4.1-flash",
+ "usage": {
+  "input_tokens": 2635,
+  "output_tokens": 469
+ },
+ "output": {
+  "study": {
+   "design": {
+    "status": "reported",
+    "value": "rct_secondary_analysis"
+   },
+   "population": {
+    "status": "reported",
+    "value": "Adults with HFrEF (left ventricular ejection fraction [LVEF] \u226440%) not receiving target dose GDMT"
+   },
+   "sample_size": {
+    "status": "reported",
+    "value": 212
+   },
+   "intervention": {
+    "status": "reported",
+    "value": "Once-daily overencapsulated polypill with multiple dose formulations (metoprolol succinate 25/50/100/150 mg, spironolactone 12.5 mg, empagliflozin 10 mg)"
+   },
+   "comparator": {
+    "status": "reported",
+    "value": "Enhanced usual care with individual GDMTs coordinated with outpatient cardiology/primary care"
+   },
+   "follow_up": {
+    "status": "reported",
+    "value": "6 months"
+   }
+  },
+  "primary_findings": [],
+  "limitations_stated": []
+ }
+}

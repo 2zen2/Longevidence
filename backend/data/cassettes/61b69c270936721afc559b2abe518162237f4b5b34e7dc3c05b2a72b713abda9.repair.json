@@ -1,0 +1,65 @@
+{
+ "provider": "cloudflare",
+ "model": "@cf/openai/gpt-oss-20b",
+ "usage": {
+  "input_tokens": 1518,
+  "output_tokens": 1329
+ },
+ "output": {
+  "study": {
+   "design": {
+    "status": "reported",
+    "value": "meta_analysis"
+   },
+   "population": {
+    "status": "reported",
+    "value": "adults with established CVD"
+   },
+   "sample_size": {
+    "status": "reported",
+    "value": 54034
+   },
+   "intervention": {
+    "status": "reported",
+    "value": "Mediterranean diet adherence"
+   },
+   "comparator": {
+    "status": "not_reported"
+   },
+   "follow_up": {
+    "status": "reported",
+    "value": "2 to 10 years"
+   }
+  },
+  "primary_findings": [
+   {
+    "quote": "Higher adherence to the Mediterranean diet was associated with lower risk of all-cause mortality (0.74, 95%CI: 0.65-0.84)",
+    "outcome": "all-cause mortality",
+    "direction": "favors_intervention",
+    "effect_measure": "RR",
+    "effect_value": 0.74,
+    "ci_low": 0.65,
+    "ci_high": 0.84
+   },
+   {
+    "quote": "lower risk of cardiovascular mortality (0.84, 95%CI: 0.75-0.94)",
+    "outcome": "cardiovascular mortality",
+    "direction": "favors_intervention",
+    "effect_measure": "RR",
+    "effect_value": 0.84,
+    "ci_low": 0.75,
+    "ci_high": 0.94
+   },
+   {
+    "quote": "lower risk of recurrent cardiovascular events (0.60, 95%CI: 0.39-0.92)",
+    "outcome": "recurrent cardiovascular events",
+    "direction": "favors_intervention",
+    "effect_measure": "RR",
+    "effect_value": 0.6,
+    "ci_low": 0.39,
+    "ci_high": 0.92
+   }
+  ],
+  "limitations_stated": []
+ }
+}

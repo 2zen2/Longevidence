@@ -1,0 +1,62 @@
+{
+ "provider": "cloudflare",
+ "model": "@cf/openai/gpt-oss-20b",
+ "usage": {
+  "input_tokens": 1436,
+  "output_tokens": 1001
+ },
+ "output": {
+  "study": {
+   "design": {
+    "quote": "single-center retrospective cohort study",
+    "section": "METHODS",
+    "status": "reported",
+    "value": "cohort"
+   },
+   "population": {
+    "quote": "patients aged \u2265 75 years with CKD",
+    "section": "METHODS",
+    "status": "reported",
+    "value": "older adults with CKD aged \u2265 75 years"
+   },
+   "sample_size": {
+    "quote": "A total of 462 patients",
+    "section": "RESULTS",
+    "status": "reported",
+    "value": 462
+   },
+   "intervention": {
+    "quote": "Salt intake was estimated from spot urine",
+    "section": "METHODS",
+    "status": "reported",
+    "value": "salt intake"
+   },
+   "comparator": {
+    "quote": null,
+    "section": null,
+    "status": "not_reported",
+    "value": null
+   },
+   "follow_up": {
+    "quote": "median follow-up of 2.79 years",
+    "section": "RESULTS",
+    "status": "reported",
+    "value": "2.79"
+   }
+  },
+  "primary_findings": [
+   {
+    "quote": "adjusted HR 2.70; 95% CI 1.02-7.12; highest vs. lowest quartile",
+    "section": "RESULTS",
+    "outcome": "composite kidney endpoint of \u2265 30% eGFR decline or initiation of kidney replacement therapy",
+    "direction": "favors_comparator",
+    "effect_measure": "HR",
+    "effect_value": 2.7,
+    "ci_low": 1.02,
+    "ci_high": 7.12,
+    "p_value": null
+   }
+  ],
+  "limitations_stated": []
+ }
+}

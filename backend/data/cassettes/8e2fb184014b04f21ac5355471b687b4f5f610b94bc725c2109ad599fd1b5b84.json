@@ -1,0 +1,13 @@
+{
+ "provider": "openrouter",
+ "model": "deepseek/deepseek-v4.1-flash",
+ "usage": {
+  "input_tokens": 2487,
+  "output_tokens": 811
+ },
+ "output": {
+  "study": "{\"design\": {\"status\": \"reported\", \"value\": \"rct_secondary_analysis\", \"quote\": \"CA125 levels were measured from plasma samples collected in the EMMY trial\", \"section\": \"ABSTRACT\", \"confidence\": \"high\"}, \"population\": {\"status\": \"reported\", \"value\": \"Patients after acute myocardial infarction (AMI) enrolled in the EMMY trial\", \"quote\": \"its response to sodium-glucose co-transporter 2 inhibitors (SGLT2i) after acute myocardial infarction (AMI) remains insufficiently explored\", \"section\": \"ABSTRACT\", \"confidence\": \"high\"}, \"sample_size\": {\"status\": \"not_reported\", \"value\": null, \"quote\": null, \"section\": null, \"confidence\": \"high\"}, \"intervention\": {\"status\": \"reported\", \"value\": \"Empagliflozin\", \"quote\": \"robust linear mixed-effects models (R-LMEMs) were applied to assess the effects of empagliflozin on CA125 levels\", \"section\": \"ABSTRACT\", \"confidence\": \"high\"}, \"comparator\": {\"status\": \"not_reported\", \"value\": null, \"quote\": null, \"section\": null, \"confidence\": \"high\"}, \"follow_up\": {\"status\": \"reported\", \"value\": \"26 weeks\", \"quote\": \"their changes over a 26-week period\", \"section\": \"ABSTRACT\", \"confidence\": \"high\"}}",
+  "primary_findings": [],
+  "limitations_stated": []
+ }
+}

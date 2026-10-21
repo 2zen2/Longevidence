@@ -1,0 +1,106 @@
+{
+ "provider": "cloudflare",
+ "model": "@cf/openai/gpt-oss-20b",
+ "usage": {
+  "input_tokens": 1932,
+  "output_tokens": 1352
+ },
+ "output": {
+  "study": {
+   "design": {
+    "quote": "systematic review and meta-analysis",
+    "section": "ABSTRACT",
+    "status": "reported",
+    "value": "meta_analysis"
+   },
+   "population": {
+    "quote": "kidney transplant recipients (KTRs)",
+    "section": "ABSTRACT",
+    "status": "reported",
+    "value": "kidney transplant recipients (KTRs)"
+   },
+   "sample_size": {
+    "quote": "985 KTRs",
+    "section": "ABSTRACT",
+    "status": "reported",
+    "value": 985
+   },
+   "intervention": {
+    "quote": "vitamin D supplementation",
+    "section": "ABSTRACT",
+    "status": "reported",
+    "value": "vitamin D supplementation"
+   },
+   "comparator": {
+    "quote": "placebo or no treatment",
+    "section": "ABSTRACT",
+    "status": "reported",
+    "value": "placebo or no treatment"
+   },
+   "follow_up": {
+    "quote": "3 to 12 months",
+    "section": "ABSTRACT",
+    "status": "reported",
+    "value": "3 to 12 months"
+   }
+  },
+  "primary_findings": [
+   {
+    "quote": "BMD at the femoral neck (SMD 0.54; 95% CI 0.10 to 0.98; P = 0.02)",
+    "section": "ABSTRACT",
+    "outcome": "BMD at femoral neck",
+    "direction": "favors_intervention",
+    "effect_measure": "other",
+    "effect_value": 0.54,
+    "ci_low": 0.1,
+    "ci_high": 0.98,
+    "p_value": 0.02
+   },
+   {
+    "quote": "serum PTH level (SMD -0.49; 95% CI -0.76 to -0.22; P = 0.0003)",
+    "section": "ABSTRACT",
+    "outcome": "serum PTH level",
+    "direction": "favors_intervention",
+    "effect_measure": "other",
+    "effect_value": -1.0,
+    "ci_low": -1.0,
+    "ci_high": -1.0,
+    "p_value": 0.0003
+   },
+   {
+    "quote": "bone alkaline phosphatase (BAP) level (SMD -0.31; 95% CI -0.52 to -0.09; P = 0.006)",
+    "section": "ABSTRACT",
+    "outcome": "bone alkaline phosphatase (BAP) level",
+    "direction": "favors_intervention",
+    "effect_measure": "other",
+    "effect_value": -1.0,
+    "ci_low": -1.0,
+    "ci_high": -1.0,
+    "p_value": 0.006
+   },
+   {
+    "quote": "serum calcium level (SMD 0.35; 95% CI 0.12 to 0.58; P = 0.003)",
+    "section": "ABSTRACT",
+    "outcome": "serum calcium level",
+    "direction": "favors_intervention",
+    "effect_measure": "other",
+    "effect_value": 0.35,
+    "ci_low": 0.12,
+    "ci_high": 0.58,
+    "p_value": 0.003
+   },
+   {
+    "quote": "risk of hypercalcemia (RR 1.92; 95% CI 1.23 to 3.01; P = 0.004)",
+    "section": "ABSTRACT",
+    "outcome": "risk of hypercalcemia",
+    "direction": "favors_intervention",
+    "effect_measure": "other",
+    "effect_value": 1.92,
+    "ci_low": 1.23,
+    "ci_high": 3.01,
+    "p_value": 0.004
+   }
+  ],
+  "limitations_stated": []
+ }
+}

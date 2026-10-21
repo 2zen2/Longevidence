@@ -1,0 +1,38 @@
+{
+ "provider": "cloudflare",
+ "model": "@cf/openai/gpt-oss-20b",
+ "usage": {
+  "input_tokens": 1647,
+  "output_tokens": 1058
+ },
+ "output": {
+  "study": {
+   "design": {
+    "status": "reported",
+    "value": "rct"
+   },
+   "population": {
+    "status": "reported",
+    "value": "healthy Korean young adults aged 20-39 years with UPF intake \u226525% of daily energy"
+   },
+   "sample_size": {
+    "status": "reported",
+    "value": 50
+   },
+   "intervention": {
+    "status": "reported",
+    "value": "40-minute one-on-one UPF-reducing dietary intervention"
+   },
+   "comparator": {
+    "status": "reported",
+    "value": "40-minute one-on-one standard dietary counselling based on national dietary guidelines (control)"
+   },
+   "follow_up": {
+    "status": "reported",
+    "value": "10 days"
+   }
+  },
+  "primary_findings": [],
+  "limitations_stated": []
+ }
+}

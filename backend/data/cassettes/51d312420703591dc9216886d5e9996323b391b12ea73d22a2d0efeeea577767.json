@@ -1,0 +1,72 @@
+{
+ "provider": "cloudflare",
+ "model": "@cf/openai/gpt-oss-20b",
+ "usage": {
+  "input_tokens": 1454,
+  "output_tokens": 2555
+ },
+ "output": {
+  "study": {
+   "design": {
+    "quote": "pilot randomized intervention trial",
+    "section": "METHODS",
+    "status": "reported",
+    "value": "rct"
+   },
+   "population": {
+    "quote": "older adults (73.1 \u00b1 5.9 years; 65% men) stratified as healthy controls or post-myocardial infarction (post-MI)",
+    "section": "METHODS",
+    "status": "reported",
+    "value": "older adults (73.1 \u00b1 5.9 years; 65% men) stratified as healthy controls or post-myocardial infarction (post-MI)"
+   },
+   "sample_size": {
+    "quote": "34 older adults",
+    "section": "METHODS",
+    "status": "reported",
+    "value": 34
+   },
+   "intervention": {
+    "quote": "25 mL/day of standard EVOO",
+    "section": "METHODS",
+    "status": "reported",
+    "value": "25 mL/day of standard EVOO"
+   },
+   "comparator": {
+    "quote": null,
+    "section": null,
+    "status": "not_reported",
+    "value": null
+   },
+   "follow_up": {
+    "quote": "26 weeks",
+    "section": "METHODS",
+    "status": "reported",
+    "value": "26 weeks"
+   }
+  },
+  "primary_findings": [
+   {
+    "quote": "post-MI participants showed a greater increase than healthy controls (+402 \u03bcM; 95% CI 162-641)",
+    "section": "RESULTS",
+    "confidence": "high",
+    "outcome": "TEAC change within EVOO group: post-MI vs healthy controls",
+    "direction": "unclear",
+    "effect_measure": "MD",
+    "effect_value": 402,
+    "ci_low": 162,
+    "ci_high": 641
+   },
+   {
+    "quote": "participants with high vs low MedDiet adherence exhibited a greater TEAC increase (+274 \u03bcM; 95% CI 1.6-545)",
+    "section": "RESULTS",
+    "confidence": "high",
+    "outcome": "TEAC change within EVOO group: high vs low MedDiet adherence",
+    "direction": "unclear",
+    "effect_measure": "MD",
+    "effect_value": 274,
+    "ci_low": 1.6,
+    "ci_high": 545
+   }
+  ]
+ }
+}

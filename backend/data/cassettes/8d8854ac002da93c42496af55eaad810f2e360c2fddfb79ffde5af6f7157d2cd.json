@@ -1,0 +1,111 @@
+{
+ "provider": "cloudflare",
+ "model": "@cf/openai/gpt-oss-20b",
+ "usage": {
+  "input_tokens": 1559,
+  "output_tokens": 2110
+ },
+ "output": {
+  "study": {
+   "design": {
+    "quote": "Pooled effect sizes were computed using a random-effects model and expressed as risk ratios (RR), hazard ratios, or odds ratios, as appropriate.",
+    "section": "METHODS",
+    "status": "reported",
+    "value": "meta_analysis"
+   },
+   "population": {
+    "quote": null,
+    "section": null,
+    "status": "not_reported",
+    "value": null
+   },
+   "sample_size": {
+    "quote": "more than 8 million participants",
+    "section": "RESULTS",
+    "status": "reported",
+    "value": null
+   },
+   "intervention": {
+    "quote": null,
+    "section": null,
+    "status": "not_reported",
+    "value": null
+   },
+   "comparator": {
+    "quote": null,
+    "section": null,
+    "status": "not_reported",
+    "value": null
+   },
+   "follow_up": {
+    "quote": null,
+    "section": null,
+    "status": "not_reported",
+    "value": null
+   }
+  },
+  "primary_findings": [
+   {
+    "quote": "head and neck (RR = 0.88, 95% CI 0.78-0.98)",
+    "section": "RESULTS",
+    "confidence": "high",
+    "outcome": "head and neck cancer risk",
+    "direction": "favors_intervention",
+    "effect_measure": "RR",
+    "effect_value": 0.88,
+    "ci_low": 0.78,
+    "ci_high": 0.98,
+    "p_value": null
+   },
+   {
+    "quote": "oral cavity (RR = 0.83, 95% CI 0.73-0.95)",
+    "section": "RESULTS",
+    "confidence": "high",
+    "outcome": "oral cavity cancer risk",
+    "direction": "favors_intervention",
+    "effect_measure": "RR",
+    "effect_value": 0.83,
+    "ci_low": 0.73,
+    "ci_high": 0.95,
+    "p_value": null
+   },
+   {
+    "quote": "stomach (RR = 0.93, 95% CI 0.88-0.97)",
+    "section": "RESULTS",
+    "confidence": "high",
+    "outcome": "stomach cancer risk",
+    "direction": "favors_intervention",
+    "effect_measure": "RR",
+    "effect_value": 0.93,
+    "ci_low": 0.88,
+    "ci_high": 0.97,
+    "p_value": null
+   },
+   {
+    "quote": "liver/gallbladder (RR = 0.94, 95% CI 0.93-0.96)",
+    "section": "RESULTS",
+    "confidence": "high",
+    "outcome": "liver/gallbladder cancer risk",
+    "direction": "favors_intervention",
+    "effect_measure": "RR",
+    "effect_value": 0.94,
+    "ci_low": 0.93,
+    "ci_high": 0.96,
+    "p_value": null
+   },
+   {
+    "quote": "colorectal (RR = 0.95, 95% CI 0.92-0.98)",
+    "section": "RESULTS",
+    "confidence": "high",
+    "outcome": "colorectal cancer risk",
+    "direction": "favors_intervention",
+    "effect_measure": "RR",
+    "effect_value": 0.95,
+    "ci_low": 0.92,
+    "ci_high": 0.98,
+    "p_value": null
+   }
+  ],
+  "limitations_stated": []
+ }
+}

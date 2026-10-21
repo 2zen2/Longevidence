@@ -1,0 +1,50 @@
+{
+ "provider": "cloudflare",
+ "model": "@cf/openai/gpt-oss-20b",
+ "usage": {
+  "input_tokens": 1508,
+  "output_tokens": 1568
+ },
+ "output": {
+  "study": {
+   "design": {
+    "quote": "Prospective Randomized Controlled Trial",
+    "section": "TITLE",
+    "status": "reported",
+    "value": "rct"
+   },
+   "population": {
+    "quote": "patients who experienced suboptimal clinical response (SCR) or RWG after bariatric surgery",
+    "section": "METHODS",
+    "status": "reported",
+    "value": "patients who experienced suboptimal clinical response (SCR) or RWG after bariatric surgery"
+   },
+   "sample_size": {
+    "quote": "This study included 56 patients",
+    "section": "METHODS",
+    "status": "reported",
+    "value": 56
+   },
+   "intervention": {
+    "quote": "conversion bariatric surgery (CBS), very low\u2011calorie ketogenic diet (VLCKD), and time\u2011restricted intermittent fasting (TRIF)",
+    "section": "METHODS",
+    "status": "reported",
+    "value": "conversion bariatric surgery (CBS), very low\u2011calorie ketogenic diet (VLCKD), and time\u2011restricted intermittent fasting (TRIF)"
+   },
+   "comparator": {
+    "quote": "control",
+    "section": "METHODS",
+    "status": "reported",
+    "value": "control"
+   },
+   "follow_up": {
+    "quote": "at baseline and at week 6",
+    "section": "METHODS",
+    "status": "reported",
+    "value": "6 weeks"
+   }
+  },
+  "primary_findings": [],
+  "limitations_stated": []
+ }
+}

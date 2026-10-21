@@ -1,0 +1,34 @@
+{
+ "provider": "cloudflare",
+ "model": "@cf/openai/gpt-oss-20b",
+ "usage": {
+  "input_tokens": 861,
+  "output_tokens": 1243
+ },
+ "output": {
+  "study": {
+   "title": "Mediterranean diet adherence, healthy sleep, and lung cancer risk: a prospective study of 192,034 UK Biobank participants.",
+   "design": "prospective cohort",
+   "sample_size": 192034,
+   "median_age": 57,
+   "percent_female": 54,
+   "follow_up_median_years": 14,
+   "incident_cases": 1156
+  },
+  "primary_findings": [
+   {
+    "effect_estimate": "SHR 0.57",
+    "ci": "95% CI 0.41-0.79",
+    "direction": "lower risk",
+    "quote": "SHR 0.57, 95% CI 0.41-0.79; P = 0.001",
+    "section": "RESULTS"
+   }
+  ],
+  "limitations_stated": [
+   {
+    "quote": "although this finding should be interpreted as an observational association rather than evidence of causality.",
+    "section": "CONCLUSIONS"
+   }
+  ]
+ }
+}

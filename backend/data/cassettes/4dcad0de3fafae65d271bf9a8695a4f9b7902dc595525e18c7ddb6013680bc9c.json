@@ -1,0 +1,70 @@
+{
+ "provider": "cloudflare",
+ "model": "@cf/openai/gpt-oss-20b",
+ "usage": {
+  "input_tokens": 1408,
+  "output_tokens": 1571
+ },
+ "output": {
+  "study": {
+   "design": {
+    "quote": "a prospective study of 192,034 UK Biobank participants.",
+    "section": "ABSTRACT",
+    "status": "reported",
+    "value": "cohort"
+   },
+   "population": {
+    "quote": "Participants were drawn from the UK Biobank.",
+    "section": "METHODS",
+    "status": "reported",
+    "value": "UK Biobank participants"
+   },
+   "sample_size": {
+    "quote": "A total of 192,034 participants",
+    "section": "RESULTS",
+    "status": "reported",
+    "value": 192034
+   },
+   "intervention": {
+    "quote": "joint Mediterranean diet-sleep pattern",
+    "section": "ABSTRACT",
+    "status": "reported",
+    "value": "Mediterranean diet-sleep pattern"
+   },
+   "comparator": {
+    "quote": "participants in the lowest level",
+    "section": "RESULTS",
+    "status": "reported",
+    "value": "lowest level of diet-sleep pattern"
+   },
+   "follow_up": {
+    "quote": "followed for a median of 14 years",
+    "section": "RESULTS",
+    "status": "reported",
+    "value": "14 years"
+   }
+  },
+  "primary_findings": [
+   {
+    "quote": "SHR 0.57, 95% CI 0.41-0.79; P = 0.001",
+    "section": "RESULTS",
+    "outcome": "lung cancer risk",
+    "direction": "favors_intervention",
+    "effect_measure": "HR",
+    "effect_value": 0.57,
+    "ci_low": 0.41,
+    "ci_high": 0.79,
+    "p_value": 0.001
+   }
+  ],
+  "limitations_stated": [
+   {
+    "quote": "although this finding should be interpreted as an observational association rather than evidence of causality.",
+    "section": "CONCLUSIONS",
+    "confidence": "high",
+    "status": "reported",
+    "value": "observational association rather than evidence of causality"
+   }
+  ]
+ }
+}

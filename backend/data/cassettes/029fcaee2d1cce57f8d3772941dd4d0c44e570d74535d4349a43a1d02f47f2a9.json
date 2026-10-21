@@ -1,0 +1,79 @@
+{
+ "provider": "cloudflare",
+ "model": "@cf/openai/gpt-oss-20b",
+ "usage": {
+  "input_tokens": 1600,
+  "output_tokens": 2545
+ },
+ "output": {
+  "study": {
+   "design": {
+    "status": "reported",
+    "value": "rct"
+   },
+   "population": {
+    "status": "reported",
+    "value": "men \u226560 years and women \u226565 years"
+   },
+   "sample_size": {
+    "status": "reported",
+    "value": 2495
+   },
+   "intervention": {
+    "status": "reported",
+    "value": "vitamin D3 1600 IU/day or 3200 IU/day"
+   },
+   "comparator": {
+    "status": "reported",
+    "value": "placebo"
+   },
+   "follow_up": {
+    "status": "reported",
+    "value": "mean 4.1-year supplementation period"
+   }
+  },
+  "primary_findings": [
+   {
+    "quote": "49, 73 and 52 fractures in the placebo, 1600 IU/day (compared to placebo: HR = 1.52, 95% CI = 1.06-2.18) and 3200 IU/day (HR = 1.07, 95% CI = 0.72-1.58) arms",
+    "outcome": "fracture incidence",
+    "direction": "favors_comparator",
+    "effect_measure": "HR",
+    "effect_value": 1.52,
+    "ci_low": 1.06,
+    "ci_high": 2.18,
+    "p_value": null
+   },
+   {
+    "quote": "104, 139 and 111 fractures occurred in the placebo, 1600 IU/day (HR = 1.40, 95% CI = 1.08-1.80) and 3200 IU/day (HR = 1.08, 95% CI = 0.83-1.41) arms",
+    "outcome": "fracture incidence",
+    "direction": "favors_comparator",
+    "effect_measure": "HR",
+    "effect_value": 1.4,
+    "ci_low": 1.08,
+    "ci_high": 1.8,
+    "p_value": null
+   },
+   {
+    "quote": "3200 IU/day (HR = 1.07, 95% CI = 0.72-1.58)",
+    "outcome": "fracture incidence",
+    "direction": "no_difference",
+    "effect_measure": "HR",
+    "effect_value": 1.07,
+    "ci_low": 0.72,
+    "ci_high": 1.58,
+    "p_value": null
+   },
+   {
+    "quote": "3200 IU/day (HR = 1.08, 95% CI = 0.83-1.41)",
+    "outcome": "fracture incidence",
+    "direction": "no_difference",
+    "effect_measure": "HR",
+    "effect_value": 1.08,
+    "ci_low": 0.83,
+    "ci_high": 1.41,
+    "p_value": null
+   }
+  ],
+  "limitations_stated": []
+ }
+}

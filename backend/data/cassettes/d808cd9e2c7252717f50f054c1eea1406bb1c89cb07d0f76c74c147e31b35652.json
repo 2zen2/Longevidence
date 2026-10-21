@@ -1,0 +1,110 @@
+{
+ "provider": "cloudflare",
+ "model": "@cf/openai/gpt-oss-20b",
+ "usage": {
+  "input_tokens": 1663,
+  "output_tokens": 1969
+ },
+ "output": {
+  "study": {
+   "design": {
+    "quote": "prospective cohort study",
+    "section": "TITLE",
+    "status": "reported",
+    "value": "cohort"
+   },
+   "population": {
+    "quote": "cancer-free participants from the UK Biobank",
+    "section": "METHODS",
+    "status": "reported",
+    "value": "cancer-free participants from the UK Biobank"
+   },
+   "sample_size": {
+    "quote": "191 139 cancer-free participants",
+    "section": "METHODS",
+    "status": "reported",
+    "value": 191139
+   },
+   "intervention": {
+    "quote": "greater adherence to the MED",
+    "section": "RESULTS",
+    "status": "reported",
+    "value": "Mediterranean diet adherence"
+   },
+   "comparator": {
+    "quote": "Q1",
+    "section": "RESULTS",
+    "status": "reported",
+    "value": "lower MED adherence"
+   },
+   "follow_up": {
+    "quote": null,
+    "section": null,
+    "status": "not_reported",
+    "value": null
+   }
+  },
+  "primary_findings": [
+   {
+    "quote": "HRQ4 vs. Q1: 0.66; 95% CI: 0.58-0.77",
+    "section": "RESULTS",
+    "confidence": "high",
+    "outcome": "lung cancer risk",
+    "direction": "favors_intervention",
+    "effect_measure": "HR",
+    "effect_value": 0.66,
+    "ci_low": 0.58,
+    "ci_high": 0.77,
+    "p_value": null
+   },
+   {
+    "quote": "HRQ4 vs. Q1: 0.61; 95% CI: 0.50-0.74",
+    "section": "RESULTS",
+    "confidence": "high",
+    "outcome": "lung cancer-specific mortality",
+    "direction": "favors_intervention",
+    "effect_measure": "HR",
+    "effect_value": 0.61,
+    "ci_low": 0.5,
+    "ci_high": 0.74,
+    "p_value": null
+   },
+   {
+    "quote": "HRQ4 vs. Q1: 0.82; 95% CI: 0.71-0.95",
+    "section": "RESULTS",
+    "confidence": "high",
+    "outcome": "lung cancer risk (PUFAs)",
+    "direction": "favors_intervention",
+    "effect_measure": "HR",
+    "effect_value": 0.82,
+    "ci_low": 0.71,
+    "ci_high": 0.95,
+    "p_value": null
+   },
+   {
+    "quote": "HRQ4 vs. Q1: 0.77; 95% CI: 0.63-0.94",
+    "section": "RESULTS",
+    "confidence": "high",
+    "outcome": "lung cancer-specific mortality (PUFAs)",
+    "direction": "favors_intervention",
+    "effect_measure": "HR",
+    "effect_value": 0.77,
+    "ci_low": 0.63,
+    "ci_high": 0.94,
+    "p_value": null
+   },
+   {
+    "quote": "HRQ4 vs. Q1: 1.25; 95% CI: 1.09-1.45",
+    "section": "RESULTS",
+    "confidence": "high",
+    "outcome": "lung cancer risk (SFAs)",
+    "direction": "favors_comparator",
+    "effect_measure": "HR",
+    "effect_value": 1.25,
+    "ci_low": 1.09,
+    "ci_high": 1.45,
+    "p_value": null
+   }
+  ]
+ }
+}

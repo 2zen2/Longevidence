@@ -1,0 +1,101 @@
+{
+ "provider": "openrouter",
+ "model": "deepseek/deepseek-v4.1-flash",
+ "usage": {
+  "input_tokens": 2671,
+  "output_tokens": 1149
+ },
+ "output": {
+  "study": {
+   "design": {
+    "status": "reported",
+    "value": "meta_analysis",
+    "quote": "Systematic review and meta-analysis.",
+    "section": "DESIGN",
+    "confidence": "high"
+   },
+   "population": {
+    "status": "reported",
+    "value": "Adults (\u226518 years) not receiving drug treatment for osteoporosis",
+    "quote": "Randomised controlled trials comparing calcium, vitamin D, or combined supplementation with placebo or no treatment in adults (\u226518 years) not receiving drug treatment for osteoporosis.",
+    "section": "ELIGIBILITY CRITERIA",
+    "confidence": "high"
+   },
+   "sample_size": {
+    "status": "reported",
+    "value": 153902,
+    "quote": "This review included 69 trials involving 153 902 participants.",
+    "section": "RESULTS",
+    "confidence": "high"
+   },
+   "intervention": {
+    "status": "reported",
+    "value": "Calcium, vitamin D, or combined supplementation",
+    "quote": "Randomised controlled trials comparing calcium, vitamin D, or combined supplementation with placebo or no treatment",
+    "section": "ELIGIBILITY CRITERIA",
+    "confidence": "high"
+   },
+   "comparator": {
+    "status": "reported",
+    "value": "Placebo or no treatment",
+    "quote": "Randomised controlled trials comparing calcium, vitamin D, or combined supplementation with placebo or no treatment",
+    "section": "ELIGIBILITY CRITERIA",
+    "confidence": "high"
+   },
+   "follow_up": {
+    "status": "not_reported",
+    "value": null,
+    "quote": null,
+    "section": null,
+    "confidence": null
+   }
+  },
+  "primary_findings": [
+   {
+    "quote": "little to no effect was found from use of calcium supplements (11 trials, 9067 participants; risk ratio 0.91, 95% confidence interval 0.81 to 1.01; moderate certainty)",
+    "outcome": "Any fracture (calcium supplements)",
+    "direction": "no_difference",
+    "effect_measure": "RR",
+    "effect_value": 0.91,
+    "ci_low": 0.81,
+    "ci_high": 1.01,
+    "p_value": null,
+    "section": "RESULTS",
+    "confidence": "high"
+   },
+   {
+    "quote": "vitamin D supplements (36 trials, 92 045 participants; 1.00, 0.95 to 1.06; high certainty)",
+    "outcome": "Any fracture (vitamin D supplements)",
+    "direction": "no_difference",
+    "effect_measure": "RR",
+    "effect_value": 1.0,
+    "ci_low": 0.95,
+    "ci_high": 1.06,
+    "p_value": null,
+    "section": "RESULTS",
+    "confidence": "high"
+   },
+   {
+    "quote": "combined supplementation (15 trials, 51 126 participants; 0.91, 0.84 to 0.99; high certainty)",
+    "outcome": "Any fracture (combined supplementation)",
+    "direction": "favors_intervention",
+    "effect_measure": "RR",
+    "effect_value": 0.91,
+    "ci_low": 0.84,
+    "ci_high": 0.99,
+    "p_value": null,
+    "section": "RESULTS",
+    "confidence": "high"
+   }
+  ],
+  "limitations_stated": [
+   {
+    "status": "reported",
+    "value": "Evidence for high risk patients or those requiring residential care was limited for many outcomes for calcium monotherapy and for combined supplementation.",
+    "quote": "Evidence for high risk patients or those requiring residential care was limited for many outcomes for calcium monotherapy and for combined supplementation.",
+    "section": "RESULTS",
+    "confidence": "high"
+   }
+  ]
+ }
+}

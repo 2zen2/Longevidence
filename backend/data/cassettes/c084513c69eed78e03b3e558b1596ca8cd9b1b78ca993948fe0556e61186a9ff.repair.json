@@ -1,0 +1,68 @@
+{
+ "provider": "cloudflare",
+ "model": "@cf/openai/gpt-oss-20b",
+ "usage": {
+  "input_tokens": 1451,
+  "output_tokens": 3807
+ },
+ "output": {
+  "study": {
+   "design": "rct",
+   "population": "high-risk participants",
+   "sample_size": 7447,
+   "intervention": "Mediterranean diet with wine",
+   "comparator": "Mediterranean diet without wine",
+   "follow_up": "4.8 years"
+  },
+  "primary_findings": [
+   {
+    "outcome": "CVD",
+    "effect_estimate": {
+     "val": 0.84,
+     "ci_lower": 0.61,
+     "ci_upper": 1.15
+    },
+    "direction": "no_difference",
+    "quote": "HR of 0.84 [95% confidence interval (CI) 0.61-1.15] for CVD.",
+    "confidence": "high"
+   },
+   {
+    "outcome": "CVD",
+    "effect_estimate": {
+     "val": 0.55,
+     "ci_lower": 0.36,
+     "ci_upper": 0.83
+    },
+    "direction": "lower risk",
+    "quote": "HR for CVD was 0.55 (95% CI 0.36-0.83).",
+    "confidence": "high"
+   },
+   {
+    "outcome": "all-cause mortality",
+    "effect_estimate": {
+     "val": 0.77,
+     "ci_lower": 0.68,
+     "ci_upper": 0.87
+    },
+    "direction": "lower risk",
+    "quote": "HR of 0.77 (95% CI 0.68-0.87).",
+    "confidence": "high"
+   },
+   {
+    "outcome": "all-cause mortality",
+    "effect_estimate": {
+     "val": 0.67,
+     "ci_lower": 0.57,
+     "ci_upper": 0.78
+    },
+    "direction": "lower risk",
+    "quote": "HR of 0.67 (95% CI 0.57-0.78).",
+    "confidence": "high"
+   }
+  ],
+  "limitations_stated": [
+   "Some non-significant associations and interactions advise caution in interpretation of these findings.",
+   "analyses least vulnerable to threats of abstainer bias were not significant and neither were multiplicative interaction terms for the wine item in the questionnaire."
+  ]
+ }
+}

@@ -1,0 +1,111 @@
+{
+ "provider": "cloudflare",
+ "model": "@cf/openai/gpt-oss-20b",
+ "usage": {
+  "input_tokens": 1478,
+  "output_tokens": 2095
+ },
+ "output": {
+  "study": {
+   "design": {
+    "quote": "systematic review and meta-analysis",
+    "section": "ABSTRACT",
+    "status": "reported",
+    "value": "meta_analysis"
+   },
+   "population": {
+    "quote": "primary prevention of CVDs",
+    "section": "ABSTRACT",
+    "status": "reported",
+    "value": "adults with cardiovascular disease risk factors"
+   },
+   "sample_size": {
+    "quote": "over 1.4 million participants",
+    "section": "RESULTS",
+    "status": "reported",
+    "value": 1400000
+   },
+   "intervention": {
+    "quote": "Mediterranean diet (MD)",
+    "section": "ABSTRACT",
+    "status": "reported",
+    "value": "Mediterranean diet"
+   },
+   "comparator": {
+    "quote": null,
+    "section": null,
+    "status": "not_reported",
+    "value": null
+   },
+   "follow_up": {
+    "quote": null,
+    "section": null,
+    "status": "not_reported",
+    "value": null
+   }
+  },
+  "primary_findings": [
+   {
+    "quote": "HR-from 0.34 to 0.54",
+    "section": "RESULTS",
+    "confidence": "high",
+    "outcome": "Peripheral artery disease",
+    "direction": "favors_intervention",
+    "effect_measure": "HR",
+    "effect_value": null,
+    "ci_low": 0.34,
+    "ci_high": 0.54,
+    "p_value": null
+   },
+   {
+    "quote": "HR: 0.95",
+    "section": "RESULTS",
+    "confidence": "high",
+    "outcome": "Coronary heart disease",
+    "direction": "favors_intervention",
+    "effect_measure": "HR",
+    "effect_value": 0.95,
+    "ci_low": null,
+    "ci_high": null,
+    "p_value": null
+   },
+   {
+    "quote": "HR: 0.65",
+    "section": "RESULTS",
+    "confidence": "high",
+    "outcome": "Atrial fibrillation",
+    "direction": "favors_intervention",
+    "effect_measure": "HR",
+    "effect_value": 0.65,
+    "ci_low": null,
+    "ci_high": null,
+    "p_value": null
+   },
+   {
+    "quote": "HR: 0.97",
+    "section": "RESULTS",
+    "confidence": "high",
+    "outcome": "Cerebrovascular disease",
+    "direction": "favors_intervention",
+    "effect_measure": "HR",
+    "effect_value": 0.97,
+    "ci_low": null,
+    "ci_high": null,
+    "p_value": null
+   },
+   {
+    "quote": "HR: 0.97",
+    "section": "RESULTS",
+    "confidence": "high",
+    "outcome": "Hypertension",
+    "direction": "favors_intervention",
+    "effect_measure": "HR",
+    "effect_value": 0.97,
+    "ci_low": null,
+    "ci_high": null,
+    "p_value": null
+   }
+  ],
+  "limitations_stated": []
+ }
+}

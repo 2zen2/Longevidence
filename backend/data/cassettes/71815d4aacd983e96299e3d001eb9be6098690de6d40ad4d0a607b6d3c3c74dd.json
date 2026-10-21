@@ -1,0 +1,75 @@
+{
+ "provider": "openrouter",
+ "model": "deepseek/deepseek-v4.1-flash",
+ "usage": {
+  "input_tokens": 3343,
+  "output_tokens": 3309
+ },
+ "output": {
+  "study": {
+   "design": {
+    "status": "reported",
+    "value": "rct",
+    "quote": "This randomized controlled trial included 130 patients with HF classified as NYHA class II to IV and without diabetes",
+    "section": "METHODS",
+    "confidence": "high"
+   },
+   "population": {
+    "status": "reported",
+    "value": "Patients with heart failure (NYHA class II to IV) without diabetes, with ejection fraction below 40%",
+    "quote": "130 patients with HF classified as NYHA class II to IV and without diabetes, with an ejection fraction (EF) below 40% as determined by echocardiography within the preceding three months",
+    "section": "METHODS",
+    "confidence": "high"
+   },
+   "sample_size": {
+    "status": "reported",
+    "value": 130,
+    "quote": "This randomized controlled trial included 130 patients with HF classified as NYHA class II to IV and without diabetes",
+    "section": "METHODS",
+    "confidence": "high"
+   },
+   "intervention": {
+    "status": "reported",
+    "value": "Sodium-glucose cotransporter 2 inhibitors (SGLT2)",
+    "quote": "This study sought to evaluate the impact of sodium-glucose cotransporter 2 inhibitors on blood glucose levels in patients with HFrEF without diabetes",
+    "section": "INTRODUCTION AND OBJECTIVES",
+    "confidence": "high"
+   },
+   "comparator": {
+    "status": "not_reported",
+    "value": null,
+    "quote": null,
+    "section": null,
+    "confidence": null
+   },
+   "follow_up": {
+    "status": "reported",
+    "value": "3 months",
+    "quote": "After three months of treatment, all these clinical and laboratory parameters were reassessed in both groups",
+    "section": "METHODS",
+    "confidence": "high"
+   }
+  },
+  "primary_findings": [
+   {
+    "quote": "Glycemic control also improved, with significant decreases in fasting, postprandial, HbA1c, and random blood glucose (p<0.001).",
+    "outcome": "Glycemic control (fasting, postprandial, HbA1c, and random blood glucose)",
+    "direction": "favors_intervention",
+    "effect_measure": "other",
+    "p_value": 0.001,
+    "section": "RESULTS",
+    "confidence": "high"
+   },
+   {
+    "quote": "Treatment led to significant improvements in cardiac function, including reductions in left ventricular diameters and volumes, and increases in ejection fraction, tricuspid annular plane systolic excursion, and right ventricular fractional area change (p<0.05).",
+    "outcome": "Cardiac function (LV diameters/volumes, ejection fraction, TAPSE, RV fractional area change)",
+    "direction": "favors_intervention",
+    "effect_measure": "other",
+    "p_value": 0.05,
+    "section": "RESULTS",
+    "confidence": "high"
+   }
+  ],
+  "limitations_stated": []
+ }
+}

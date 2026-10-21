@@ -1,0 +1,106 @@
+{
+ "provider": "cloudflare",
+ "model": "@cf/openai/gpt-oss-20b",
+ "usage": {
+  "input_tokens": 1572,
+  "output_tokens": 1786
+ },
+ "output": {
+  "study": {
+   "design": {
+    "quote": "Fifty-one prospective cohort studies involving 8 819 894 participants were included.",
+    "section": "RESULTS",
+    "status": "reported",
+    "value": "meta_analysis"
+   },
+   "population": {
+    "quote": "Adults (\u226518 years) without restriction to specific clinical conditions at baseline.",
+    "section": "PARTICIPANTS",
+    "status": "reported",
+    "value": "Adults (\u226518 years) without restriction to specific clinical conditions at baseline."
+   },
+   "sample_size": {
+    "quote": "Fifty-one prospective cohort studies involving 8 819 894 participants were included.",
+    "section": "RESULTS",
+    "status": "reported",
+    "value": 8819894
+   },
+   "intervention": {
+    "quote": "consumption of ultra-processed foods (UPFs)",
+    "section": "OBJECTIVE",
+    "status": "reported",
+    "value": "consumption of ultra-processed foods (UPFs)"
+   },
+   "comparator": {
+    "quote": null,
+    "section": null,
+    "status": "not_reported",
+    "value": null
+   },
+   "follow_up": {
+    "quote": null,
+    "section": null,
+    "status": "not_reported",
+    "value": null
+   }
+  },
+  "primary_findings": [
+   {
+    "quote": "cardiovascular events (Hazard Ratio (HR) 1.24, 95% Confidence Interval (CI) 1.14 to 1.36)",
+    "section": "RESULTS",
+    "outcome": "cardiovascular events",
+    "direction": "favors_comparator",
+    "effect_measure": "HR",
+    "effect_value": 1.24,
+    "ci_low": 1.14,
+    "ci_high": 1.36,
+    "p_value": null
+   },
+   {
+    "quote": "cancer (HR 1.12, 95% CI 1.04 to 1.21)",
+    "section": "RESULTS",
+    "outcome": "cancer",
+    "direction": "favors_comparator",
+    "effect_measure": "HR",
+    "effect_value": 1.12,
+    "ci_low": 1.04,
+    "ci_high": 1.21,
+    "p_value": null
+   },
+   {
+    "quote": "obesity/overweight (HR 1.23, 95% CI 1.17 to 1.30)",
+    "section": "RESULTS",
+    "outcome": "obesity/overweight",
+    "direction": "favors_comparator",
+    "effect_measure": "HR",
+    "effect_value": 1.23,
+    "ci_low": 1.17,
+    "ci_high": 1.3,
+    "p_value": null
+   },
+   {
+    "quote": "metabolic syndrome (MetS)/diabetes (HR 1.24, 95% CI 1.08 to 1.42)",
+    "section": "RESULTS",
+    "outcome": "metabolic syndrome (MetS)/diabetes",
+    "direction": "favors_comparator",
+    "effect_measure": "HR",
+    "effect_value": 1.24,
+    "ci_low": 1.08,
+    "ci_high": 1.42,
+    "p_value": null
+   },
+   {
+    "quote": "depression/anxiety (HR 1.27, 95% CI 1.15 to 1.40)",
+    "section": "RESULTS",
+    "outcome": "depression/anxiety",
+    "direction": "favors_comparator",
+    "effect_measure": "HR",
+    "effect_value": 1.27,
+    "ci_low": 1.15,
+    "ci_high": 1.4,
+    "p_value": null
+   }
+  ],
+  "limitations_stated": []
+ }
+}

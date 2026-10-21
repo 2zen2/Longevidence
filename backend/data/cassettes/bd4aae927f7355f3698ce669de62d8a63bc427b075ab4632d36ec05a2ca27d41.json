@@ -1,0 +1,91 @@
+{
+ "provider": "cloudflare",
+ "model": "@cf/openai/gpt-oss-20b",
+ "usage": {
+  "input_tokens": 1542,
+  "output_tokens": 2772
+ },
+ "output": {
+  "study": {
+   "design": {
+    "quote": "Participants were randomly assigned to eat a control diet or the DASH diet",
+    "section": "METHODS",
+    "status": "reported",
+    "value": "rct"
+   },
+   "population": {
+    "quote": "58% self-reported Black",
+    "section": "METHODS",
+    "status": "reported",
+    "value": "adults with ambulatory blood pressure monitoring, 58% self-reported Black"
+   },
+   "sample_size": {
+    "quote": "n = 335 with ABP",
+    "section": "METHODS",
+    "status": "reported",
+    "value": 335
+   },
+   "intervention": {
+    "quote": "the DASH diet",
+    "section": "METHODS",
+    "status": "reported",
+    "value": "DASH diet"
+   },
+   "comparator": {
+    "quote": "control diet",
+    "section": "METHODS",
+    "status": "reported",
+    "value": "control diet"
+   },
+   "follow_up": {
+    "quote": null,
+    "section": null,
+    "status": "not_reported",
+    "value": null
+   }
+  },
+  "primary_findings": [
+   {
+    "quote": "reduced mean (95%CI) awake SBP by 9.0 mmHg (6.4, 11.7) in Black participants",
+    "section": "RESULTS",
+    "outcome": "awake systolic blood pressure reduction in Black participants",
+    "direction": "favors_intervention",
+    "effect_measure": "MD",
+    "effect_value": -9.0,
+    "ci_low": -11.7,
+    "ci_high": -6.4
+   },
+   {
+    "quote": "reduced mean (95%CI) awake SBP by 7.5 mmHg (4.5, 10.6) in Non-Black participants",
+    "section": "RESULTS",
+    "outcome": "awake systolic blood pressure reduction in Non-Black participants",
+    "direction": "favors_intervention",
+    "effect_measure": "MD",
+    "effect_value": -7.5,
+    "ci_low": -10.6,
+    "ci_high": -4.5
+   },
+   {
+    "quote": "mean asleep SBP by 8.0 mmHg (4.8, 11.2) in Black participants",
+    "section": "RESULTS",
+    "outcome": "asleep systolic blood pressure reduction in Black participants",
+    "direction": "favors_intervention",
+    "effect_measure": "MD",
+    "effect_value": -8.0,
+    "ci_low": -11.2,
+    "ci_high": -4.8
+   },
+   {
+    "quote": "mean asleep SBP by 7.4 mmHg (3.9,11.0) in Non-Black participants",
+    "section": "RESULTS",
+    "outcome": "asleep systolic blood pressure reduction in Non-Black participants",
+    "direction": "favors_intervention",
+    "effect_measure": "MD",
+    "effect_value": -7.4,
+    "ci_low": -11.0,
+    "ci_high": -3.9
+   }
+  ],
+  "limitations_stated": []
+ }
+}

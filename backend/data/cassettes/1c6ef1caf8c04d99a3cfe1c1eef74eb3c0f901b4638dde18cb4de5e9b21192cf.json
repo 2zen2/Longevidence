@@ -1,0 +1,111 @@
+{
+ "provider": "cloudflare",
+ "model": "@cf/openai/gpt-oss-20b",
+ "usage": {
+  "input_tokens": 1594,
+  "output_tokens": 3215
+ },
+ "output": {
+  "study": {
+   "design": {
+    "quote": "using a fractional factorial design.",
+    "section": "METHODS",
+    "status": "reported",
+    "value": "other"
+   },
+   "population": {
+    "quote": "eligible participants were between the ages of 65 and 84 years with MCI",
+    "section": "METHODS",
+    "status": "reported",
+    "value": "older adults with mild cognitive impairment aged 65-84 years"
+   },
+   "sample_size": {
+    "quote": "Amongst 161 participants",
+    "section": "RESULTS",
+    "status": "reported",
+    "value": 161
+   },
+   "intervention": {
+    "quote": "Aerobic-resistance exercise combined with sequential computerised cognitive training",
+    "section": "METHODS",
+    "status": "reported",
+    "value": "aerobic-resistance exercise combined with sequential computerised cognitive training"
+   },
+   "comparator": {
+    "quote": "compared to the control",
+    "section": "RESULTS",
+    "status": "reported",
+    "value": "control"
+   },
+   "follow_up": {
+    "quote": "12-month endpoint (follow-up)",
+    "section": "METHODS",
+    "status": "reported",
+    "value": "12 months"
+   }
+  },
+  "primary_findings": [
+   {
+    "quote": "+7.5 cm/s, P < .001",
+    "section": "RESULTS",
+    "confidence": "high",
+    "outcome": "gait speed",
+    "direction": "favors_intervention",
+    "effect_measure": "MD",
+    "effect_value": 7.5,
+    "ci_low": null,
+    "ci_high": null,
+    "p_value": null
+   },
+   {
+    "quote": "IRR = 0.65, 95% confidence interval (CI): 032-1.42, P = .25",
+    "section": "RESULTS",
+    "confidence": "high",
+    "outcome": "falls incidence rate ratio at 6 months",
+    "direction": "favors_intervention",
+    "effect_measure": "other",
+    "effect_value": 0.65,
+    "ci_low": 0.32,
+    "ci_high": 1.42,
+    "p_value": 0.25
+   },
+   {
+    "quote": "IRR = 0.38, 95% CI: 0.15-1.05, P = .05",
+    "section": "RESULTS",
+    "confidence": "high",
+    "outcome": "injurious falls incidence rate ratio at 6 months",
+    "direction": "favors_intervention",
+    "effect_measure": "other",
+    "effect_value": 0.38,
+    "ci_low": 0.15,
+    "ci_high": 1.05,
+    "p_value": 0.05
+   },
+   {
+    "quote": "IRR = 0.28, 95% CI: 0.13-0.64, P = .002",
+    "section": "RESULTS",
+    "confidence": "high",
+    "outcome": "falls incidence rate ratio at 12 months",
+    "direction": "favors_intervention",
+    "effect_measure": "other",
+    "effect_value": 0.28,
+    "ci_low": 0.13,
+    "ci_high": 0.64,
+    "p_value": 0.002
+   },
+   {
+    "quote": "IRR = 0.24, 95% CI: 0.05-0.77, P = .02",
+    "section": "RESULTS",
+    "confidence": "high",
+    "outcome": "falls incidence rate ratio at 12 months for exercise + cognitive training",
+    "direction": "favors_intervention",
+    "effect_measure": "other",
+    "effect_value": 0.24,
+    "ci_low": 0.05,
+    "ci_high": 0.77,
+    "p_value": 0.02
+   }
+  ],
+  "limitations_stated": []
+ }
+}

@@ -1,0 +1,30 @@
+{
+ "provider": "cloudflare",
+ "model": "@cf/openai/gpt-oss-20b",
+ "usage": {
+  "input_tokens": 944,
+  "output_tokens": 955
+ },
+ "output": {
+  "study": {
+   "title": "The impact of a potassium-enriched salt substitute on blood pressure control in patients with resistant arterial hypertension: A randomized pilot trial",
+   "design": "rct",
+   "sample_size": 49
+  },
+  "primary_findings": [
+   {
+    "effect_estimate": "-2.47 mmHg",
+    "ci": [
+     -4.93,
+     0.0
+    ],
+    "p": 0.05,
+    "direction": "no_difference",
+    "quote": "between-group difference of -2.47 mmHg (95% CI -4.93 to 0.00; P = 0.05)",
+    "section": "RESULTS",
+    "confidence": "high"
+   }
+  ],
+  "limitations_stated": []
+ }
+}

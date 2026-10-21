@@ -1,0 +1,49 @@
+{
+ "provider": "cloudflare",
+ "model": "@cf/openai/gpt-oss-20b",
+ "usage": {
+  "input_tokens": 1053,
+  "output_tokens": 1714
+ },
+ "output": {
+  "study": {
+   "title": "The effect of vitamin D3 supplementation on fracture incidence in an aging population - The Finnish vitamin D trial",
+   "design": "rct",
+   "sample_size": 2495,
+   "population": "men \u226560 years and women \u226565 years",
+   "intervention": "1600 IU/day or 3200 IU/day of vitamin D\u2083",
+   "comparator": "placebo"
+  },
+  "primary_findings": [
+   {
+    "estimate": "HR = 1.52",
+    "ci": "95% CI = 1.06-2.18",
+    "direction": "higher_risk",
+    "quote": "HR = 1.52, 95% CI = 1.06-2.18",
+    "section": "RESULTS"
+   },
+   {
+    "estimate": "HR = 1.07",
+    "ci": "95% CI = 0.72-1.58",
+    "direction": "no_difference",
+    "quote": "HR = 1.07, 95% CI = 0.72-1.58",
+    "section": "RESULTS"
+   },
+   {
+    "estimate": "HR = 1.40",
+    "ci": "95% CI = 1.08-1.80",
+    "direction": "higher_risk",
+    "quote": "HR = 1.40, 95% CI = 1.08-1.80",
+    "section": "RESULTS"
+   },
+   {
+    "estimate": "HR = 1.08",
+    "ci": "95% CI = 0.83-1.41",
+    "direction": "no_difference",
+    "quote": "HR = 1.08, 95% CI = 0.83-1.41",
+    "section": "RESULTS"
+   }
+  ],
+  "limitations_stated": []
+ }
+}

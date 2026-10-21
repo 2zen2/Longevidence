@@ -1,0 +1,106 @@
+{
+ "provider": "cloudflare",
+ "model": "@cf/openai/gpt-oss-20b",
+ "usage": {
+  "input_tokens": 1504,
+  "output_tokens": 2355
+ },
+ "output": {
+  "study": {
+   "design": {
+    "quote": "prospective Iowa Women's Health Study (1986-2012)",
+    "section": "ABSTRACT",
+    "status": "reported",
+    "value": "cohort"
+   },
+   "population": {
+    "quote": "55- to 69-year-old cancer-free women",
+    "section": "ABSTRACT",
+    "status": "reported",
+    "value": "55- to 69-year-old cancer-free women"
+   },
+   "sample_size": {
+    "quote": "35 221 55- to 69-year-old cancer-free women at baseline",
+    "section": "ABSTRACT",
+    "status": "reported",
+    "value": 35221
+   },
+   "intervention": {
+    "quote": "evolutionary-concordance lifestyle score",
+    "section": "ABSTRACT",
+    "status": "reported",
+    "value": "evolutionary-concordance lifestyle score"
+   },
+   "comparator": {
+    "quote": "lowest quintile",
+    "section": "ABSTRACT",
+    "status": "reported",
+    "value": "lowest quintile"
+   },
+   "follow_up": {
+    "quote": null,
+    "section": null,
+    "status": "not_reported",
+    "value": null
+   }
+  },
+  "primary_findings": [
+   {
+    "quote": "0\u00b752 (95 % CI 0\u00b750, 0\u00b755)",
+    "section": "ABSTRACT",
+    "outcome": "all-cause mortality",
+    "direction": "favors_intervention",
+    "effect_measure": "HR",
+    "effect_value": 0.52,
+    "ci_low": 0.5,
+    "ci_high": 0.55,
+    "p_value": null
+   },
+   {
+    "quote": "0\u00b753 (95 % CI 0\u00b749, 0\u00b757)",
+    "section": "ABSTRACT",
+    "outcome": "all CVD mortality",
+    "direction": "favors_intervention",
+    "effect_measure": "HR",
+    "effect_value": 0.53,
+    "ci_low": 0.49,
+    "ci_high": 0.57,
+    "p_value": null
+   },
+   {
+    "quote": "0\u00b751 (95 % CI 0\u00b746, 0\u00b757)",
+    "section": "ABSTRACT",
+    "outcome": "all cancer mortality",
+    "direction": "favors_intervention",
+    "effect_measure": "HR",
+    "effect_value": 0.51,
+    "ci_low": 0.46,
+    "ci_high": 0.57,
+    "p_value": null
+   },
+   {
+    "quote": "0\u00b785 (95 % CI 0\u00b782, 0\u00b790)",
+    "section": "ABSTRACT",
+    "outcome": "all-cause mortality (Mediterranean diet)",
+    "direction": "favors_intervention",
+    "effect_measure": "HR",
+    "effect_value": 0.85,
+    "ci_low": 0.82,
+    "ci_high": 0.9,
+    "p_value": null
+   },
+   {
+    "quote": "0\u00b783 (95 % CI 0\u00b776, 0\u00b790)",
+    "section": "ABSTRACT",
+    "outcome": "all CVD mortality (Mediterranean diet)",
+    "direction": "favors_intervention",
+    "effect_measure": "HR",
+    "effect_value": 0.83,
+    "ci_low": 0.76,
+    "ci_high": 0.9,
+    "p_value": null
+   }
+  ],
+  "limitations_stated": []
+ }
+}

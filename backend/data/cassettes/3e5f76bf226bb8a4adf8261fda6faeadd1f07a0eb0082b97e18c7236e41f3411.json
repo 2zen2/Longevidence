@@ -1,0 +1,50 @@
+{
+ "provider": "cloudflare",
+ "model": "@cf/openai/gpt-oss-20b",
+ "usage": {
+  "input_tokens": 1403,
+  "output_tokens": 1378
+ },
+ "output": {
+  "study": {
+   "design": {
+    "quote": "Data of 126 adults participating in a CLI were collected at baseline, after 3 months and 1.5 years.",
+    "section": "METHODS",
+    "status": "reported",
+    "value": "cohort"
+   },
+   "population": {
+    "quote": "Data of 126 adults participating in a CLI were collected",
+    "section": "METHODS",
+    "status": "reported",
+    "value": "adults participating in a combined lifestyle intervention"
+   },
+   "sample_size": {
+    "quote": "Data of 126 adults participating in a CLI were collected",
+    "section": "METHODS",
+    "status": "reported",
+    "value": 126
+   },
+   "intervention": {
+    "quote": "1.5-year combined lifestyle intervention (CLI)",
+    "section": "METHODS",
+    "status": "reported",
+    "value": "combined lifestyle intervention (CLI)"
+   },
+   "comparator": {
+    "quote": null,
+    "section": null,
+    "status": "not_reported",
+    "value": null
+   },
+   "follow_up": {
+    "quote": "1.5-year combined lifestyle intervention (CLI)",
+    "section": "METHODS",
+    "status": "reported",
+    "value": "1.5 years"
+   }
+  },
+  "primary_findings": [],
+  "limitations_stated": []
+ }
+}

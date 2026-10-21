@@ -1,0 +1,63 @@
+{
+ "provider": "cloudflare",
+ "model": "@cf/openai/gpt-oss-20b",
+ "usage": {
+  "input_tokens": 1626,
+  "output_tokens": 1506
+ },
+ "output": {
+  "study": {
+   "design": {
+    "quote": "randomised interventional study (NCT05126199 [1])",
+    "section": "METHODS",
+    "status": "reported",
+    "value": "rct"
+   },
+   "population": {
+    "quote": "polycystic ovarian syndrome (PCOS)",
+    "section": "METHODS",
+    "status": "reported",
+    "value": "polycystic ovarian syndrome (PCOS)"
+   },
+   "sample_size": {
+    "quote": "11 completed the study",
+    "section": "RESULTS",
+    "status": "reported",
+    "value": 11
+   },
+   "intervention": {
+    "quote": "12-week TRE regimen (18 h fast/6 h eating window)",
+    "section": "METHODS",
+    "status": "reported",
+    "value": "12-week TRE regimen (18 h fast/6 h eating window)"
+   },
+   "comparator": {
+    "quote": "ad libitum regimen (no time-restriction)",
+    "section": "METHODS",
+    "status": "reported",
+    "value": "ad libitum regimen (no time-restriction)"
+   },
+   "follow_up": {
+    "quote": "12-week TRE regimen",
+    "section": "METHODS",
+    "status": "reported",
+    "value": "12 weeks"
+   }
+  },
+  "primary_findings": [],
+  "limitations_stated": [
+   {
+    "quote": "the study was not powered to detect changes in metabolic or anthropometric indices",
+    "section": "ABSTRACT",
+    "status": "reported",
+    "value": "the study was not powered to detect changes in metabolic or anthropometric indices"
+   },
+   {
+    "quote": "there were considerable difficulties with recruitment",
+    "section": "ABSTRACT",
+    "status": "reported",
+    "value": "there were considerable difficulties with recruitment"
+   }
+  ]
+ }
+}

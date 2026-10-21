@@ -1,0 +1,50 @@
+{
+ "provider": "cloudflare",
+ "model": "@cf/openai/gpt-oss-20b",
+ "usage": {
+  "input_tokens": 1539,
+  "output_tokens": 982
+ },
+ "output": {
+  "study": {
+   "design": {
+    "quote": "three-year prospective observational study",
+    "section": "ABSTRACT",
+    "status": "reported",
+    "value": "cohort"
+   },
+   "population": {
+    "quote": "158 adults with T2DM and AH",
+    "section": "ABSTRACT",
+    "status": "reported",
+    "value": "adults with type 2 diabetes and arterial hypertension"
+   },
+   "sample_size": {
+    "quote": "158 adults",
+    "section": "ABSTRACT",
+    "status": "reported",
+    "value": 158
+   },
+   "intervention": {
+    "quote": "dietitian-led follow-up",
+    "section": "ABSTRACT",
+    "status": "reported",
+    "value": "dietitian-led follow-up"
+   },
+   "comparator": {
+    "quote": null,
+    "section": null,
+    "status": "not_reported",
+    "value": null
+   },
+   "follow_up": {
+    "quote": "three-year",
+    "section": "ABSTRACT",
+    "status": "reported",
+    "value": "3 years"
+   }
+  },
+  "primary_findings": [],
+  "limitations_stated": []
+ }
+}

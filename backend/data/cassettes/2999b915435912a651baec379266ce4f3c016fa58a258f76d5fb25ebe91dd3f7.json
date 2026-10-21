@@ -1,0 +1,92 @@
+{
+ "provider": "cloudflare",
+ "model": "@cf/openai/gpt-oss-20b",
+ "usage": {
+  "input_tokens": 1398,
+  "output_tokens": 1954
+ },
+ "output": {
+  "study": {
+   "design": {
+    "quote": "randomly assigned",
+    "section": "ABSTRACT",
+    "confidence": "high",
+    "status": "reported",
+    "value": "rct"
+   },
+   "population": {
+    "quote": "women with PCOS",
+    "section": "ABSTRACT",
+    "confidence": "high",
+    "status": "reported",
+    "value": "women with PCOS"
+   },
+   "sample_size": {
+    "quote": "Seventy-six participants",
+    "section": "ABSTRACT",
+    "confidence": "high",
+    "status": "reported",
+    "value": 76
+   },
+   "intervention": {
+    "quote": "6-hour TRE regimen (all meals consumed between 1 p.m. and 7 p.m., without calorie tracking)",
+    "section": "ABSTRACT",
+    "confidence": "high",
+    "status": "reported",
+    "value": "6-hour TRE regimen"
+   },
+   "comparator": {
+    "quote": "CR plan (25% daily energy restriction)",
+    "section": "ABSTRACT",
+    "confidence": "high",
+    "status": "reported",
+    "value": "standard care (daily calorie restriction)"
+   },
+   "follow_up": {
+    "quote": "for 6 months",
+    "section": "ABSTRACT",
+    "confidence": "high",
+    "status": "reported",
+    "value": "6 months"
+   }
+  },
+  "primary_findings": [
+   {
+    "quote": "body weight significantly decreased in the TRE group (-4.32% (95% CI, -6.20, -2.44), P < 0.01)",
+    "section": "ABSTRACT",
+    "confidence": "high",
+    "outcome": "percent change in body weight at 6 months",
+    "direction": "favors_intervention",
+    "effect_measure": "MD",
+    "effect_value": -4.32,
+    "ci_low": -6.2,
+    "ci_high": -2.44,
+    "p_value": null
+   },
+   {
+    "quote": "body weight significantly decreased in the CR group (-4.66% (95% CI, -7.13, -2.19), P < 0.01)",
+    "section": "ABSTRACT",
+    "confidence": "high",
+    "outcome": "percent change in body weight at 6 months",
+    "direction": "favors_intervention",
+    "effect_measure": "MD",
+    "effect_value": -4.66,
+    "ci_low": -7.13,
+    "ci_high": -2.19,
+    "p_value": null
+   },
+   {
+    "quote": "no difference between the TRE and CR groups (0.34% (95% CI, -2.15, 2.83), P = 0.79)",
+    "section": "ABSTRACT",
+    "confidence": "high",
+    "outcome": "percent change in body weight at 6 months",
+    "direction": "no_difference",
+    "effect_measure": "MD",
+    "effect_value": 0.34,
+    "ci_low": -2.15,
+    "ci_high": 2.83,
+    "p_value": 0.79
+   }
+  ]
+ }
+}

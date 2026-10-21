@@ -1,0 +1,66 @@
+{
+ "provider": "cloudflare",
+ "model": "@cf/openai/gpt-oss-20b",
+ "usage": {
+  "input_tokens": 1484,
+  "output_tokens": 1888
+ },
+ "output": {
+  "study": {
+   "design": {
+    "status": "reported",
+    "value": "cross_sectional"
+   },
+   "population": {
+    "status": "reported",
+    "value": "U.S. adults aged \u2265 18 years"
+   },
+   "sample_size": {
+    "status": "reported",
+    "value": 5961
+   },
+   "intervention": {
+    "status": "reported",
+    "value": "Ultra\u2011processed food (UPF) intake"
+   },
+   "comparator": {
+    "status": "not_reported"
+   },
+   "follow_up": {
+    "status": "not_reported"
+   }
+  },
+  "primary_findings": [
+   {
+    "quote": "\u03b2 = -0.01 ng/dL, 95% CI - 0.015 to - 0.007",
+    "outcome": "FT4",
+    "direction": "favors_comparator",
+    "effect_measure": "MD",
+    "effect_value": -0.01,
+    "ci_low": -0.015,
+    "ci_high": -0.007,
+    "p_value": null
+   },
+   {
+    "quote": "\u03b2 = -0.12 \u00b5g/dL, 95% CI - 0.16 to - 0.09",
+    "outcome": "TT4",
+    "direction": "favors_comparator",
+    "effect_measure": "MD",
+    "effect_value": -0.12,
+    "ci_low": -0.16,
+    "ci_high": -0.09,
+    "p_value": null
+   },
+   {
+    "quote": "\u03b2 = 0.02, P = 0.012",
+    "outcome": "TSH",
+    "direction": "favors_comparator",
+    "effect_measure": "MD",
+    "effect_value": 0.02,
+    "ci_low": null,
+    "ci_high": null,
+    "p_value": 0.012
+   }
+  ]
+ }
+}

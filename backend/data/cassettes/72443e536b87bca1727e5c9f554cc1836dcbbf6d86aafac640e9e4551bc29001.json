@@ -1,0 +1,81 @@
+{
+ "provider": "cloudflare",
+ "model": "@cf/openai/gpt-oss-20b",
+ "usage": {
+  "input_tokens": 1588,
+  "output_tokens": 2255
+ },
+ "output": {
+  "study": {
+   "design": {
+    "status": "reported",
+    "value": "cross_sectional",
+    "quote": "cross-sectional analysis",
+    "section": "ABSTRACT",
+    "confidence": "high"
+   },
+   "sample_size": {
+    "status": "reported",
+    "value": 1148,
+    "quote": "1148 children were included",
+    "section": "METHODS",
+    "confidence": "high"
+   },
+   "population": {
+    "status": "reported",
+    "value": "children aged 3-6 years",
+    "quote": "children aged 3-6 years",
+    "section": "METHODS",
+    "confidence": "high"
+   },
+   "intervention": {
+    "status": "not_reported"
+   },
+   "comparator": {
+    "status": "not_reported"
+   },
+   "follow_up": {
+    "status": "not_reported"
+   }
+  },
+  "primary_findings": [
+   {
+    "outcome": "CVRs",
+    "direction": "unclear",
+    "effect_measure": "other",
+    "effect_value": 0.511,
+    "ci_low": 0.413,
+    "ci_high": 0.61,
+    "p_value": null,
+    "quote": "\u03b2 = 0.511; 95% CI: 0.413-0.610; FDR <0.001",
+    "section": "RESULTS",
+    "confidence": "high"
+   },
+   {
+    "outcome": "CVRs",
+    "direction": "unclear",
+    "effect_measure": "other",
+    "effect_value": -0.494,
+    "ci_low": -0.667,
+    "ci_high": -0.321,
+    "p_value": null,
+    "quote": "\u03b2 = -0.494; 95% CI: -0.667 to -0.321; FDR <0.001",
+    "section": "RESULTS",
+    "confidence": "high"
+   },
+   {
+    "outcome": "CVRs discrimination improvement",
+    "direction": "unclear",
+    "effect_measure": "other",
+    "effect_value": 0.092,
+    "ci_low": 0.013,
+    "ci_high": 0.172,
+    "p_value": 0.02,
+    "quote": "\u0394AUC 0.092, 95% CI: 0.013-0.172; p = 0.020",
+    "section": "RESULTS",
+    "confidence": "high"
+   }
+  ],
+  "limitations_stated": []
+ }
+}

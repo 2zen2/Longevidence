@@ -1,0 +1,125 @@
+{
+ "provider": "openrouter",
+ "model": "nvidia/nemotron-3-ultra-550b-a55b",
+ "usage": {
+  "input_tokens": 3452,
+  "output_tokens": 1180
+ },
+ "output": {
+  "study": {
+   "design": {
+    "status": "reported",
+    "value": "rct",
+    "quote": "Participants were randomized 1:1 to receive optimized HF therapy (up to four drugs: sacubitril/valsartan, empagliflozin, ivabradine, ferric carboxymaltose) or placebo in a double-blind setting.",
+    "section": "METHODS",
+    "confidence": "high"
+   },
+   "population": {
+    "status": "reported",
+    "value": "Patients with stage 4 solid tumours with a life expectancy of 1-6 months receiving specialized palliative care",
+    "quote": "Patients with stage 4 solid tumours with a life expectancy of 1-6 months receiving specialized palliative care were enrolled.",
+    "section": "METHODS",
+    "confidence": "high"
+   },
+   "sample_size": {
+    "status": "reported",
+    "value": 93,
+    "quote": "In five centres, 93 patients were randomized.",
+    "section": "RESULTS",
+    "confidence": "high"
+   },
+   "intervention": {
+    "status": "reported",
+    "value": "optimized HF therapy (up to four drugs: sacubitril/valsartan, empagliflozin, ivabradine, ferric carboxymaltose)",
+    "quote": "Participants were randomized 1:1 to receive optimized HF therapy (up to four drugs: sacubitril/valsartan, empagliflozin, ivabradine, ferric carboxymaltose) or placebo in a double-blind setting.",
+    "section": "METHODS",
+    "confidence": "high"
+   },
+   "comparator": {
+    "status": "reported",
+    "value": "placebo",
+    "quote": "Participants were randomized 1:1 to receive optimized HF therapy (up to four drugs: sacubitril/valsartan, empagliflozin, ivabradine, ferric carboxymaltose) or placebo in a double-blind setting.",
+    "section": "METHODS",
+    "confidence": "high"
+   },
+   "follow_up": {
+    "status": "reported",
+    "value": "30-day placebo-controlled phase",
+    "quote": "The primary hierarchical endpoint included: (i) days alive and able to wash oneself, (ii) ability to walk 4 m, and (iii) self-reported patient global assessment (PGA) of subjective well-being, during the 30-day placebo-controlled phase.",
+    "section": "METHODS",
+    "confidence": "high"
+   }
+  },
+  "primary_findings": [
+   {
+    "quote": "The primary endpoint did not differ between groups (win ratio 0.95, 95% confidence interval [CI] 0.57-1.58; P = .83).",
+    "section": "RESULTS",
+    "confidence": "high",
+    "outcome": "primary hierarchical endpoint (days alive and able to wash oneself, ability to walk 4 m, self-reported patient global assessment of subjective well-being)",
+    "direction": "no_difference",
+    "effect_measure": "win ratio",
+    "effect_value": 0.95,
+    "ci_low": 0.57,
+    "ci_high": 1.58,
+    "p_value": 0.83
+   },
+   {
+    "quote": "Overall, mortality was 32% at 30 days (not different between groups).",
+    "section": "RESULTS",
+    "confidence": "high",
+    "outcome": "mortality at 30 days",
+    "direction": "no_difference",
+    "effect_measure": "other",
+    "effect_value": null,
+    "ci_low": null,
+    "ci_high": null,
+    "p_value": null
+   },
+   {
+    "quote": "In patients alive at 30 days, HF therapy reduced N-terminal pro-B-type natriuretic peptide levels by 41% (P = .040)",
+    "section": "RESULTS",
+    "confidence": "high",
+    "outcome": "N-terminal pro-B-type natriuretic peptide levels",
+    "direction": "favors_intervention",
+    "effect_measure": "other",
+    "effect_value": 41,
+    "ci_low": null,
+    "ci_high": null,
+    "p_value": 0.04
+   },
+   {
+    "quote": "increased left ventricular ejection fraction by 2.9% (P = .036)",
+    "section": "RESULTS",
+    "confidence": "high",
+    "outcome": "left ventricular ejection fraction",
+    "direction": "favors_intervention",
+    "effect_measure": "other",
+    "effect_value": 2.9,
+    "ci_low": null,
+    "ci_high": null,
+    "p_value": 0.036
+   },
+   {
+    "quote": "improved PGA scores (odds ratio 0.22, 95% CI 0.06-0.75; P = .016).",
+    "section": "RESULTS",
+    "confidence": "high",
+    "outcome": "patient global assessment (PGA) scores",
+    "direction": "favors_intervention",
+    "effect_measure": "OR",
+    "effect_value": 0.22,
+    "ci_low": 0.06,
+    "ci_high": 0.75,
+    "p_value": 0.016
+   }
+  ],
+  "limitations_stated": [
+   {
+    "status": "not_reported",
+    "quote": null,
+    "section": null,
+    "confidence": null,
+    "value": null
+   }
+  ]
+ }
+}

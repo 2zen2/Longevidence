@@ -1,0 +1,29 @@
+{
+ "provider": "cloudflare",
+ "model": "@cf/openai/gpt-oss-20b",
+ "usage": {
+  "input_tokens": 992,
+  "output_tokens": 1560
+ },
+ "output": {
+  "study": {
+   "title": {
+    "status": "reported",
+    "value": "Rethinking Mediterranean Diet Adherence and Body Composition: A 3-Year Prospective Observational Study in Patients with Type 2 Diabetes and Arterial Hypertension",
+    "quote": "Rethinking Mediterranean Diet Adherence and Body Composition: A 3-Year Prospective Observational Study in Patients with Type 2 Diabetes and Arterial Hypertension"
+   },
+   "design": {
+    "status": "reported",
+    "value": "prospective observational study",
+    "quote": "three-year prospective observational study"
+   },
+   "sample_size": {
+    "status": "reported",
+    "value": 158,
+    "quote": "158 adults"
+   }
+  },
+  "primary_findings": [],
+  "limitations_stated": []
+ }
+}

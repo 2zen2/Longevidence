@@ -1,0 +1,87 @@
+{
+ "provider": "cloudflare",
+ "model": "@cf/openai/gpt-oss-20b",
+ "usage": {
+  "input_tokens": 1595,
+  "output_tokens": 2075
+ },
+ "output": {
+  "study": {
+   "design": {
+    "quote": "Systematic review and meta-analysis.",
+    "section": "ABSTRACT",
+    "status": "reported",
+    "value": "meta_analysis"
+   },
+   "population": {
+    "quote": "Randomised controlled trials comparing calcium, vitamin D, or combined supplementation with placebo or no treatment in adults (\u226518 years) not receiving drug treatment for osteoporosis.",
+    "section": "ELIGIBILITY CRITERIA",
+    "status": "reported",
+    "value": "adults (\u226518 years) not receiving drug treatment for osteoporosis"
+   },
+   "sample_size": {
+    "quote": "This review included 69 trials involving 153 902 participants.",
+    "section": "RESULTS",
+    "status": "reported",
+    "value": 153902
+   },
+   "intervention": {
+    "quote": "Randomised controlled trials comparing calcium, vitamin D, or combined supplementation with placebo or no treatment in adults (\u226518 years) not receiving drug treatment for osteoporosis.",
+    "section": "ELIGIBILITY CRITERIA",
+    "status": "reported",
+    "value": "calcium, vitamin D, or combined supplementation"
+   },
+   "comparator": {
+    "quote": "Randomised controlled trials comparing calcium, vitamin D, or combined supplementation with placebo or no treatment in adults (\u226518 years) not receiving drug treatment for osteoporosis.",
+    "section": "ELIGIBILITY CRITERIA",
+    "status": "reported",
+    "value": "placebo or no treatment"
+   },
+   "follow_up": {
+    "quote": null,
+    "section": null,
+    "status": "not_reported",
+    "value": null
+   }
+  },
+  "primary_findings": [
+   {
+    "quote": "For the primary outcome of any fracture, little to no effect was found from use of calcium supplements (11 trials, 9067 participants; risk ratio 0.91, 95% confidence interval 0.81 to 1.01; moderate certainty), vitamin D supplements (36 trials, 92 045 participants; 1.00, 0.95 to 1.06; high certainty), or combined supplementation (15 trials, 51 126 participants; 0.91, 0.84 to 0.99; high certainty).",
+    "section": "RESULTS",
+    "confidence": "high",
+    "outcome": "risk of any fracture",
+    "direction": "no_difference",
+    "effect_measure": "RR",
+    "effect_value": 0.91,
+    "ci_low": 0.81,
+    "ci_high": 1.01,
+    "p_value": null
+   },
+   {
+    "quote": "For the primary outcome of any fracture, little to no effect was found from use of calcium supplements (11 trials, 9067 participants; risk ratio 0.91, 95% confidence interval 0.81 to 1.01; moderate certainty), vitamin D supplements (36 trials, 92 045 participants; 1.00, 0.95 to 1.06; high certainty), or combined supplementation (15 trials, 51 126 participants; 0.91, 0.84 to 0.99; high certainty).",
+    "section": "RESULTS",
+    "confidence": "high",
+    "outcome": "risk of any fracture",
+    "direction": "no_difference",
+    "effect_measure": "RR",
+    "effect_value": 1.0,
+    "ci_low": 0.95,
+    "ci_high": 1.06,
+    "p_value": null
+   },
+   {
+    "quote": "For the primary outcome of any fracture, little to no effect was found from use of calcium supplements (11 trials, 9067 participants; risk ratio 0.91, 95% confidence interval 0.81 to 1.01; moderate certainty), vitamin D supplements (36 trials, 92 045 participants; 1.00, 0.95 to 1.06; high certainty), or combined supplementation (15 trials, 51 126 participants; 0.91, 0.84 to 0.99; high certainty).",
+    "section": "RESULTS",
+    "confidence": "high",
+    "outcome": "risk of any fracture",
+    "direction": "favors_intervention",
+    "effect_measure": "RR",
+    "effect_value": 0.91,
+    "ci_low": 0.84,
+    "ci_high": 0.99,
+    "p_value": null
+   }
+  ],
+  "limitations_stated": []
+ }
+}

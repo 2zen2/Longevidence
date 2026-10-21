@@ -1,0 +1,37 @@
+{
+ "provider": "cloudflare",
+ "model": "@cf/openai/gpt-oss-20b",
+ "usage": {
+  "input_tokens": 1179,
+  "output_tokens": 1191
+ },
+ "output": {
+  "study": {
+   "title": "Time-restricted eating versus dietetic guidance on glycaemic outcomes in adults at risk of type 2 diabetes: a non-inferiority randomised clinical trial.",
+   "design": "rct",
+   "sample_size": 247
+  },
+  "primary_findings": [
+   {
+    "effect_estimate": -0.22,
+    "ci_lower": -0.72,
+    "ci_upper": 0.3,
+    "unit": "mmol/mol",
+    "direction": "no_difference",
+    "quote": "-0.22 [-0.72, 0.30] mmol/mol",
+    "section": "ABSTRACT"
+   },
+   {
+    "effect_estimate": 0.47,
+    "ci_lower": -0.19,
+    "ci_upper": 1.23,
+    "unit": "mmol/mol",
+    "direction": "no_difference",
+    "quote": "0.47 [-0.19, 1.23] mmol/mol",
+    "section": "ABSTRACT"
+   }
+  ],
+  "limitations_stated": [],
+  "confidence": "high"
+ }
+}

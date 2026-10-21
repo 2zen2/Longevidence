@@ -1,0 +1,45 @@
+{
+ "provider": "cloudflare",
+ "model": "@cf/openai/gpt-oss-20b",
+ "usage": {
+  "input_tokens": 1294,
+  "output_tokens": 3400
+ },
+ "output": {
+  "study": {
+   "design": "systematic review and meta-analysis",
+   "population": "adults with established CVD",
+   "sample_size": 54034,
+   "intervention": "Mediterranean diet adherence",
+   "comparator": null,
+   "follow_up": "2 to 10 years"
+  },
+  "primary_findings": [
+   {
+    "outcome": "all-cause mortality",
+    "effect_estimate": 0.74,
+    "confidence": "high",
+    "direction": "lower risk",
+    "quote": "0.74, 95%CI: 0.65-0.84",
+    "section": "ABSTRACT"
+   },
+   {
+    "outcome": "cardiovascular mortality",
+    "effect_estimate": 0.84,
+    "confidence": "high",
+    "direction": "lower risk",
+    "quote": "0.84, 95%CI: 0.75-0.94",
+    "section": "ABSTRACT"
+   },
+   {
+    "outcome": "recurrent cardiovascular events",
+    "effect_estimate": 0.6,
+    "confidence": "high",
+    "direction": "lower risk",
+    "quote": "0.60, 95%CI: 0.39-0.92",
+    "section": "ABSTRACT"
+   }
+  ],
+  "limitations_stated": []
+ }
+}

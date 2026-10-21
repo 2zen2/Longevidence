@@ -1,0 +1,48 @@
+{
+ "provider": "cloudflare",
+ "model": "@cf/openai/gpt-oss-20b",
+ "usage": {
+  "input_tokens": 1522,
+  "output_tokens": 1077
+ },
+ "output": {
+  "study": {
+   "design": {
+    "quote": "double-blind, randomized, placebo-controlled trial",
+    "section": "METHODS",
+    "status": "reported",
+    "value": "rct"
+   },
+   "population": {
+    "quote": "ARF patients admitted to the ICU",
+    "section": "METHODS",
+    "status": "reported",
+    "value": "ARF patients admitted to the ICU"
+   },
+   "sample_size": {
+    "quote": "Thirty-four patients in the intervention group and 33 in the control group completed the trial",
+    "section": "RESULTS",
+    "status": "reported",
+    "value": 67
+   },
+   "intervention": {
+    "quote": "daily 2000 mg of intravenous vitamin C plus 5000 IU of oral vitamin D",
+    "section": "METHODS",
+    "status": "reported",
+    "value": "daily 2000 mg of intravenous vitamin C plus 5000 IU of oral vitamin D"
+   },
+   "comparator": {
+    "quote": "placebo",
+    "section": "METHODS",
+    "status": "reported",
+    "value": "placebo"
+   },
+   "follow_up": {
+    "quote": "patients were followed for 90 days",
+    "section": "METHODS",
+    "status": "reported",
+    "value": "}}, "
+   }
+  }
+ }
+}

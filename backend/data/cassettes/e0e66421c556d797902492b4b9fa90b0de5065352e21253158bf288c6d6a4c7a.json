@@ -1,0 +1,89 @@
+{
+ "provider": "cloudflare",
+ "model": "@cf/openai/gpt-oss-20b",
+ "usage": {
+  "input_tokens": 1527,
+  "output_tokens": 1694
+ },
+ "output": {
+  "study": {
+   "design": {
+    "quote": "This systematic review and meta-analysis evaluated the association between post-diagnosis MD adherence and outcomes of cancer recurrence and CRF among adult survivors",
+    "section": "ABSTRACT",
+    "confidence": "high",
+    "status": "reported",
+    "value": "meta_analysis"
+   },
+   "population": {
+    "quote": "among adult survivors",
+    "section": "ABSTRACT",
+    "confidence": "medium",
+    "status": "reported",
+    "value": "adult survivors"
+   },
+   "sample_size": {
+    "quote": "n = 6697",
+    "section": "ABSTRACT",
+    "confidence": "high",
+    "status": "reported",
+    "value": 6697
+   },
+   "intervention": {
+    "quote": "post-diagnosis MD adherence",
+    "section": "ABSTRACT",
+    "confidence": "high",
+    "status": "reported",
+    "value": "post-diagnosis Mediterranean Diet adherence"
+   },
+   "comparator": {
+    "quote": null,
+    "section": null,
+    "confidence": null,
+    "status": "not_reported",
+    "value": null
+   },
+   "follow_up": {
+    "quote": null,
+    "section": null,
+    "confidence": null,
+    "status": "not_reported",
+    "value": null
+   }
+  },
+  "primary_findings": [
+   {
+    "quote": "HR = 0.83; 95% CI: 0.70-0.99",
+    "section": "ABSTRACT",
+    "confidence": "high",
+    "outcome": "Cancer recurrence hazard",
+    "direction": "favors_intervention",
+    "effect_measure": "HR",
+    "effect_value": 0.83,
+    "ci_low": 0.7,
+    "ci_high": 0.99,
+    "p_value": null
+   },
+   {
+    "quote": "MD = 0.29; 95% CI: -0.58 to 1.16",
+    "section": "ABSTRACT",
+    "confidence": "high",
+    "outcome": "Cancer-related fatigue mean difference",
+    "direction": "no_difference",
+    "effect_measure": "MD",
+    "effect_value": 0.29,
+    "ci_low": -0.58,
+    "ci_high": 1.16,
+    "p_value": null
+   }
+  ],
+  "limitations_stated": [
+   {
+    "quote": "Both outcomes were limited by small study numbers and methodological heterogeneity.",
+    "section": "ABSTRACT",
+    "confidence": "high",
+    "status": "reported",
+    "value": "small study numbers and methodological heterogeneity"
+   }
+  ]
+ }
+}

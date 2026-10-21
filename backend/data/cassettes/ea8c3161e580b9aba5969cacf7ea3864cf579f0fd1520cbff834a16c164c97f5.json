@@ -1,0 +1,39 @@
+{
+ "provider": "cloudflare",
+ "model": "@cf/openai/gpt-oss-20b",
+ "usage": {
+  "input_tokens": 912,
+  "output_tokens": 1457
+ },
+ "output": {
+  "study": {
+   "title": "The association between ultra-processed food consumption and incidence of cardio-renal-metabolic multimorbidity: Tehran Lipid and Glucose Study",
+   "design": "cohort",
+   "sample_size": 2539,
+   "follow_up": "median 11.6 years (IQR: 8.0-13.0)",
+   "population": "2539 adults free of CRMM at baseline",
+   "intervention": "ultra-processed food consumption",
+   "comparator": "lowest quartile of UPF consumption",
+   "outcome": "incidence of cardio-renal-metabolic multimorbidity (CRMM)"
+  },
+  "primary_findings": [
+   {
+    "effect_estimate": 1.79,
+    "ci": "1.12-2.86",
+    "direction": "increased risk",
+    "quote": "(HR: 1.79; 95% CI: 1.12-2.86; P for trend < 0.001)",
+    "section": "METHODS & RESULTS",
+    "confidence": "high"
+   },
+   {
+    "effect_estimate": 1.27,
+    "ci": "0.87-1.86",
+    "direction": "no_difference",
+    "quote": "(HR: 1.27; 95% CI: 0.87-1.86; P for trend = 0.007)",
+    "section": "METHODS & RESULTS",
+    "confidence": "high"
+   }
+  ],
+  "limitations_stated": []
+ }
+}

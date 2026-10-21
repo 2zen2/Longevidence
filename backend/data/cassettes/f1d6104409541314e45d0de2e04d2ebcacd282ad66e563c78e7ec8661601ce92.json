@@ -1,0 +1,56 @@
+{
+ "provider": "cloudflare",
+ "model": "@cf/openai/gpt-oss-20b",
+ "usage": {
+  "input_tokens": 1495,
+  "output_tokens": 772
+ },
+ "output": {
+  "study": {
+   "design": {
+    "quote": "6-week randomized controlled trial",
+    "section": "METHODS",
+    "confidence": "high",
+    "status": "reported",
+    "value": "rct"
+   },
+   "population": {
+    "quote": "75 women with PCOS",
+    "section": "METHODS",
+    "confidence": "high",
+    "status": "reported",
+    "value": "women with PCOS"
+   },
+   "sample_size": {
+    "quote": "75 women with PCOS",
+    "section": "METHODS",
+    "confidence": "high",
+    "status": "reported",
+    "value": 75
+   },
+   "intervention": {
+    "quote": "eTRE (8:00 AM-6:00 PM), mTRE (11:00 AM-9:00 PM)",
+    "section": "METHODS",
+    "confidence": "high",
+    "status": "reported",
+    "value": "eTRE (8:00 AM-6:00 PM), mTRE (11:00 AM-9:00 PM)"
+   },
+   "comparator": {
+    "quote": "control group with ad libitum eating",
+    "section": "METHODS",
+    "confidence": "high",
+    "status": "reported",
+    "value": "control group with ad libitum eating"
+   },
+   "follow_up": {
+    "quote": "6-week randomized controlled trial",
+    "section": "METHODS",
+    "confidence": "high",
+    "status": "reported",
+    "value": "6 weeks"
+   }
+  },
+  "primary_findings": [],
+  "limitations_stated": []
+ }
+}

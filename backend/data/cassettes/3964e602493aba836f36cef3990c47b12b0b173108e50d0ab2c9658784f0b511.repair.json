@@ -1,0 +1,37 @@
+{
+ "provider": "cloudflare",
+ "model": "@cf/openai/gpt-oss-20b",
+ "usage": {
+  "input_tokens": 1604,
+  "output_tokens": 932
+ },
+ "output": {
+  "study": {
+   "design": {
+    "status": "reported",
+    "value": "cohort"
+   },
+   "population": {
+    "status": "reported",
+    "value": "158 adults with T2DM and AH"
+   },
+   "sample_size": {
+    "status": "reported",
+    "value": 158
+   },
+   "intervention": {
+    "status": "reported",
+    "value": "dietitian-led follow-up visits"
+   },
+   "comparator": {
+    "status": "not_reported"
+   },
+   "follow_up": {
+    "status": "reported",
+    "value": "3 years"
+   }
+  },
+  "primary_findings": [],
+  "limitations_stated": []
+ }
+}

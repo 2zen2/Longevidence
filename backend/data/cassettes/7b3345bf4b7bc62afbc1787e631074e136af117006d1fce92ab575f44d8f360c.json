@@ -1,0 +1,50 @@
+{
+ "provider": "openrouter",
+ "model": "nvidia/nemotron-3.5-lightning:free",
+ "usage": {
+  "input_tokens": 2530,
+  "output_tokens": 2552
+ },
+ "output": {
+  "study": {
+   "design": {
+    "status": "reported",
+    "value": "cohort"
+   },
+   "population": {
+    "status": "reported",
+    "value": "192,034 participants (median age 57 years; 54% were female)"
+   },
+   "sample_size": {
+    "status": "reported",
+    "value": 192034
+   },
+   "intervention": {
+    "status": "reported",
+    "value": "Mediterranean diet adherence"
+   },
+   "comparator": {
+    "status": "reported",
+    "value": "lowest level of diet-sleep pattern"
+   },
+   "follow_up": {
+    "status": "reported",
+    "value": "median of 14 years"
+   }
+  },
+  "primary_findings": [
+   {
+    "quote": "those in the highest level had a 43% lower risk of lung cancer (SHR 0.57, 95% CI 0.41-0.79; P = 0.001).",
+    "section": "RESULTS",
+    "outcome": "lung cancer risk",
+    "direction": "favors_intervention",
+    "effect_measure": "HR",
+    "effect_value": 0.57,
+    "ci_low": 0.41,
+    "ci_high": 0.79,
+    "p_value": 0.001
+   }
+  ],
+  "limitations_stated": []
+ }
+}

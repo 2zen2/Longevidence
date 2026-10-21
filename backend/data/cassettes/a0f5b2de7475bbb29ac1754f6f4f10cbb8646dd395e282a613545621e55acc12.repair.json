@@ -1,0 +1,98 @@
+{
+ "provider": "cloudflare",
+ "model": "@cf/openai/gpt-oss-20b",
+ "usage": {
+  "input_tokens": 1633,
+  "output_tokens": 2557
+ },
+ "output": {
+  "study": {
+   "design": {
+    "status": "reported",
+    "value": "meta_analysis"
+   },
+   "population": {
+    "status": "reported",
+    "value": "community-dwelling adults"
+   },
+   "sample_size": {
+    "status": "not_reported"
+   },
+   "intervention": {
+    "status": "reported",
+    "value": "time-restricted eating (TRE; \u226412 h daily eating window)"
+   },
+   "comparator": {
+    "status": "not_reported"
+   },
+   "follow_up": {
+    "status": "not_reported"
+   }
+  },
+  "primary_findings": [
+   {
+    "quote": "Meta-analysis of cross-sectional studies showed no significant association between TRE and abdominal obesity (OR = 0.96; 95% CI: 0.86-1.07; I\u00b2 = 59%)",
+    "section": "RESULTS",
+    "outcome": "abdominal obesity",
+    "direction": "no_difference",
+    "effect_measure": "OR",
+    "effect_value": 0.96,
+    "ci_low": 0.86,
+    "ci_high": 1.07,
+    "p_value": null
+   },
+   {
+    "quote": "metabolic syndrome (OR = 1.04; 95% CI: 0.90-1.19; I\u00b2 = 32%)",
+    "section": "RESULTS",
+    "outcome": "metabolic syndrome",
+    "direction": "no_difference",
+    "effect_measure": "OR",
+    "effect_value": 1.04,
+    "ci_low": 0.9,
+    "ci_high": 1.19,
+    "p_value": null
+   },
+   {
+    "quote": "elevated blood pressure/hypertension (OR = 1.04; 95% CI: 0.971.12; I\u00b2 = 0%)",
+    "section": "RESULTS",
+    "outcome": "elevated blood pressure/hypertension",
+    "direction": "no_difference",
+    "effect_measure": "OR",
+    "effect_value": 1.04,
+    "ci_low": 0.97,
+    "ci_high": 1.12,
+    "p_value": null
+   },
+   {
+    "quote": "reduced high-density lipoprotein cholesterol (OR = 0.94; 95% CI: 0.83-1.06; I\u00b2 = 78%)",
+    "section": "RESULTS",
+    "outcome": "reduced high-density lipoprotein cholesterol",
+    "direction": "no_difference",
+    "effect_measure": "OR",
+    "effect_value": 0.94,
+    "ci_low": 0.83,
+    "ci_high": 1.06,
+    "p_value": null
+   },
+   {
+    "quote": "elevated triglycerides (OR = 1.06; 95% CI: 0.99-1.14; I\u00b2 = 0%)",
+    "section": "RESULTS",
+    "outcome": "elevated triglycerides",
+    "direction": "no_difference",
+    "effect_measure": "OR",
+    "effect_value": 1.06,
+    "ci_low": 0.99,
+    "ci_high": 1.14,
+    "p_value": null
+   }
+  ],
+  "limitations_stated": [
+   {
+    "quote": "Due to insufficient data, no conclusions could be drawn about prospective associations.",
+    "section": "RESULTS",
+    "confidence": "high",
+    "status": "reported"
+   }
+  ]
+ }
+}

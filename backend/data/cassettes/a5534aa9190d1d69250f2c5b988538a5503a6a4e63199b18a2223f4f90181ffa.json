@@ -1,0 +1,71 @@
+{
+ "provider": "cloudflare",
+ "model": "@cf/openai/gpt-oss-20b",
+ "usage": {
+  "input_tokens": 1601,
+  "output_tokens": 1874
+ },
+ "output": {
+  "study": {
+   "design": {
+    "quote": "systematic review and meta-analysis evaluated the age-specific effects of IF on body composition and cardiometabolic markers",
+    "section": "ABSTRACT",
+    "confidence": "high",
+    "status": "reported",
+    "value": "meta_analysis"
+   },
+   "population": {
+    "quote": "Healthy Adults and Individuals with Overweight or Obesity",
+    "section": "ABSTRACT",
+    "confidence": "high",
+    "status": "reported",
+    "value": "healthy adults and individuals with overweight or obesity"
+   },
+   "sample_size": {
+    "quote": "Analysis of 28 RCTs (N = 1833)",
+    "section": "ABSTRACT",
+    "confidence": "high",
+    "status": "reported",
+    "value": 1833
+   },
+   "intervention": {
+    "quote": "Intermittent fasting (IF)",
+    "section": "ABSTRACT",
+    "confidence": "high",
+    "status": "reported",
+    "value": "Intermittent fasting (IF)"
+   },
+   "comparator": {
+    "quote": null,
+    "section": null,
+    "confidence": null,
+    "status": "not_reported",
+    "value": null
+   },
+   "follow_up": {
+    "quote": null,
+    "section": null,
+    "confidence": null,
+    "status": "not_reported",
+    "value": null
+   }
+  },
+  "primary_findings": [],
+  "limitations_stated": [
+   {
+    "quote": "certainty of evidence was rated as low to very low per GRADE criteria",
+    "section": "ABSTRACT",
+    "confidence": "high",
+    "status": "reported",
+    "value": null
+   },
+   {
+    "quote": "should be interpreted as hypothesis-generating, warranting validation in future large-scale trials",
+    "section": "ABSTRACT",
+    "confidence": "high",
+    "status": "reported",
+    "value": null
+   }
+  ]
+ }
+}

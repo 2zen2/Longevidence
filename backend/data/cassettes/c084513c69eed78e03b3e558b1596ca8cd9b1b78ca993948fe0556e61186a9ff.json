@@ -1,0 +1,89 @@
+{
+ "provider": "cloudflare",
+ "model": "@cf/openai/gpt-oss-20b",
+ "usage": {
+  "input_tokens": 1059,
+  "output_tokens": 3059
+ },
+ "output": {
+  "study": {
+   "title": "Wine consumption, Mediterranean diet, and cardiovascular risk in two Spanish cohorts",
+   "design": "rct",
+   "sample_size": 7447
+  },
+  "primary_findings": [
+   {
+    "effect_estimate": {
+     "value": 0.84,
+     "ci": [
+      0.61,
+      1.15
+     ],
+     "direction": "no_difference"
+    },
+    "quote": "good compliers (excluding wine), had a multivariable-adjusted hazard ratio (HR) of 0.84 [95% confidence interval (CI) 0.61-1.15] for CVD.",
+    "section": "RESULTS",
+    "confidence": "high"
+   },
+   {
+    "effect_estimate": {
+     "value": 0.55,
+     "ci": [
+      0.36,
+      0.83
+     ],
+     "direction": "benefit"
+    },
+    "quote": "For good compliers with MedDiet (including wine), the HR for CVD was 0.55 (95% CI 0.36-0.83).",
+    "section": "RESULTS",
+    "confidence": "high"
+   },
+   {
+    "effect_estimate": {
+     "value": 0.77,
+     "ci": [
+      0.68,
+      0.87
+     ],
+     "direction": "benefit"
+    },
+    "quote": "MedDiet compliers (excluding wine) had HR of 0.77 (95% CI 0.68-0.87).",
+    "section": "RESULTS",
+    "confidence": "high"
+   },
+   {
+    "effect_estimate": {
+     "value": 0.67,
+     "ci": [
+      0.57,
+      0.78
+     ],
+     "direction": "benefit"
+    },
+    "quote": "which was 0.67 (95% CI 0.57-0.78) for MedDiet compliers (including wine).",
+    "section": "RESULTS",
+    "confidence": "high"
+   },
+   {
+    "effect_estimate": {
+     "value": 0.94,
+     "ci": [
+      0.71,
+      1.26
+     ],
+     "direction": "no_difference"
+    },
+    "quote": "the HR was 0.94 (95% CI 0.71-1.26) for MedDiet compliers (excluding wine).",
+    "section": "RESULTS",
+    "confidence": "high"
+   }
+  ],
+  "limitations_stated": [
+   {
+    "quote": "Some non-significant associations and interactions advise caution in interpretation of these findings.",
+    "section": "CONCLUSIONS",
+    "confidence": "high"
+   }
+  ]
+ }
+}

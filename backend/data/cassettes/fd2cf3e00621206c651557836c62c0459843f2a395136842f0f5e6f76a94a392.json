@@ -1,0 +1,117 @@
+{
+ "provider": "openrouter",
+ "model": "deepseek/deepseek-v4.1-flash",
+ "usage": {
+  "input_tokens": 2606,
+  "output_tokens": 2269
+ },
+ "output": {
+  "study": {
+   "design": {
+    "status": "reported",
+    "value": "rct_secondary_analysis",
+    "quote": "This pre-specified analysis of DICTATE-AHF evaluated 238 patients randomized within 24 hours of AHF hospital admission",
+    "section": "METHODS",
+    "confidence": "high"
+   },
+   "population": {
+    "status": "reported",
+    "value": "Patients with acute heart failure (AHF) randomized within 24 hours of hospital admission",
+    "quote": "238 patients randomized within 24 hours of AHF hospital admission",
+    "section": "METHODS",
+    "confidence": "high"
+   },
+   "sample_size": {
+    "status": "reported",
+    "value": 238,
+    "quote": "evaluated 238 patients randomized within 24 hours of AHF hospital admission",
+    "section": "METHODS",
+    "confidence": "high"
+   },
+   "intervention": {
+    "status": "reported",
+    "value": "Dapagliflozin 10 mg daily",
+    "quote": "randomized within 24 hours of AHF hospital admission to dapagliflozin 10 mg daily or structured usual care",
+    "section": "METHODS",
+    "confidence": "high"
+   },
+   "comparator": {
+    "status": "reported",
+    "value": "Structured usual care",
+    "quote": "dapagliflozin 10 mg daily or structured usual care, with protocolized IV diuretics in both groups",
+    "section": "METHODS",
+    "confidence": "high"
+   },
+   "follow_up": {
+    "status": "not_reported",
+    "value": null,
+    "quote": null,
+    "section": null,
+    "confidence": "high"
+   }
+  },
+  "primary_findings": [
+   {
+    "outcome": "Diuretic efficiency (weight loss) - eGFR as effect modifier",
+    "quote": "eGFR at randomization did not modify dapagliflozin's treatment effect on diuretic efficiency assessed by weight loss (interaction p = 0.22)",
+    "section": "RESULTS",
+    "direction": "no_difference",
+    "effect_measure": "other",
+    "effect_value": null,
+    "ci_low": null,
+    "ci_high": null,
+    "p_value": 0.22,
+    "confidence": "high"
+   },
+   {
+    "outcome": "Diuresis - eGFR as effect modifier",
+    "quote": "diuresis (interaction p = 0.23)",
+    "section": "RESULTS",
+    "direction": "no_difference",
+    "effect_measure": "other",
+    "effect_value": null,
+    "ci_low": null,
+    "ci_high": null,
+    "p_value": 0.23,
+    "confidence": "high"
+   },
+   {
+    "outcome": "Natriuresis - eGFR as effect modifier",
+    "quote": "or natriuresis (interaction p = 0.36)",
+    "section": "RESULTS",
+    "direction": "no_difference",
+    "effect_measure": "other",
+    "effect_value": null,
+    "ci_low": null,
+    "ci_high": null,
+    "p_value": 0.36,
+    "confidence": "high"
+   },
+   {
+    "outcome": "Change in eGFR from randomization to end-of-study",
+    "quote": "Dapagliflozin was not associated with a decrease in eGFR (p = 0.89)",
+    "section": "RESULTS",
+    "direction": "no_difference",
+    "effect_measure": "other",
+    "effect_value": null,
+    "ci_low": null,
+    "ci_high": null,
+    "p_value": 0.89,
+    "confidence": "high"
+   },
+   {
+    "outcome": "Change in blood urea nitrogen (BUN) from randomization to end-of-study",
+    "quote": "blood urea nitrogen (BUN) (p = 0.94)",
+    "section": "RESULTS",
+    "direction": "no_difference",
+    "effect_measure": "other",
+    "effect_value": null,
+    "ci_low": null,
+    "ci_high": null,
+    "p_value": 0.94,
+    "confidence": "high"
+   }
+  ],
+  "limitations_stated": []
+ }
+}

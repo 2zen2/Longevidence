@@ -1,0 +1,101 @@
+{
+ "provider": "openrouter",
+ "model": "nvidia/nemotron-3-ultra-550b-a55b",
+ "usage": {
+  "input_tokens": 3444,
+  "output_tokens": 931
+ },
+ "output": {
+  "study": {
+   "design": {
+    "status": "reported",
+    "value": "rct_secondary_analysis",
+    "quote": "we evaluated whole-exome sequencing data from the randomized DECLARE-TIMI 58 trial",
+    "section": "ABSTRACT",
+    "confidence": "high"
+   },
+   "population": {
+    "status": "reported",
+    "value": "Adults with type 2 diabetes and increased cardiovascular risk; carriers of pathogenic/likely pathogenic variants in high-confidence cardiomyopathy genes",
+    "quote": "adults with type 2 diabetes and increased cardiovascular risk were randomized to dapagliflozin or placebo treatment. Pathogenic or likely pathogenic variants (P/LP) in high-confidence cardiomyopathy genes were identified",
+    "section": "ABSTRACT",
+    "confidence": "high"
+   },
+   "sample_size": {
+    "status": "reported",
+    "value": 12685,
+    "quote": "Among 12,685 patients for whom sequence data were obtained",
+    "section": "ABSTRACT",
+    "confidence": "high"
+   },
+   "intervention": {
+    "status": "reported",
+    "value": "Dapagliflozin",
+    "quote": "randomized to dapagliflozin or placebo treatment",
+    "section": "ABSTRACT",
+    "confidence": "high"
+   },
+   "comparator": {
+    "status": "reported",
+    "value": "Placebo",
+    "quote": "randomized to dapagliflozin or placebo treatment",
+    "section": "ABSTRACT",
+    "confidence": "high"
+   },
+   "follow_up": {
+    "status": "reported",
+    "value": "Median 4.2 years",
+    "quote": "Over a median follow-up of 4.2 years",
+    "section": "ABSTRACT",
+    "confidence": "high"
+   }
+  },
+  "primary_findings": [
+   {
+    "quote": "dapagliflozin lowered the risk of HHF more strongly in carriers (hazard ratio 0.18, 95% confidence interval 0.04-0.86) than in noncarriers (hazard ratio 0.70, 95% confidence interval 0.57-0.86; P interaction 0.03)",
+    "section": "ABSTRACT",
+    "confidence": "high",
+    "outcome": "Hospitalization for heart failure (HHF) in carriers vs noncarriers",
+    "direction": "favors_intervention",
+    "effect_measure": "HR",
+    "effect_value": 0.18,
+    "ci_low": 0.04,
+    "ci_high": 0.86,
+    "p_value": 0.03
+   },
+   {
+    "quote": "Absolute risk reduction was 13.0% in carriers and 1.0% in noncarriers (P interaction 0.03)",
+    "section": "ABSTRACT",
+    "confidence": "high",
+    "outcome": "Absolute risk reduction for HHF",
+    "direction": "favors_intervention",
+    "effect_measure": "other",
+    "effect_value": 13.0,
+    "ci_low": null,
+    "ci_high": null,
+    "p_value": 0.03
+   },
+   {
+    "quote": "in carriers without prior HF, treatment with dapagliflozin reduced the absolute risk of HHF by 12.8%, compared with a reduction of 0.6% in noncarriers (P interaction 0.01)",
+    "section": "ABSTRACT",
+    "confidence": "high",
+    "outcome": "Absolute risk reduction for HHF in carriers without prior HF",
+    "direction": "favors_intervention",
+    "effect_measure": "other",
+    "effect_value": 12.8,
+    "ci_low": null,
+    "ci_high": null,
+    "p_value": 0.01
+   }
+  ],
+  "limitations_stated": [
+   {
+    "status": "reported",
+    "value": "These results need to be confirmed in a prospective, dedicated trial of preventive HF treatments in carriers of P/LP cardiomyopathy-associated variants.",
+    "quote": "These results need to be confirmed in a prospective, dedicated trial of preventive HF treatments in carriers of P/LP cardiomyopathy-associated variants.",
+    "section": "ABSTRACT",
+    "confidence": "high"
+   }
+  ]
+ }
+}

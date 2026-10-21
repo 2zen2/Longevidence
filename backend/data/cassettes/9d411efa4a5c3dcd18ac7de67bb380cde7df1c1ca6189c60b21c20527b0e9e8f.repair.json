@@ -1,0 +1,61 @@
+{
+ "provider": "cloudflare",
+ "model": "@cf/openai/gpt-oss-20b",
+ "usage": {
+  "input_tokens": 1289,
+  "output_tokens": 1821
+ },
+ "output": {
+  "study": {
+   "design": {
+    "status": "reported",
+    "value": "rct"
+   },
+   "population": {
+    "status": "reported",
+    "value": "60-85 years, all sexes, healthy adults"
+   },
+   "sample_size": {
+    "status": "reported",
+    "value": 21308
+   },
+   "intervention": {
+    "status": "reported",
+    "value": "60,000 IU of vitamin D3 per month"
+   },
+   "comparator": {
+    "status": "reported",
+    "value": "matching placebo"
+   },
+   "follow_up": {
+    "status": "reported",
+    "value": "up to 5 years"
+   }
+  },
+  "primary_findings": [
+   {
+    "quote": "HR 1.02; 95 % CI 0.95-1.10",
+    "section": "ABSTRACT",
+    "outcome": "cancer incidence",
+    "direction": "no_difference",
+    "effect_measure": "HR",
+    "effect_value": 1.02,
+    "ci_low": 0.95,
+    "ci_high": 1.1,
+    "p_value": null
+   },
+   {
+    "quote": "HR 1.04; 95 % CI 0.95-1.14",
+    "section": "ABSTRACT",
+    "outcome": "cancer incidence excluding cutaneous melanomas",
+    "direction": "no_difference",
+    "effect_measure": "HR",
+    "effect_value": 1.04,
+    "ci_low": 0.95,
+    "ci_high": 1.14,
+    "p_value": null
+   }
+  ],
+  "limitations_stated": []
+ }
+}

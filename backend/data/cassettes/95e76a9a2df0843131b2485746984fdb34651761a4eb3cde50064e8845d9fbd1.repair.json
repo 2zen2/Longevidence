@@ -1,0 +1,53 @@
+{
+ "provider": "cloudflare",
+ "model": "@cf/openai/gpt-oss-20b",
+ "usage": {
+  "input_tokens": 1266,
+  "output_tokens": 4579
+ },
+ "output": {
+  "study": {
+   "design": "observational",
+   "design_quote": "single-center retrospective cohort study",
+   "design_section": "METHODS",
+   "population": "older adults with CKD aged \u226575 years",
+   "population_quote": "patients aged \u2265 75 years with CKD (estimated glomerular filtration rate [eGFR] < 60 mL/min/1.73 m2)",
+   "population_section": "METHODS",
+   "sample_size": 462,
+   "sample_size_quote": "A total of 462 patients",
+   "sample_size_section": "RESULTS",
+   "intervention": "salt intake estimated from spot urine using Tanaka formula and categorized into quartiles",
+   "intervention_quote": "Salt intake was estimated from spot urine using the Tanaka formula and categorized into quartiles.",
+   "intervention_section": "METHODS",
+   "comparator": "lowest quartile",
+   "comparator_quote": "highest vs. lowest quartile",
+   "comparator_section": "RESULTS",
+   "follow_up": "median 2.79 years",
+   "follow_up_quote": "During a median follow-up of 2.79 years",
+   "follow_up_section": "RESULTS",
+   "outcome": "composite kidney endpoint of \u2265 30% eGFR decline or initiation of kidney replacement therapy",
+   "outcome_quote": "composite kidney endpoint of \u2265 30% eGFR decline or initiation of kidney replacement therapy",
+   "outcome_section": "METHODS"
+  },
+  "primary_findings": [
+   {
+    "outcome": "composite kidney endpoint of \u2265 30% eGFR decline or initiation of kidney replacement therapy",
+    "outcome_quote": "composite kidney endpoint of \u2265 30% eGFR decline or initiation of kidney replacement therapy",
+    "outcome_section": "METHODS",
+    "effect_estimate": 2.7,
+    "effect_estimate_quote": "adjusted HR 2.70; 95% CI 1.02-7.12; highest vs. lowest quartile",
+    "effect_estimate_section": "RESULTS",
+    "ci_lower": 1.02,
+    "ci_lower_quote": "adjusted HR 2.70; 95% CI 1.02-7.12; highest vs. lowest quartile",
+    "ci_lower_section": "RESULTS",
+    "ci_upper": 7.12,
+    "ci_upper_quote": "adjusted HR 2.70; 95% CI 1.02-7.12; highest vs. lowest quartile",
+    "ci_upper_section": "RESULTS",
+    "direction": "increased risk",
+    "direction_quote": "adjusted HR 2.70; 95% CI 1.02-7.12; highest vs. lowest quartile",
+    "direction_section": "RESULTS"
+   }
+  ],
+  "limitations_stated": []
+ }
+}

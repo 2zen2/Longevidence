@@ -1,0 +1,115 @@
+{
+ "provider": "openrouter",
+ "model": "deepseek/deepseek-v4.1-flash",
+ "usage": {
+  "input_tokens": 2887,
+  "output_tokens": 2071
+ },
+ "output": {
+  "study": {
+   "design": {
+    "status": "reported",
+    "value": "rct",
+    "quote": "We conducted a randomized, double-blind, placebo-controlled trial evaluating the efficacy and safety of in-hospital initiation of dapagliflozin (10 mg daily) in patients hospitalized for HF.",
+    "section": "METHODS",
+    "confidence": "high"
+   },
+   "population": {
+    "status": "reported",
+    "value": "Patients hospitalized for heart failure",
+    "quote": "in patients hospitalized for HF",
+    "section": "METHODS",
+    "confidence": "high"
+   },
+   "sample_size": {
+    "status": "reported",
+    "value": 2401,
+    "quote": "Of 2401 patients (median age, 69 [Q1-Q3, 58-77] years, 815 [33.9%] women, 448 [18.7%] Black race, 1717 [71.5%] left ventricular ejection fraction \u226440%, 1074 [44.7%] newly diagnosed HF) randomized between September 2020 and March 2025, 1218 were assigned to dapagliflozin and 1183 to placebo.",
+    "section": "RESULTS",
+    "confidence": "high"
+   },
+   "intervention": {
+    "status": "reported",
+    "value": "Dapagliflozin 10 mg daily, initiated in hospital",
+    "quote": "in-hospital initiation of dapagliflozin (10 mg daily)",
+    "section": "METHODS",
+    "confidence": "high"
+   },
+   "comparator": {
+    "status": "reported",
+    "value": "Placebo",
+    "quote": "placebo-controlled trial",
+    "section": "METHODS",
+    "confidence": "high"
+   },
+   "follow_up": {
+    "status": "reported",
+    "value": "Through 2 months",
+    "quote": "a composite of time to cardiovascular death or worsening HF through 2 months",
+    "section": "METHODS",
+    "confidence": "high"
+   }
+  },
+  "primary_findings": [
+   {
+    "quote": "The primary outcome occurred in 133 patients (10.9%) in the dapagliflozin group and 150 (12.7%) in the placebo group (hazard ratio [HR], 0.86 [95% CI, 0.68-1.08]; P=0.20).",
+    "outcome": "Cardiovascular death or worsening HF (primary composite)",
+    "direction": "no_difference",
+    "effect_measure": "HR",
+    "effect_value": 0.86,
+    "ci_low": 0.68,
+    "ci_high": 1.08,
+    "p_value": 0.2,
+    "section": "RESULTS",
+    "confidence": "high"
+   },
+   {
+    "quote": "A worsening HF event occurred in 115 (9.4%) and 122 (10.3%) patients in the dapagliflozin and placebo groups, respectively (HR, 0.91 [95% CI, 0.71-1.18]).",
+    "outcome": "Worsening HF event",
+    "direction": "no_difference",
+    "effect_measure": "HR",
+    "effect_value": 0.91,
+    "ci_low": 0.71,
+    "ci_high": 1.18,
+    "section": "RESULTS",
+    "confidence": "high"
+   },
+   {
+    "quote": "death from any cause occurred in 36 (3.0%) and 53 (4.5%) patients in the dapagliflozin and placebo groups, respectively (HR, 0.66 [95% CI, 0.43-1.00]).",
+    "outcome": "Death from any cause",
+    "direction": "no_difference",
+    "effect_measure": "HR",
+    "effect_value": 0.66,
+    "ci_low": 0.43,
+    "ci_high": 1.0,
+    "section": "RESULTS",
+    "confidence": "high"
+   },
+   {
+    "quote": "In a meta-analysis of patients hospitalized for HF, SGLT2 inhibitors reduced the early risk of cardiovascular death or worsening HF (HR, 0.71 [95% CI, 0.54-0.93] P=0.012)",
+    "outcome": "Cardiovascular death or worsening HF (meta-analysis)",
+    "direction": "favors_intervention",
+    "effect_measure": "HR",
+    "effect_value": 0.71,
+    "ci_low": 0.54,
+    "ci_high": 0.93,
+    "p_value": 0.012,
+    "section": "RESULTS",
+    "confidence": "high"
+   },
+   {
+    "quote": "and of all-cause death (HR, 0.57 [95% CI, 0.41-0.80]; P=0.001).",
+    "outcome": "All-cause death (meta-analysis)",
+    "direction": "favors_intervention",
+    "effect_measure": "HR",
+    "effect_value": 0.57,
+    "ci_low": 0.41,
+    "ci_high": 0.8,
+    "p_value": 0.001,
+    "section": "RESULTS",
+    "confidence": "high"
+   }
+  ],
+  "limitations_stated": []
+ }
+}

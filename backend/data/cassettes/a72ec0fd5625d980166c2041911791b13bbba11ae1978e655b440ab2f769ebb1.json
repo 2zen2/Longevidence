@@ -1,0 +1,68 @@
+{
+ "provider": "cloudflare",
+ "model": "@cf/openai/gpt-oss-20b",
+ "usage": {
+  "input_tokens": 1571,
+  "output_tokens": 1358
+ },
+ "output": {
+  "study": {
+   "design": {
+    "quote": "We analyzed data from 4365 patients with a history of MI in the Alpha Omega Cohort",
+    "section": "METHODS",
+    "confidence": "high",
+    "status": "reported",
+    "value": "cohort"
+   },
+   "population": {
+    "quote": "patients with a history of MI",
+    "section": "METHODS",
+    "confidence": "high",
+    "status": "reported",
+    "value": "patients with prior myocardial infarction"
+   },
+   "sample_size": {
+    "quote": "4365 patients",
+    "section": "METHODS",
+    "confidence": "high",
+    "status": "reported",
+    "value": 4365
+   },
+   "intervention": {
+    "quote": "Q4 of %g/d of UPF represented a low and a high ultra-processed diet, respectively",
+    "section": "METHODS",
+    "confidence": "high",
+    "status": "reported",
+    "value": "high ultra-processed diet (Q4)"
+   },
+   "comparator": {
+    "quote": "Q1 and Q4 of %g/d of UPF represented a low and a high ultra-processed diet, respectively",
+    "section": "METHODS",
+    "confidence": "high",
+    "status": "reported",
+    "value": "low ultra-processed diet (Q1)"
+   },
+   "follow_up": {
+    "quote": "Over a median follow-up of 14 y",
+    "section": "RESULTS",
+    "confidence": "high",
+    "status": "reported",
+    "value": "14 years"
+   }
+  },
+  "primary_findings": [
+   {
+    "quote": "Compared with Q1, a high ultra-processed diet was not consistently or significantly associated with CVD and CHD mortality. However, it was associated with a higher risk of stroke mortality (HRper10% point increase: 1.21; 95% confidence interval: 1.02, 1.42)",
+    "section": "RESULTS",
+    "confidence": "high",
+    "outcome": "stroke mortality",
+    "direction": "favors_comparator",
+    "effect_measure": "HR",
+    "effect_value": 1.21,
+    "ci_low": 1.02,
+    "ci_high": 1.42
+   }
+  ],
+  "limitations_stated": []
+ }
+}

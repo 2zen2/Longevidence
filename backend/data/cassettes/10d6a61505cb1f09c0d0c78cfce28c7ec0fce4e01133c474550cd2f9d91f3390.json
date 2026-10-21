@@ -1,0 +1,81 @@
+{
+ "provider": "openrouter",
+ "model": "nvidia/nemotron-3.5-lightning:free",
+ "usage": {
+  "input_tokens": 2581,
+  "output_tokens": 3340
+ },
+ "output": {
+  "study": {
+   "design": {
+    "quote": "We analysed data from the D-Health Trial, a randomised controlled trial of 60,000 IU of vitamin D3 per month or matching placebo.",
+    "section": "ABSTRACT",
+    "confidence": "high",
+    "status": "reported",
+    "value": "rct"
+   },
+   "population": {
+    "quote": "21,315 adults aged 60-85 years were recruited",
+    "section": "ABSTRACT",
+    "confidence": "high",
+    "status": "reported",
+    "value": "Adults aged 60-85 years"
+   },
+   "sample_size": {
+    "quote": "This analysis included 21,308 participants (vitamin D, n = 10,660; placebo, n = 10,648).",
+    "section": "ABSTRACT",
+    "confidence": "high",
+    "status": "reported",
+    "value": 21308
+   },
+   "intervention": {
+    "quote": "60,000 IU of vitamin D3 per month",
+    "section": "ABSTRACT",
+    "confidence": "high",
+    "status": "reported",
+    "value": "60,000 IU of vitamin D3 per month"
+   },
+   "comparator": {
+    "quote": "matching placebo",
+    "section": "ABSTRACT",
+    "confidence": "high",
+    "status": "reported",
+    "value": "matching placebo"
+   },
+   "follow_up": {
+    "quote": "supplemented for up to 5 years",
+    "section": "ABSTRACT",
+    "confidence": "high",
+    "status": "reported",
+    "value": "up to 5 years"
+   }
+  },
+  "primary_findings": [
+   {
+    "quote": "We found no difference in cancer incidence between the two groups (HR 1.02; 95 % CI 0.95-1.10).",
+    "section": "ABSTRACT",
+    "confidence": "high",
+    "outcome": "cancer incidence",
+    "direction": "no_difference",
+    "effect_measure": "HR",
+    "effect_value": 1.02,
+    "ci_low": 0.95,
+    "ci_high": 1.1,
+    "p_value": null
+   },
+   {
+    "quote": "Similarly, there was minimal difference when cutaneous melanomas were excluded (HR 1.04; 95 % CI 0.95-1.14).",
+    "section": "ABSTRACT",
+    "confidence": "high",
+    "outcome": "cancer incidence (excluding cutaneous melanomas)",
+    "direction": "no_difference",
+    "effect_measure": "HR",
+    "effect_value": 1.04,
+    "ci_low": 0.95,
+    "ci_high": 1.14,
+    "p_value": null
+   }
+  ],
+  "limitations_stated": []
+ }
+}

@@ -1,0 +1,42 @@
+{
+ "provider": "cloudflare",
+ "model": "@cf/openai/gpt-oss-20b",
+ "usage": {
+  "input_tokens": 1338,
+  "output_tokens": 1716
+ },
+ "output": {
+  "study": {
+   "design": "rct",
+   "population": "patients with recurrent weight gain after metabolic bariatric surgery",
+   "sample_size": 20,
+   "intervention": "5:2 intermittent fasting (75% caloric restriction on two days per week)",
+   "comparator": "continuous caloric restriction (25% divided into three meals)",
+   "follow_up": "12 weeks"
+  },
+  "primary_findings": [
+   {
+    "outcome": "weight change at 12 weeks",
+    "effect_estimate": "-0.13 kg",
+    "confidence": "high",
+    "quote": "The difference between the two groups remained within the predefined non-inferiority margin of 4 kg (-0.13; 95% CI: -2.90 to 2.62).",
+    "section": "RESULTS"
+   },
+   {
+    "outcome": "weight change at 12 weeks in IF group",
+    "effect_estimate": "-1.025 kg",
+    "confidence": "high",
+    "quote": "the 5:2 IF group experienced an average weight loss of -1.025 kg (95% CI: -0.09 to -1.96 kg; p = 0.03).",
+    "section": "RESULTS"
+   },
+   {
+    "outcome": "weight change at 12 weeks in CCR group",
+    "effect_estimate": "-0.88 kg",
+    "confidence": "high",
+    "quote": "The CCR group showed no change in weight at 12 weeks (mean difference -0.88 kg; 95% CI: -2.2 to 3.9 kg; p = 0.51).",
+    "section": "RESULTS"
+   }
+  ],
+  "limitations_stated": []
+ }
+}

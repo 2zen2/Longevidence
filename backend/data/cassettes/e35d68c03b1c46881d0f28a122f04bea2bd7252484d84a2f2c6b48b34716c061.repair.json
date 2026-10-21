@@ -1,0 +1,45 @@
+{
+ "provider": "cloudflare",
+ "model": "@cf/openai/gpt-oss-20b",
+ "usage": {
+  "input_tokens": 1387,
+  "output_tokens": 1052
+ },
+ "output": {
+  "study": {
+   "design": {
+    "value": "rct",
+    "quote": "parallel, two-arm randomised controlled trial",
+    "section": "METHODS AND ANALYSIS"
+   },
+   "population": {
+    "value": "healthy Korean young adults aged 20-39 years with UPF intake \u226525% of daily energy",
+    "quote": "enrolling 50 participants (aged 20-39 years) with UPF intake \u226525% of daily energy",
+    "section": "METHODS AND ANALYSIS"
+   },
+   "sample_size": {
+    "value": 50,
+    "quote": "enrolling 50 participants",
+    "section": "METHODS AND ANALYSIS"
+   },
+   "intervention": {
+    "value": "40-minute one-on-one UPF-reducing dietary intervention",
+    "quote": "40-minute one-on-one UPF-reducing dietary intervention",
+    "section": "METHODS AND ANALYSIS"
+   },
+   "comparator": {
+    "value": "40-minute one-on-one standard dietary counselling based on national dietary guidelines",
+    "quote": "40-minute one-on-one standard dietary counselling based on national dietary guidelines",
+    "section": "METHODS AND ANALYSIS"
+   },
+   "follow_up": {
+    "value": "10-day CGM monitoring period after intervention",
+    "quote": "After the intervention, participants undergo a 10-day CGM monitoring period and lifestyle diaries",
+    "section": "METHODS AND ANALYSIS"
+   }
+  },
+  "primary_findings": [],
+  "limitations_stated": [],
+  "confidence": "high"
+ }
+}

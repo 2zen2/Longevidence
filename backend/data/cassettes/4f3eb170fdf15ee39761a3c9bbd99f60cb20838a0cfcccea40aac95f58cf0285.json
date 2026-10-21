@@ -1,0 +1,50 @@
+{
+ "provider": "cloudflare",
+ "model": "@cf/openai/gpt-oss-20b",
+ "usage": {
+  "input_tokens": 1424,
+  "output_tokens": 1075
+ },
+ "output": {
+  "study": {
+   "design": {
+    "quote": "Based on 7606 participants from the UK Biobank cohort",
+    "section": "METHODS",
+    "status": "reported",
+    "value": "cohort"
+   },
+   "population": {
+    "quote": "diabetic patients",
+    "section": "METHODS",
+    "status": "reported",
+    "value": "diabetic patients"
+   },
+   "sample_size": {
+    "quote": "Based on 7606 participants from the UK Biobank cohort",
+    "section": "METHODS",
+    "status": "reported",
+    "value": 7606
+   },
+   "intervention": {
+    "quote": "Mediterranean Diet (MD) pattern",
+    "section": "METHODS",
+    "status": "reported",
+    "value": "Mediterranean Diet pattern"
+   },
+   "comparator": {
+    "quote": null,
+    "section": null,
+    "status": "not_reported",
+    "value": null
+   },
+   "follow_up": {
+    "quote": "mean follow-up of 13.04 years",
+    "section": "RESULTS",
+    "status": "reported",
+    "value": "13.04 years"
+   }
+  },
+  "primary_findings": [],
+  "limitations_stated": []
+ }
+}

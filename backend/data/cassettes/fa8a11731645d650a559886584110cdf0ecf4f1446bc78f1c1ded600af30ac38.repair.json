@@ -1,0 +1,38 @@
+{
+ "provider": "cloudflare",
+ "model": "@cf/openai/gpt-oss-20b",
+ "usage": {
+  "input_tokens": 1433,
+  "output_tokens": 2379
+ },
+ "output": {
+  "study": {
+   "design": {
+    "status": "not_reported",
+    "value": null
+   },
+   "population": {
+    "status": "not_reported",
+    "value": null
+   },
+   "sample_size": {
+    "status": "not_reported",
+    "value": null
+   },
+   "intervention": {
+    "status": "not_reported",
+    "value": null
+   },
+   "comparator": {
+    "status": "not_reported",
+    "value": null
+   },
+   "follow_up": {
+    "status": "not_reported",
+    "value": null
+   }
+  },
+  "primary_findings": [],
+  "limitations_stated": []
+ }
+}

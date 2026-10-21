@@ -1,0 +1,50 @@
+{
+ "provider": "cloudflare",
+ "model": "@cf/openai/gpt-oss-20b",
+ "usage": {
+  "input_tokens": 1550,
+  "output_tokens": 3090
+ },
+ "output": {
+  "study": {
+   "design": {
+    "quote": "exploratory secondary analysis used stored paired serum samples from a previously reported 8-week controlled intervention",
+    "section": "METHODS",
+    "status": "reported",
+    "value": "rct_secondary_analysis"
+   },
+   "population": {
+    "quote": "breast cancer survivors were randomized to Groups A and B, whereas Group C was enrolled as a non-randomized active comparison group",
+    "section": "METHODS",
+    "status": "reported",
+    "value": "breast cancer survivors and non-cancer participants"
+   },
+   "sample_size": {
+    "quote": "Paired polyamine data were available for 16, 9, and 16 participants, respectively",
+    "section": "METHODS",
+    "status": "reported",
+    "value": 41
+   },
+   "intervention": {
+    "quote": "Group A (breast cancer survivors following a Mediterranean diet alone, n = 21)",
+    "section": "METHODS",
+    "status": "reported",
+    "value": "Mediterranean diet alone"
+   },
+   "comparator": {
+    "quote": "Group B (breast cancer survivors following a Mediterranean diet combined with naltrexone/bupropion, n = 23)",
+    "section": "METHODS",
+    "status": "reported",
+    "value": "Mediterranean diet combined with naltrexone/bupropion"
+   },
+   "follow_up": {
+    "quote": "8-week controlled intervention",
+    "section": "METHODS",
+    "status": "reported",
+    "value": "8 weeks"
+   }
+  },
+  "primary_findings": [],
+  "limitations_stated": []
+ }
+}

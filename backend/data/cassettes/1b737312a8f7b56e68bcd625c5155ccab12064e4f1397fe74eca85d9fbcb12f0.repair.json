@@ -1,0 +1,96 @@
+{
+ "provider": "cloudflare",
+ "model": "@cf/openai/gpt-oss-20b",
+ "usage": {
+  "input_tokens": 1217,
+  "output_tokens": 6589
+ },
+ "output": {
+  "study": {
+   "design": {
+    "value": "rct_secondary_analysis",
+    "quote": "systematic review and pooled meta-analysis of randomized clinical trials.",
+    "section": "ABSTRACT",
+    "confidence": "high"
+   },
+   "population": {
+    "value": "adults",
+    "quote": "adults",
+    "section": "ABSTRACT",
+    "confidence": "high"
+   },
+   "sample_size": {
+    "value": "114379",
+    "quote": "114 379 participants",
+    "section": "ABSTRACT",
+    "confidence": "high"
+   },
+   "intervention": {
+    "value": "vitamin D supplementation",
+    "quote": "vitamin D supplementation",
+    "section": "ABSTRACT",
+    "confidence": "high"
+   },
+   "comparator": {
+    "value": "placebo",
+    "quote": "placebo",
+    "section": "ABSTRACT",
+    "confidence": "high"
+   },
+   "follow_up": {
+    "status": "not_reported",
+    "value": null,
+    "quote": null,
+    "section": null,
+    "confidence": "high"
+   }
+  },
+  "primary_findings": [
+   {
+    "effect_estimate": "RR",
+    "effect_estimate_type": "risk ratio",
+    "effect_estimate_direction": "no_difference",
+    "effect_estimate_value": "0.95",
+    "effect_estimate_CI": "0.88-1.04",
+    "effect_estimate_CI_lower": "0.88",
+    "effect_estimate_CI_upper": "1.04",
+    "quote": "RR = 0.95, 95%CI: 0.88-1.04",
+    "section": "ABSTRACT"
+   },
+   {
+    "effect_estimate": "RR",
+    "effect_estimate_type": "risk ratio",
+    "effect_estimate_direction": "no_difference",
+    "effect_estimate_value": "1.04",
+    "effect_estimate_CI": "0.871-1.242",
+    "effect_estimate_CI_lower": "0.871",
+    "effect_estimate_CI_upper": "1.242",
+    "quote": "RR = 1.04, 95%CI: 0.871-1.242",
+    "section": "ABSTRACT"
+   },
+   {
+    "effect_estimate": "RR",
+    "effect_estimate_type": "risk ratio",
+    "effect_estimate_direction": "no_difference",
+    "effect_estimate_value": "0.96",
+    "effect_estimate_CI": "0.83-1.11",
+    "effect_estimate_CI_lower": "0.83",
+    "effect_estimate_CI_upper": "1.11",
+    "quote": "RR = 0.96, 95%CI: 0.83-1.11",
+    "section": "ABSTRACT"
+   },
+   {
+    "effect_estimate": "RR",
+    "effect_estimate_type": "risk ratio",
+    "effect_estimate_direction": "no_difference",
+    "effect_estimate_value": "1.527",
+    "effect_estimate_CI": "0.828-2.816",
+    "effect_estimate_CI_lower": "0.828",
+    "effect_estimate_CI_upper": "2.816",
+    "quote": "RR = 1.527, 95%CI: 0.828-2.816",
+    "section": "ABSTRACT"
+   }
+  ],
+  "limitations_stated": []
+ }
+}

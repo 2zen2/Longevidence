@@ -1,0 +1,50 @@
+{
+ "provider": "cloudflare",
+ "model": "@cf/openai/gpt-oss-20b",
+ "usage": {
+  "input_tokens": 1487,
+  "output_tokens": 1196
+ },
+ "output": {
+  "study": {
+   "design": {
+    "quote": "multicenter, prospective, randomized-controlled study.",
+    "section": "METHODS",
+    "status": "reported",
+    "value": "rct"
+   },
+   "population": {
+    "quote": "Eligible participants with vitamin D deficiency were randomly assigned to the control or vitamin D supplementation group.",
+    "section": "METHODS",
+    "status": "reported",
+    "value": "critically ill patients with vitamin D deficiency"
+   },
+   "sample_size": {
+    "quote": "41 and 20 patients were included in the vitamin D supplementation and control groups, respectively.",
+    "section": "RESULTS",
+    "status": "reported",
+    "value": 61
+   },
+   "intervention": {
+    "quote": "In the vitamin D supplementation group, the patients received 569,600 IU vitamin D.",
+    "section": "METHODS",
+    "status": "reported",
+    "value": "569,600 IU vitamin D"
+   },
+   "comparator": {
+    "quote": "randomly assigned to the control or vitamin D supplementation group.",
+    "section": "METHODS",
+    "status": "reported",
+    "value": "control group"
+   },
+   "follow_up": {
+    "quote": null,
+    "section": null,
+    "status": "not_reported",
+    "value": null
+   }
+  },
+  "primary_findings": [],
+  "limitations_stated": []
+ }
+}

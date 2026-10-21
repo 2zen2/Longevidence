@@ -1,0 +1,35 @@
+{
+ "provider": "cloudflare",
+ "model": "@cf/openai/gpt-oss-20b",
+ "usage": {
+  "input_tokens": 1436,
+  "output_tokens": 796
+ },
+ "output": {
+  "study": {
+   "design": {
+    "status": "reported",
+    "value": "cohort"
+   },
+   "population": {
+    "status": "reported",
+    "value": "older adults with CKD aged \u2265 75 years"
+   },
+   "sample_size": {
+    "status": "reported",
+    "value": 462
+   },
+   "intervention": {
+    "status": "reported",
+    "value": "salt intake"
+   },
+   "comparator": {
+    "status": "not_reported"
+   },
+   "follow_up": {
+    "status": "reported",
+    "value": "}}, "
+   }
+  }
+ }
+}

@@ -1,0 +1,41 @@
+{
+ "provider": "cloudflare",
+ "model": "@cf/openai/gpt-oss-20b",
+ "usage": {
+  "input_tokens": 910,
+  "output_tokens": 1550
+ },
+ "output": {
+  "study": {
+   "title": "The role of the Mediterranean diet in secondary cardiovascular disease prevention: a systematic review and meta-analysis of cohort studies.",
+   "abstract": "AIMS: Although the Mediterranean diet is well established for primary cardiovascular disease (CVD) prevention, its role in secondary prevention is less evidence-based. This systematic review and meta-analysis evaluate its association with CVD incidence and mortality in patients with existing CVD.\nDATA SYNTHESIS: A systematic literature search was conducted in PubMed/MEDLINE, Scopus, Embase, and the Cochrane Library from database inception to February 28, 2026. Thirteen prospective cohort studies including adults with established CVD that assessed adherence to a Mediterranean dietary pattern and reported clinical outcomes were eligible. Pooled risk ratios (RRs) and 95% confidence intervals (CIs) were calculated using fixed- or random-effects models. The protocol was prospectively registered in PROSPERO (CRD420261335357). Thirteen prospective cohort studies comprising 54,034 patients with established CVD, over 13,311 events, and follow-up periods from 2 to 10 years were included. Higher adherence to the Mediterranean diet was associated with lower risk of all-cause mortality (0.74, 95%CI: 0.65-0.84), cardiovascular mortality (0.84, 95%CI: 0.75-0.94), and recurrent cardiovascular events (0.60, 95%CI: 0.39-0.92). Sensitivity analyses confirmed the robustness of the findings. Heterogeneity was moderate to high. No evidence of publication bias was observed for all-cause mortality, whereas publication bias was detected for recurrent CVD events, though the pooled estimate remained unchanged after trim-and-fill adjustment.\nCONCLUSIONS: These findings support the inclusion of Mediterranean dietary patterns as an important component of secondary CVD prevention strategies, additional to pharmacological therapies and reinforce current guideline recommendations promoting cardioprotective dietary habits."
+  },
+  "primary_findings": [
+   {
+    "effect_estimate": "0.74",
+    "CI": "0.65-0.84",
+    "direction": "lower risk",
+    "quote": "Higher adherence to the Mediterranean diet was associated with lower risk of all-cause mortality (0.74, 95%CI: 0.65-0.84)",
+    "section": "ABSTRACT",
+    "confidence": "high"
+   },
+   {
+    "effect_estimate": "0.84",
+    "CI": "0.75-0.94",
+    "direction": "lower risk",
+    "quote": "Higher adherence to the Mediterranean diet was associated with lower risk of cardiovascular mortality (0.84, 95%CI: 0.75-0.94)",
+    "section": "ABSTRACT",
+    "confidence": "high"
+   },
+   {
+    "effect_estimate": "0.60",
+    "CI": "0.39-0.92",
+    "direction": "lower risk",
+    "quote": "Higher adherence to the Mediterranean diet was associated with lower risk of recurrent cardiovascular events (0.60, 95%CI: 0.39-0.92)",
+    "section": "ABSTRACT",
+    "confidence": "high"
+   }
+  ],
+  "limitations_stated": []
+ }
+}

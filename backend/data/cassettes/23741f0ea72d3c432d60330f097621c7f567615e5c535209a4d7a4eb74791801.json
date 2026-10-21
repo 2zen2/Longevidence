@@ -1,0 +1,54 @@
+{
+ "provider": "openrouter",
+ "model": "deepseek/deepseek-v4.1-flash",
+ "usage": {
+  "input_tokens": 2564,
+  "output_tokens": 1006
+ },
+ "output": {
+  "study": {
+   "design": {
+    "status": "reported",
+    "value": "rct"
+   },
+   "population": {
+    "status": "reported",
+    "value": "patients with ischemic heart disease (ischemic heart failure) at department of cardiology, Fayoum University"
+   },
+   "sample_size": {
+    "status": "reported",
+    "value": 81
+   },
+   "intervention": {
+    "status": "reported",
+    "value": "Combination of Dapagliflozin (10 mg) daily and statin (Atorvastatin 40 mg or Rosuvastatin 40 mg) daily (GPIII, n = 21)"
+   },
+   "comparator": {
+    "status": "reported",
+    "value": "SGLT2i group (GPI, n = 26) taking Dapagliflozin 10 mg daily; Statin group (GPII, n = 34) taking Atorvastatin 40 mg or Rosuvastatin 40 mg daily"
+   },
+   "follow_up": {
+    "status": "reported",
+    "value": "three months"
+   }
+  },
+  "primary_findings": [
+   {
+    "quote": "Group: III showed no adverse effects, maintained stable drug levels as the mean was 7.3 ng/ml and SD was 4.4 ng/ml (p-value 0.66)",
+    "outcome": "Trough plasma drug concentration (stable drug levels)",
+    "direction": "no_difference",
+    "effect_measure": "other",
+    "effect_value": 7.3,
+    "p_value": 0.66
+   }
+  ],
+  "limitations_stated": [
+   {
+    "quote": "though larger studies are needed to confirm",
+    "section": "CONCLUSION",
+    "status": "reported",
+    "value": "larger studies are needed to confirm"
+   }
+  ]
+ }
+}

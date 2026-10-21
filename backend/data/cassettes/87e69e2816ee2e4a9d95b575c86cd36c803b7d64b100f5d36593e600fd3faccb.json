@@ -1,0 +1,62 @@
+{
+ "provider": "cloudflare",
+ "model": "@cf/openai/gpt-oss-20b",
+ "usage": {
+  "input_tokens": 1438,
+  "output_tokens": 1099
+ },
+ "output": {
+  "study": {
+   "design": {
+    "quote": "meta-analysis",
+    "section": "ABSTRACT",
+    "status": "reported",
+    "value": "meta_analysis"
+   },
+   "population": {
+    "quote": "adult populations",
+    "section": "BACKGROUND",
+    "status": "reported",
+    "value": "adult populations"
+   },
+   "sample_size": {
+    "quote": "1 833 267 participants",
+    "section": "RESULTS",
+    "status": "reported",
+    "value": 1833267
+   },
+   "intervention": {
+    "quote": "adherence to the MD",
+    "section": "BACKGROUND",
+    "status": "reported",
+    "value": "adherence to the MD"
+   },
+   "comparator": {
+    "quote": null,
+    "section": null,
+    "status": "not_reported",
+    "value": null
+   },
+   "follow_up": {
+    "quote": "2 to 60 y",
+    "section": "RESULTS",
+    "status": "reported",
+    "value": "2 to 60 y"
+   }
+  },
+  "primary_findings": [
+   {
+    "quote": "The pooled RR for all-cause mortality per 1-point increase in MD adherence was 0.96 (95% CI: 0.95-0.97)",
+    "section": "RESULTS",
+    "outcome": "all-cause mortality",
+    "direction": "favors_intervention",
+    "effect_measure": "RR",
+    "effect_value": 0.96,
+    "ci_low": 0.95,
+    "ci_high": 0.97,
+    "p_value": null
+   }
+  ],
+  "limitations_stated": []
+ }
+}

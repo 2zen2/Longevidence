@@ -1,0 +1,75 @@
+{
+ "provider": "cloudflare",
+ "model": "@cf/openai/gpt-oss-20b",
+ "usage": {
+  "input_tokens": 1592,
+  "output_tokens": 2518
+ },
+ "output": {
+  "study": {
+   "design": {
+    "quote": "cross-sectional analyses from three national dietary surveys",
+    "section": "TITLE",
+    "status": "reported",
+    "value": "cross_sectional"
+   },
+   "population": {
+    "quote": "Intake of ultra-processed foods in Sweden and its association with diet quality and weight status: cross-sectional analyses from three national dietary surveys",
+    "section": "TITLE",
+    "status": "reported",
+    "value": "adults, adolescents, and young children in Sweden"
+   },
+   "sample_size": {
+    "quote": "Data were derived from the three most recent Swedish national dietary surveys: Riksmaten (RM)-Adults (2010-2011; n = 1797), RM-Adolescents (2016-2017; n = 3099), and RM-Young Children (2021-2024; n = 1820).",
+    "section": "ABSTRACT",
+    "status": "reported",
+    "value": 6716
+   },
+   "intervention": {
+    "quote": "Intake of ultra-processed foods in Sweden and its association with diet quality and weight status",
+    "section": "TITLE",
+    "status": "reported",
+    "value": "ultra-processed food intake"
+   },
+   "comparator": {
+    "quote": null,
+    "section": null,
+    "status": "not_reported",
+    "value": null
+   },
+   "follow_up": {
+    "quote": null,
+    "section": null,
+    "status": "not_reported",
+    "value": null
+   }
+  },
+  "primary_findings": [
+   {
+    "quote": "each 10 E% increment in UPF corresponded to 0.61% higher BMI (95% CI: 0.04-1.18; p = 0.036)",
+    "section": "ABSTRACT",
+    "confidence": "high",
+    "outcome": "BMI change per 10% increase in UPF",
+    "direction": "favors_comparator",
+    "effect_measure": "MD",
+    "effect_value": 0.61,
+    "ci_low": 0.04,
+    "ci_high": 1.18,
+    "p_value": 0.036
+   },
+   {
+    "quote": "The prevalence of overweight or obesity was higher in the top versus bottom tertiles of UPF intake after energy adjustment (PR = 1.16; 95% CI: 1.03-1.30; p = 0.018)",
+    "section": "ABSTRACT",
+    "confidence": "high",
+    "outcome": "Prevalence ratio of overweight/obesity top vs bottom tertiles of UPF intake",
+    "direction": "favors_comparator",
+    "effect_measure": "OR",
+    "effect_value": 1.16,
+    "ci_low": 1.03,
+    "ci_high": 1.3,
+    "p_value": 0.018
+   }
+  ],
+  "limitations_stated": []
+ }
+}

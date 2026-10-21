@@ -1,0 +1,101 @@
+{
+ "provider": "openrouter",
+ "model": "nvidia/nemotron-3-ultra-550b-a55b",
+ "usage": {
+  "input_tokens": 3516,
+  "output_tokens": 949
+ },
+ "output": {
+  "study": {
+   "design": {
+    "status": "reported",
+    "value": "rct",
+    "quote": "This randomized trial was conducted over 180 days in 58 patients with T2DM and HF, assigned in a 1:1 ratio to standard therapy or standard therapy plus dapagliflozin 10 mg daily.",
+    "section": "METHODS",
+    "confidence": "high"
+   },
+   "population": {
+    "status": "reported",
+    "value": "South Indian patients with T2DM and Heart Failure (HF)",
+    "quote": "South Indian patients with T2DM and Heart Failure (HF)",
+    "section": "INTRODUCTION",
+    "confidence": "high"
+   },
+   "sample_size": {
+    "status": "reported",
+    "value": 58,
+    "quote": "58 patients with T2DM and HF",
+    "section": "METHODS",
+    "confidence": "high"
+   },
+   "intervention": {
+    "status": "reported",
+    "value": "standard therapy plus dapagliflozin 10 mg daily",
+    "quote": "standard therapy plus dapagliflozin 10 mg daily",
+    "section": "METHODS",
+    "confidence": "high"
+   },
+   "comparator": {
+    "status": "reported",
+    "value": "standard therapy",
+    "quote": "standard therapy",
+    "section": "METHODS",
+    "confidence": "high"
+   },
+   "follow_up": {
+    "status": "reported",
+    "value": "180 days (24 weeks)",
+    "quote": "This randomized trial was conducted over 180 days",
+    "section": "METHODS",
+    "confidence": "high"
+   }
+  },
+  "primary_findings": [
+   {
+    "quote": "Dapagliflozin group showed marked improvements in BMI (p = 0.01), TC (p = 0.02), TG (p = 0.01), HDL (p = 0.001), LDL (p = 0.002), and VLDL (p = 0.01), FPG (p = 0.0001), PPG (p = 0.002) and HbA1c (p = 0.01), HOMA-IR (p = 0.002), HOMA2%B (p = 0.003), and decreased insulin levels (p = 0.001) by 24 weeks.",
+    "section": "RESULTS",
+    "confidence": "high",
+    "outcome": "BMI, total cholesterol, triglycerides, HDL, LDL, VLDL, fasting plasma glucose, postprandial glucose, HbA1c, HOMA-IR, HOMA2%B, insulin levels",
+    "direction": "favors_intervention",
+    "effect_measure": "other",
+    "effect_value": null,
+    "ci_low": null,
+    "ci_high": null,
+    "p_value": 0.01
+   },
+   {
+    "quote": "In contrast, significant changes were noted only in LDL (p = 0.01), HDL (p = 0.03), and TG (p = 0.01) in the standard group.",
+    "section": "RESULTS",
+    "confidence": "high",
+    "outcome": "LDL, HDL, triglycerides in standard therapy group",
+    "direction": "favors_intervention",
+    "effect_measure": "other",
+    "effect_value": null,
+    "ci_low": null,
+    "ci_high": null,
+    "p_value": 0.01
+   },
+   {
+    "quote": "A positive correlation was observed between the mean change in TG and HOMA-IR after 24 weeks of dapagliflozin treatment.",
+    "section": "RESULTS",
+    "confidence": "high",
+    "outcome": "Correlation between change in triglycerides and HOMA-IR",
+    "direction": "unclear",
+    "effect_measure": "other",
+    "effect_value": null,
+    "ci_low": null,
+    "ci_high": null,
+    "p_value": null
+   }
+  ],
+  "limitations_stated": [
+   {
+    "status": "reported",
+    "value": "small sample size, single-center setting, and an open-label design",
+    "quote": "Study limitations included the small sample size, single-center setting, and an open-label design.",
+    "section": "DISCUSSION",
+    "confidence": "high"
+   }
+  ]
+ }
+}

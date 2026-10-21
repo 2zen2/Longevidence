@@ -1,0 +1,49 @@
+{
+ "provider": "cloudflare",
+ "model": "@cf/openai/gpt-oss-20b",
+ "usage": {
+  "input_tokens": 1245,
+  "output_tokens": 4414
+ },
+ "output": {
+  "study": {
+   "design": {
+    "status": "reported",
+    "value": "rct_secondary_analysis"
+   },
+   "population": {
+    "status": "reported",
+    "value": "UK Biobank participants"
+   },
+   "sample_size": {
+    "status": "reported",
+    "value": 192034
+   },
+   "intervention": {
+    "status": "reported",
+    "value": "joint Mediterranean diet-sleep pattern"
+   },
+   "comparator": {
+    "status": "reported",
+    "value": "lowest level of the diet-sleep pattern"
+   },
+   "follow_up": {
+    "status": "reported",
+    "value": "median 14 years"
+   }
+  },
+  "primary_findings": [
+   {
+    "quote": "SHR 0.57, 95% CI 0.41-0.79; P = 0.001",
+    "outcome": "lung cancer risk",
+    "direction": "no_difference",
+    "effect_measure": "HR",
+    "effect_value": 0.57,
+    "ci_low": 0.41,
+    "ci_high": 0.79,
+    "p_value": 0.001
+   }
+  ],
+  "limitations_stated": []
+ }
+}

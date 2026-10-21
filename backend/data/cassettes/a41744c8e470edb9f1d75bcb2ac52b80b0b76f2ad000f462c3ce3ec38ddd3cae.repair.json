@@ -1,0 +1,77 @@
+{
+ "provider": "cloudflare",
+ "model": "@cf/openai/gpt-oss-20b",
+ "usage": {
+  "input_tokens": 1603,
+  "output_tokens": 2402
+ },
+ "output": {
+  "study": {
+   "design": {
+    "status": "reported",
+    "value": "rct"
+   },
+   "population": {
+    "status": "not_reported"
+   },
+   "sample_size": {
+    "status": "reported",
+    "value": 335
+   },
+   "intervention": {
+    "status": "reported",
+    "value": "DASH diet"
+   },
+   "comparator": {
+    "status": "reported",
+    "value": "control diet"
+   },
+   "follow_up": {
+    "status": "not_reported"
+   }
+  },
+  "primary_findings": [
+   {
+    "quote": "The DASH diet with low sodium reduced mean (95%CI) awake SBP by 9.0 mmHg (6.4, 11.7) in Black participants",
+    "outcome": "awake SBP",
+    "direction": "favors_intervention",
+    "effect_measure": "MD",
+    "effect_value": -9.0,
+    "ci_low": 6.4,
+    "ci_high": 11.7,
+    "p_value": null
+   },
+   {
+    "quote": "The DASH diet with low sodium reduced mean (95%CI) awake SBP by 7.5 mmHg (4.5, 10.6) in Non-Black participants",
+    "outcome": "awake SBP",
+    "direction": "favors_intervention",
+    "effect_measure": "MD",
+    "effect_value": -7.5,
+    "ci_low": 4.5,
+    "ci_high": 10.6,
+    "p_value": null
+   },
+   {
+    "quote": "The DASH diet with low sodium reduced mean (95%CI) asleep SBP by 8.0 mmHg (4.8, 11.2) in Black participants",
+    "outcome": "asleep SBP",
+    "direction": "favors_intervention",
+    "effect_measure": "MD",
+    "effect_value": -8.0,
+    "ci_low": 4.8,
+    "ci_high": 11.2,
+    "p_value": null
+   },
+   {
+    "quote": "The DASH diet with low sodium reduced mean (95%CI) asleep SBP by 7.4 mmHg (3.9,11.0) in Non-Black participants",
+    "outcome": "asleep SBP",
+    "direction": "favors_intervention",
+    "effect_measure": "MD",
+    "effect_value": -7.4,
+    "ci_low": 3.9,
+    "ci_high": 11.0,
+    "p_value": null
+   }
+  ],
+  "limitations_stated": []
+ }
+}

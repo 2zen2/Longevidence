@@ -1,0 +1,101 @@
+{
+ "provider": "cloudflare",
+ "model": "@cf/openai/gpt-oss-20b",
+ "usage": {
+  "input_tokens": 1667,
+  "output_tokens": 2104
+ },
+ "output": {
+  "study": {
+   "design": {
+    "quote": "We conducted a systematic review and meta-analysis following PRISMA 2020 guidelines",
+    "section": "ABSTRACT",
+    "confidence": "high",
+    "status": "reported",
+    "value": "meta_analysis"
+   },
+   "population": {
+    "quote": "adults with established T2DM",
+    "section": "ABSTRACT",
+    "confidence": "high",
+    "status": "reported",
+    "value": "adults with established T2DM"
+   },
+   "sample_size": {
+    "quote": null,
+    "section": null,
+    "confidence": null,
+    "status": "not_reported",
+    "value": null
+   },
+   "intervention": {
+    "quote": "Mediterranean diet interventions",
+    "section": "ABSTRACT",
+    "confidence": "high",
+    "status": "reported",
+    "value": "Mediterranean diet interventions"
+   },
+   "comparator": {
+    "quote": "non-Mediterranean control diets",
+    "section": "ABSTRACT",
+    "confidence": "high",
+    "status": "reported",
+    "value": "non-Mediterranean control diets"
+   },
+   "follow_up": {
+    "quote": null,
+    "section": null,
+    "confidence": null,
+    "status": "not_reported",
+    "value": null
+   }
+  },
+  "primary_findings": [
+   {
+    "quote": "HbA1c (mean difference [MD] -0.307%, 95% CI: -0.451 to -0.163)",
+    "section": "ABSTRACT",
+    "confidence": "high",
+    "outcome": "HbA1c",
+    "direction": "favors_intervention",
+    "effect_measure": "MD",
+    "effect_value": -1.307,
+    "ci_low": -1.307,
+    "ci_high": -1.307,
+    "p_value": null
+   },
+   {
+    "quote": "FPG (MD -0.845 mmol/L, 95% CI: -1.307 to -0.384)",
+    "section": "ABSTRACT",
+    "confidence": "high",
+    "outcome": "FPG",
+    "direction": "favors_intervention",
+    "effect_measure": "MD",
+    "effect_value": -1.307,
+    "ci_low": -1.307,
+    "ci_high": -1.307,
+    "p_value": null
+   },
+   {
+    "quote": "BMI (MD -0.828 kg/m2, 95% CI: -1.4 to -0.256)",
+    "section": "ABSTRACT",
+    "confidence": "high",
+    "outcome": "BMI",
+    "direction": "favors_intervention",
+    "effect_measure": "MD",
+    "effect_value": -1.4,
+    "ci_low": -1.4,
+    "ci_high": -1.4,
+    "p_value": null
+   }
+  ],
+  "limitations_stated": [
+   {
+    "quote": "larger multicenter trials with standardized protocols and extended follow-up remain necessary.",
+    "section": "ABSTRACT",
+    "confidence": "high",
+    "status": "reported",
+    "value": null
+   }
+  ]
+ }
+}

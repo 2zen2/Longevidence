@@ -1,0 +1,50 @@
+{
+ "provider": "cloudflare",
+ "model": "@cf/openai/gpt-oss-20b",
+ "usage": {
+  "input_tokens": 1361,
+  "output_tokens": 797
+ },
+ "output": {
+  "study": {
+   "design": {
+    "quote": "systematic review and meta-analysis",
+    "section": "ABSTRACT",
+    "status": "reported",
+    "value": "meta_analysis"
+   },
+   "population": {
+    "quote": "participants at risk of CVD",
+    "section": "ABSTRACT",
+    "status": "reported",
+    "value": "participants at risk of CVD"
+   },
+   "sample_size": {
+    "quote": null,
+    "section": null,
+    "status": "not_reported",
+    "value": null
+   },
+   "intervention": {
+    "quote": "MED diet supplemented with olive oil",
+    "section": "ABSTRACT",
+    "status": "reported",
+    "value": "MED diet supplemented with olive oil"
+   },
+   "comparator": {
+    "quote": "MED diet supplemented with mixed nuts",
+    "section": "ABSTRACT",
+    "status": "reported",
+    "value": "MED diet supplemented with mixed nuts"
+   },
+   "follow_up": {
+    "quote": null,
+    "section": null,
+    "status": "not_reported",
+    "value": null
+   }
+  },
+  "primary_findings": [],
+  "limitations_stated": []
+ }
+}

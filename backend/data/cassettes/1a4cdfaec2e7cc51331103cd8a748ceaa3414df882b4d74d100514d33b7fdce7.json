@@ -1,0 +1,113 @@
+{
+ "provider": "openrouter",
+ "model": "nvidia/nemotron-3-ultra-550b-a55b",
+ "usage": {
+  "input_tokens": 3410,
+  "output_tokens": 1157
+ },
+ "output": {
+  "study": {
+   "design": {
+    "status": "reported",
+    "value": "rct",
+    "quote": "We conducted a multicenter, randomized, double-blind, placebo-controlled trial across 5 outpatient clinics in Moscow, Russia.",
+    "section": "ABSTRACT",
+    "confidence": "high"
+   },
+   "population": {
+    "status": "reported",
+    "value": "outpatients with chronic heart failure (CHF) and reduced ejection fraction (<40%)",
+    "quote": "outpatients with chronic heart failure (CHF) and reduced ejection fraction (<40%)",
+    "section": "ABSTRACT",
+    "confidence": "high"
+   },
+   "sample_size": {
+    "status": "reported",
+    "value": 393,
+    "quote": "A total of 393 patients were randomized into 3 groups",
+    "section": "ABSTRACT",
+    "confidence": "high"
+   },
+   "intervention": {
+    "status": "reported",
+    "value": "levosimendan (0.1 \u00b5g/kg/min, 24-hour infusions every 3 weeks) and combination therapy (levosimendan plus dapagliflozin 10 mg/day)",
+    "quote": "levosimendan (0.1 \u00b5g/kg/min, 24-hour infusions every 3 weeks), placebo, and combination therapy (levosimendan plus dapagliflozin 10 mg/day)",
+    "section": "ABSTRACT",
+    "confidence": "high"
+   },
+   "comparator": {
+    "status": "reported",
+    "value": "placebo",
+    "quote": "levosimendan (0.1 \u00b5g/kg/min, 24-hour infusions every 3 weeks), placebo, and combination therapy (levosimendan plus dapagliflozin 10 mg/day)",
+    "section": "ABSTRACT",
+    "confidence": "high"
+   },
+   "follow_up": {
+    "status": "reported",
+    "value": "3 months and 6 months",
+    "quote": "significant MLHFQ score changes at 3 months ( P = 0.02) and 6 months ( P = 0.04)",
+    "section": "ABSTRACT",
+    "confidence": "high"
+   }
+  },
+  "primary_findings": [
+   {
+    "quote": "Combination therapy produced the greatest clinical benefit, with significant reductions in NT-proBNP ( P = 0.03) and hospitalization rates ( P = 0.04), and a significantly lower risk of hospitalization or death compared with placebo (HR = 0.58, 95% CI: 0.36-0.92, P = 0.021).",
+    "section": "ABSTRACT",
+    "confidence": "high",
+    "outcome": "hospitalization or death",
+    "direction": "favors_intervention",
+    "effect_measure": "HR",
+    "effect_value": 0.58,
+    "ci_low": 0.36,
+    "ci_high": 0.92,
+    "p_value": 0.021
+   },
+   {
+    "quote": "Improvements in quality of life were also most pronounced in the combination group, with significant MLHFQ score changes at 3 months ( P = 0.02) and 6 months ( P = 0.04).",
+    "section": "ABSTRACT",
+    "confidence": "high",
+    "outcome": "quality of life (MLHFQ score)",
+    "direction": "favors_intervention",
+    "effect_measure": "other",
+    "effect_value": null,
+    "ci_low": null,
+    "ci_high": null,
+    "p_value": 0.02
+   },
+   {
+    "quote": "Combination therapy produced the greatest clinical benefit, with significant reductions in NT-proBNP ( P = 0.03) and hospitalization rates ( P = 0.04), and a significantly lower risk of hospitalization or death compared with placebo (HR = 0.58, 95% CI: 0.36-0.92, P = 0.021).",
+    "section": "ABSTRACT",
+    "confidence": "high",
+    "outcome": "NT-proBNP levels",
+    "direction": "favors_intervention",
+    "effect_measure": "other",
+    "effect_value": null,
+    "ci_low": null,
+    "ci_high": null,
+    "p_value": 0.03
+   },
+   {
+    "quote": "Combination therapy produced the greatest clinical benefit, with significant reductions in NT-proBNP ( P = 0.03) and hospitalization rates ( P = 0.04), and a significantly lower risk of hospitalization or death compared with placebo (HR = 0.58, 95% CI: 0.36-0.92, P = 0.021).",
+    "section": "ABSTRACT",
+    "confidence": "high",
+    "outcome": "hospitalization rates",
+    "direction": "favors_intervention",
+    "effect_measure": "other",
+    "effect_value": null,
+    "ci_low": null,
+    "ci_high": null,
+    "p_value": 0.04
+   }
+  ],
+  "limitations_stated": [
+   {
+    "status": "not_reported",
+    "value": null,
+    "quote": null,
+    "section": null,
+    "confidence": null
+   }
+  ]
+ }
+}

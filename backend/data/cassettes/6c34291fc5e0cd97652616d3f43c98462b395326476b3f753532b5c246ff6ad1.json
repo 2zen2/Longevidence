@@ -1,0 +1,74 @@
+{
+ "provider": "cloudflare",
+ "model": "@cf/openai/gpt-oss-20b",
+ "usage": {
+  "input_tokens": 1680,
+  "output_tokens": 2966
+ },
+ "output": {
+  "study": {
+   "design": {
+    "quote": "Twenty-three healthy individuals were randomly assigned to either a TRE or a control (CON) group.",
+    "section": "METHODS",
+    "status": "reported",
+    "value": "rct"
+   },
+   "population": {
+    "quote": "Twenty-three healthy individuals were randomly assigned to either a TRE or a control (CON) group.",
+    "section": "METHODS",
+    "status": "reported",
+    "value": "healthy resistance-trained individuals"
+   },
+   "sample_size": {
+    "quote": "Twenty-three healthy individuals were randomly assigned to either a TRE or a control (CON) group.",
+    "section": "METHODS",
+    "status": "reported",
+    "value": 23
+   },
+   "intervention": {
+    "quote": "time-restricted eating [TRE (16:8 protocol)]",
+    "section": "METHODS",
+    "status": "reported",
+    "value": "time-restricted eating (16:8 protocol)"
+   },
+   "comparator": {
+    "quote": "control (CON) group",
+    "section": "METHODS",
+    "status": "reported",
+    "value": "control (CON) group"
+   },
+   "follow_up": {
+    "quote": "All participants completed intense resistance training 3 times per week for 12 wk",
+    "section": "METHODS",
+    "status": "reported",
+    "value": "12 weeks"
+   }
+  },
+  "primary_findings": [
+   {
+    "quote": "CON group showed significantly greater increases in BW (+2.19 \u00b1 2.40; +3.90 \u00b1 2.14 kg; P = 0.018)",
+    "section": "RESULTS",
+    "confidence": "high",
+    "outcome": "Body weight increase",
+    "direction": "favors_comparator",
+    "effect_measure": null,
+    "effect_value": null,
+    "ci_low": null,
+    "ci_high": null,
+    "p_value": 0.018
+   },
+   {
+    "quote": "CON group showed significantly greater increases in fat mass (+2.00 \u00b1 2.49; +4.36 \u00b1 2.26 kg; P = 0.009)",
+    "section": "RESULTS",
+    "confidence": "high",
+    "outcome": "Fat mass increase",
+    "direction": "favors_comparator",
+    "effect_measure": null,
+    "effect_value": null,
+    "ci_low": null,
+    "ci_high": null,
+    "p_value": 0.009
+   }
+  ]
+ }
+}

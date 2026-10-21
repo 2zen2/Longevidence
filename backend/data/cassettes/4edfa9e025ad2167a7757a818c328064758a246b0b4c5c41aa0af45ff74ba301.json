@@ -1,0 +1,63 @@
+{
+ "provider": "cloudflare",
+ "model": "@cf/openai/gpt-oss-20b",
+ "usage": {
+  "input_tokens": 1487,
+  "output_tokens": 1691
+ },
+ "output": {
+  "study": {
+   "design": {
+    "quote": "randomised 2:1 proportion of participants added intermittent fasting (IF) in the last 3 months.",
+    "section": "METHODS",
+    "status": "reported",
+    "value": "rct"
+   },
+   "population": {
+    "quote": "initial mean HbA1c of 6.7 \u00b1 0.7%, mean T2D duration of 7.4 \u00b1 6.7 years",
+    "section": "RESULTS",
+    "status": "reported",
+    "value": "type 2 diabetes patients"
+   },
+   "sample_size": {
+    "quote": "34 participants (81%) who completed the programme",
+    "section": "RESULTS",
+    "status": "reported",
+    "value": 34
+   },
+   "intervention": {
+    "quote": "a 6-month programme based on ultra-processed food intake reduction, a Mediterranean diet, and physical training.",
+    "section": "METHODS",
+    "status": "reported",
+    "value": "ultra-processed food intake reduction, Mediterranean diet, and physical training"
+   },
+   "comparator": {
+    "quote": "Participants randomised to the IF add-on intervention group did not show significant additional improvement.",
+    "section": "RESULTS",
+    "status": "reported",
+    "value": "no intermittent fasting add-on"
+   },
+   "follow_up": {
+    "quote": "6-month programme",
+    "section": "METHODS",
+    "status": "reported",
+    "value": "6 months"
+   }
+  },
+  "primary_findings": [
+   {
+    "quote": "mean weight loss of -6.8 kg (-9.3 to -4.4, p < 0.001)",
+    "section": "RESULTS",
+    "confidence": "high",
+    "outcome": "weight loss",
+    "direction": "favors_intervention",
+    "effect_measure": "MD",
+    "effect_value": -6.8,
+    "ci_low": -9.3,
+    "ci_high": -4.4,
+    "p_value": null
+   }
+  ],
+  "limitations_stated": []
+ }
+}

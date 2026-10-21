@@ -1,0 +1,101 @@
+{
+ "provider": "openrouter",
+ "model": "deepseek/deepseek-v4.1-flash",
+ "usage": {
+  "input_tokens": 2474,
+  "output_tokens": 1133
+ },
+ "output": {
+  "study": {
+   "design": {
+    "status": "reported",
+    "value": "meta_analysis",
+    "quote": "Meta-analysis conducted to evaluate the effectiveness of high-dose (\u2265800 IU/day) and low-dose (<800 IU/day) vitamin D supplementation on preterm infants.",
+    "section": "ABSTRACT",
+    "confidence": "high"
+   },
+   "population": {
+    "status": "reported",
+    "value": "preterm infants",
+    "quote": "vitamin D supplementation on preterm infants",
+    "section": "ABSTRACT",
+    "confidence": "high"
+   },
+   "sample_size": {
+    "status": "reported",
+    "value": 1130,
+    "quote": "21 studies included 1130 infants",
+    "section": "ABSTRACT",
+    "confidence": "high"
+   },
+   "intervention": {
+    "status": "reported",
+    "value": "high-dose (\u2265800 IU/day) vitamin D supplementation",
+    "quote": "high-dose (\u2265800 IU/day) and low-dose (<800 IU/day) vitamin D supplementation",
+    "section": "ABSTRACT",
+    "confidence": "high"
+   },
+   "comparator": {
+    "status": "reported",
+    "value": "low-dose (<800 IU/day) vitamin D supplementation",
+    "quote": "high-dose (\u2265800 IU/day) and low-dose (<800 IU/day) vitamin D supplementation",
+    "section": "ABSTRACT",
+    "confidence": "high"
+   },
+   "follow_up": {
+    "status": "not_reported",
+    "value": null,
+    "quote": null,
+    "section": null,
+    "confidence": null
+   }
+  },
+  "primary_findings": [
+   {
+    "quote": "high-dose vitamin D supplementation was associated with increased serum 25-hydroxyvitamin D (25[OH]D) levels (mean difference 15.62 [13.35-17.88])",
+    "outcome": "Serum 25-hydroxyvitamin D (25[OH]D) levels (short-term)",
+    "direction": "favors_intervention",
+    "effect_measure": "MD",
+    "effect_value": 15.62,
+    "ci_low": 13.35,
+    "ci_high": 17.88,
+    "p_value": null,
+    "section": "ABSTRACT",
+    "confidence": "high"
+   },
+   {
+    "quote": "800 IU/day significantly increased serum 25(OH)D levels (mean difference 13.99 [9.03-18.95])",
+    "outcome": "Serum 25(OH)D levels (subgroup: 800 IU/day vs 400 IU/day)",
+    "direction": "favors_intervention",
+    "effect_measure": "MD",
+    "effect_value": 13.99,
+    "ci_low": 9.03,
+    "ci_high": 18.95,
+    "p_value": null,
+    "section": "ABSTRACT",
+    "confidence": "high"
+   },
+   {
+    "quote": "reduced the risk of VDD (risk difference -0.21 [-0.32 to -0.10]) compared to 400 IU/day",
+    "outcome": "Vitamin D deficiency (VDD) (subgroup: 800 IU/day vs 400 IU/day)",
+    "direction": "favors_intervention",
+    "effect_measure": "other",
+    "effect_value": -0.21,
+    "ci_low": -0.32,
+    "ci_high": -0.1,
+    "p_value": null,
+    "section": "ABSTRACT",
+    "confidence": "high"
+   }
+  ],
+  "limitations_stated": [
+   {
+    "status": "reported",
+    "value": "The certainty of the evidence ranges from moderate to very low.",
+    "quote": "The certainty of the evidence ranges from moderate to very low.",
+    "section": "ABSTRACT",
+    "confidence": "high"
+   }
+  ]
+ }
+}

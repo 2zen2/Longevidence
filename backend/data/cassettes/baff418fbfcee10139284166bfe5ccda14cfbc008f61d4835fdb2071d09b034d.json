@@ -1,0 +1,54 @@
+{
+ "provider": "openrouter",
+ "model": "deepseek/deepseek-v4.1-flash",
+ "usage": {
+  "input_tokens": 2617,
+  "output_tokens": 1351
+ },
+ "output": {
+  "study": "{\"design\": {\"status\": \"reported\", \"value\": \"rct\", \"quote\": \"In this single-center, prospective, randomized open-label study, 100 HFpEF patients were divided into 2 groups (n = 50 each).\", \"section\": \"RESULTS\", \"confidence\": \"high\"}, \"population\": {\"status\": \"reported\", \"value\": \"Patients with heart failure with preserved ejection fraction (HFpEF)\", \"quote\": \"100 HFpEF patients were divided into 2 groups (n = 50 each)\", \"section\": \"RESULTS\", \"confidence\": \"high\"}, \"sample_size\": {\"status\": \"reported\", \"value\": 100, \"quote\": \"100 HFpEF patients were divided into 2 groups (n = 50 each)\", \"section\": \"RESULTS\", \"confidence\": \"high\"}, \"intervention\": {\"status\": \"reported\", \"value\": \"Dapagliflozin 10 mg daily along with guideline-directed medical therapy (GDMT) for 6 months\", \"quote\": \"The study group received Dapagliflozin 10 mg daily along with guideline-directed medical therapy (GDMT) for 6 months\", \"section\": \"RESULTS\", \"confidence\": \"high\"}, \"comparator\": {\"status\": \"reported\", \"value\": \"GDMT only\", \"quote\": \"the control group received only GDMT\", \"section\": \"RESULTS\", \"confidence\": \"high\"}, \"follow_up\": {\"status\": \"reported\", \"value\": \"6 months\", \"quote\": \"The primary endpoint was to assess changes in LAEF after 6 months of sodium-glucose co-transporter-2 inhibitor (SGLT-2 inhibitor) therapy\", \"section\": \"METHODS\", \"confidence\": \"high\"}}",
+  "primary_findings": [
+   {
+    "outcome": "Left atrial ejection force (LAEF)",
+    "direction": "favors_intervention",
+    "quote": "The study group showed a significant reduction in LAEF (143.74 \u00b1 10.33 to 134.4 \u00b1 8.82; P < .001)",
+    "section": "RESULTS",
+    "p_value": 0.001,
+    "confidence": "high"
+   },
+   {
+    "outcome": "Left ventricular global longitudinal strain (LV-GLS)",
+    "direction": "favors_intervention",
+    "quote": "LV-GLS improvement (-15.9 \u00b1 4.13 to -17.1 \u00b1 3.53; P < .001)",
+    "section": "RESULTS",
+    "p_value": 0.001,
+    "confidence": "high"
+   },
+   {
+    "outcome": "LA reservoir strain",
+    "direction": "favors_intervention",
+    "quote": "enhanced LA strain parameters (LA reservoir strain: 28.74 \u00b1 9.31% to 36.39 \u00b1 12.3%",
+    "section": "RESULTS",
+    "p_value": null,
+    "confidence": "high"
+   },
+   {
+    "outcome": "Left ventricular mass index",
+    "direction": "favors_intervention",
+    "quote": "left ventricular mass index (199.9 \u00b1 21.17 to 186.24 \u00b1 16.77; P < .001)",
+    "section": "RESULTS",
+    "p_value": 0.001,
+    "confidence": "high"
+   },
+   {
+    "outcome": "Left atrial volume index",
+    "direction": "favors_intervention",
+    "quote": "left atrial volume index (36.17-32.21 mL/m2; P < .001) significantly decreased",
+    "section": "RESULTS",
+    "p_value": 0.001,
+    "confidence": "high"
+   }
+  ],
+  "limitations_stated": []
+ }
+}

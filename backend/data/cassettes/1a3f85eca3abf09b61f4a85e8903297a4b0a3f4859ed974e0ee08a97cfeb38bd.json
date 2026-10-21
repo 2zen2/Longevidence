@@ -1,0 +1,81 @@
+{
+ "provider": "openrouter",
+ "model": "nvidia/nemotron-3-ultra-550b-a55b",
+ "usage": {
+  "input_tokens": 3581,
+  "output_tokens": 851
+ },
+ "output": {
+  "study": {
+   "design": {
+    "status": "reported",
+    "value": "rct_secondary_analysis",
+    "quote": "This prespecified analysis examined efficacy, safety, and tolerability of empagliflozin in subgroups with de novo heart failure (NHF) vs acute decompensated heart failure (ADHF).",
+    "section": "ABSTRACT",
+    "confidence": "high"
+   },
+   "population": {
+    "status": "reported",
+    "value": "Patients hospitalized for acute heart failure, stratified by de novo heart failure (NHF) vs acute decompensated chronic heart failure (ADHF)",
+    "quote": "participants were randomized 1:1 to empagliflozin 10 mg/d or placebo, stratified by HF status (NHF: n = 175; ADHF: n = 355)",
+    "section": "ABSTRACT",
+    "confidence": "high"
+   },
+   "sample_size": {
+    "status": "reported",
+    "value": 530,
+    "quote": "stratified by HF status (NHF: n = 175; ADHF: n = 355)",
+    "section": "ABSTRACT",
+    "confidence": "high"
+   },
+   "intervention": {
+    "status": "reported",
+    "value": "Empagliflozin 10 mg daily",
+    "quote": "randomized 1:1 to empagliflozin 10 mg/d or placebo",
+    "section": "ABSTRACT",
+    "confidence": "high"
+   },
+   "comparator": {
+    "status": "reported",
+    "value": "Placebo",
+    "quote": "randomized 1:1 to empagliflozin 10 mg/d or placebo",
+    "section": "ABSTRACT",
+    "confidence": "high"
+   },
+   "follow_up": {
+    "status": "reported",
+    "value": "Day 90",
+    "quote": "primary endpoint was a hierarchical composite ... at day 90",
+    "section": "ABSTRACT",
+    "confidence": "high"
+   }
+  },
+  "primary_findings": [
+   {
+    "quote": "The win ratio was 1.29 (95% CI: 0.89-1.89) for NHF and 1.39 (95% CI: 1.07-1.81) for ADHF (Pinteraction = 0.759).",
+    "section": "ABSTRACT",
+    "confidence": "high",
+    "outcome": "Hierarchical composite of death, worsening HF, or \u22655-point difference in KCCQ-TSS change at day 90",
+    "direction": "favors_intervention",
+    "effect_measure": "Win ratio",
+    "effect_value": 1.39,
+    "ci_low": 1.07,
+    "ci_high": 1.81,
+    "p_value": 0.759
+   },
+   {
+    "quote": "diuretic response, which was greater with empagliflozin in NHF than in ADHF from day 15 (mean difference vs placebo: -5.11 [Q1-Q3: -7.89 to -2.32] vs -0.97 [Q1-Q3: -2.91 to 0.96] kg per mean daily loop diuretic dose, Pinteraction = 0.017)",
+    "section": "ABSTRACT",
+    "confidence": "high",
+    "outcome": "Diuretic response (weight loss per mean daily loop diuretic dose)",
+    "direction": "favors_intervention",
+    "effect_measure": "Mean difference vs placebo",
+    "effect_value": -5.11,
+    "ci_low": -7.89,
+    "ci_high": -2.32,
+    "p_value": 0.017
+   }
+  ],
+  "limitations_stated": []
+ }
+}

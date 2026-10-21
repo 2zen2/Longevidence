@@ -1,0 +1,78 @@
+{
+ "provider": "cloudflare",
+ "model": "@cf/openai/gpt-oss-20b",
+ "usage": {
+  "input_tokens": 1650,
+  "output_tokens": 3548
+ },
+ "output": {
+  "study": {
+   "design": {
+    "status": "reported",
+    "value": "meta_analysis"
+   },
+   "population": {
+    "status": "reported",
+    "value": "patients with type 2 diabetes mellitus (T2DM) and prediabetes"
+   },
+   "sample_size": {
+    "status": "reported",
+    "value": 899
+   },
+   "intervention": {
+    "status": "reported",
+    "value": "intermittent fasting (IF)"
+   },
+   "comparator": {
+    "status": "reported",
+    "value": "ad libitum diet and continuous energy restriction diets (CERD)"
+   },
+   "follow_up": {
+    "status": "not_reported"
+   }
+  },
+  "primary_findings": [
+   {
+    "quote": "(Standard-ized Mean Difference (SMD) (Hedges's g) -0.64, 95% Confidence Interval (CI) -1.04, -0.24; p <0.05)",
+    "outcome": "HbA1c change",
+    "direction": "favors_intervention",
+    "effect_measure": "MD",
+    "effect_value": -1.04,
+    "ci_low": -1.04,
+    "ci_high": -1.04,
+    "p_value": null
+   },
+   {
+    "quote": "(SMD (Hedges's g) -0.30, 95% CI -0.55, -0.05; p <0.05)",
+    "outcome": "Body weight (BW) change",
+    "direction": "favors_intervention",
+    "effect_measure": "MD",
+    "effect_value": -1.04,
+    "ci_low": -1.04,
+    "ci_high": -1.04,
+    "p_value": null
+   },
+   {
+    "quote": "(SMD (Hedges's g) -0.26, 95% CI -0.51, 0.00; p = 0.05)",
+    "outcome": "Body mass index (BMI) change",
+    "direction": "no_difference",
+    "effect_measure": "MD",
+    "effect_value": -1.04,
+    "ci_low": -1.04,
+    "ci_high": -1.04,
+    "p_value": 0.05
+   },
+   {
+    "quote": "(SMD (Hedges's g) -0.39, 95% CI -0.64 to -0.15; p <0.05)",
+    "outcome": "Fasting blood glucose (FBG) change",
+    "direction": "favors_intervention",
+    "effect_measure": "MD",
+    "effect_value": -1.04,
+    "ci_low": -1.04,
+    "ci_high": -1.04,
+    "p_value": null
+   }
+  ],
+  "limitations_stated": []
+ }
+}

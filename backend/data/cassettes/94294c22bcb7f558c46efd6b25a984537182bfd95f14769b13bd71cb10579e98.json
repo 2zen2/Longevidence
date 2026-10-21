@@ -1,0 +1,64 @@
+{
+ "provider": "openrouter",
+ "model": "nvidia/nemotron-3-ultra-550b-a55b",
+ "usage": {
+  "input_tokens": 3396,
+  "output_tokens": 735
+ },
+ "output": {
+  "study": {
+   "design": {
+    "status": "reported",
+    "value": "rct",
+    "quote": "AURORA is a phase 1b, placebo-controlled, double-blind, 2-centre study of AZD5462 on top of dapagliflozin as standard of care in 2 arms.",
+    "section": "ABSTRACT",
+    "confidence": "high"
+   },
+   "population": {
+    "status": "reported",
+    "value": "Participants with heart failure with ejection fraction \u226450% and moderate renal impairment (estimated glomerular filtration rate of 30-60 mL/min/1.73 m2, inclusive)",
+    "quote": "Approximately 40 participants with heart failure with ejection fraction \u226450% and moderate renal impairment (estimated glomerular filtration rate of 30-60 mL/min/1.73 m2, inclusive) will be randomized 1:1 to AZD5462 or placebo tablets for a treatment period of 4 weeks.",
+    "section": "ABSTRACT",
+    "confidence": "high"
+   },
+   "sample_size": {
+    "status": "reported",
+    "value": 40,
+    "quote": "Approximately 40 participants with heart failure with ejection fraction \u226450% and moderate renal impairment (estimated glomerular filtration rate of 30-60 mL/min/1.73 m2, inclusive) will be randomized 1:1 to AZD5462 or placebo tablets for a treatment period of 4 weeks.",
+    "section": "ABSTRACT",
+    "confidence": "high"
+   },
+   "intervention": {
+    "status": "reported",
+    "value": "AZD5462 tablets",
+    "quote": "Approximately 40 participants with heart failure with ejection fraction \u226450% and moderate renal impairment (estimated glomerular filtration rate of 30-60 mL/min/1.73 m2, inclusive) will be randomized 1:1 to AZD5462 or placebo tablets for a treatment period of 4 weeks.",
+    "section": "ABSTRACT",
+    "confidence": "high"
+   },
+   "comparator": {
+    "status": "reported",
+    "value": "Placebo tablets",
+    "quote": "Approximately 40 participants with heart failure with ejection fraction \u226450% and moderate renal impairment (estimated glomerular filtration rate of 30-60 mL/min/1.73 m2, inclusive) will be randomized 1:1 to AZD5462 or placebo tablets for a treatment period of 4 weeks.",
+    "section": "ABSTRACT",
+    "confidence": "high"
+   },
+   "follow_up": {
+    "status": "reported",
+    "value": "4 weeks treatment period",
+    "quote": "Approximately 40 participants with heart failure with ejection fraction \u226450% and moderate renal impairment (estimated glomerular filtration rate of 30-60 mL/min/1.73 m2, inclusive) will be randomized 1:1 to AZD5462 or placebo tablets for a treatment period of 4 weeks.",
+    "section": "ABSTRACT",
+    "confidence": "high"
+   }
+  },
+  "primary_findings": [],
+  "limitations_stated": [
+   {
+    "status": "not_reported",
+    "value": null,
+    "quote": null,
+    "section": null,
+    "confidence": null
+   }
+  ]
+ }
+}

@@ -1,0 +1,117 @@
+{
+ "provider": "cloudflare",
+ "model": "@cf/openai/gpt-oss-20b",
+ "usage": {
+  "input_tokens": 1760,
+  "output_tokens": 3321
+ },
+ "output": {
+  "study": {
+   "design": {
+    "quote": "This study is a secondary analysis of data from a randomized controlled trial carried out between October 2020 and October 2023.",
+    "section": "ABSTRACT",
+    "confidence": "high",
+    "status": "reported",
+    "value": "rct_secondary_analysis"
+   },
+   "population": {
+    "quote": "Adults with obesity in the Minneapolis-Saint Paul, Minnesota, metropolitan area who completed study baseline and follow-up measures of dietary intake (n = 73).",
+    "section": "ABSTRACT",
+    "confidence": "medium",
+    "status": "reported",
+    "value": "Adults with obesity in the Minneapolis-Saint Paul, Minnesota, metropolitan area"
+   },
+   "sample_size": {
+    "quote": "Adults with obesity in the Minneapolis-Saint Paul, Minnesota, metropolitan area who completed study baseline and follow-up measures of dietary intake (n = 73).",
+    "section": "ABSTRACT",
+    "confidence": "high",
+    "status": "reported",
+    "value": 73
+   },
+   "intervention": {
+    "quote": "The interventions were (1) TRE with an 8-hour self-chosen window with ad libitum diet;",
+    "section": "ABSTRACT",
+    "confidence": "high",
+    "status": "reported",
+    "value": "TRE with an 8-hour self-chosen window with ad libitum diet"
+   },
+   "comparator": {
+    "quote": "The interventions were (1) TRE with an 8-hour self-chosen window with ad libitum diet; (2) ER diet with 15% reduction of energy intake; or (3) UE in which self-monitoring of food intake was encouraged with no specific change to eating recommended.",
+    "section": "ABSTRACT",
+    "confidence": "high",
+    "status": "reported",
+    "value": "ER diet and UE diet"
+   },
+   "follow_up": {
+    "quote": "The intervention period was 12 weeks.",
+    "section": "ABSTRACT",
+    "confidence": "high",
+    "status": "reported",
+    "value": "12 weeks"
+   }
+  },
+  "primary_findings": [
+   {
+    "quote": "The TRE group ate fewer daily meals at end-intervention (-1.1 meals/day; 95% confidence interval [CI], -1.6, -0.7) compared with baseline.",
+    "section": "RESULTS",
+    "confidence": "high",
+    "outcome": "Meals eaten (daily meals)",
+    "direction": "favors_intervention",
+    "effect_measure": "MD",
+    "effect_value": -1.1,
+    "ci_low": -1.6,
+    "ci_high": -1.7,
+    "p_value": null
+   },
+   {
+    "quote": "Those in the TRE group were less likely to report eating breakfast during end-intervention compared with baseline (odds ratio [OR], 0.13; 95% CI, 0.05, 0.33).",
+    "section": "RESULTS",
+    "confidence": "high",
+    "outcome": "Breakfast consumption",
+    "direction": "favors_intervention",
+    "effect_measure": "OR",
+    "effect_value": 0.13,
+    "ci_low": 0.05,
+    "ci_high": 0.33,
+    "p_value": null
+   },
+   {
+    "quote": "Between baseline and end-intervention those in the TRE group had a decrease in intake of energy (-469 kcal/day; 95% CI, -681, -257).",
+    "section": "RESULTS",
+    "confidence": "high",
+    "outcome": "Energy intake",
+    "direction": "favors_intervention",
+    "effect_measure": "MD",
+    "effect_value": -469,
+    "ci_low": -681,
+    "ci_high": -257,
+    "p_value": null
+   },
+   {
+    "quote": "Between baseline and end-intervention those in the TRE group had a decrease in intake of saturated fat (-8.5 g/day; 95% CI, -12.9, -4.1).",
+    "section": "RESULTS",
+    "confidence": "high",
+    "outcome": "Saturated fat intake",
+    "direction": "favors_intervention",
+    "effect_measure": "MD",
+    "effect_value": -8.5,
+    "ci_low": -12.9,
+    "ci_high": -4.1,
+    "p_value": null
+   },
+   {
+    "quote": "Between baseline and end-intervention those in the TRE group had a decrease in intake of potassium (-496 mg/day; 95% CI, -729, -263).",
+    "section": "RESULTS",
+    "confidence": "high",
+    "outcome": "Potassium intake",
+    "direction": "favors_intervention",
+    "effect_measure": "MD",
+    "effect_value": -496,
+    "ci_low": -729,
+    "ci_high": -263,
+    "p_value": null
+   }
+  ],
+  "limitations_stated": []
+ }
+}

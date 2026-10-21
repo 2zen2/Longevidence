@@ -1,0 +1,105 @@
+{
+ "provider": "cloudflare",
+ "model": "@cf/openai/gpt-oss-20b",
+ "usage": {
+  "input_tokens": 1627,
+  "output_tokens": 1966
+ },
+ "output": {
+  "study": {
+   "design": {
+    "quote": "randomized cross-over trial",
+    "section": "METHODS",
+    "confidence": "high",
+    "status": "reported",
+    "value": "rct"
+   },
+   "population": {
+    "quote": "overweight/obesity and T2DM",
+    "section": "METHODS",
+    "confidence": "medium",
+    "status": "reported",
+    "value": "overweight/obesity and T2DM"
+   },
+   "sample_size": {
+    "quote": "39 participants",
+    "section": "METHODS",
+    "confidence": "high",
+    "status": "reported",
+    "value": 39
+   },
+   "intervention": {
+    "quote": "6 weeks of TRE (20 h fasting/4 h eating)",
+    "section": "METHODS",
+    "confidence": "high",
+    "status": "reported",
+    "value": "6 weeks of TRE (20 h fasting/4 h eating)"
+   },
+   "comparator": {
+    "quote": "standard lifestyle",
+    "section": "METHODS",
+    "confidence": "high",
+    "status": "reported",
+    "value": "standard lifestyle"
+   },
+   "follow_up": {
+    "quote": null,
+    "section": null,
+    "confidence": null,
+    "status": "not_reported",
+    "value": null
+   }
+  },
+  "primary_findings": [
+   {
+    "quote": "TRE-induced calorie deficit as participants self-reported ingested -384 \u00b1 488 Kcal/day less during TRE as compared to the standard lifestyle period (P < 0.001)",
+    "section": "RESULTS",
+    "confidence": "high",
+    "outcome": "calorie deficit",
+    "direction": "favors_intervention",
+    "effect_measure": "MD",
+    "effect_value": -384,
+    "ci_low": null,
+    "ci_high": null,
+    "p_value": null
+   },
+   {
+    "quote": "significant decrease in both fasting leptin (-2445 \u00b1 885 ng/mL, P = 0.009)",
+    "section": "RESULTS",
+    "confidence": "high",
+    "outcome": "fasting leptin",
+    "direction": "favors_intervention",
+    "effect_measure": "MD",
+    "effect_value": -2445,
+    "ci_low": null,
+    "ci_high": null,
+    "p_value": null
+   },
+   {
+    "quote": "significant decrease in leptin response to OGTT (AUC0-120 min -12776 \u00b1 3088, P < 0.001)",
+    "section": "RESULTS",
+    "confidence": "high",
+    "outcome": "leptin AUC",
+    "direction": "favors_intervention",
+    "effect_measure": "MD",
+    "effect_value": -12776,
+    "ci_low": null,
+    "ci_high": null,
+    "p_value": null
+   },
+   {
+    "quote": "significant increase in fasting ghrelin (28 \u00b1 11.3 pg/mL, P = 0.02)",
+    "section": "RESULTS",
+    "confidence": "high",
+    "outcome": "fasting ghrelin",
+    "direction": "favors_intervention",
+    "effect_measure": "MD",
+    "effect_value": 28,
+    "ci_low": null,
+    "ci_high": null,
+    "p_value": null
+   }
+  ],
+  "limitations_stated": []
+ }
+}

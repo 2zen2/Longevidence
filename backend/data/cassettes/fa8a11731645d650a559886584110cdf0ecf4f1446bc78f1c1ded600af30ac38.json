@@ -1,0 +1,51 @@
+{
+ "provider": "cloudflare",
+ "model": "@cf/openai/gpt-oss-20b",
+ "usage": {
+  "input_tokens": 1048,
+  "output_tokens": 1644
+ },
+ "output": {
+  "study": {
+   "title": "Calcium, vitamin D, or combined supplementation to prevent fractures and falls: systematic review and meta-analysis.",
+   "design": "rct_secondary_analysis",
+   "sample_size": 153902
+  },
+  "primary_findings": [
+   {
+    "intervention": "calcium supplements",
+    "comparator": "placebo or no treatment",
+    "effect_estimate": 0.91,
+    "ci": "0.81 to 1.01",
+    "direction": "no_difference",
+    "quote": "risk ratio 0.91, 95% confidence interval 0.81 to 1.01",
+    "section": "RESULTS"
+   },
+   {
+    "intervention": "vitamin D supplements",
+    "comparator": "placebo or no treatment",
+    "effect_estimate": 1.0,
+    "ci": "0.95 to 1.06",
+    "direction": "no_difference",
+    "quote": "risk ratio 1.00, 0.95 to 1.06",
+    "section": "RESULTS"
+   },
+   {
+    "intervention": "combined supplementation",
+    "comparator": "placebo or no treatment",
+    "effect_estimate": 0.91,
+    "ci": "0.84 to 0.99",
+    "direction": "benefit",
+    "quote": "risk ratio 0.91, 0.84 to 0.99",
+    "section": "RESULTS"
+   }
+  ],
+  "limitations_stated": [
+   {
+    "quote": "Evidence for high risk patients or those requiring residential care was limited for many outcomes for calcium monotherapy and for combined supplementation.",
+    "section": "RESULTS"
+   }
+  ],
+  "confidence": "high"
+ }
+}

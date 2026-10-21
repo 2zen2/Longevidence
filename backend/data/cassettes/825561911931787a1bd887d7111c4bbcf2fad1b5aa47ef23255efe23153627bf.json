@@ -1,0 +1,50 @@
+{
+ "provider": "cloudflare",
+ "model": "@cf/openai/gpt-oss-20b",
+ "usage": {
+  "input_tokens": 1534,
+  "output_tokens": 1310
+ },
+ "output": {
+  "study": {
+   "design": {
+    "quote": "This is an exploratory analysis of a randomized controlled trial",
+    "section": "METHODS",
+    "status": "reported",
+    "value": "rct"
+   },
+   "population": {
+    "quote": "Adults (n = 209, 57% female; 58 \u00b1 10 years, 34.8 \u00b1 4.7 kg/m2) with obesity",
+    "section": "METHODS",
+    "status": "reported",
+    "value": "adults with obesity"
+   },
+   "sample_size": {
+    "quote": "Adults (n = 209, 57% female; 58 \u00b1 10 years, 34.8 \u00b1 4.7 kg/m2) with obesity",
+    "section": "METHODS",
+    "status": "reported",
+    "value": 209
+   },
+   "intervention": {
+    "quote": "intermittent fasting plus early time-restricted eating (iTRE, 30% energy requirements between 8am and 12pm followed by 20-h fasting three non-consecutive days, non-restricted on other days)",
+    "section": "METHODS",
+    "status": "reported",
+    "value": "intermittent fasting plus early time-restricted eating (iTRE)"
+   },
+   "comparator": {
+    "quote": null,
+    "section": null,
+    "status": "not_reported",
+    "value": null
+   },
+   "follow_up": {
+    "quote": "6-month intervention and 12-month follow-up",
+    "section": "METHODS",
+    "status": "reported",
+    "value": "12 months"
+   }
+  },
+  "primary_findings": [],
+  "limitations_stated": []
+ }
+}

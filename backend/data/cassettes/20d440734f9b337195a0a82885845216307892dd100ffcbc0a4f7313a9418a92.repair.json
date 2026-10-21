@@ -1,0 +1,55 @@
+{
+ "provider": "cloudflare",
+ "model": "@cf/openai/gpt-oss-20b",
+ "usage": {
+  "input_tokens": 1422,
+  "output_tokens": 2198
+ },
+ "output": {
+  "study": {
+   "title": "Ultra-processed food consumption and risk of multiple chronic diseases among 8,819,894 adults from 51 prospective cohorts: a dose-response meta-analysis.",
+   "population": "Adults (\u226518 years) without restriction to specific clinical conditions at baseline.",
+   "intervention": "Consumption of ultra-processed foods (UPFs).",
+   "comparator": "Lower or no consumption of UPFs.",
+   "follow_up": "not_reported"
+  },
+  "primary_findings": [
+   {
+    "outcome": "Cardiovascular events",
+    "effect_estimate": "Hazard Ratio (HR) 1.24, 95% Confidence Interval (CI) 1.14 to 1.36",
+    "direction": "favors_comparator",
+    "quote": "Hazard Ratio (HR) 1.24, 95% Confidence Interval (CI) 1.14 to 1.36",
+    "section": "RESULTS"
+   },
+   {
+    "outcome": "Cancer",
+    "effect_estimate": "Hazard Ratio (HR) 1.12, 95% Confidence Interval (CI) 1.04 to 1.21",
+    "direction": "favors_comparator",
+    "quote": "Hazard Ratio (HR) 1.12, 95% Confidence Interval (CI) 1.04 to 1.21",
+    "section": "RESULTS"
+   },
+   {
+    "outcome": "All-cause mortality",
+    "effect_estimate": "Hazard Ratio (HR) 1.18, 95% Confidence Interval (CI) 1.10 to 1.26",
+    "direction": "favors_comparator",
+    "quote": "Hazard Ratio (HR) 1.18, 95% Confidence Interval (CI) 1.10 to 1.26",
+    "section": "RESULTS"
+   },
+   {
+    "outcome": "Metabolic syndrome/diabetes",
+    "effect_estimate": "Hazard Ratio (HR) 1.24, 95% Confidence Interval (CI) 1.08 to 1.42",
+    "direction": "favors_comparator",
+    "quote": "Hazard Ratio (HR) 1.24, 95% Confidence Interval (CI) 1.08 to 1.42",
+    "section": "RESULTS"
+   },
+   {
+    "outcome": "Obesity/overweight",
+    "effect_estimate": "Hazard Ratio (HR) 1.23, 95% Confidence Interval (CI) 1.17 to 1.30",
+    "direction": "favors_comparator",
+    "quote": "Hazard Ratio (HR) 1.23, 95% Confidence Interval (CI) 1.17 to 1.30",
+    "section": "RESULTS"
+   }
+  ],
+  "limitations_stated": []
+ }
+}

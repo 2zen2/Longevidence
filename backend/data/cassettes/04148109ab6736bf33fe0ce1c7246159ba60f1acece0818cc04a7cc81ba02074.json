@@ -1,0 +1,91 @@
+{
+ "provider": "openrouter",
+ "model": "deepseek/deepseek-v4.1-flash",
+ "usage": {
+  "input_tokens": 2685,
+  "output_tokens": 1221
+ },
+ "output": {
+  "study": {
+   "design": {
+    "status": "reported",
+    "value": "rct_secondary_analysis",
+    "quote": "This prespecified analysis examined efficacy, safety, and tolerability of empagliflozin in subgroups with de novo heart failure (NHF) vs acute decompensated heart failure (ADHF).",
+    "section": "OBJECTIVES",
+    "confidence": "high"
+   },
+   "population": {
+    "status": "reported",
+    "value": "Patients hospitalized for heart failure, subgroups with de novo heart failure (NHF) vs acute decompensated heart failure (ADHF)",
+    "quote": "empagliflozin improved clinical outcomes in patients hospitalized for heart failure (HF)",
+    "section": "BACKGROUND",
+    "confidence": "high"
+   },
+   "sample_size": {
+    "status": "reported",
+    "value": 530,
+    "quote": "stratified by HF status (NHF: n = 175; ADHF: n = 355)",
+    "section": "METHODS",
+    "confidence": "high"
+   },
+   "intervention": {
+    "status": "reported",
+    "value": "empagliflozin 10 mg/d",
+    "quote": "participants were randomized 1:1 to empagliflozin 10 mg/d or placebo",
+    "section": "METHODS",
+    "confidence": "high"
+   },
+   "comparator": {
+    "status": "reported",
+    "value": "placebo",
+    "quote": "participants were randomized 1:1 to empagliflozin 10 mg/d or placebo",
+    "section": "METHODS",
+    "confidence": "high"
+   },
+   "follow_up": {
+    "status": "reported",
+    "value": "Day 90",
+    "quote": "The primary endpoint was a hierarchical composite of death, worsening HF, or \u22655-point difference in Kansas City Cardiomyopathy Questionnaire-Total Symptom Score (KCCQ-TSS) change at day 90, assessed using a win ratio.",
+    "section": "METHODS",
+    "confidence": "high"
+   }
+  },
+  "primary_findings": [
+   {
+    "quote": "The win ratio was 1.29 (95% CI: 0.89-1.89) for NHF",
+    "outcome": "Hierarchical composite of death, worsening HF, or \u22655-point difference in KCCQ-TSS change at day 90 (NHF subgroup)",
+    "direction": "no_difference",
+    "effect_measure": "other",
+    "effect_value": 1.29,
+    "ci_low": 0.89,
+    "ci_high": 1.89,
+    "section": "RESULTS",
+    "confidence": "high"
+   },
+   {
+    "quote": "1.39 (95% CI: 1.07-1.81) for ADHF",
+    "outcome": "Hierarchical composite of death, worsening HF, or \u22655-point difference in KCCQ-TSS change at day 90 (ADHF subgroup)",
+    "direction": "favors_intervention",
+    "effect_measure": "other",
+    "effect_value": 1.39,
+    "ci_low": 1.07,
+    "ci_high": 1.81,
+    "section": "RESULTS",
+    "confidence": "high"
+   },
+   {
+    "quote": "diuretic response, which was greater with empagliflozin in NHF than in ADHF from day 15 (mean difference vs placebo: -5.11 [Q1-Q3: -7.89 to -2.32] vs -0.97 [Q1-Q3: -2.91 to 0.96] kg per mean daily loop diuretic dose, Pinteraction = 0.017)",
+    "outcome": "Diuretic response from day 15",
+    "direction": "favors_intervention",
+    "effect_measure": "MD",
+    "effect_value": -5.11,
+    "ci_low": -7.89,
+    "ci_high": -2.32,
+    "p_value": 0.017,
+    "section": "RESULTS",
+    "confidence": "high"
+   }
+  ],
+  "limitations_stated": []
+ }
+}

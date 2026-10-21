@@ -1,0 +1,54 @@
+{
+ "provider": "cloudflare",
+ "model": "@cf/openai/gpt-oss-20b",
+ "usage": {
+  "input_tokens": 884,
+  "output_tokens": 913
+ },
+ "output": {
+  "study": {
+   "title": "Vitamin D supplementation and cardiovascular disease events: a systematic review and pooled meta-analysis of randomized clinical trials",
+   "design": "systematic review and meta-analysis",
+   "sample_size": "114 379 participants"
+  },
+  "primary_findings": [
+   {
+    "outcome": "CVD events",
+    "effect_size": "RR = 0.95",
+    "ci": "95%CI: 0.88-1.04",
+    "direction": "no_difference",
+    "quote": "RR = 0.95, 95%CI: 0.88-1.04",
+    "section": "ABSTRACT",
+    "confidence": "high"
+   },
+   {
+    "outcome": "CVD mortality",
+    "effect_size": "RR = 1.04",
+    "ci": "95%CI: 0.871-1.242",
+    "direction": "no_difference",
+    "quote": "RR = 1.04, 95%CI: 0.871-1.242",
+    "section": "ABSTRACT",
+    "confidence": "high"
+   },
+   {
+    "outcome": "myocardial infarction event",
+    "effect_size": "RR = 0.96",
+    "ci": "95%CI: 0.83-1.11",
+    "direction": "no_difference",
+    "quote": "RR = 0.96, 95%CI: 0.83-1.11",
+    "section": "ABSTRACT",
+    "confidence": "high"
+   },
+   {
+    "outcome": "myocardial infarction mortality",
+    "effect_size": "RR = 1.527",
+    "ci": "95%CI: 0.828-2.816",
+    "direction": "no_difference",
+    "quote": "RR = 1.527, 95%CI: 0.828-2.816",
+    "section": "ABSTRACT",
+    "confidence": "high"
+   }
+  ],
+  "limitations_stated": []
+ }
+}

@@ -1,0 +1,48 @@
+{
+ "provider": "cloudflare",
+ "model": "@cf/openai/gpt-oss-20b",
+ "usage": {
+  "input_tokens": 1462,
+  "output_tokens": 1352
+ },
+ "output": {
+  "study": {
+   "design": {
+    "status": "reported",
+    "value": "rct"
+   },
+   "population": {
+    "status": "reported",
+    "value": "adults aged 60-85 years"
+   },
+   "sample_size": {
+    "status": "reported",
+    "value": 21308
+   },
+   "intervention": {
+    "status": "reported",
+    "value": "vitamin D3 60,000 IU per month"
+   },
+   "comparator": {
+    "status": "reported",
+    "value": "matching placebo"
+   },
+   "follow_up": {
+    "status": "reported",
+    "value": "up to 5 years"
+   }
+  },
+  "primary_findings": [
+   {
+    "quote": "We found no difference in cancer incidence between the two groups (HR 1.02; 95 % CI 0.95-1.10).",
+    "outcome": "cancer incidence",
+    "direction": "no_difference",
+    "effect_measure": "HR",
+    "effect_value": 1.02,
+    "ci_low": 0.95,
+    "ci_high": 1.1
+   }
+  ],
+  "limitations_stated": []
+ }
+}

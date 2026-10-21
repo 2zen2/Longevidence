@@ -1,0 +1,69 @@
+{
+ "provider": "openrouter",
+ "model": "deepseek/deepseek-v4.1-flash",
+ "usage": {
+  "input_tokens": 2547,
+  "output_tokens": 1032
+ },
+ "output": {
+  "study": {
+   "design": {
+    "status": "reported",
+    "value": "rct",
+    "quote": "We conducted a multicenter, randomized, double-blind, placebo-controlled trial across 5 outpatient clinics in Moscow, Russia.",
+    "section": "ABSTRACT",
+    "confidence": "high"
+   },
+   "population": {
+    "status": "reported",
+    "value": "Outpatients with chronic heart failure (CHF) and reduced ejection fraction (<40%)",
+    "quote": "in outpatients with chronic heart failure (CHF) and reduced ejection fraction (<40%)",
+    "section": "ABSTRACT",
+    "confidence": "high"
+   },
+   "sample_size": {
+    "status": "reported",
+    "value": 393,
+    "quote": "A total of 393 patients were randomized into 3 groups",
+    "section": "ABSTRACT",
+    "confidence": "high"
+   },
+   "intervention": {
+    "status": "reported",
+    "value": "Levosimendan (0.1 \u00b5g/kg/min, 24-hour infusions every 3 weeks) and combination therapy (levosimendan plus dapagliflozin 10 mg/day)",
+    "quote": "levosimendan (0.1 \u00b5g/kg/min, 24-hour infusions every 3 weeks), placebo, and combination therapy (levosimendan plus dapagliflozin 10 mg/day)",
+    "section": "ABSTRACT",
+    "confidence": "high"
+   },
+   "comparator": {
+    "status": "reported",
+    "value": "Placebo",
+    "quote": "levosimendan (0.1 \u00b5g/kg/min, 24-hour infusions every 3 weeks), placebo, and combination therapy (levosimendan plus dapagliflozin 10 mg/day)",
+    "section": "ABSTRACT",
+    "confidence": "high"
+   },
+   "follow_up": {
+    "status": "not_reported",
+    "value": null,
+    "quote": null,
+    "section": null,
+    "confidence": null
+   }
+  },
+  "primary_findings": [
+   {
+    "quote": "a significantly lower risk of hospitalization or death compared with placebo (HR = 0.58, 95% CI: 0.36-0.92, P = 0.021)",
+    "outcome": "Hospitalization or death",
+    "direction": "favors_intervention",
+    "effect_measure": "HR",
+    "effect_value": 0.58,
+    "ci_low": 0.36,
+    "ci_high": 0.92,
+    "p_value": 0.021,
+    "section": "ABSTRACT",
+    "confidence": "high"
+   }
+  ],
+  "limitations_stated": []
+ }
+}

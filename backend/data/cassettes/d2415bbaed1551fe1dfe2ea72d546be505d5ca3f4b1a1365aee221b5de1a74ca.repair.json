@@ -1,0 +1,44 @@
+{
+ "provider": "cloudflare",
+ "model": "@cf/openai/gpt-oss-20b",
+ "usage": {
+  "input_tokens": 1306,
+  "output_tokens": 1399
+ },
+ "output": {
+  "study": {
+   "design": {
+    "value": "cohort",
+    "status": "reported",
+    "quote": "This three-year prospective observational study",
+    "section": "ABSTRACT"
+   },
+   "population": {
+    "value": "158 adults with T2DM and AH",
+    "status": "reported",
+    "quote": "158 adults with T2DM and AH",
+    "section": "ABSTRACT"
+   },
+   "intervention": {
+    "value": "attendance at scheduled dietitian-led follow-up visits",
+    "status": "reported",
+    "quote": "attendance at scheduled dietitian-led follow-up visits",
+    "section": "ABSTRACT"
+   },
+   "comparator": {
+    "value": "participants without regular follow-up",
+    "status": "reported",
+    "quote": "participants without regular follow-up",
+    "section": "ABSTRACT"
+   },
+   "follow_up": {
+    "value": "three years",
+    "status": "reported",
+    "quote": "This three-year prospective observational study",
+    "section": "ABSTRACT"
+   }
+  },
+  "primary_findings": [],
+  "limitations_stated": []
+ }
+}

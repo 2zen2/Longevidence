@@ -1,0 +1,62 @@
+{
+ "provider": "cloudflare",
+ "model": "@cf/openai/gpt-oss-20b",
+ "usage": {
+  "input_tokens": 1504,
+  "output_tokens": 1605
+ },
+ "output": {
+  "study": {
+   "design": {
+    "quote": "A randomized non-inferiority, short-term, pilot feasibility trial",
+    "section": "METHODS",
+    "status": "reported",
+    "value": "rct"
+   },
+   "population": {
+    "quote": "patients with RWG who had undergone MBS",
+    "section": "METHODS",
+    "status": "reported",
+    "value": "patients with recurrent weight gain who had undergone metabolic bariatric surgery"
+   },
+   "sample_size": {
+    "quote": "Twenty patients were included",
+    "section": "RESULTS",
+    "status": "reported",
+    "value": 20
+   },
+   "intervention": {
+    "quote": "5:2 intermittent fasting (IF) (75% caloric restriction on two days per week)",
+    "section": "METHODS",
+    "status": "reported",
+    "value": "5:2 intermittent fasting (IF) (75% caloric restriction on two days per week)"
+   },
+   "comparator": {
+    "quote": "continuous caloric restriction (CCR) (25% divided into three meals)",
+    "section": "METHODS",
+    "status": "reported",
+    "value": "continuous caloric restriction (CCR) (25% divided into three meals)"
+   },
+   "follow_up": {
+    "quote": "over 12 weeks",
+    "section": "METHODS",
+    "status": "reported",
+    "value": "12 weeks"
+   }
+  },
+  "primary_findings": [
+   {
+    "quote": "The difference between the two groups remained within the predefined non-inferiority margin of 4 kg (-0.13; 95% CI: -2.90 to 2.62).",
+    "section": "RESULTS",
+    "outcome": "difference in weight change between 5:2 IF and CCR at 12 weeks",
+    "direction": "no_difference",
+    "effect_measure": "MD",
+    "effect_value": -0.13,
+    "ci_low": -2.9,
+    "ci_high": 2.62,
+    "p_value": null
+   }
+  ],
+  "limitations_stated": []
+ }
+}
