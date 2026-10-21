@@ -1,0 +1,4 @@
+Seed data exported 2026-10-20
+papers: 559
+claims: 4479
+embeddings: not included (run 'make index' after loading)
