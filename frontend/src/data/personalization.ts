@@ -1,7 +1,6 @@
 /**
  * MOCK personalization for the demo. Hand-written from the fictional profiles in mock_users.json; it is not produced by the
  * research pipeline, makes no diagnosis, and never states a study result. Topics are keyed by the question slug.
- * Guidance summarises published guidelines and was reviewed by a clinician.
  * `relevance` is the suggestion-card blurb; `interpretation` and `fields` are background kept for review and checked by the
  * validation script (the profile fields each entry rests on). `recovery` is shown as "Follow-up":
  * monitoring / re-measure guidance only, never a time-to-effect promise. Missing data (kidney function, triglycerides,
