@@ -1,0 +1,160 @@
+{
+    "patients": [
+        {
+            "id": "alex-morgan",
+            "name": "Alex Morgan",
+            "age": 42,
+            "sex": "male",
+            "profileType": "Preventive health and longevity",
+            "demoData": true,
+            "healthMetrics": {
+                "heightCm": 178,
+                "weightKg": 88,
+                "bmi": 27.8,
+                "bloodPressure": "132/84",
+                "restingHeartRateBpm": 72,
+                "hba1cPercent": 5.6,
+                "ldlCholesterolMgDl": 132
+            },
+            "medicalHistory": [
+                "No diagnosed cardiovascular disease",
+                "No diagnosed diabetes",
+                "No known chronic kidney disease",
+                "Father had a heart attack at age 59",
+                "No known medication allergies documented"
+            ],
+            "medications": [],
+            "supplements": [
+                {
+                    "name": "NMN",
+                    "dose": "500 mg daily",
+                    "reason": "Longevity"
+                },
+                {
+                    "name": "Vitamin D3",
+                    "dose": "1000 IU daily",
+                    "reason": "General health"
+                }
+            ],
+            "lifestyle": {
+                "activityLevel": "Mostly sedentary",
+                "dailySteps": 5000,
+                "exercise": "Strength training twice weekly",
+                "recoveryPractices": [
+                    "Occasional cold-water immersion after workouts"
+                ],
+                "diet": "Eats meat several times weekly; inconsistent vegetable and whole-grain intake",
+                "coffeeCupsPerDay": 2,
+                "sugaryDrinks": "Soda several times per week",
+                "sleepHoursPerNight": 6.5
+            },
+            "healthInterests": [
+                "Healthy aging and longevity",
+                "Weight management",
+                "Metabolic health",
+                "Cardiovascular prevention",
+                "Supplement effectiveness",
+                "Exercise recovery"
+            ],
+            "relevantQuestions": [
+                "fasting",
+                "upf",
+                "ssb",
+                "red-meat",
+                "fiber",
+                "plant-based",
+                "nuts",
+                "fruit-veg",
+                "sat-fat",
+                "low-carb",
+                "sweeteners",
+                "coffee",
+                "omega3",
+                "nmn",
+                "cold-lifting"
+            ]
+        },
+        {
+            "id": "jamie-chen",
+            "name": "Jamie Chen",
+            "age": 58,
+            "sex": "female",
+            "profileType": "Cardiovascular and metabolic health",
+            "demoData": true,
+            "healthMetrics": {
+                "heightCm": 163,
+                "weightKg": 76,
+                "bmi": 28.6,
+                "bloodPressure": "146/90",
+                "restingHeartRateBpm": 76,
+                "hba1cPercent": 6.0,
+                "ldlCholesterolMgDl": 148
+            },
+            "medicalHistory": [
+                "Diagnosed hypertension; recent readings remain above target",
+                "HbA1c in the prediabetes range",
+                "Postmenopausal",
+                "No known prior fragility fracture",
+                "Mother developed type 2 diabetes in her 60s",
+                "No known heart failure",
+                "No prior cardiovascular event",
+                "Kidney function not available in demo data",
+                "Vitamin D status not available in demo data"
+            ],
+            "medications": [
+                {
+                    "name": "Amlodipine",
+                    "dose": "5 mg daily",
+                    "reason": "Hypertension"
+                }
+            ],
+            "supplements": [
+                {
+                    "name": "Vitamin D3",
+                    "dose": "1000 IU daily",
+                    "reason": "General health"
+                }
+            ],
+            "lifestyle": {
+                "activityLevel": "Mostly sedentary",
+                "dailySteps": 4000,
+                "exercise": "Limited structured exercise",
+                "diet": "Mostly home-cooked meals; frequent packaged sauces and salty snacks; red or processed meat several times weekly",
+                "coffeeCupsPerDay": 1,
+                "sugaryDrinks": "Sweetened beverages on weekends",
+                "eatingPattern": "Occasionally skips breakfast; no structured fasting plan",
+                "goals": [
+                    "Weight loss",
+                    "Improve blood pressure"
+                ]
+            },
+            "healthInterests": [
+                "Blood pressure management",
+                "Cardiovascular risk reduction",
+                "Diabetes prevention",
+                "Weight management",
+                "Postmenopausal bone health",
+                "Practical dietary changes",
+                "Preventive screening"
+            ],
+            "relevantQuestions": [
+                "sglt2-hf",
+                "vitd",
+                "med-diet",
+                "fasting",
+                "upf",
+                "sodium",
+                "ssb",
+                "red-meat",
+                "fiber",
+                "plant-based",
+                "fruit-veg",
+                "sat-fat",
+                "omega3",
+                "dash",
+                "sweeteners",
+                "wb-mri"
+            ]
+        }
+    ]
+}
