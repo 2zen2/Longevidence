@@ -1,0 +1,15 @@
+services:
+  db:
+    image: postgres:16
+    environment:
+      POSTGRES_USER: longevidence
+      POSTGRES_PASSWORD: longevidence
+      POSTGRES_DB: longevidence_db
+    ports: ["127.0.0.1:5433:5432"]   # localhost only; host port 5433 so it cannot clash with a Postgres already running on 5432
+    volumes: ["pgdata:/var/lib/postgresql/data"]
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U longevidence"]
+      interval: 3s
+      retries: 20
+volumes:
+  pgdata:
